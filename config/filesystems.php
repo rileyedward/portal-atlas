@@ -17,6 +17,19 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+    | Media Disk
+    |--------------------------------------------------------------------------
+    |
+    | Disk for admin-uploaded map base images. Use a persistent object-storage
+    | disk in production (e.g. a Laravel Cloud bucket); the bundled map images
+    | in public/map-images are static files and do not use this disk.
+    |
+    */
+
+    'media' => env('MEDIA_DISK', 'public'),
+
+    /*
+    |--------------------------------------------------------------------------
     | Filesystem Disks
     |--------------------------------------------------------------------------
     |

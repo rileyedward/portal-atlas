@@ -5,7 +5,7 @@ to exactly the calibration box used for that raid's imported markers, so the
 image and the markers line up.
 
   tiles cache : storage/app/private/activematterhelp/tiles/     (git-ignored)
-  images      : storage/app/public/maps/<slug>.webp             (served via storage:link)
+  images      : public/map-images/<slug>.webp                   (committed; served as static files)
   manifest    : database/data/activematterhelp/map-images.json  (read by GameDataSeeder)
 
 The site's tile pyramid is a standard Leaflet one: 512 px tiles, where zoom 0
@@ -31,7 +31,7 @@ ROOT = Path(__file__).resolve().parents[3]
 REFERENCE = ROOT / "database" / "data" / "activematterhelp" / "reference.json"
 MANIFEST = ROOT / "database" / "data" / "activematterhelp" / "map-images.json"
 CACHE = ROOT / "storage" / "app" / "private" / "activematterhelp" / "tiles"
-OUT = ROOT / "storage" / "app" / "public" / "maps"
+OUT = ROOT / "public" / "map-images"
 BASE = "https://activematterhelp.ru/map-tiles"
 TILE = 512
 WORLD = 512  # CRS units at zoom 0
@@ -121,7 +121,7 @@ def main():
         image.save(target, "WEBP", quality=82, method=6)
         manifest.append({
             "slug": entry["slug"],
-            "path": f"maps/{entry['slug']}.webp",
+            "path": f"map-images/{entry['slug']}.webp",
             "width": width,
             "height": height,
             "zoom": zoom,

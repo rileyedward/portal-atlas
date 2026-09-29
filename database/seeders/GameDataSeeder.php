@@ -6,8 +6,8 @@ use App\Models\Map;
 use App\Services\DataExchange\GameDataImporter;
 use App\Services\DataExchange\ImportResult;
 use App\Services\DataExchange\MapDatasetImporter;
+use Illuminate\Console\Command;
 use Illuminate\Database\Seeder;
-use Illuminate\Support\Facades\Storage;
 use RuntimeException;
 
 /**
@@ -16,6 +16,9 @@ use RuntimeException;
  */
 class GameDataSeeder extends Seeder
 {
+    /** False when run from a migration, where there is no console to print to. */
+    private bool $hasCommand = false;
+
     public function run(GameDataImporter $gameData, MapDatasetImporter $maps): void
     {
         $dir = database_path('data');
@@ -57,7 +60,7 @@ class GameDataSeeder extends Seeder
         $attached = 0;
 
         foreach ($entries as $entry) {
-            if (! Storage::disk('public')->exists($entry['path'])) {
+            if (! is_file(public_path($entry['path']))) {
                 continue;
             }
 
@@ -69,7 +72,7 @@ class GameDataSeeder extends Seeder
             ]);
         }
 
-        $this->command->info("  map images: {$attached} attached");
+        $this->say("  map images: {$attached} attached");
     }
 
     /**
@@ -92,6 +95,23 @@ class GameDataSeeder extends Seeder
             throw new RuntimeException("Import of {$file} failed: ".implode(' | ', $result->errors));
         }
 
-        $this->command->info(sprintf('  %s: %d created, %d updated, %d unchanged', $file, $result->created, $result->updated, $result->unchanged));
+        $this->say(sprintf('  %s: %d created, %d updated, %d unchanged', $file, $result->created, $result->updated, $result->unchanged));
+    }
+
+    /**
+     * Output progress when run from artisan; stay quiet inside a migration.
+     */
+    private function say(string $message): void
+    {
+        if ($this->hasCommand) {
+            $this->command->info($message);
+        }
+    }
+
+    public function setCommand(Command $command)
+    {
+        $this->hasCommand = true;
+
+        return parent::setCommand($command);
     }
 }

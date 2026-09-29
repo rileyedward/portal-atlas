@@ -11,7 +11,6 @@ use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Arr;
-use Illuminate\Support\Facades\Storage;
 use Illuminate\Validation\Rule;
 use Inertia\Inertia;
 use Inertia\Response;
@@ -67,9 +66,7 @@ class MapController extends Controller
     public function destroy(Map $map): RedirectResponse
     {
         abort_if($map->markers()->exists(), 422, 'Archive maps that still have markers instead of deleting them.');
-        if ($map->image_path) {
-            Storage::disk('public')->delete($map->image_path);
-        }
+        $map->deleteUploadedImage();
         $map->delete();
 
         return to_route('admin.maps.index');
@@ -119,11 +116,9 @@ class MapController extends Controller
             return;
         }
 
-        if ($map->image_path) {
-            Storage::disk('public')->delete($map->image_path);
-        }
+        $map->deleteUploadedImage();
 
-        $path = $file->storeAs('maps', $map->slug.'-'.now()->timestamp.'.'.$file->extension(), 'public');
+        $path = $file->storeAs('maps', $map->slug.'-'.now()->timestamp.'.'.$file->extension(), Map::mediaDisk());
         $size = getimagesize($file->getRealPath());
 
         $map->update([

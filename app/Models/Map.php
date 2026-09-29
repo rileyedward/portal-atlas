@@ -112,8 +112,32 @@ class Map extends Model
         $query->where('status', MapStatus::Published->value);
     }
 
+    /** Base images shipped with the app live in public/ under this prefix. */
+    public const STATIC_IMAGE_PREFIX = 'map-images/';
+
     public function imageUrl(): ?string
     {
-        return $this->image_path ? Storage::disk('public')->url($this->image_path) : null;
+        if (! $this->image_path) {
+            return null;
+        }
+
+        return str_starts_with($this->image_path, self::STATIC_IMAGE_PREFIX)
+            ? asset($this->image_path)
+            : Storage::disk(self::mediaDisk())->url($this->image_path);
+    }
+
+    public static function mediaDisk(): string
+    {
+        return (string) config('filesystems.media', 'public');
+    }
+
+    /**
+     * Delete an uploaded image (never the bundled static ones).
+     */
+    public function deleteUploadedImage(): void
+    {
+        if ($this->image_path && ! str_starts_with($this->image_path, self::STATIC_IMAGE_PREFIX)) {
+            Storage::disk(self::mediaDisk())->delete($this->image_path);
+        }
     }
 }
