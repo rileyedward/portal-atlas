@@ -1,0 +1,2898 @@
+{
+ "format": "active-matter-map/v1",
+ "map": "airport",
+ "markers": [
+  {
+   "external_ref": "amh:apt_extp_1",
+   "type": "extraction-point",
+   "name": "Permanent Extraction",
+   "x": 69.3501,
+   "y": 61.4019,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     892.22,
+     53.52,
+     -1348.74
+    ],
+    "site_type": "extraction_always"
+   }
+  },
+  {
+   "external_ref": "amh:apt_extp_2",
+   "type": "extraction-point",
+   "name": "Permanent Extraction",
+   "x": 40.7282,
+   "y": 33.2749,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     684.62,
+     40.03,
+     -1141.72
+    ],
+    "site_type": "extraction_always"
+   }
+  },
+  {
+   "external_ref": "amh:apt_extd_3",
+   "type": "dynamic-extraction",
+   "name": "Timed Extraction",
+   "x": 81.8384,
+   "y": 19.0362,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     982.8,
+     53.2,
+     -1036.92
+    ],
+    "site_type": "extraction_time"
+   }
+  },
+  {
+   "external_ref": "amh:apt_extd_4",
+   "type": "dynamic-extraction",
+   "name": "Timed Extraction",
+   "x": 80.9326,
+   "y": 28.9992,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     976.23,
+     53,
+     -1110.25
+    ],
+    "site_type": "extraction_time"
+   }
+  },
+  {
+   "external_ref": "amh:apt_extd_5",
+   "type": "dynamic-extraction",
+   "name": "Timed Extraction",
+   "x": 64.8045,
+   "y": 24.3213,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     859.25,
+     36.43,
+     -1075.82
+    ],
+    "site_type": "extraction_time"
+   }
+  },
+  {
+   "external_ref": "amh:apt_extd_6",
+   "type": "dynamic-extraction",
+   "name": "Timed Extraction",
+   "x": 22.8051,
+   "y": 23.4165,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     554.62,
+     31.81,
+     -1069.16
+    ],
+    "site_type": "extraction_time"
+   }
+  },
+  {
+   "external_ref": "amh:apt_extd_7",
+   "type": "dynamic-extraction",
+   "name": "Timed Extraction",
+   "x": 49.0832,
+   "y": 7.3694,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     745.22,
+     35.38,
+     -951.05
+    ],
+    "site_type": "extraction_time"
+   }
+  },
+  {
+   "external_ref": "amh:apt_extd_8",
+   "type": "dynamic-extraction",
+   "name": "Timed Extraction",
+   "x": 8.1536,
+   "y": 40.7163,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     448.35,
+     28.86,
+     -1196.49
+    ],
+    "site_type": "extraction_time"
+   }
+  },
+  {
+   "external_ref": "amh:apt_extd_9",
+   "type": "dynamic-extraction",
+   "name": "Timed Extraction",
+   "x": 28.6784,
+   "y": 60.1302,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     597.22,
+     46.1,
+     -1339.38
+    ],
+    "site_type": "extraction_time"
+   }
+  },
+  {
+   "external_ref": "amh:apt_extd_10",
+   "type": "dynamic-extraction",
+   "name": "Timed Extraction",
+   "x": 46.2155,
+   "y": 89.0397,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     724.42,
+     47.39,
+     -1552.16
+    ],
+    "site_type": "extraction_time"
+   }
+  },
+  {
+   "external_ref": "amh:apt_extd_11",
+   "type": "dynamic-extraction",
+   "name": "Timed Extraction",
+   "x": 64.9934,
+   "y": 74.0741,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     860.62,
+     52.74,
+     -1442.01
+    ],
+    "site_type": "extraction_time"
+   }
+  },
+  {
+   "external_ref": "amh:apt_extd_12",
+   "type": "dynamic-extraction",
+   "name": "Timed Extraction",
+   "x": 76.2698,
+   "y": 51.6182,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     942.41,
+     53.19,
+     -1276.73
+    ],
+    "site_type": "extraction_time"
+   }
+  },
+  {
+   "external_ref": "amh:apt_extd_13",
+   "type": "dynamic-extraction",
+   "name": "Timed Extraction",
+   "x": 20.5592,
+   "y": 69.0864,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     538.33,
+     46.41,
+     -1405.3
+    ],
+    "site_type": "extraction_time"
+   }
+  },
+  {
+   "external_ref": "amh:apt_extf",
+   "type": "final-extraction",
+   "name": "Final Extraction",
+   "x": 52.654,
+   "y": 47.8805,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     771.12,
+     52.89,
+     -1249.22
+    ],
+    "site_type": "extraction_final"
+   }
+  },
+  {
+   "external_ref": "amh:apt_spawn_1",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 79.9302,
+   "y": 13.2931,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     968.96,
+     47.31,
+     -994.65
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:apt_spawn_2",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 71.0679,
+   "y": 6.3259,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     904.68,
+     36.5,
+     -943.37
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:apt_spawn_3",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 63.0535,
+   "y": 3.1888,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     846.55,
+     36.02,
+     -920.28
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:apt_spawn_4",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 36.9906,
+   "y": 2.8301,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     657.51,
+     32.6,
+     -917.64
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:apt_spawn_5",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 25.2165,
+   "y": 11.675,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     572.11,
+     32.74,
+     -982.74
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:apt_spawn_6",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 9.7557,
+   "y": 30.3484,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     459.97,
+     30.09,
+     -1120.18
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:apt_spawn_7",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 2.8305,
+   "y": 44.0993,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     409.74,
+     27.88,
+     -1221.39
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:apt_spawn_8",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 15.6166,
+   "y": 31.7695,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     502.48,
+     30.67,
+     -1130.64
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:apt_spawn_9",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 9.6151,
+   "y": 77.3131,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     458.95,
+     33,
+     -1465.85
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:apt_spawn_10",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 40.5159,
+   "y": 85.8075,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     683.08,
+     48.53,
+     -1528.37
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:apt_spawn_11",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 30.9932,
+   "y": 52.3179,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     614.01,
+     46.4,
+     -1281.88
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:apt_spawn_12",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 51.6034,
+   "y": 3.5882,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     763.5,
+     35.62,
+     -923.22
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:apt_mon_worm_nest_1",
+   "type": "monster",
+   "name": "Spawn: Worms",
+   "x": 90.6303,
+   "y": 45.5096,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     1046.57,
+     57.38,
+     -1231.77
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:apt_mon_worm_nest_2",
+   "type": "monster",
+   "name": "Spawn: Worms",
+   "x": 83.4611,
+   "y": 57.5283,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     994.57,
+     61.58,
+     -1320.23
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:apt_mon_worm_nest_3",
+   "type": "monster",
+   "name": "Spawn: Worms",
+   "x": 68.1575,
+   "y": 78.6555,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     883.57,
+     64.24,
+     -1475.73
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:apt_mon_worm_nest_4",
+   "type": "monster",
+   "name": "Spawn: Worms",
+   "x": 64.4047,
+   "y": 83.8958,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     856.35,
+     78.51,
+     -1514.3
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:apt_mon_worm_nest_5",
+   "type": "monster",
+   "name": "Spawn: Worms",
+   "x": 76.6793,
+   "y": 27.1161,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     945.38,
+     61.6,
+     -1096.39
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:apt_mon_worm_nest_6",
+   "type": "monster",
+   "name": "Spawn: Worms",
+   "x": 48.7964,
+   "y": 47.102,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     743.14,
+     61.5,
+     -1243.49
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:apt_mon_worm_nest_7",
+   "type": "monster",
+   "name": "Spawn: Worms",
+   "x": 58.428,
+   "y": 37.7639,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     813,
+     61.5,
+     -1174.76
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:apt_mon_worm_nest_8",
+   "type": "monster",
+   "name": "Spawn: Worms",
+   "x": 58.1936,
+   "y": 53.8599,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     811.3,
+     61.5,
+     -1293.23
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:apt_mon_worm_nest_9",
+   "type": "monster",
+   "name": "Spawn: Worms",
+   "x": 65.1878,
+   "y": 41.0138,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     862.03,
+     56.65,
+     -1198.68
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:apt_mon_worm_nest_10",
+   "type": "monster",
+   "name": "Spawn: Worms",
+   "x": 67.0408,
+   "y": 51.6317,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     875.47,
+     61.76,
+     -1276.83
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:apt_mon_worm_nest_11",
+   "type": "monster",
+   "name": "Spawn: Worms",
+   "x": 64.5591,
+   "y": 74.2656,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     857.47,
+     56.48,
+     -1443.42
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:apt_mon_worm_nest_12",
+   "type": "monster",
+   "name": "Spawn: Worms",
+   "x": 64.395,
+   "y": 64.1572,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     856.28,
+     56.29,
+     -1369.02
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:apt_mon_monster_conversion_1",
+   "type": "monster",
+   "name": "Conversion Zone",
+   "x": 20.522,
+   "y": 67.1789,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     538.06,
+     46.25,
+     -1391.26
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:apt_mon_monster_conversion_2",
+   "type": "monster",
+   "name": "Conversion Zone",
+   "x": 30.7078,
+   "y": 9.6696,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     611.94,
+     32.27,
+     -967.98
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:apt_mon_monster_conversion_3",
+   "type": "monster",
+   "name": "Conversion Zone",
+   "x": 13.8849,
+   "y": 36.2735,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     489.92,
+     30.02,
+     -1163.79
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:apt_mon_monster_conversion_4",
+   "type": "monster",
+   "name": "Conversion Zone",
+   "x": 31.9776,
+   "y": 34.9515,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     621.15,
+     39.9,
+     -1154.06
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:apt_mon_airport_add_nest_1",
+   "type": "monster",
+   "name": "Spawn Point",
+   "x": 25.699,
+   "y": 67.7685,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     575.61,
+     46.4,
+     -1395.6
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:apt_mon_airport_add_nest_2",
+   "type": "monster",
+   "name": "Spawn Point",
+   "x": 35.3568,
+   "y": 24.7045,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     645.66,
+     40.3,
+     -1078.64
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:apt_mon_airport_add_nest_3",
+   "type": "monster",
+   "name": "Spawn Point",
+   "x": 66.703,
+   "y": 16.7292,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     873.02,
+     36.86,
+     -1019.94
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:apt_mon_airport_add_nest_4",
+   "type": "monster",
+   "name": "Spawn Point",
+   "x": 60.4561,
+   "y": 91.9744,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     827.71,
+     53.46,
+     -1573.76
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:apt_nest_1",
+   "type": "monster",
+   "name": "Spawn: Distorted",
+   "x": 74.443,
+   "y": 36.3006,
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     929.16,
+     52.92,
+     -1163.99
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:apt_nest_2",
+   "type": "monster",
+   "name": "Spawn: Distorted",
+   "x": 64.304,
+   "y": 50.2215,
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     855.62,
+     53.33,
+     -1266.45
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:apt_nest_3",
+   "type": "monster",
+   "name": "Spawn: Distorted",
+   "x": 68.6042,
+   "y": 70.6883,
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     886.81,
+     52.95,
+     -1417.09
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:apt_nest_4",
+   "type": "monster",
+   "name": "Spawn: Flowermen",
+   "x": 81.746,
+   "y": 49.9837,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     982.13,
+     53,
+     -1264.7
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:apt_nest_5",
+   "type": "monster",
+   "name": "Spawn: Flowermen",
+   "x": 79.3374,
+   "y": 66.3039,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     964.66,
+     52.97,
+     -1384.82
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:apt_nest_6",
+   "type": "monster",
+   "name": "Spawn: Flowermen",
+   "x": 54.6131,
+   "y": 38.7788,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     785.33,
+     52.89,
+     -1182.23
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:apt_nest_7",
+   "type": "monster",
+   "name": "Spawn: Inorganics",
+   "x": 59.8715,
+   "y": 59.0161,
+   "loot_table": "drop_invisible",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     823.47,
+     50.24,
+     -1331.18
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:apt_nest_8",
+   "type": "monster",
+   "name": "Spawn: Inorganics",
+   "x": 79.8627,
+   "y": 21.9369,
+   "loot_table": "drop_invisible",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     968.47,
+     53.21,
+     -1058.27
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:apt_nest_9",
+   "type": "monster",
+   "name": "Spawn: Changed",
+   "x": 65.8537,
+   "y": 77.093,
+   "loot_table": "drop_changed",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     866.86,
+     53,
+     -1464.23
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:apt_nest_10",
+   "type": "monster",
+   "name": "Spawn: Changed",
+   "x": 88.554,
+   "y": 43.439,
+   "loot_table": "drop_changed",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     1031.51,
+     53,
+     -1216.53
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:apt_nest_11",
+   "type": "monster",
+   "name": "Spawn: Changed",
+   "x": 76.3056,
+   "y": 64.1559,
+   "loot_table": "drop_changed",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     942.67,
+     53,
+     -1369.01
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:apt_chg_12",
+   "type": "monster",
+   "name": "Distorted Human",
+   "x": 70.806,
+   "y": 81.0712,
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     902.78,
+     53.69,
+     -1493.51
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:apt_chg_13",
+   "type": "monster",
+   "name": "Distorted Human",
+   "x": 71.494,
+   "y": 79.7315,
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     907.77,
+     53.69,
+     -1483.65
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:apt_chg_14",
+   "type": "monster",
+   "name": "Distorted Human",
+   "x": 69.2591,
+   "y": 80.1391,
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     891.56,
+     53.69,
+     -1486.65
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:apt_chg_15",
+   "type": "monster",
+   "name": "Distorted Human",
+   "x": 67.777,
+   "y": 83.0453,
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     880.81,
+     53.69,
+     -1508.04
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:apt_chg_16",
+   "type": "monster",
+   "name": "Distorted Human",
+   "x": 64.9713,
+   "y": 84.5086,
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     860.46,
+     54.25,
+     -1518.81
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:apt_chg_17",
+   "type": "monster",
+   "name": "Distorted Human",
+   "x": 65.1202,
+   "y": 84.2613,
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     861.54,
+     54.25,
+     -1516.99
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:apt_chg_18",
+   "type": "monster",
+   "name": "Distorted Human",
+   "x": 69.7154,
+   "y": 80.4801,
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     894.87,
+     58.25,
+     -1489.16
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:apt_chg_19",
+   "type": "monster",
+   "name": "Distorted Human",
+   "x": 67.817,
+   "y": 78.3566,
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     881.1,
+     58.25,
+     -1473.53
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:apt_chg_20",
+   "type": "monster",
+   "name": "Distorted Human",
+   "x": 68.0431,
+   "y": 83.5602,
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     882.74,
+     58.25,
+     -1511.83
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:apt_chg_21",
+   "type": "monster",
+   "name": "Distorted Human",
+   "x": 71.1438,
+   "y": 79.7383,
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     905.23,
+     62.6,
+     -1483.7
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:apt_chg_22",
+   "type": "monster",
+   "name": "Distorted Human",
+   "x": 68.7366,
+   "y": 79.5318,
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     887.77,
+     62.6,
+     -1482.18
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:apt_car_1",
+   "type": "vehicle-spawn",
+   "name": "Vehicle Spawn (Truck)",
+   "x": 7.1375,
+   "y": 60.3462,
+   "loot_table": "africa_loot_car_trunk",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     440.98,
+     31.02,
+     -1340.97
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:apt_car_2",
+   "type": "vehicle-spawn",
+   "name": "Vehicle Spawn (Truck)",
+   "x": 52.6761,
+   "y": 23.248,
+   "loot_table": "africa_loot_car_trunk",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     771.28,
+     37.5,
+     -1067.92
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:apt_car_3",
+   "type": "vehicle-spawn",
+   "name": "Vehicle Spawn (Pickup)",
+   "x": 14.0545,
+   "y": 19.1489,
+   "loot_table": "africa_loot_car_trunk",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     491.15,
+     32.04,
+     -1037.75
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:apt_car_4",
+   "type": "vehicle-spawn",
+   "name": "Vehicle Spawn (Pickup)",
+   "x": 5.8871,
+   "y": 32.3293,
+   "loot_table": "africa_loot_car_trunk",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     431.91,
+     28.54,
+     -1134.76
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:apt_car_5",
+   "type": "vehicle-spawn",
+   "name": "Vehicle Spawn (Pickup)",
+   "x": 32.1444,
+   "y": 40.628,
+   "loot_table": "africa_loot_car_trunk",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     622.36,
+     39.04,
+     -1195.84
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:apt_car_6",
+   "type": "vehicle-spawn",
+   "name": "Vehicle Spawn (Pickup)",
+   "x": 28.2041,
+   "y": 66.4724,
+   "loot_table": "africa_loot_car_trunk",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     593.78,
+     46.23,
+     -1386.06
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:apt_car_7",
+   "type": "vehicle-spawn",
+   "name": "Vehicle Spawn (Pickup)",
+   "x": 43.2113,
+   "y": 83.7518,
+   "loot_table": "africa_loot_car_trunk",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     702.63,
+     46.77,
+     -1513.24
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:apt_car_8",
+   "type": "vehicle-spawn",
+   "name": "Vehicle Spawn (Pickup)",
+   "x": 69.9402,
+   "y": 13.4738,
+   "loot_table": "africa_loot_car_trunk",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     896.5,
+     36.35,
+     -995.98
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:apt_car_9",
+   "type": "vehicle-spawn",
+   "name": "Vehicle Spawn (Pickup)",
+   "x": 77.4817,
+   "y": 38.1905,
+   "loot_table": "africa_loot_car_trunk",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     951.2,
+     53,
+     -1177.9
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:apt_car_10",
+   "type": "vehicle-spawn",
+   "name": "Vehicle Spawn (Pickup)",
+   "x": 55.41,
+   "y": 63.5499,
+   "loot_table": "africa_loot_car_trunk",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     791.11,
+     48.46,
+     -1364.55
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:apt_fire_anomaly_perm_1",
+   "type": "anomaly",
+   "name": "Fire Anomaly",
+   "x": 83.4349,
+   "y": 35.8903,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     994.38,
+     52.97,
+     -1160.97
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:apt_fire_anomaly_perm_2",
+   "type": "anomaly",
+   "name": "Fire Anomaly",
+   "x": 71.1217,
+   "y": 52.4184,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     905.07,
+     53.04,
+     -1282.62
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:apt_fire_anomaly_perm_3",
+   "type": "anomaly",
+   "name": "Fire Anomaly",
+   "x": 56.0318,
+   "y": 69.4057,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     795.62,
+     48.47,
+     -1407.65
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:apt_fire_anomaly_perm_4",
+   "type": "anomaly",
+   "name": "Fire Anomaly",
+   "x": 44.4452,
+   "y": 80.9176,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     711.58,
+     45.74,
+     -1492.38
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:apt_fire_anomaly_perm_5",
+   "type": "anomaly",
+   "name": "Fire Anomaly",
+   "x": 36.1592,
+   "y": 15.6178,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     651.48,
+     32.42,
+     -1011.76
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:apt_tableware_1",
+   "type": "loot-location",
+   "name": "Canteen Dishes (Loot)",
+   "x": 58.7148,
+   "y": 45.7746,
+   "loot_table": "canteen",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     815.08,
+     53.86,
+     -1233.72
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:apt_tableware_2",
+   "type": "loot-location",
+   "name": "Canteen Dishes (Loot)",
+   "x": 58.4914,
+   "y": 45.6781,
+   "loot_table": "canteen",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     813.46,
+     53.86,
+     -1233.01
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:apt_tableware_3",
+   "type": "loot-location",
+   "name": "Canteen Dishes (Loot)",
+   "x": 58.6596,
+   "y": 45.333,
+   "loot_table": "canteen",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     814.68,
+     53.86,
+     -1230.47
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:apt_tableware_4",
+   "type": "loot-location",
+   "name": "Canteen Dishes (Loot)",
+   "x": 58.2377,
+   "y": 45.1537,
+   "loot_table": "canteen",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     811.62,
+     53.86,
+     -1229.15
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:apt_tableware_5",
+   "type": "loot-location",
+   "name": "Canteen Dishes (Loot)",
+   "x": 57.7042,
+   "y": 44.973,
+   "loot_table": "canteen",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     807.75,
+     53.86,
+     -1227.82
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:apt_tableware_6",
+   "type": "loot-location",
+   "name": "Canteen Dishes (Loot)",
+   "x": 57.7731,
+   "y": 44.9852,
+   "loot_table": "canteen",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     808.25,
+     53.86,
+     -1227.91
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:apt_tableware_7",
+   "type": "loot-location",
+   "name": "Canteen Dishes (Loot)",
+   "x": 57.3609,
+   "y": 45.2746,
+   "loot_table": "canteen",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     805.26,
+     53.86,
+     -1230.04
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:apt_tableware_8",
+   "type": "loot-location",
+   "name": "Canteen Dishes (Loot)",
+   "x": 57.2975,
+   "y": 45.2311,
+   "loot_table": "canteen",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     804.8,
+     53.86,
+     -1229.72
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:apt_tableware_9",
+   "type": "loot-location",
+   "name": "Canteen Dishes (Loot)",
+   "x": 57.0424,
+   "y": 45.1455,
+   "loot_table": "canteen",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     802.95,
+     53.86,
+     -1229.09
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:apt_tableware_10",
+   "type": "loot-location",
+   "name": "Canteen Dishes (Loot)",
+   "x": 56.9459,
+   "y": 45.0871,
+   "loot_table": "canteen",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     802.25,
+     53.86,
+     -1228.66
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:apt_tableware_11",
+   "type": "loot-location",
+   "name": "Canteen Dishes (Loot)",
+   "x": 56.9004,
+   "y": 45.3928,
+   "loot_table": "canteen",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     801.92,
+     53.86,
+     -1230.91
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:apt_tableware_12",
+   "type": "loot-location",
+   "name": "Canteen Dishes (Loot)",
+   "x": 57.1169,
+   "y": 45.4784,
+   "loot_table": "canteen",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     803.49,
+     53.86,
+     -1231.54
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:apt_tableware_13",
+   "type": "loot-location",
+   "name": "Canteen Dishes (Loot)",
+   "x": 57.1734,
+   "y": 44.7719,
+   "loot_table": "canteen",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     803.9,
+     53.86,
+     -1226.34
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:apt_tableware_14",
+   "type": "loot-location",
+   "name": "Canteen Dishes (Loot)",
+   "x": 57.1444,
+   "y": 44.727,
+   "loot_table": "canteen",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     803.69,
+     53.86,
+     -1226.01
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:apt_tableware_15",
+   "type": "loot-location",
+   "name": "Canteen Dishes (Loot)",
+   "x": 57.3788,
+   "y": 44.3235,
+   "loot_table": "canteen",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     805.39,
+     53.86,
+     -1223.04
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:apt_tableware_16",
+   "type": "loot-location",
+   "name": "Canteen Dishes (Loot)",
+   "x": 57.5705,
+   "y": 44.3724,
+   "loot_table": "canteen",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     806.78,
+     53.86,
+     -1223.4
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:apt_anomaly_plane",
+   "type": "anomaly",
+   "name": "Airplane Anomaly",
+   "x": 89.6391,
+   "y": 60.8394,
+   "loot_table": "plane_anomaly",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     1039.38,
+     149.68,
+     -1344.6
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:apt_mil_floor_20",
+   "type": "loot-location",
+   "name": "Military Floor Loot",
+   "x": 46.4333,
+   "y": 94.6795,
+   "loot_table": "mil_floor",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     726,
+     54.4,
+     -1593.67
+    ],
+    "site_type": "floor_loot",
+    "mode": "both"
+   }
+  },
+  {
+   "external_ref": "amh:apt_mil_floor_21",
+   "type": "loot-location",
+   "name": "Military Floor Loot",
+   "x": 42.9135,
+   "y": 96.0993,
+   "loot_table": "mil_floor",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     700.47,
+     54.4,
+     -1604.12
+    ],
+    "site_type": "floor_loot",
+    "mode": "both"
+   }
+  },
+  {
+   "external_ref": "amh:apt_equipment_t1_1",
+   "type": "loot-location",
+   "name": "T1 Equipment",
+   "x": 91.1763,
+   "y": 57.5569,
+   "loot_table": "equipment_t1",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     1050.53,
+     142.31,
+     -1320.44
+    ],
+    "site_type": "floor_loot",
+    "mode": "both"
+   }
+  },
+  {
+   "external_ref": "amh:apt_equipment_t1_2",
+   "type": "loot-location",
+   "name": "T1 Equipment",
+   "x": 91.0936,
+   "y": 57.4699,
+   "loot_table": "equipment_t1",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     1049.93,
+     137.79,
+     -1319.8
+    ],
+    "site_type": "floor_loot",
+    "mode": "both"
+   }
+  },
+  {
+   "external_ref": "amh:apt_equipment_t1_3",
+   "type": "loot-location",
+   "name": "T1 Equipment",
+   "x": 90.8427,
+   "y": 57.6194,
+   "loot_table": "equipment_t1",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     1048.11,
+     139.07,
+     -1320.9
+    ],
+    "site_type": "floor_loot",
+    "mode": "both"
+   }
+  },
+  {
+   "external_ref": "amh:apt_t3_box_1",
+   "type": "container-tier-3",
+   "name": "T3 Crate (Long Range)",
+   "x": 89.3027,
+   "y": 61.2225,
+   "loot_table": "t3_box",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     1036.94,
+     148.54,
+     -1347.42
+    ],
+    "site_type": "t3_box",
+    "mode": "pvp"
+   }
+  },
+  {
+   "external_ref": "amh:apt_t3_close_1",
+   "type": "container-tier-3",
+   "name": "T3 Crate (Close Range)",
+   "x": 89.3426,
+   "y": 60.3584,
+   "loot_table": "t3_close",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     1037.23,
+     146.21,
+     -1341.06
+    ],
+    "site_type": "t3_box",
+    "mode": "pvp"
+   }
+  },
+  {
+   "external_ref": "amh:apt_t3_close_2",
+   "type": "container-tier-3",
+   "name": "T3 Crate (Close Range)",
+   "x": 89.4378,
+   "y": 60.0296,
+   "loot_table": "t3_close",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     1037.92,
+     145.38,
+     -1338.64
+    ],
+    "site_type": "t3_box",
+    "mode": "pvp"
+   }
+  },
+  {
+   "external_ref": "amh:apt_t3_box_2",
+   "type": "container-tier-3",
+   "name": "T3 Crate (Long Range)",
+   "x": 90.356,
+   "y": 58.5867,
+   "loot_table": "t3_box",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     1044.58,
+     146.16,
+     -1328.02
+    ],
+    "site_type": "t3_box",
+    "mode": "pvp"
+   }
+  },
+  {
+   "external_ref": "amh:apt_t3_close_3",
+   "type": "container-tier-3",
+   "name": "T3 Crate (Close Range)",
+   "x": 89.8403,
+   "y": 58.6601,
+   "loot_table": "t3_close",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     1040.84,
+     141.97,
+     -1328.56
+    ],
+    "site_type": "t3_box",
+    "mode": "pvp"
+   }
+  },
+  {
+   "external_ref": "amh:apt_t3_close_4",
+   "type": "container-tier-3",
+   "name": "T3 Crate (Close Range)",
+   "x": 89.7356,
+   "y": 59.0174,
+   "loot_table": "t3_close",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     1040.08,
+     142.87,
+     -1331.19
+    ],
+    "site_type": "t3_box",
+    "mode": "pvp"
+   }
+  },
+  {
+   "external_ref": "amh:apt_pve_t2_long_1",
+   "type": "container-tier-2",
+   "name": "T2 Crate (Long Range)",
+   "x": 88.8959,
+   "y": 60.8557,
+   "loot_table": "t2_long",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     1033.99,
+     148.54,
+     -1344.72
+    ],
+    "site_type": "t2_box",
+    "mode": "pve"
+   }
+  },
+  {
+   "external_ref": "amh:apt_pve_t2_close_1",
+   "type": "container-tier-2",
+   "name": "T2 Crate (Close Range)",
+   "x": 88.9359,
+   "y": 59.9916,
+   "loot_table": "t2_close",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     1034.28,
+     146.21,
+     -1338.36
+    ],
+    "site_type": "t2_box",
+    "mode": "pve"
+   }
+  },
+  {
+   "external_ref": "amh:apt_pve_t2_close_2",
+   "type": "container-tier-2",
+   "name": "T2 Crate (Close Range)",
+   "x": 89.031,
+   "y": 59.6628,
+   "loot_table": "t2_close",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     1034.97,
+     145.38,
+     -1335.94
+    ],
+    "site_type": "t2_box",
+    "mode": "pve"
+   }
+  },
+  {
+   "external_ref": "amh:apt_pve_t2_long_2",
+   "type": "container-tier-2",
+   "name": "T2 Crate (Long Range)",
+   "x": 89.9493,
+   "y": 58.2199,
+   "loot_table": "t2_long",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     1041.63,
+     146.16,
+     -1325.32
+    ],
+    "site_type": "t2_box",
+    "mode": "pve"
+   }
+  },
+  {
+   "external_ref": "amh:apt_pve_t2_close_3",
+   "type": "container-tier-2",
+   "name": "T2 Crate (Close Range)",
+   "x": 89.4336,
+   "y": 58.2933,
+   "loot_table": "t2_close",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     1037.89,
+     141.97,
+     -1325.86
+    ],
+    "site_type": "t2_box",
+    "mode": "pve"
+   }
+  },
+  {
+   "external_ref": "amh:apt_pve_t2_close_4",
+   "type": "container-tier-2",
+   "name": "T2 Crate (Close Range)",
+   "x": 89.3288,
+   "y": 58.6506,
+   "loot_table": "t2_close",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     1037.13,
+     142.87,
+     -1328.49
+    ],
+    "site_type": "t2_box",
+    "mode": "pve"
+   }
+  },
+  {
+   "external_ref": "amh:apt_portal_1",
+   "type": "portal",
+   "name": "Portal",
+   "x": 72.2922,
+   "y": 83.5928,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     913.56,
+     55.77,
+     -1512.07
+    ],
+    "site_type": "portal",
+    "group": "1"
+   }
+  },
+  {
+   "external_ref": "amh:apt_portal_2",
+   "type": "portal",
+   "name": "Portal",
+   "x": 89.6542,
+   "y": 59.3788,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     1039.49,
+     147.52,
+     -1333.85
+    ],
+    "site_type": "portal",
+    "group": "1"
+   }
+  },
+  {
+   "external_ref": "amh:apt_door_1",
+   "type": "locked-door",
+   "name": "Locked Door",
+   "x": 69.601,
+   "y": 66.4194,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     894.04,
+     56.22,
+     -1385.67
+    ],
+    "site_type": "locked_doors",
+    "conditions": "Requires: Hangar 4A key"
+   }
+  },
+  {
+   "external_ref": "amh:apt_door_2",
+   "type": "locked-door",
+   "name": "Locked Door",
+   "x": 71.454,
+   "y": 44.0735,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     907.48,
+     56.22,
+     -1221.2
+    ],
+    "site_type": "locked_doors",
+    "conditions": "Requires: Hangar 8A key"
+   }
+  },
+  {
+   "external_ref": "amh:apt_door_3",
+   "type": "locked-door",
+   "name": "Locked Door",
+   "x": 37.5944,
+   "y": 27.237,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     661.89,
+     46.09,
+     -1097.28
+    ],
+    "site_type": "locked_doors",
+    "conditions": "Requires: Key to the second floor"
+   }
+  },
+  {
+   "external_ref": "amh:apt_body_1",
+   "type": "loot-location",
+   "name": "PMC Soldier Body",
+   "x": 79.9826,
+   "y": 49.0041,
+   "loot_table": "apt_pmc_body",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     969.34,
+     63.77,
+     -1257.49
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:apt_body_2",
+   "type": "loot-location",
+   "name": "PMC Soldier Body",
+   "x": 38.1459,
+   "y": 28.3783,
+   "loot_table": "apt_pmc_body",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     665.89,
+     44.74,
+     -1105.68
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:apt_body_3",
+   "type": "loot-location",
+   "name": "PMC Soldier Body",
+   "x": 37.1464,
+   "y": 28.722,
+   "loot_table": "apt_pmc_body",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     658.64,
+     44.77,
+     -1108.21
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:apt_body_4",
+   "type": "loot-location",
+   "name": "PMC Soldier Body",
+   "x": 38.5416,
+   "y": 27.8525,
+   "loot_table": "apt_pmc_body",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     668.76,
+     44.9,
+     -1101.81
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:apt_body_5",
+   "type": "loot-location",
+   "name": "PMC Soldier Body",
+   "x": 38.1225,
+   "y": 29.1065,
+   "loot_table": "apt_pmc_body",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     665.72,
+     44.74,
+     -1111.04
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:apt_task_dest_1",
+   "type": "contract",
+   "name": "Delivery Point",
+   "x": 63.1776,
+   "y": 74.108,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     847.45,
+     51.88,
+     -1442.26
+    ],
+    "site_type": "contract_car_dest"
+   }
+  },
+  {
+   "external_ref": "amh:apt_task_dest_2",
+   "type": "contract",
+   "name": "Delivery Point",
+   "x": 84.48,
+   "y": 66.1341,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     1001.96,
+     52.97,
+     -1383.57
+    ],
+    "site_type": "contract_car_dest"
+   }
+  },
+  {
+   "external_ref": "amh:apt_task_dest_3",
+   "type": "contract",
+   "name": "Delivery Point",
+   "x": 96.2237,
+   "y": 42.3793,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     1087.14,
+     52.95,
+     -1208.73
+    ],
+    "site_type": "contract_car_dest"
+   }
+  },
+  {
+   "external_ref": "amh:apt_task_dest_4",
+   "type": "contract",
+   "name": "Delivery Point",
+   "x": 91.259,
+   "y": 23.5428,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     1051.13,
+     53,
+     -1070.09
+    ],
+    "site_type": "contract_car_dest"
+   }
+  },
+  {
+   "external_ref": "amh:apt_task_car_153",
+   "type": "contract",
+   "name": "Vehicle (Delivery)",
+   "x": 41.2177,
+   "y": 13.3488,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     688.17,
+     35.48,
+     -995.06
+    ],
+    "site_type": "contract_car"
+   }
+  },
+  {
+   "external_ref": "amh:apt_task_car_154",
+   "type": "contract",
+   "name": "Vehicle (Delivery)",
+   "x": 15.7034,
+   "y": 51.5027,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     503.11,
+     29.88,
+     -1275.88
+    ],
+    "site_type": "contract_car"
+   }
+  },
+  {
+   "external_ref": "amh:apt_task_car_155",
+   "type": "contract",
+   "name": "Vehicle (Delivery)",
+   "x": 41.9498,
+   "y": 50.0747,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     693.48,
+     42.38,
+     -1265.37
+    ],
+    "site_type": "contract_car"
+   }
+  },
+  {
+   "external_ref": "amh:apt_task_car_156",
+   "type": "contract",
+   "name": "Vehicle (Delivery)",
+   "x": 39.1703,
+   "y": 69.4777,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     673.32,
+     40.85,
+     -1408.18
+    ],
+    "site_type": "contract_car"
+   }
+  },
+  {
+   "external_ref": "amh:apt_task_car_157",
+   "type": "contract",
+   "name": "Vehicle (Delivery)",
+   "x": 20.096,
+   "y": 70.4532,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     534.97,
+     45.85,
+     -1415.36
+    ],
+    "site_type": "contract_car"
+   }
+  },
+  {
+   "external_ref": "amh:apt_task_car_158",
+   "type": "contract",
+   "name": "Vehicle (Delivery)",
+   "x": 25.3061,
+   "y": 40.5138,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     572.76,
+     35.72,
+     -1195
+    ],
+    "site_type": "contract_car"
+   }
+  },
+  {
+   "external_ref": "amh:apt_task_car_159",
+   "type": "contract",
+   "name": "Vehicle (Delivery)",
+   "x": 9.7846,
+   "y": 42.757,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     460.18,
+     28.88,
+     -1211.51
+    ],
+    "site_type": "contract_car"
+   }
+  },
+  {
+   "external_ref": "amh:apt_task_car_160",
+   "type": "contract",
+   "name": "Vehicle (Delivery)",
+   "x": 23.4352,
+   "y": 30.6948,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     559.19,
+     31.49,
+     -1122.73
+    ],
+    "site_type": "contract_car"
+   }
+  },
+  {
+   "external_ref": "amh:apt_task_cont_161",
+   "type": "contract",
+   "name": "Quest Container",
+   "x": 66.9153,
+   "y": 79.4095,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     874.56,
+     53.82,
+     -1481.28
+    ],
+    "site_type": "contract_container"
+   }
+  },
+  {
+   "external_ref": "amh:apt_task_cont_162",
+   "type": "contract",
+   "name": "Quest Container",
+   "x": 76.5952,
+   "y": 53.9632,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     944.77,
+     53,
+     -1293.99
+    ],
+    "site_type": "contract_container"
+   }
+  },
+  {
+   "external_ref": "amh:apt_task_cont_163",
+   "type": "contract",
+   "name": "Quest Container",
+   "x": 83.7134,
+   "y": 26.1121,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     996.4,
+     53,
+     -1089
+    ],
+    "site_type": "contract_container"
+   }
+  },
+  {
+   "external_ref": "amh:apt_task_dev_1",
+   "type": "contract",
+   "name": "Device Deployment",
+   "x": 23.9439,
+   "y": 65.9914,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     562.88,
+     46.1,
+     -1382.52
+    ],
+    "site_type": "contract_device"
+   }
+  },
+  {
+   "external_ref": "amh:apt_task_dev_2",
+   "type": "contract",
+   "name": "Device Deployment",
+   "x": 53.3599,
+   "y": 49.6264,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     776.24,
+     52.89,
+     -1262.07
+    ],
+    "site_type": "contract_device"
+   }
+  },
+  {
+   "external_ref": "amh:apt_task_dev_3",
+   "type": "contract",
+   "name": "Device Deployment",
+   "x": 77.1659,
+   "y": 46.3411,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     948.91,
+     53,
+     -1237.89
+    ],
+    "site_type": "contract_device"
+   }
+  },
+  {
+   "external_ref": "amh:apt_task_dev_4",
+   "type": "contract",
+   "name": "Device Deployment",
+   "x": 96.0018,
+   "y": 24.017,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     1085.53,
+     53,
+     -1073.58
+    ],
+    "site_type": "contract_device"
+   }
+  },
+  {
+   "external_ref": "amh:apt_task_dev_5",
+   "type": "contract",
+   "name": "Device Deployment",
+   "x": 46.9793,
+   "y": 11.4834,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     729.96,
+     34.26,
+     -981.33
+    ],
+    "site_type": "contract_device"
+   }
+  },
+  {
+   "external_ref": "amh:apt_task_dev_6",
+   "type": "contract",
+   "name": "Device Deployment",
+   "x": 65.0596,
+   "y": 20.4831,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     861.1,
+     36.39,
+     -1047.57
+    ],
+    "site_type": "contract_device"
+   }
+  },
+  {
+   "external_ref": "amh:apt_task_dev_7",
+   "type": "contract",
+   "name": "Device Deployment",
+   "x": 19.0385,
+   "y": 32.8687,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     527.3,
+     30.95,
+     -1138.73
+    ],
+    "site_type": "contract_device"
+   }
+  },
+  {
+   "external_ref": "amh:apt_task_dev_8",
+   "type": "contract",
+   "name": "Device Deployment",
+   "x": 6.1256,
+   "y": 29.7573,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     433.64,
+     29.3,
+     -1115.83
+    ],
+    "site_type": "contract_device"
+   }
+  },
+  {
+   "external_ref": "amh:afrx_1",
+   "type": "loot-location",
+   "name": "Weapon: M24",
+   "x": 79.5759,
+   "y": 48.6332,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     966.39,
+     63.55,
+     -1254.76
+    ],
+    "site_type": "floor_loot",
+    "conditions": "Item: M24"
+   }
+  },
+  {
+   "external_ref": "amh:afrx_2",
+   "type": "ammo-box",
+   "name": "7.62x51mm ammo box",
+   "x": 80.046,
+   "y": 49.7038,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     969.8,
+     63.52,
+     -1262.64
+    ],
+    "site_type": "ammo_box",
+    "conditions": "Item: Патроны 7.62x51мм"
+   }
+  },
+  {
+   "external_ref": "amh:afrx_3",
+   "type": "ammo-box",
+   "name": "7.62x51mm ammo box",
+   "x": 80.5203,
+   "y": 48.3098,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     973.24,
+     63.56,
+     -1252.38
+    ],
+    "site_type": "ammo_box",
+    "conditions": "Item: Патроны 7.62x51мм"
+   }
+  },
+  {
+   "external_ref": "amh:afrx_4",
+   "type": "key-spawn",
+   "name": "Key (Pickup)",
+   "description": "Key: Key to the second floor",
+   "x": 36.2213,
+   "y": 29.29,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     651.93,
+     40.34,
+     -1112.39
+    ],
+    "site_type": "key"
+   }
+  },
+  {
+   "external_ref": "amh:afrx_5",
+   "type": "loot-location",
+   "name": "Civil loot",
+   "x": 55.3811,
+   "y": 41.5668,
+   "loot_table": "box_civil",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     790.9,
+     53.09,
+     -1202.75
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:afrx_6",
+   "type": "loot-location",
+   "name": "Civil loot",
+   "x": 56.1917,
+   "y": 41.0478,
+   "loot_table": "box_civil",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     796.78,
+     53.09,
+     -1198.93
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:afrx_7",
+   "type": "loot-location",
+   "name": "Civil loot",
+   "x": 56.4937,
+   "y": 39.3141,
+   "loot_table": "box_civil",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     798.97,
+     53.09,
+     -1186.17
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:afrx_8",
+   "type": "loot-location",
+   "name": "Civil loot",
+   "x": 55.7506,
+   "y": 38.95,
+   "loot_table": "box_civil",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     793.58,
+     53.09,
+     -1183.49
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:afrx_9",
+   "type": "loot-location",
+   "name": "Civil loot",
+   "x": 55.1067,
+   "y": 38.2775,
+   "loot_table": "box_civil",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     788.91,
+     53.07,
+     -1178.54
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:afrx_10",
+   "type": "loot-location",
+   "name": "Civil loot",
+   "x": 54.66,
+   "y": 40.4174,
+   "loot_table": "box_civil",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     785.67,
+     53.09,
+     -1194.29
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:afrx_11",
+   "type": "loot-location",
+   "name": "Civil loot",
+   "x": 53.9762,
+   "y": 40.4065,
+   "loot_table": "box_civil",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     780.71,
+     53.09,
+     -1194.21
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:afrx_12",
+   "type": "loot-location",
+   "name": "Civil loot",
+   "x": 57.2396,
+   "y": 39.5478,
+   "loot_table": "box_civil",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     804.38,
+     53.09,
+     -1187.89
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:afrx_13",
+   "type": "loot-location",
+   "name": "Civil loot",
+   "x": 57.9951,
+   "y": 39.8005,
+   "loot_table": "box_civil",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     809.86,
+     53.09,
+     -1189.75
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:afrx_14",
+   "type": "loot-location",
+   "name": "Civil loot",
+   "x": 57.0066,
+   "y": 42.1633,
+   "loot_table": "box_civil",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     802.69,
+     53.07,
+     -1207.14
+    ],
+    "site_type": "floor_loot"
+   }
+  }
+ ]
+}

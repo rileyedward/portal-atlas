@@ -1,0 +1,21 @@
+{
+  "format": "active-matter-map/v1",
+  "map": "airport",
+  "version": "0.4.0.156",
+  "markers": [
+    {
+      "type": "building",
+      "name": "Hangar 8A",
+      "description": "Interior access is key-gated after the wall hole was sealed in 0.4.0.156.",
+      "source": "Active Matter official news",
+      "source_url": "https://activematter.game/en/news/339"
+    },
+    {
+      "type": "landmark",
+      "name": "Plane in a gravity anomaly",
+      "description": "A plane suspended in a gravity anomaly.",
+      "source": "Active Matter official news",
+      "source_url": "https://activematter.game/en/news/291"
+    }
+  ]
+}

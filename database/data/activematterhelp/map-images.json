@@ -1,0 +1,98 @@
+[
+ {
+  "slug": "airport",
+  "path": "maps/airport.webp",
+  "width": 2901,
+  "height": 2944,
+  "zoom": 5,
+  "attribution": "Map imagery: Active Matter Help (activematterhelp.ru) / Gaijin Entertainment"
+ },
+ {
+  "slug": "cargo-port",
+  "path": "maps/cargo-port.webp",
+  "width": 2622,
+  "height": 2171,
+  "zoom": 4,
+  "attribution": "Map imagery: Active Matter Help (activematterhelp.ru) / Gaijin Entertainment"
+ },
+ {
+  "slug": "dam",
+  "path": "maps/dam.webp",
+  "width": 2883,
+  "height": 2640,
+  "zoom": 5,
+  "attribution": "Map imagery: Active Matter Help (activematterhelp.ru) / Gaijin Entertainment"
+ },
+ {
+  "slug": "dogorsk",
+  "path": "maps/dogorsk.webp",
+  "width": 2118,
+  "height": 1904,
+  "zoom": 4,
+  "attribution": "Map imagery: Active Matter Help (activematterhelp.ru) / Gaijin Entertainment"
+ },
+ {
+  "slug": "downtown",
+  "path": "maps/downtown.webp",
+  "width": 2086,
+  "height": 1455,
+  "zoom": 3,
+  "attribution": "Map imagery: Active Matter Help (activematterhelp.ru) / Gaijin Entertainment"
+ },
+ {
+  "slug": "factory",
+  "path": "maps/factory.webp",
+  "width": 3230,
+  "height": 2362,
+  "zoom": 5,
+  "attribution": "Map imagery: Active Matter Help (activematterhelp.ru) / Gaijin Entertainment"
+ },
+ {
+  "slug": "headquarters",
+  "path": "maps/headquarters.webp",
+  "width": 2699,
+  "height": 2736,
+  "zoom": 4,
+  "attribution": "Map imagery: Active Matter Help (activematterhelp.ru) / Gaijin Entertainment"
+ },
+ {
+  "slug": "military-base",
+  "path": "maps/military-base.webp",
+  "width": 2779,
+  "height": 2779,
+  "zoom": 5,
+  "attribution": "Map imagery: Active Matter Help (activematterhelp.ru) / Gaijin Entertainment"
+ },
+ {
+  "slug": "ozernoe",
+  "path": "maps/ozernoe.webp",
+  "width": 2786,
+  "height": 2647,
+  "zoom": 5,
+  "attribution": "Map imagery: Active Matter Help (activematterhelp.ru) / Gaijin Entertainment"
+ },
+ {
+  "slug": "park",
+  "path": "maps/park.webp",
+  "width": 2345,
+  "height": 1563,
+  "zoom": 4,
+  "attribution": "Map imagery: Active Matter Help (activematterhelp.ru) / Gaijin Entertainment"
+ },
+ {
+  "slug": "scrapyard",
+  "path": "maps/scrapyard.webp",
+  "width": 2084,
+  "height": 1771,
+  "zoom": 5,
+  "attribution": "Map imagery: Active Matter Help (activematterhelp.ru) / Gaijin Entertainment"
+ },
+ {
+  "slug": "shegolskoe",
+  "path": "maps/shegolskoe.webp",
+  "width": 2605,
+  "height": 2640,
+  "zoom": 5,
+  "attribution": "Map imagery: Active Matter Help (activematterhelp.ru) / Gaijin Entertainment"
+ }
+]

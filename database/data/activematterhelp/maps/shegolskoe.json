@@ -1,0 +1,6913 @@
+{
+ "format": "active-matter-map/v1",
+ "map": "shegolskoe",
+ "markers": [
+  {
+   "external_ref": "amh:shg_extp_1",
+   "type": "extraction-point",
+   "name": "Permanent Extraction",
+   "x": 53.3221,
+   "y": 58.7091,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     738.58,
+     60.84,
+     -1152.15
+    ],
+    "site_type": "extraction_always"
+   }
+  },
+  {
+   "external_ref": "amh:shg_extd_2",
+   "type": "dynamic-extraction",
+   "name": "Timed Extraction",
+   "x": 28.8489,
+   "y": 24.5447,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     559.27,
+     21.8,
+     -898.5
+    ],
+    "site_type": "extraction_time"
+   }
+  },
+  {
+   "external_ref": "amh:shg_extd_3",
+   "type": "dynamic-extraction",
+   "name": "Timed Extraction",
+   "x": 54.5286,
+   "y": 44.8817,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     747.42,
+     15.1,
+     -1049.49
+    ],
+    "site_type": "extraction_time"
+   }
+  },
+  {
+   "external_ref": "amh:shg_extd_4",
+   "type": "dynamic-extraction",
+   "name": "Timed Extraction",
+   "x": 38.6253,
+   "y": 51.755,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     630.9,
+     10,
+     -1100.52
+    ],
+    "site_type": "extraction_time"
+   }
+  },
+  {
+   "external_ref": "amh:shg_extd_5",
+   "type": "dynamic-extraction",
+   "name": "Timed Extraction",
+   "x": 32.2037,
+   "y": 29.6441,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     583.85,
+     10.09,
+     -936.36
+    ],
+    "site_type": "extraction_time"
+   }
+  },
+  {
+   "external_ref": "amh:shg_extd_6",
+   "type": "dynamic-extraction",
+   "name": "Timed Extraction",
+   "x": 52.555,
+   "y": 65.3938,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     732.96,
+     4.66,
+     -1201.78
+    ],
+    "site_type": "extraction_time"
+   }
+  },
+  {
+   "external_ref": "amh:shg_extd_7",
+   "type": "dynamic-extraction",
+   "name": "Timed Extraction",
+   "x": 39.4934,
+   "y": 66.6249,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     637.26,
+     10.17,
+     -1210.92
+    ],
+    "site_type": "extraction_time"
+   }
+  },
+  {
+   "external_ref": "amh:shg_extd_8",
+   "type": "dynamic-extraction",
+   "name": "Timed Extraction",
+   "x": 65.5771,
+   "y": 54.0919,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     828.37,
+     9.71,
+     -1117.87
+    ],
+    "site_type": "extraction_time"
+   }
+  },
+  {
+   "external_ref": "amh:shg_extd_9",
+   "type": "dynamic-extraction",
+   "name": "Timed Extraction",
+   "x": 45.6434,
+   "y": 29.1875,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     682.32,
+     10.06,
+     -932.97
+    ],
+    "site_type": "extraction_time"
+   }
+  },
+  {
+   "external_ref": "amh:shg_extd_10",
+   "type": "dynamic-extraction",
+   "name": "Timed Extraction",
+   "x": 39.073,
+   "y": 42.4802,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     634.18,
+     29.73,
+     -1031.66
+    ],
+    "site_type": "extraction_time"
+   }
+  },
+  {
+   "external_ref": "amh:shg_extd_11",
+   "type": "dynamic-extraction",
+   "name": "Timed Extraction",
+   "x": 58.66,
+   "y": 31.6551,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     777.69,
+     10.1,
+     -951.29
+    ],
+    "site_type": "extraction_time"
+   }
+  },
+  {
+   "external_ref": "amh:shg_extd_12",
+   "type": "dynamic-extraction",
+   "name": "Timed Extraction",
+   "x": 68.188,
+   "y": 35.3699,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     847.5,
+     11.05,
+     -978.87
+    ],
+    "site_type": "extraction_time"
+   }
+  },
+  {
+   "external_ref": "amh:shg_extd_13",
+   "type": "dynamic-extraction",
+   "name": "Timed Extraction",
+   "x": 29.7838,
+   "y": 23.7703,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     566.12,
+     18.76,
+     -892.75
+    ],
+    "site_type": "extraction_time"
+   }
+  },
+  {
+   "external_ref": "amh:shg_extf",
+   "type": "final-extraction",
+   "name": "Final Extraction",
+   "x": 38.0534,
+   "y": 40.0396,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     626.71,
+     10.16,
+     -1013.54
+    ],
+    "site_type": "extraction_final"
+   }
+  },
+  {
+   "external_ref": "amh:shg_spawn_1",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 20.3868,
+   "y": 22.3048,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     497.27,
+     14.92,
+     -881.87
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:shg_spawn_2",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 27.1565,
+   "y": 11.24,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     546.87,
+     20.91,
+     -799.72
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:shg_spawn_3",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 56.8652,
+   "y": 11.1996,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     764.54,
+     17.8,
+     -799.42
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:shg_spawn_4",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 63.9283,
+   "y": 18.7194,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     816.29,
+     11.61,
+     -855.25
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:shg_spawn_5",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 14.5602,
+   "y": 45.5525,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     454.58,
+     9.94,
+     -1054.47
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:shg_spawn_6",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 70.8481,
+   "y": 25.691,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     866.99,
+     10.41,
+     -907.01
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:shg_spawn_7",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 50.5418,
+   "y": 17.9691,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     718.21,
+     16.65,
+     -849.68
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:shg_spawn_8",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 26.5436,
+   "y": 61.9915,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     542.38,
+     10.07,
+     -1176.52
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:shg_spawn_9",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 25.1638,
+   "y": 50.5347,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     532.27,
+     10.11,
+     -1091.46
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:shg_spawn_10",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 13.8874,
+   "y": 23.3622,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     449.65,
+     20.61,
+     -889.72
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:shg_spawn_11",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 22.7125,
+   "y": 18.5362,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     514.31,
+     15.18,
+     -853.89
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:shg_spawn_12",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 10.4261,
+   "y": 41.4242,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     424.29,
+     9.27,
+     -1023.82
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:shg_spawn_13",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 22.1092,
+   "y": 43.2547,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     509.89,
+     10.11,
+     -1037.41
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:shg_spawn_14",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 36.9233,
+   "y": 12.3566,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     618.43,
+     20,
+     -808.01
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:shg_spawn_15",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 24.3681,
+   "y": 18.6035,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     526.44,
+     14.99,
+     -854.39
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:shg_spawn_16",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 27.0282,
+   "y": 55.7298,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     545.93,
+     10.28,
+     -1130.03
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:shg_spawn_17",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 14.851,
+   "y": 28.7781,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     456.71,
+     12.71,
+     -929.93
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:shg_spawn_18",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 64.017,
+   "y": 26.087,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     816.94,
+     10.72,
+     -909.95
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:shg_spawn_19",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 30.1632,
+   "y": 20.5336,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     568.9,
+     10.24,
+     -868.72
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:shg_spawn_20",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 73.3895,
+   "y": 39.0186,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     885.61,
+     11.03,
+     -1005.96
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:shg_spawn_21",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 54.272,
+   "y": 8.1865,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     745.54,
+     18.78,
+     -777.05
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:shg_spawn_22",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 60.7905,
+   "y": 15.9515,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     793.3,
+     11.2,
+     -834.7
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:shg_spawn_23",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 38.5598,
+   "y": 16.171,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     630.42,
+     14.72,
+     -836.33
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:shg_spawn_24",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 50.9991,
+   "y": 12.304,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     721.56,
+     14.09,
+     -807.62
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:shg_spawn_25",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 72.4436,
+   "y": 43.6561,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     878.68,
+     9.06,
+     -1040.39
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:shg_spawn_26",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 60.7277,
+   "y": 23.9508,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     792.84,
+     11.09,
+     -894.09
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:shg_spawn_27",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 42.9997,
+   "y": 6.4315,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     662.95,
+     30.53,
+     -764.02
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:shg_spawn_28",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 15.8623,
+   "y": 18.0041,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     464.12,
+     19.6,
+     -849.94
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:shg_spawn_29",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 10.2596,
+   "y": 29.7775,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     423.07,
+     10.65,
+     -937.35
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:shg_spawn_30",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 14.7049,
+   "y": 31.0005,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     455.64,
+     11.57,
+     -946.43
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:shg_spawn_31",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 19.8108,
+   "y": 44.5733,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     493.05,
+     10.04,
+     -1047.2
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:shg_spawn_32",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 23.8822,
+   "y": 66.0888,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     522.88,
+     9.04,
+     -1206.94
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:shg_spawn_33",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 18.8404,
+   "y": 46.2569,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     485.94,
+     10.27,
+     -1059.7
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:shg_spawn_34",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 26.3389,
+   "y": 52.8447,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     540.88,
+     10.07,
+     -1108.61
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:shg_spawn_35",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 64.2081,
+   "y": 34.6089,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     818.34,
+     10.32,
+     -973.22
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:shg_spawn_36",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 71.0064,
+   "y": 52.3436,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     868.15,
+     10.22,
+     -1104.89
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:shg_spawn_37",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 69.0602,
+   "y": 54.7586,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     853.89,
+     9.91,
+     -1122.82
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:shg_spawn_38",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 67.2313,
+   "y": 20.0663,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     840.49,
+     14.28,
+     -865.25
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:shg_spawn_39",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 32.3729,
+   "y": 69.6447,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     585.09,
+     14.16,
+     -1233.34
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:shg_spawn_40",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 30.0486,
+   "y": 68.9807,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     568.06,
+     14.07,
+     -1228.41
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:shg_portal_1",
+   "type": "portal",
+   "name": "Portal (Group 1)",
+   "x": 48.2134,
+   "y": 33.169,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     701.15,
+     28.96,
+     -962.53
+    ],
+    "site_type": "portal",
+    "group": "1"
+   }
+  },
+  {
+   "external_ref": "amh:shg_portal_2",
+   "type": "portal",
+   "name": "Portal (Group 1)",
+   "x": 28.176,
+   "y": 46.1559,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     554.34,
+     12.11,
+     -1058.95
+    ],
+    "site_type": "portal",
+    "group": "1"
+   }
+  },
+  {
+   "external_ref": "amh:shg_portal_3",
+   "type": "portal",
+   "name": "Portal (Group 2)",
+   "x": 39.5712,
+   "y": 33.2956,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     637.83,
+     37.59,
+     -963.47
+    ],
+    "site_type": "portal",
+    "group": "2"
+   }
+  },
+  {
+   "external_ref": "amh:shg_portal_4",
+   "type": "portal",
+   "name": "Portal (Group 2)",
+   "x": 33.9139,
+   "y": 37.1033,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     596.38,
+     12.13,
+     -991.74
+    ],
+    "site_type": "portal",
+    "group": "2"
+   }
+  },
+  {
+   "external_ref": "amh:shg_portal_5",
+   "type": "portal",
+   "name": "Portal (Group 3)",
+   "x": 33.7228,
+   "y": 22.4934,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     594.98,
+     13.24,
+     -883.27
+    ],
+    "site_type": "portal",
+    "group": "3"
+   }
+  },
+  {
+   "external_ref": "amh:shg_portal_6",
+   "type": "portal",
+   "name": "Portal (Group 3)",
+   "x": 33.7228,
+   "y": 22.4934,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     594.98,
+     19.7,
+     -883.27
+    ],
+    "site_type": "portal",
+    "group": "3"
+   }
+  },
+  {
+   "external_ref": "amh:shg_door_1",
+   "type": "locked-door",
+   "name": "Locked Door 🔑 Metal door key",
+   "x": 33.1031,
+   "y": 43.7975,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     590.44,
+     15.66,
+     -1041.44
+    ],
+    "site_type": "locked_doors",
+    "conditions": "Requires: Metal door key"
+   }
+  },
+  {
+   "external_ref": "amh:shg_door_2",
+   "type": "locked-door",
+   "name": "Locked Door 🔑 Metal door key",
+   "x": 33.4607,
+   "y": 43.4581,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     593.06,
+     15.84,
+     -1038.92
+    ],
+    "site_type": "locked_doors",
+    "conditions": "Requires: Metal door key"
+   }
+  },
+  {
+   "external_ref": "amh:shg_door_3",
+   "type": "locked-door",
+   "name": "Locked Door 🔑 Room key",
+   "x": 24.8799,
+   "y": 27.8783,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     530.19,
+     19.72,
+     -923.25
+    ],
+    "site_type": "locked_doors",
+    "conditions": "Requires: Room key"
+   }
+  },
+  {
+   "external_ref": "amh:shg_door_4",
+   "type": "locked-door",
+   "name": "Locked Door 🔑 Shegolskoe Attic #4 key",
+   "x": 44.2799,
+   "y": 30.7931,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     672.33,
+     14.26,
+     -944.89
+    ],
+    "site_type": "locked_doors",
+    "conditions": "Requires: Shegolskoe #4 attic key"
+   }
+  },
+  {
+   "external_ref": "amh:shg_door_5",
+   "type": "locked-door",
+   "name": "Locked Door 🔑 Shegolskoe Attic #8 key",
+   "x": 33.4989,
+   "y": 36.8582,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     593.34,
+     14.26,
+     -989.92
+    ],
+    "site_type": "locked_doors",
+    "conditions": "Requires: Shegolskoe #8 attic key"
+   }
+  },
+  {
+   "external_ref": "amh:shg_door_6",
+   "type": "locked-door",
+   "name": "Locked Door 🔑 Shegolskoe Attic #11 key",
+   "x": 41.7031,
+   "y": 49.4626,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     653.45,
+     14.26,
+     -1083.5
+    ],
+    "site_type": "locked_doors",
+    "conditions": "Requires: Shegolskoe #11 attic key"
+   }
+  },
+  {
+   "external_ref": "amh:shg_door_7",
+   "type": "locked-door",
+   "name": "Locked Door 🔑 Shegolskoe Attic #15 key",
+   "x": 44.3113,
+   "y": 63.4327,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     672.56,
+     23.37,
+     -1187.22
+    ],
+    "site_type": "locked_doors",
+    "conditions": "Requires: Shegolskoe #15 attic key"
+   }
+  },
+  {
+   "external_ref": "amh:shg_lore_67",
+   "type": "documents",
+   "name": "Search Operation Report (1 of 2)",
+   "x": 27.8266,
+   "y": 47.6577,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     551.78,
+     12.69,
+     -1070.1
+    ],
+    "site_type": "documents"
+   }
+  },
+  {
+   "external_ref": "amh:shg_lore_68",
+   "type": "documents",
+   "name": "Search Operation Report (2 of 2)",
+   "x": 27.2957,
+   "y": 47.2523,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     547.89,
+     14.41,
+     -1067.09
+    ],
+    "site_type": "documents"
+   }
+  },
+  {
+   "external_ref": "amh:shg_lore_69",
+   "type": "documents",
+   "name": "Letter to the Quartermaster",
+   "x": 44.8272,
+   "y": 63.62,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     676.34,
+     26.49,
+     -1188.61
+    ],
+    "site_type": "documents"
+   }
+  },
+  {
+   "external_ref": "amh:shg_lore_70",
+   "type": "documents",
+   "name": "Researcher Diary I (1 of 2)",
+   "x": 49.3026,
+   "y": 33.8088,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     709.13,
+     9.21,
+     -967.28
+    ],
+    "site_type": "documents"
+   }
+  },
+  {
+   "external_ref": "amh:shg_lore_71",
+   "type": "documents",
+   "name": "Researcher Diary I (2 of 2)",
+   "x": 48.5683,
+   "y": 34.3597,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     703.75,
+     34.94,
+     -971.37
+    ],
+    "site_type": "documents"
+   }
+  },
+  {
+   "external_ref": "amh:shg_lore_72",
+   "type": "documents",
+   "name": "Researcher Diary II (1 of 2)",
+   "x": 49.7461,
+   "y": 38.0098,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     712.38,
+     11.48,
+     -998.47
+    ],
+    "site_type": "documents"
+   }
+  },
+  {
+   "external_ref": "amh:shg_lore_73",
+   "type": "documents",
+   "name": "Researcher Diary II (2 of 2)",
+   "x": 50.4954,
+   "y": 33.6795,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     717.87,
+     11.57,
+     -966.32
+    ],
+    "site_type": "documents"
+   }
+  },
+  {
+   "external_ref": "amh:shg_heli_74",
+   "type": "interactive",
+   "name": "Underwater Helicopter (Secret Quest)",
+   "description": "Underwater container. Inside: Medical Personnel Evacuation Order, starts secret contract.",
+   "x": 13.9215,
+   "y": 52.3935,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     449.9,
+     1.07,
+     -1105.26
+    ],
+    "site_type": "question"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_secret_stash_1",
+   "type": "safe",
+   "name": "Secret Stash",
+   "x": 34.8215,
+   "y": 23.2665,
+   "variant": "regular",
+   "loot_table": "secret_stash",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     603.03,
+     18.6,
+     -889.01
+    ],
+    "site_type": "safe"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_secret_stash_2",
+   "type": "safe",
+   "name": "Secret Stash",
+   "x": 50.4313,
+   "y": 33.4263,
+   "variant": "regular",
+   "loot_table": "secret_stash",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     717.4,
+     11.04,
+     -964.44
+    ],
+    "site_type": "safe"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_secret_stash_3",
+   "type": "safe",
+   "name": "Secret Stash",
+   "x": 57.0931,
+   "y": 52.485,
+   "variant": "regular",
+   "loot_table": "secret_stash",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     766.21,
+     11.03,
+     -1105.94
+    ],
+    "site_type": "safe"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_turned_patrol_1",
+   "type": "monster",
+   "name": "Changed Patrol",
+   "x": 31.8679,
+   "y": 29.3101,
+   "variant": "regular",
+   "loot_table": "drop_changed",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     581.39,
+     10,
+     -933.88
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_turned_patrol_2",
+   "type": "monster",
+   "name": "Changed Patrol",
+   "x": 41.2977,
+   "y": 43.516,
+   "variant": "regular",
+   "loot_table": "drop_changed",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     650.48,
+     9.91,
+     -1039.35
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_turned_patrol_3",
+   "type": "monster",
+   "name": "Changed Patrol",
+   "x": 38.5871,
+   "y": 63.69,
+   "variant": "regular",
+   "loot_table": "drop_changed",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     630.62,
+     10,
+     -1189.13
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_apartment_room_keys_1",
+   "type": "key-spawn",
+   "name": "Apartment Keys",
+   "x": 25.2498,
+   "y": 28.642,
+   "variant": "regular",
+   "loot_table": "shegolskoe_adv_apartment_room_keys",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     532.9,
+     19.57,
+     -928.92
+    ],
+    "site_type": "key"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_military_uaz_1",
+   "type": "vehicle-spawn",
+   "name": "Military UAZ (Vehicle Spawn)",
+   "x": 54.3239,
+   "y": 21.929,
+   "variant": "regular",
+   "loot_table": "shegolskoe_adv_military_uaz",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     745.92,
+     10.1,
+     -879.08
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_military_uaz_2",
+   "type": "vehicle-spawn",
+   "name": "Military UAZ (Vehicle Spawn)",
+   "x": 29.0782,
+   "y": 34.9496,
+   "variant": "regular",
+   "loot_table": "shegolskoe_adv_military_uaz",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     560.95,
+     10.1,
+     -975.75
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_military_uaz_3",
+   "type": "vehicle-spawn",
+   "name": "Military UAZ (Vehicle Spawn)",
+   "x": 56.4012,
+   "y": 35.5706,
+   "variant": "regular",
+   "loot_table": "shegolskoe_adv_military_uaz",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     761.14,
+     10.1,
+     -980.36
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_military_uaz_4",
+   "type": "vehicle-spawn",
+   "name": "Military UAZ (Vehicle Spawn)",
+   "x": 47.1543,
+   "y": 52.0918,
+   "variant": "regular",
+   "loot_table": "shegolskoe_adv_military_uaz",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     693.39,
+     10.02,
+     -1103.02
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_military_uaz_5",
+   "type": "vehicle-spawn",
+   "name": "Military UAZ (Vehicle Spawn)",
+   "x": 24.1401,
+   "y": 46.5627,
+   "variant": "regular",
+   "loot_table": "shegolskoe_adv_military_uaz",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     524.77,
+     10.02,
+     -1061.97
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_military_uaz_6",
+   "type": "vehicle-spawn",
+   "name": "Military UAZ (Vehicle Spawn)",
+   "x": 27.6,
+   "y": 23.3258,
+   "variant": "regular",
+   "loot_table": "shegolskoe_adv_military_uaz",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     550.12,
+     10.05,
+     -889.45
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_attic_1",
+   "type": "loot-location",
+   "name": "Attic (Loot)",
+   "x": 43.7271,
+   "y": 30.0644,
+   "variant": "regular",
+   "loot_table": "shegolskoe_adv_attic",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     668.28,
+     14.28,
+     -939.48
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_attic_2",
+   "type": "loot-location",
+   "name": "Attic (Loot)",
+   "x": 33.5235,
+   "y": 36.6885,
+   "variant": "regular",
+   "loot_table": "shegolskoe_adv_attic",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     593.52,
+     14.3,
+     -988.66
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_attic_3",
+   "type": "loot-location",
+   "name": "Attic (Loot)",
+   "x": 40.9906,
+   "y": 49.9178,
+   "variant": "regular",
+   "loot_table": "shegolskoe_adv_attic",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     648.23,
+     14.25,
+     -1086.88
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_attic_4",
+   "type": "loot-location",
+   "name": "Attic (Loot)",
+   "x": 44.6238,
+   "y": 63.958,
+   "variant": "regular",
+   "loot_table": "shegolskoe_adv_attic",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     674.85,
+     27.03,
+     -1191.12
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_monster_conversion_1",
+   "type": "artifact",
+   "name": "Artifact: Distorted Hunter",
+   "x": 43.0447,
+   "y": 37.3875,
+   "variant": "regular",
+   "loot_table": "shegolskoe_monster_conversion",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     663.28,
+     11.59,
+     -993.85
+    ],
+    "site_type": "artifact",
+    "mode": "pvp"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_monster_conversion_2",
+   "type": "artifact",
+   "name": "Artifact: Distorted Hunter",
+   "x": 28.4053,
+   "y": 40.3938,
+   "variant": "regular",
+   "loot_table": "shegolskoe_monster_conversion",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     556.02,
+     12.04,
+     -1016.17
+    ],
+    "site_type": "artifact",
+    "mode": "pvp"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_monster_conversion_3",
+   "type": "artifact",
+   "name": "Artifact: Distorted Hunter",
+   "x": 51.979,
+   "y": 26.786,
+   "variant": "regular",
+   "loot_table": "shegolskoe_monster_conversion",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     728.74,
+     11.52,
+     -915.14
+    ],
+    "site_type": "artifact",
+    "mode": "pvp"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_monster_conversion_4",
+   "type": "artifact",
+   "name": "Artifact: Distorted Hunter",
+   "x": 29.055,
+   "y": 21.265,
+   "variant": "regular",
+   "loot_table": "shegolskoe_monster_conversion",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     560.78,
+     11.35,
+     -874.15
+    ],
+    "site_type": "artifact",
+    "mode": "pvp"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_monster_conversion_5",
+   "type": "artifact",
+   "name": "Artifact: Distorted Hunter",
+   "x": 29.5204,
+   "y": 56.1204,
+   "variant": "regular",
+   "loot_table": "shegolskoe_monster_conversion",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     564.19,
+     11,
+     -1132.93
+    ],
+    "site_type": "artifact",
+    "mode": "pvp"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_monster_conversion_6",
+   "type": "artifact",
+   "name": "Artifact: Distorted Hunter",
+   "x": 48.1356,
+   "y": 55.8052,
+   "variant": "regular",
+   "loot_table": "shegolskoe_monster_conversion",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     700.58,
+     11.02,
+     -1130.59
+    ],
+    "site_type": "artifact",
+    "mode": "pvp"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_shy_1",
+   "type": "monster",
+   "name": "Shy",
+   "x": 55.4048,
+   "y": 20.3437,
+   "variant": "regular",
+   "loot_table": "drop_shy",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     753.84,
+     10.62,
+     -867.31
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_shy_2",
+   "type": "monster",
+   "name": "Shy",
+   "x": 26.889,
+   "y": 27.1443,
+   "variant": "regular",
+   "loot_table": "drop_shy",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     544.91,
+     15.4,
+     -917.8
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_shy_3",
+   "type": "monster",
+   "name": "Shy",
+   "x": 28.4217,
+   "y": 26.0802,
+   "variant": "regular",
+   "loot_table": "drop_shy",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     556.14,
+     12.2,
+     -909.9
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_shy_4",
+   "type": "monster",
+   "name": "Shy",
+   "x": 29.231,
+   "y": 23.9642,
+   "variant": "regular",
+   "loot_table": "drop_shy",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     562.07,
+     15.5,
+     -894.19
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_shy_5",
+   "type": "monster",
+   "name": "Shy",
+   "x": 32.1191,
+   "y": 23.9386,
+   "variant": "regular",
+   "loot_table": "drop_shy",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     583.23,
+     12.2,
+     -894
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_shy_6",
+   "type": "monster",
+   "name": "Shy",
+   "x": 27.5946,
+   "y": 46.7539,
+   "variant": "regular",
+   "loot_table": "drop_shy",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     550.08,
+     14.42,
+     -1063.39
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_fire_anomaly_perm_1",
+   "type": "anomaly",
+   "name": "Fire Anomaly (Permanent)",
+   "x": 73.1342,
+   "y": 31.6066,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     883.74,
+     12.1,
+     -950.93
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_fire_anomaly_perm_2",
+   "type": "anomaly",
+   "name": "Fire Anomaly (Permanent)",
+   "x": 67.1344,
+   "y": 49.0922,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     839.78,
+     10.49,
+     -1080.75
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_fire_anomaly_perm_3",
+   "type": "anomaly",
+   "name": "Fire Anomaly (Permanent)",
+   "x": 63.7359,
+   "y": 53.9464,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     814.88,
+     10.19,
+     -1116.79
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_fire_anomaly_perm_4",
+   "type": "anomaly",
+   "name": "Fire Anomaly (Permanent)",
+   "x": 43.532,
+   "y": 16.4741,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     666.85,
+     14.04,
+     -838.58
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_fire_anomaly_perm_5",
+   "type": "anomaly",
+   "name": "Fire Anomaly (Permanent)",
+   "x": 65.1785,
+   "y": 42.3873,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     825.45,
+     10.98,
+     -1030.97
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_fire_anomaly_1",
+   "type": "anomaly",
+   "name": "Fire Anomaly",
+   "x": 40.6385,
+   "y": 37.8293,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     645.65,
+     10.04,
+     -997.13
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_fire_anomaly_2",
+   "type": "anomaly",
+   "name": "Fire Anomaly",
+   "x": 35.5544,
+   "y": 47.1513,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     608.4,
+     10.04,
+     -1066.34
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_fire_anomaly_3",
+   "type": "anomaly",
+   "name": "Fire Anomaly",
+   "x": 20.7048,
+   "y": 33.9462,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     499.6,
+     10.16,
+     -968.3
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_shegolskoe_add_nest_1",
+   "type": "monster",
+   "name": "Nest: Distorted / Flowermen",
+   "x": 29.171,
+   "y": 40.5083,
+   "variant": "regular",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     561.63,
+     11.04,
+     -1017.02
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_shegolskoe_add_nest_2",
+   "type": "monster",
+   "name": "Nest: Distorted / Flowermen",
+   "x": 54.4972,
+   "y": 29.5458,
+   "variant": "regular",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     747.19,
+     11.04,
+     -935.63
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_shegolskoe_add_nest_3",
+   "type": "monster",
+   "name": "Nest: Distorted / Flowermen",
+   "x": 36.3692,
+   "y": 54.3667,
+   "variant": "regular",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     614.37,
+     11.01,
+     -1119.91
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_shegolskoe_add_nest_4",
+   "type": "monster",
+   "name": "Nest: Distorted / Flowermen",
+   "x": 45.6325,
+   "y": 54.9903,
+   "variant": "regular",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     682.24,
+     11.01,
+     -1124.54
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_gravizone_am_pile_cl1",
+   "type": "anomaly",
+   "name": "Gravizone — Active Matter (×6)",
+   "description": "AM cluster: 6 spots · ~18 units of active matter (~1800  cr).",
+   "x": 29.2037,
+   "y": 25.1064,
+   "variant": "regular",
+   "loot_table": "shegolskoe_adv_gravizone_am_pile",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     561.87,
+     15.87,
+     -902.67
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_gravizone_am_pile_cl2",
+   "type": "anomaly",
+   "name": "Gravizone — Active Matter (×2)",
+   "description": "AM cluster: 2 spots · ~6 units of active matter (~600  cr).",
+   "x": 50.8025,
+   "y": 33.0774,
+   "variant": "regular",
+   "loot_table": "shegolskoe_adv_gravizone_am_pile",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     720.12,
+     13.09,
+     -961.85
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_gravizone_am_pile_cl3",
+   "type": "anomaly",
+   "name": "Gravizone — Active Matter (×10)",
+   "description": "AM cluster: 10 spots · ~30 units of active matter (~3000  cr).",
+   "x": 37.1636,
+   "y": 39.9938,
+   "variant": "regular",
+   "loot_table": "shegolskoe_adv_gravizone_am_pile",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     620.19,
+     15.39,
+     -1013.2
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_gravizone_am_pile_cl4",
+   "type": "anomaly",
+   "name": "Gravizone — Active Matter (×2)",
+   "description": "AM cluster: 2 spots · ~6 units of active matter (~600  cr).",
+   "x": 37.0339,
+   "y": 55.2166,
+   "variant": "regular",
+   "loot_table": "shegolskoe_adv_gravizone_am_pile",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     619.24,
+     13.91,
+     -1126.22
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_gravizone_am_pile_cl5",
+   "type": "anomaly",
+   "name": "Gravizone — Active Matter (×2)",
+   "description": "AM cluster: 2 spots · ~6 units of active matter (~600  cr).",
+   "x": 54.3866,
+   "y": 19.6824,
+   "variant": "regular",
+   "loot_table": "shegolskoe_adv_gravizone_am_pile",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     746.38,
+     14.07,
+     -862.4
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_gravihouse_am_pile_cl1",
+   "type": "anomaly",
+   "name": "Gravihouse — Active Matter (×18)",
+   "description": "AM cluster: 18 spots · ~54 units of active matter (~5400  cr).",
+   "x": 44.7972,
+   "y": 33.7199,
+   "variant": "regular",
+   "loot_table": "shegolskoe_adv_gravihouse_am_pile",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     676.12,
+     34.62,
+     -966.62
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_nest_1",
+   "type": "monster",
+   "name": "Spawn: Distorted",
+   "x": 28.7656,
+   "y": 34.594,
+   "variant": "regular",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     558.66,
+     10,
+     -973.11
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_nest_2",
+   "type": "monster",
+   "name": "Spawn: Distorted",
+   "x": 41.6648,
+   "y": 54.5997,
+   "variant": "regular",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     653.17,
+     10,
+     -1121.64
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_nest_3",
+   "type": "monster",
+   "name": "Spawn: Distorted",
+   "x": 61.4661,
+   "y": 37.8199,
+   "variant": "regular",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     798.25,
+     12.77,
+     -997.06
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_nest_4",
+   "type": "monster",
+   "name": "Spawn: Flowermen",
+   "x": 39.6353,
+   "y": 28.9195,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     638.3,
+     10,
+     -930.98
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_nest_5",
+   "type": "monster",
+   "name": "Spawn: Flowermen",
+   "x": 51.7156,
+   "y": 53.5303,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     726.81,
+     10,
+     -1113.7
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_nest_6",
+   "type": "monster",
+   "name": "Spawn: Flowermen",
+   "x": 53.6387,
+   "y": 34.5779,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     740.9,
+     10.13,
+     -972.99
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_nest_7",
+   "type": "monster",
+   "name": "Spawn: Inorganics",
+   "x": 37.5184,
+   "y": 39.4618,
+   "variant": "regular",
+   "loot_table": "drop_invisible",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     622.79,
+     10,
+     -1009.25
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_nest_8",
+   "type": "monster",
+   "name": "Spawn: Inorganics",
+   "x": 35.3101,
+   "y": 62.5128,
+   "variant": "regular",
+   "loot_table": "drop_invisible",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     606.61,
+     10,
+     -1180.39
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_nest_9",
+   "type": "monster",
+   "name": "Spawn: Changed",
+   "x": 31.4653,
+   "y": 28.9464,
+   "variant": "regular",
+   "loot_table": "drop_changed",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     578.44,
+     10,
+     -931.18
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_nest_10",
+   "type": "monster",
+   "name": "Spawn: Changed",
+   "x": 40.8951,
+   "y": 43.1523,
+   "variant": "regular",
+   "loot_table": "drop_changed",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     647.53,
+     9.91,
+     -1036.65
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_nest_11",
+   "type": "monster",
+   "name": "Spawn: Changed",
+   "x": 38.1845,
+   "y": 63.3263,
+   "variant": "regular",
+   "loot_table": "drop_changed",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     627.67,
+     10,
+     -1186.43
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_guard_12",
+   "type": "spawn-zone",
+   "name": "Guarded Zone (Hidden)",
+   "description": "Radius 3 m, up to 3 guards. Spawns: Stalker (Invisible) 100%",
+   "x": 29.5695,
+   "y": 25.7044,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     564.55,
+     10.89,
+     -907.11
+    ],
+    "site_type": "spawn_zone"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_encounter_1",
+   "type": "loot-location",
+   "name": "Random Event",
+   "x": 37.8542,
+   "y": 25.3179,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     625.25,
+     10,
+     -904.24
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_encounter_2",
+   "type": "loot-location",
+   "name": "Random Event",
+   "x": 44.329,
+   "y": 33.4748,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     672.69,
+     10.04,
+     -964.8
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_encounter_3",
+   "type": "loot-location",
+   "name": "Random Event",
+   "x": 60.2924,
+   "y": 47.2941,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     789.65,
+     10.67,
+     -1067.4
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_amcore_1",
+   "type": "monster",
+   "name": "Lightning Anomaly",
+   "x": 25.2648,
+   "y": 45.8394,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     533.01,
+     11.39,
+     -1056.6
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_amcore_2",
+   "type": "monster",
+   "name": "Lightning Anomaly",
+   "x": 60.9202,
+   "y": 32.9953,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     794.25,
+     11.39,
+     -961.24
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_frog_1",
+   "type": "anomaly",
+   "name": "Springboard Anomaly",
+   "x": 53.5814,
+   "y": 49.0275,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     740.48,
+     9.48,
+     -1080.27
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_frog_2",
+   "type": "anomaly",
+   "name": "Springboard Anomaly",
+   "x": 59.3506,
+   "y": 43.1846,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     782.75,
+     10.76,
+     -1036.89
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_frog_3",
+   "type": "anomaly",
+   "name": "Springboard Anomaly",
+   "x": 53.8079,
+   "y": 43.5079,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     742.14,
+     15.64,
+     -1039.29
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_frog_4",
+   "type": "anomaly",
+   "name": "Springboard Anomaly",
+   "x": 40.2372,
+   "y": 67.5314,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     642.71,
+     12.33,
+     -1217.65
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_frog_5",
+   "type": "anomaly",
+   "name": "Springboard Anomaly",
+   "x": 45.0497,
+   "y": 69.1302,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     677.97,
+     12.33,
+     -1229.52
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_frog_6",
+   "type": "anomaly",
+   "name": "Springboard Anomaly",
+   "x": 50.4613,
+   "y": 68.8352,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     717.62,
+     12.33,
+     -1227.33
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_frog_7",
+   "type": "anomaly",
+   "name": "Springboard Anomaly",
+   "x": 56.5049,
+   "y": 67.9866,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     761.9,
+     12.33,
+     -1221.03
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_frog_8",
+   "type": "anomaly",
+   "name": "Springboard Anomaly",
+   "x": 33.7596,
+   "y": 67.4654,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     595.25,
+     12.33,
+     -1217.16
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:shg_adv_box_1",
+   "type": "container-tier-2",
+   "name": "T2 Crate (Long Range, Soviet)",
+   "x": 14.1249,
+   "y": 52.4123,
+   "variant": "regular",
+   "loot_table": "box_long_range_soviet_weapons_t2",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     451.39,
+     1,
+     -1105.4
+    ],
+    "site_type": "t2_box",
+    "mode": "both"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_secret_stash_1",
+   "type": "safe",
+   "name": "Secret Stash",
+   "x": 34.8215,
+   "y": 23.2665,
+   "variant": "distortion",
+   "loot_table": "secret_stash",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     603.03,
+     18.6,
+     -889.01
+    ],
+    "site_type": "safe"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_secret_stash_2",
+   "type": "safe",
+   "name": "Secret Stash",
+   "x": 50.4313,
+   "y": 33.4263,
+   "variant": "distortion",
+   "loot_table": "secret_stash",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     717.4,
+     11.04,
+     -964.44
+    ],
+    "site_type": "safe"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_secret_stash_3",
+   "type": "safe",
+   "name": "Secret Stash",
+   "x": 57.0931,
+   "y": 52.485,
+   "variant": "distortion",
+   "loot_table": "secret_stash",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     766.21,
+     11.03,
+     -1105.94
+    ],
+    "site_type": "safe"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_xenohounds_1",
+   "type": "monster",
+   "name": "Hellhounds",
+   "x": 31.8679,
+   "y": 29.3101,
+   "variant": "distortion",
+   "loot_table": "drop_hellhound",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     581.39,
+     10,
+     -933.88
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_xenohounds_2",
+   "type": "monster",
+   "name": "Hellhounds",
+   "x": 41.2977,
+   "y": 43.516,
+   "variant": "distortion",
+   "loot_table": "drop_hellhound",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     650.48,
+     9.91,
+     -1039.35
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_xenohounds_3",
+   "type": "monster",
+   "name": "Hellhounds",
+   "x": 38.5871,
+   "y": 63.69,
+   "variant": "distortion",
+   "loot_table": "drop_hellhound",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     630.62,
+     10,
+     -1189.13
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_xenohounds_4",
+   "type": "monster",
+   "name": "Hellhounds",
+   "x": 38.1053,
+   "y": 23.9588,
+   "variant": "distortion",
+   "loot_table": "drop_hellhound",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     627.09,
+     10.02,
+     -894.15
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_xenohounds_5",
+   "type": "monster",
+   "name": "Hellhounds",
+   "x": 45.6721,
+   "y": 49.6309,
+   "variant": "distortion",
+   "loot_table": "drop_hellhound",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     682.53,
+     10.02,
+     -1084.75
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_apartment_room_keys_1",
+   "type": "key-spawn",
+   "name": "Apartment Keys",
+   "x": 25.2498,
+   "y": 28.642,
+   "variant": "distortion",
+   "loot_table": "shegolskoe_adv_apartment_room_keys",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     532.9,
+     19.57,
+     -928.92
+    ],
+    "site_type": "key"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_military_uaz_1",
+   "type": "vehicle-spawn",
+   "name": "Military UAZ (Vehicle Spawn)",
+   "x": 54.3239,
+   "y": 21.929,
+   "variant": "distortion",
+   "loot_table": "shegolskoe_adv_military_uaz",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     745.92,
+     10.1,
+     -879.08
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_military_uaz_2",
+   "type": "vehicle-spawn",
+   "name": "Military UAZ (Vehicle Spawn)",
+   "x": 29.0782,
+   "y": 34.9496,
+   "variant": "distortion",
+   "loot_table": "shegolskoe_adv_military_uaz",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     560.95,
+     10.1,
+     -975.75
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_military_uaz_3",
+   "type": "vehicle-spawn",
+   "name": "Military UAZ (Vehicle Spawn)",
+   "x": 56.4012,
+   "y": 35.5706,
+   "variant": "distortion",
+   "loot_table": "shegolskoe_adv_military_uaz",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     761.14,
+     10.1,
+     -980.36
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_military_uaz_4",
+   "type": "vehicle-spawn",
+   "name": "Military UAZ (Vehicle Spawn)",
+   "x": 47.1543,
+   "y": 52.0918,
+   "variant": "distortion",
+   "loot_table": "shegolskoe_adv_military_uaz",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     693.39,
+     10.02,
+     -1103.02
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_military_uaz_5",
+   "type": "vehicle-spawn",
+   "name": "Military UAZ (Vehicle Spawn)",
+   "x": 24.1401,
+   "y": 46.5627,
+   "variant": "distortion",
+   "loot_table": "shegolskoe_adv_military_uaz",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     524.77,
+     10.02,
+     -1061.97
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_military_uaz_6",
+   "type": "vehicle-spawn",
+   "name": "Military UAZ (Vehicle Spawn)",
+   "x": 27.6,
+   "y": 23.3258,
+   "variant": "distortion",
+   "loot_table": "shegolskoe_adv_military_uaz",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     550.12,
+     10.05,
+     -889.45
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_attic_1",
+   "type": "loot-location",
+   "name": "Attic (Loot)",
+   "x": 43.7271,
+   "y": 30.0644,
+   "variant": "distortion",
+   "loot_table": "shegolskoe_adv_attic",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     668.28,
+     14.28,
+     -939.48
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_attic_2",
+   "type": "loot-location",
+   "name": "Attic (Loot)",
+   "x": 33.5235,
+   "y": 36.6885,
+   "variant": "distortion",
+   "loot_table": "shegolskoe_adv_attic",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     593.52,
+     14.3,
+     -988.66
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_attic_3",
+   "type": "loot-location",
+   "name": "Attic (Loot)",
+   "x": 40.9906,
+   "y": 49.9178,
+   "variant": "distortion",
+   "loot_table": "shegolskoe_adv_attic",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     648.23,
+     14.25,
+     -1086.88
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_attic_4",
+   "type": "loot-location",
+   "name": "Attic (Loot)",
+   "x": 44.6238,
+   "y": 63.958,
+   "variant": "distortion",
+   "loot_table": "shegolskoe_adv_attic",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     674.85,
+     27.03,
+     -1191.12
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_monster_conversion_1",
+   "type": "artifact",
+   "name": "Artifact: Distorted Hunter",
+   "x": 43.0447,
+   "y": 37.3875,
+   "variant": "distortion",
+   "loot_table": "shegolskoe_monster_conversion",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     663.28,
+     11.59,
+     -993.85
+    ],
+    "site_type": "artifact",
+    "mode": "pvp"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_monster_conversion_2",
+   "type": "artifact",
+   "name": "Artifact: Distorted Hunter",
+   "x": 28.4053,
+   "y": 40.3938,
+   "variant": "distortion",
+   "loot_table": "shegolskoe_monster_conversion",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     556.02,
+     12.04,
+     -1016.17
+    ],
+    "site_type": "artifact",
+    "mode": "pvp"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_monster_conversion_3",
+   "type": "artifact",
+   "name": "Artifact: Distorted Hunter",
+   "x": 51.979,
+   "y": 26.786,
+   "variant": "distortion",
+   "loot_table": "shegolskoe_monster_conversion",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     728.74,
+     11.52,
+     -915.14
+    ],
+    "site_type": "artifact",
+    "mode": "pvp"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_monster_conversion_4",
+   "type": "artifact",
+   "name": "Artifact: Distorted Hunter",
+   "x": 29.055,
+   "y": 21.265,
+   "variant": "distortion",
+   "loot_table": "shegolskoe_monster_conversion",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     560.78,
+     11.35,
+     -874.15
+    ],
+    "site_type": "artifact",
+    "mode": "pvp"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_monster_conversion_5",
+   "type": "artifact",
+   "name": "Artifact: Distorted Hunter",
+   "x": 29.5204,
+   "y": 56.1204,
+   "variant": "distortion",
+   "loot_table": "shegolskoe_monster_conversion",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     564.19,
+     11,
+     -1132.93
+    ],
+    "site_type": "artifact",
+    "mode": "pvp"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_monster_conversion_6",
+   "type": "artifact",
+   "name": "Artifact: Distorted Hunter",
+   "x": 48.1356,
+   "y": 55.8052,
+   "variant": "distortion",
+   "loot_table": "shegolskoe_monster_conversion",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     700.58,
+     11.02,
+     -1130.59
+    ],
+    "site_type": "artifact",
+    "mode": "pvp"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_shegolskoe_add_nest_1",
+   "type": "monster",
+   "name": "Nest: Distorted / Flowermen",
+   "x": 29.171,
+   "y": 40.5083,
+   "variant": "distortion",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     561.63,
+     11.04,
+     -1017.02
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_shegolskoe_add_nest_2",
+   "type": "monster",
+   "name": "Nest: Distorted / Flowermen",
+   "x": 54.4972,
+   "y": 29.5458,
+   "variant": "distortion",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     747.19,
+     11.04,
+     -935.63
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_shegolskoe_add_nest_3",
+   "type": "monster",
+   "name": "Nest: Distorted / Flowermen",
+   "x": 36.3692,
+   "y": 54.3667,
+   "variant": "distortion",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     614.37,
+     11.01,
+     -1119.91
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_shegolskoe_add_nest_4",
+   "type": "monster",
+   "name": "Nest: Distorted / Flowermen",
+   "x": 45.6325,
+   "y": 54.9903,
+   "variant": "distortion",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     682.24,
+     11.01,
+     -1124.54
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_gravizone_am_pile_cl1",
+   "type": "anomaly",
+   "name": "Gravizone — Active Matter (×6)",
+   "description": "AM cluster: 6 spots · ~18 units of active matter (~1800  cr).",
+   "x": 29.2037,
+   "y": 25.1064,
+   "variant": "distortion",
+   "loot_table": "shegolskoe_adv_gravizone_am_pile",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     561.87,
+     15.87,
+     -902.67
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_gravizone_am_pile_cl2",
+   "type": "anomaly",
+   "name": "Gravizone — Active Matter (×2)",
+   "description": "AM cluster: 2 spots · ~6 units of active matter (~600  cr).",
+   "x": 50.8025,
+   "y": 33.0774,
+   "variant": "distortion",
+   "loot_table": "shegolskoe_adv_gravizone_am_pile",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     720.12,
+     13.09,
+     -961.85
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_gravizone_am_pile_cl3",
+   "type": "anomaly",
+   "name": "Gravizone — Active Matter (×10)",
+   "description": "AM cluster: 10 spots · ~30 units of active matter (~3000  cr).",
+   "x": 37.1636,
+   "y": 39.9938,
+   "variant": "distortion",
+   "loot_table": "shegolskoe_adv_gravizone_am_pile",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     620.19,
+     15.39,
+     -1013.2
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_gravizone_am_pile_cl4",
+   "type": "anomaly",
+   "name": "Gravizone — Active Matter (×2)",
+   "description": "AM cluster: 2 spots · ~6 units of active matter (~600  cr).",
+   "x": 37.0339,
+   "y": 55.2166,
+   "variant": "distortion",
+   "loot_table": "shegolskoe_adv_gravizone_am_pile",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     619.24,
+     13.91,
+     -1126.22
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_gravizone_am_pile_cl5",
+   "type": "anomaly",
+   "name": "Gravizone — Active Matter (×2)",
+   "description": "AM cluster: 2 spots · ~6 units of active matter (~600  cr).",
+   "x": 54.3866,
+   "y": 19.6824,
+   "variant": "distortion",
+   "loot_table": "shegolskoe_adv_gravizone_am_pile",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     746.38,
+     14.07,
+     -862.4
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_gravihouse_am_pile_cl1",
+   "type": "anomaly",
+   "name": "Gravihouse — Active Matter (×18)",
+   "description": "AM cluster: 18 spots · ~54 units of active matter (~5400  cr).",
+   "x": 44.7972,
+   "y": 33.7199,
+   "variant": "distortion",
+   "loot_table": "shegolskoe_adv_gravihouse_am_pile",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     676.12,
+     34.62,
+     -966.62
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_sleeper_1",
+   "type": "monster",
+   "name": "Distorted",
+   "x": 25.7698,
+   "y": 27.1631,
+   "variant": "distortion",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     536.71,
+     15.4,
+     -917.94
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_sleeper_2",
+   "type": "monster",
+   "name": "Distorted",
+   "x": 28.7902,
+   "y": 24.7279,
+   "variant": "distortion",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     558.84,
+     15.4,
+     -899.86
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_sleeper_3",
+   "type": "monster",
+   "name": "Distorted",
+   "x": 32.5777,
+   "y": 22.9971,
+   "variant": "distortion",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     586.59,
+     15.4,
+     -887.01
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_xeno_4",
+   "type": "monster",
+   "name": "Hellhounds (Pack)",
+   "x": 53.5814,
+   "y": 49.0275,
+   "variant": "distortion",
+   "loot_table": "drop_hellhound",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     740.48,
+     9.48,
+     -1080.27
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_xeno_5",
+   "type": "monster",
+   "name": "Hellhounds (Pack)",
+   "x": 59.3506,
+   "y": 43.1846,
+   "variant": "distortion",
+   "loot_table": "drop_hellhound",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     782.75,
+     10.76,
+     -1036.89
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_xeno_6",
+   "type": "monster",
+   "name": "Hellhounds (Pack)",
+   "x": 53.8079,
+   "y": 43.5079,
+   "variant": "distortion",
+   "loot_table": "drop_hellhound",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     742.14,
+     15.64,
+     -1039.29
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_xeno_7",
+   "type": "monster",
+   "name": "Hellhounds (Pack)",
+   "x": 40.2372,
+   "y": 67.5314,
+   "variant": "distortion",
+   "loot_table": "drop_hellhound",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     642.71,
+     12.33,
+     -1217.65
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_xeno_8",
+   "type": "monster",
+   "name": "Hellhounds (Pack)",
+   "x": 45.0497,
+   "y": 69.1302,
+   "variant": "distortion",
+   "loot_table": "drop_hellhound",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     677.97,
+     12.33,
+     -1229.52
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_xeno_9",
+   "type": "monster",
+   "name": "Hellhounds (Pack)",
+   "x": 50.4613,
+   "y": 68.8352,
+   "variant": "distortion",
+   "loot_table": "drop_hellhound",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     717.62,
+     12.33,
+     -1227.33
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_xeno_10",
+   "type": "monster",
+   "name": "Hellhounds (Pack)",
+   "x": 56.5049,
+   "y": 67.9866,
+   "variant": "distortion",
+   "loot_table": "drop_hellhound",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     761.9,
+     12.33,
+     -1221.03
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_xeno_11",
+   "type": "monster",
+   "name": "Hellhounds (Pack)",
+   "x": 33.7596,
+   "y": 67.4654,
+   "variant": "distortion",
+   "loot_table": "drop_hellhound",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     595.25,
+     12.33,
+     -1217.16
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_nest_12",
+   "type": "monster",
+   "name": "Spawn: Distorted",
+   "x": 28.7656,
+   "y": 34.594,
+   "variant": "distortion",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     558.66,
+     10,
+     -973.11
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_nest_13",
+   "type": "monster",
+   "name": "Spawn: Distorted",
+   "x": 41.6648,
+   "y": 54.5997,
+   "variant": "distortion",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     653.17,
+     10,
+     -1121.64
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_nest_14",
+   "type": "monster",
+   "name": "Spawn: Distorted",
+   "x": 61.4661,
+   "y": 37.8199,
+   "variant": "distortion",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     798.25,
+     12.77,
+     -997.06
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_nest_15",
+   "type": "monster",
+   "name": "Spawn: Inorganics",
+   "x": 37.5184,
+   "y": 39.4618,
+   "variant": "distortion",
+   "loot_table": "drop_invisible",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     622.79,
+     10,
+     -1009.25
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_nest_16",
+   "type": "monster",
+   "name": "Spawn: Inorganics",
+   "x": 35.3101,
+   "y": 62.5128,
+   "variant": "distortion",
+   "loot_table": "drop_invisible",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     606.61,
+     10,
+     -1180.39
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_guard_17",
+   "type": "spawn-zone",
+   "name": "Guarded Zone (Hidden)",
+   "description": "Radius 3 m, up to 3 guards. Spawns: Stalker (Invisible) 100%",
+   "x": 29.5695,
+   "y": 25.7044,
+   "variant": "distortion",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     564.55,
+     10.89,
+     -907.11
+    ],
+    "site_type": "spawn_zone"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_mimiccar_18",
+   "type": "monster",
+   "name": "Mimic Vehicle Spawn",
+   "x": 31.1541,
+   "y": 50.0431,
+   "variant": "distortion",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     576.16,
+     10.13,
+     -1087.81
+    ],
+    "site_type": "mimic"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_mimiccar_19",
+   "type": "monster",
+   "name": "Mimic Vehicle Spawn",
+   "x": 35.4138,
+   "y": 40.5016,
+   "variant": "distortion",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     607.37,
+     10.13,
+     -1016.97
+    ],
+    "site_type": "mimic"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_mimiccar_20",
+   "type": "monster",
+   "name": "Mimic Vehicle Spawn",
+   "x": 46.3395,
+   "y": 42.0357,
+   "variant": "distortion",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     687.42,
+     10.08,
+     -1028.36
+    ],
+    "site_type": "mimic"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_mimiccar_21",
+   "type": "monster",
+   "name": "Mimic Vehicle Spawn",
+   "x": 28.0682,
+   "y": 36.4016,
+   "variant": "distortion",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     553.55,
+     9.77,
+     -986.53
+    ],
+    "site_type": "mimic"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_mimiccar_22",
+   "type": "monster",
+   "name": "Mimic Vehicle Spawn",
+   "x": 39.4906,
+   "y": 37.0293,
+   "variant": "distortion",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     637.24,
+     10.02,
+     -991.19
+    ],
+    "site_type": "mimic"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_mimiccar_23",
+   "type": "monster",
+   "name": "Mimic Vehicle Spawn",
+   "x": 44.8108,
+   "y": 49.367,
+   "variant": "distortion",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     676.22,
+     10.07,
+     -1082.79
+    ],
+    "site_type": "mimic"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_mimiccar_24",
+   "type": "monster",
+   "name": "Mimic Vehicle Spawn",
+   "x": 49.349,
+   "y": 54.9499,
+   "variant": "distortion",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     709.47,
+     10.18,
+     -1124.24
+    ],
+    "site_type": "mimic"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_encounter_1",
+   "type": "loot-location",
+   "name": "Random Event",
+   "x": 37.8542,
+   "y": 25.3179,
+   "variant": "distortion",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     625.25,
+     10,
+     -904.24
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_encounter_2",
+   "type": "loot-location",
+   "name": "Random Event",
+   "x": 44.329,
+   "y": 33.4748,
+   "variant": "distortion",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     672.69,
+     10.04,
+     -964.8
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_encounter_3",
+   "type": "loot-location",
+   "name": "Random Event",
+   "x": 60.2924,
+   "y": 47.2941,
+   "variant": "distortion",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     789.65,
+     10.67,
+     -1067.4
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_amcore_1",
+   "type": "monster",
+   "name": "Lightning Anomaly",
+   "x": 25.2648,
+   "y": 45.8394,
+   "variant": "distortion",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     533.01,
+     11.39,
+     -1056.6
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_amcore_2",
+   "type": "monster",
+   "name": "Lightning Anomaly",
+   "x": 60.9202,
+   "y": 32.9953,
+   "variant": "distortion",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     794.25,
+     11.39,
+     -961.24
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_distortion_box_1",
+   "type": "container-tier-2",
+   "name": "T2 Crate (Long Range, Soviet)",
+   "x": 14.1249,
+   "y": 52.4123,
+   "variant": "distortion",
+   "loot_table": "box_long_range_soviet_weapons_t2",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     451.39,
+     1,
+     -1105.4
+    ],
+    "site_type": "t2_box",
+    "mode": "both"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_secret_stash_1",
+   "type": "safe",
+   "name": "Secret Stash",
+   "x": 34.8215,
+   "y": 23.2665,
+   "variant": "overgrowth",
+   "loot_table": "secret_stash",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     603.03,
+     18.6,
+     -889.01
+    ],
+    "site_type": "safe"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_secret_stash_2",
+   "type": "safe",
+   "name": "Secret Stash",
+   "x": 50.4313,
+   "y": 33.4263,
+   "variant": "overgrowth",
+   "loot_table": "secret_stash",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     717.4,
+     11.04,
+     -964.44
+    ],
+    "site_type": "safe"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_secret_stash_3",
+   "type": "safe",
+   "name": "Secret Stash",
+   "x": 57.0931,
+   "y": 52.485,
+   "variant": "overgrowth",
+   "loot_table": "secret_stash",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     766.21,
+     11.03,
+     -1105.94
+    ],
+    "site_type": "safe"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_turned_patrol_1",
+   "type": "monster",
+   "name": "Changed Patrol",
+   "x": 31.8679,
+   "y": 29.3101,
+   "variant": "overgrowth",
+   "loot_table": "drop_changed",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     581.39,
+     10,
+     -933.88
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_turned_patrol_2",
+   "type": "monster",
+   "name": "Changed Patrol",
+   "x": 41.2977,
+   "y": 43.516,
+   "variant": "overgrowth",
+   "loot_table": "drop_changed",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     650.48,
+     9.91,
+     -1039.35
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_turned_patrol_3",
+   "type": "monster",
+   "name": "Changed Patrol",
+   "x": 38.5871,
+   "y": 63.69,
+   "variant": "overgrowth",
+   "loot_table": "drop_changed",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     630.62,
+     10,
+     -1189.13
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_apartment_room_keys_1",
+   "type": "key-spawn",
+   "name": "Apartment Keys",
+   "x": 25.2498,
+   "y": 28.642,
+   "variant": "overgrowth",
+   "loot_table": "shegolskoe_adv_apartment_room_keys",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     532.9,
+     19.57,
+     -928.92
+    ],
+    "site_type": "key"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_military_uaz_1",
+   "type": "vehicle-spawn",
+   "name": "Military UAZ (Vehicle Spawn)",
+   "x": 54.3239,
+   "y": 21.929,
+   "variant": "overgrowth",
+   "loot_table": "shegolskoe_adv_military_uaz",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     745.92,
+     10.1,
+     -879.08
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_military_uaz_2",
+   "type": "vehicle-spawn",
+   "name": "Military UAZ (Vehicle Spawn)",
+   "x": 29.0782,
+   "y": 34.9496,
+   "variant": "overgrowth",
+   "loot_table": "shegolskoe_adv_military_uaz",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     560.95,
+     10.1,
+     -975.75
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_military_uaz_3",
+   "type": "vehicle-spawn",
+   "name": "Military UAZ (Vehicle Spawn)",
+   "x": 56.4012,
+   "y": 35.5706,
+   "variant": "overgrowth",
+   "loot_table": "shegolskoe_adv_military_uaz",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     761.14,
+     10.1,
+     -980.36
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_military_uaz_4",
+   "type": "vehicle-spawn",
+   "name": "Military UAZ (Vehicle Spawn)",
+   "x": 47.1543,
+   "y": 52.0918,
+   "variant": "overgrowth",
+   "loot_table": "shegolskoe_adv_military_uaz",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     693.39,
+     10.02,
+     -1103.02
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_military_uaz_5",
+   "type": "vehicle-spawn",
+   "name": "Military UAZ (Vehicle Spawn)",
+   "x": 24.1401,
+   "y": 46.5627,
+   "variant": "overgrowth",
+   "loot_table": "shegolskoe_adv_military_uaz",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     524.77,
+     10.02,
+     -1061.97
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_military_uaz_6",
+   "type": "vehicle-spawn",
+   "name": "Military UAZ (Vehicle Spawn)",
+   "x": 27.6,
+   "y": 23.3258,
+   "variant": "overgrowth",
+   "loot_table": "shegolskoe_adv_military_uaz",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     550.12,
+     10.05,
+     -889.45
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_attic_1",
+   "type": "loot-location",
+   "name": "Attic (Loot)",
+   "x": 43.7271,
+   "y": 30.0644,
+   "variant": "overgrowth",
+   "loot_table": "shegolskoe_adv_attic",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     668.28,
+     14.28,
+     -939.48
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_attic_2",
+   "type": "loot-location",
+   "name": "Attic (Loot)",
+   "x": 33.5235,
+   "y": 36.6885,
+   "variant": "overgrowth",
+   "loot_table": "shegolskoe_adv_attic",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     593.52,
+     14.3,
+     -988.66
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_attic_3",
+   "type": "loot-location",
+   "name": "Attic (Loot)",
+   "x": 40.9906,
+   "y": 49.9178,
+   "variant": "overgrowth",
+   "loot_table": "shegolskoe_adv_attic",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     648.23,
+     14.25,
+     -1086.88
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_attic_4",
+   "type": "loot-location",
+   "name": "Attic (Loot)",
+   "x": 44.6238,
+   "y": 63.958,
+   "variant": "overgrowth",
+   "loot_table": "shegolskoe_adv_attic",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     674.85,
+     27.03,
+     -1191.12
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_monster_conversion_1",
+   "type": "artifact",
+   "name": "Artifact: Distorted Hunter",
+   "x": 43.0447,
+   "y": 37.3875,
+   "variant": "overgrowth",
+   "loot_table": "shegolskoe_monster_conversion",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     663.28,
+     11.59,
+     -993.85
+    ],
+    "site_type": "artifact",
+    "mode": "pvp"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_monster_conversion_2",
+   "type": "artifact",
+   "name": "Artifact: Distorted Hunter",
+   "x": 28.4053,
+   "y": 40.3938,
+   "variant": "overgrowth",
+   "loot_table": "shegolskoe_monster_conversion",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     556.02,
+     12.04,
+     -1016.17
+    ],
+    "site_type": "artifact",
+    "mode": "pvp"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_monster_conversion_3",
+   "type": "artifact",
+   "name": "Artifact: Distorted Hunter",
+   "x": 51.979,
+   "y": 26.786,
+   "variant": "overgrowth",
+   "loot_table": "shegolskoe_monster_conversion",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     728.74,
+     11.52,
+     -915.14
+    ],
+    "site_type": "artifact",
+    "mode": "pvp"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_monster_conversion_4",
+   "type": "artifact",
+   "name": "Artifact: Distorted Hunter",
+   "x": 29.055,
+   "y": 21.265,
+   "variant": "overgrowth",
+   "loot_table": "shegolskoe_monster_conversion",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     560.78,
+     11.35,
+     -874.15
+    ],
+    "site_type": "artifact",
+    "mode": "pvp"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_monster_conversion_5",
+   "type": "artifact",
+   "name": "Artifact: Distorted Hunter",
+   "x": 29.5204,
+   "y": 56.1204,
+   "variant": "overgrowth",
+   "loot_table": "shegolskoe_monster_conversion",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     564.19,
+     11,
+     -1132.93
+    ],
+    "site_type": "artifact",
+    "mode": "pvp"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_monster_conversion_6",
+   "type": "artifact",
+   "name": "Artifact: Distorted Hunter",
+   "x": 48.1356,
+   "y": 55.8052,
+   "variant": "overgrowth",
+   "loot_table": "shegolskoe_monster_conversion",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     700.58,
+     11.02,
+     -1130.59
+    ],
+    "site_type": "artifact",
+    "mode": "pvp"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_shy_1",
+   "type": "monster",
+   "name": "Shy",
+   "x": 55.4048,
+   "y": 20.3437,
+   "variant": "overgrowth",
+   "loot_table": "drop_shy",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     753.84,
+     10.62,
+     -867.31
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_shy_2",
+   "type": "monster",
+   "name": "Shy",
+   "x": 26.889,
+   "y": 27.1443,
+   "variant": "overgrowth",
+   "loot_table": "drop_shy",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     544.91,
+     15.4,
+     -917.8
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_shy_3",
+   "type": "monster",
+   "name": "Shy",
+   "x": 28.4217,
+   "y": 26.0802,
+   "variant": "overgrowth",
+   "loot_table": "drop_shy",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     556.14,
+     12.2,
+     -909.9
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_shy_4",
+   "type": "monster",
+   "name": "Shy",
+   "x": 29.231,
+   "y": 23.9642,
+   "variant": "overgrowth",
+   "loot_table": "drop_shy",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     562.07,
+     15.5,
+     -894.19
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_shy_5",
+   "type": "monster",
+   "name": "Shy",
+   "x": 32.1191,
+   "y": 23.9386,
+   "variant": "overgrowth",
+   "loot_table": "drop_shy",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     583.23,
+     12.2,
+     -894
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_shy_6",
+   "type": "monster",
+   "name": "Shy",
+   "x": 27.5946,
+   "y": 46.7539,
+   "variant": "overgrowth",
+   "loot_table": "drop_shy",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     550.08,
+     14.42,
+     -1063.39
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_fire_anomaly_perm_1",
+   "type": "anomaly",
+   "name": "Fire Anomaly (Permanent)",
+   "x": 73.1342,
+   "y": 31.6066,
+   "variant": "overgrowth",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     883.74,
+     12.1,
+     -950.93
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_fire_anomaly_perm_2",
+   "type": "anomaly",
+   "name": "Fire Anomaly (Permanent)",
+   "x": 67.1344,
+   "y": 49.0922,
+   "variant": "overgrowth",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     839.78,
+     10.49,
+     -1080.75
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_fire_anomaly_perm_3",
+   "type": "anomaly",
+   "name": "Fire Anomaly (Permanent)",
+   "x": 63.7359,
+   "y": 53.9464,
+   "variant": "overgrowth",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     814.88,
+     10.19,
+     -1116.79
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_fire_anomaly_perm_4",
+   "type": "anomaly",
+   "name": "Fire Anomaly (Permanent)",
+   "x": 43.532,
+   "y": 16.4741,
+   "variant": "overgrowth",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     666.85,
+     14.04,
+     -838.58
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_fire_anomaly_perm_5",
+   "type": "anomaly",
+   "name": "Fire Anomaly (Permanent)",
+   "x": 65.1785,
+   "y": 42.3873,
+   "variant": "overgrowth",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     825.45,
+     10.98,
+     -1030.97
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_fire_anomaly_1",
+   "type": "anomaly",
+   "name": "Fire Anomaly",
+   "x": 40.6385,
+   "y": 37.8293,
+   "variant": "overgrowth",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     645.65,
+     10.04,
+     -997.13
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_fire_anomaly_2",
+   "type": "anomaly",
+   "name": "Fire Anomaly",
+   "x": 35.5544,
+   "y": 47.1513,
+   "variant": "overgrowth",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     608.4,
+     10.04,
+     -1066.34
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_fire_anomaly_3",
+   "type": "anomaly",
+   "name": "Fire Anomaly",
+   "x": 20.7048,
+   "y": 33.9462,
+   "variant": "overgrowth",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     499.6,
+     10.16,
+     -968.3
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_shegolskoe_add_nest_1",
+   "type": "monster",
+   "name": "Nest: Distorted / Flowermen",
+   "x": 29.171,
+   "y": 40.5083,
+   "variant": "overgrowth",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     561.63,
+     11.04,
+     -1017.02
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_shegolskoe_add_nest_2",
+   "type": "monster",
+   "name": "Nest: Distorted / Flowermen",
+   "x": 54.4972,
+   "y": 29.5458,
+   "variant": "overgrowth",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     747.19,
+     11.04,
+     -935.63
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_shegolskoe_add_nest_3",
+   "type": "monster",
+   "name": "Nest: Distorted / Flowermen",
+   "x": 36.3692,
+   "y": 54.3667,
+   "variant": "overgrowth",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     614.37,
+     11.01,
+     -1119.91
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_shegolskoe_add_nest_4",
+   "type": "monster",
+   "name": "Nest: Distorted / Flowermen",
+   "x": 45.6325,
+   "y": 54.9903,
+   "variant": "overgrowth",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     682.24,
+     11.01,
+     -1124.54
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_gravizone_am_pile_cl1",
+   "type": "anomaly",
+   "name": "Gravizone — Active Matter (×6)",
+   "description": "AM cluster: 6 spots · ~18 units of active matter (~1800  cr).",
+   "x": 29.2037,
+   "y": 25.1064,
+   "variant": "overgrowth",
+   "loot_table": "shegolskoe_adv_gravizone_am_pile",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     561.87,
+     15.87,
+     -902.67
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_gravizone_am_pile_cl2",
+   "type": "anomaly",
+   "name": "Gravizone — Active Matter (×2)",
+   "description": "AM cluster: 2 spots · ~6 units of active matter (~600  cr).",
+   "x": 50.8025,
+   "y": 33.0774,
+   "variant": "overgrowth",
+   "loot_table": "shegolskoe_adv_gravizone_am_pile",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     720.12,
+     13.09,
+     -961.85
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_gravizone_am_pile_cl3",
+   "type": "anomaly",
+   "name": "Gravizone — Active Matter (×10)",
+   "description": "AM cluster: 10 spots · ~30 units of active matter (~3000  cr).",
+   "x": 37.1636,
+   "y": 39.9938,
+   "variant": "overgrowth",
+   "loot_table": "shegolskoe_adv_gravizone_am_pile",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     620.19,
+     15.39,
+     -1013.2
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_gravizone_am_pile_cl4",
+   "type": "anomaly",
+   "name": "Gravizone — Active Matter (×2)",
+   "description": "AM cluster: 2 spots · ~6 units of active matter (~600  cr).",
+   "x": 37.0339,
+   "y": 55.2166,
+   "variant": "overgrowth",
+   "loot_table": "shegolskoe_adv_gravizone_am_pile",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     619.24,
+     13.91,
+     -1126.22
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_gravizone_am_pile_cl5",
+   "type": "anomaly",
+   "name": "Gravizone — Active Matter (×2)",
+   "description": "AM cluster: 2 spots · ~6 units of active matter (~600  cr).",
+   "x": 54.3866,
+   "y": 19.6824,
+   "variant": "overgrowth",
+   "loot_table": "shegolskoe_adv_gravizone_am_pile",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     746.38,
+     14.07,
+     -862.4
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_gravihouse_am_pile_cl1",
+   "type": "anomaly",
+   "name": "Gravihouse — Active Matter (×18)",
+   "description": "AM cluster: 18 spots · ~54 units of active matter (~5400  cr).",
+   "x": 44.7972,
+   "y": 33.7199,
+   "variant": "overgrowth",
+   "loot_table": "shegolskoe_adv_gravihouse_am_pile",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     676.12,
+     34.62,
+     -966.62
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_dendro_1",
+   "type": "monster",
+   "name": "Dendroid Cluster",
+   "x": 31.5486,
+   "y": 49.969,
+   "variant": "overgrowth",
+   "loot_table": "drop_dendroid",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     579.05,
+     10.04,
+     -1087.26
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_dendro_2",
+   "type": "monster",
+   "name": "Dendroid Cluster",
+   "x": 43.1184,
+   "y": 60.1638,
+   "variant": "overgrowth",
+   "loot_table": "drop_dendroid",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     663.82,
+     9.85,
+     -1162.95
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_dendro_3",
+   "type": "monster",
+   "name": "Dendroid Cluster",
+   "x": 56.812,
+   "y": 55.0267,
+   "variant": "overgrowth",
+   "loot_table": "drop_dendroid",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     764.15,
+     9.87,
+     -1124.81
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_dendro_4",
+   "type": "monster",
+   "name": "Dendroid Cluster",
+   "x": 21.6575,
+   "y": 24.7885,
+   "variant": "overgrowth",
+   "loot_table": "drop_dendroid",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     506.58,
+     11.83,
+     -900.31
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_dendro_5",
+   "type": "monster",
+   "name": "Dendroid Cluster",
+   "x": 44.1926,
+   "y": 25.5011,
+   "variant": "overgrowth",
+   "loot_table": "drop_dendroid",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     671.69,
+     10,
+     -905.6
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_dendro_6",
+   "type": "monster",
+   "name": "Dendroid Cluster",
+   "x": 42.7431,
+   "y": 37.3592,
+   "variant": "overgrowth",
+   "loot_table": "drop_dendroid",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     661.07,
+     10.59,
+     -993.64
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_dendro_7",
+   "type": "monster",
+   "name": "Dendroid Cluster",
+   "x": 63.8833,
+   "y": 26.8884,
+   "variant": "overgrowth",
+   "loot_table": "drop_dendroid",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     815.96,
+     10.72,
+     -915.9
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_nest_8",
+   "type": "monster",
+   "name": "Spawn: Distorted",
+   "x": 54.4631,
+   "y": 39.0159,
+   "variant": "overgrowth",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     746.94,
+     10.55,
+     -1005.94
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_nest_9",
+   "type": "monster",
+   "name": "Spawn: Flowermen",
+   "x": 39.6353,
+   "y": 28.9195,
+   "variant": "overgrowth",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     638.3,
+     10,
+     -930.98
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_nest_10",
+   "type": "monster",
+   "name": "Spawn: Flowermen",
+   "x": 51.7156,
+   "y": 53.5303,
+   "variant": "overgrowth",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     726.81,
+     10,
+     -1113.7
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_nest_11",
+   "type": "monster",
+   "name": "Spawn: Flowermen",
+   "x": 53.6387,
+   "y": 34.5779,
+   "variant": "overgrowth",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     740.9,
+     10.13,
+     -972.99
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_nest_12",
+   "type": "monster",
+   "name": "Spawn: Inorganics",
+   "x": 37.5184,
+   "y": 39.4618,
+   "variant": "overgrowth",
+   "loot_table": "drop_invisible",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     622.79,
+     10,
+     -1009.25
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_nest_13",
+   "type": "monster",
+   "name": "Spawn: Inorganics",
+   "x": 35.3101,
+   "y": 62.5128,
+   "variant": "overgrowth",
+   "loot_table": "drop_invisible",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     606.61,
+     10,
+     -1180.39
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_nest_14",
+   "type": "monster",
+   "name": "Spawn: Changed",
+   "x": 31.4653,
+   "y": 28.9464,
+   "variant": "overgrowth",
+   "loot_table": "drop_changed",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     578.44,
+     10,
+     -931.18
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_nest_15",
+   "type": "monster",
+   "name": "Spawn: Changed",
+   "x": 40.8951,
+   "y": 43.1523,
+   "variant": "overgrowth",
+   "loot_table": "drop_changed",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     647.53,
+     9.91,
+     -1036.65
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_nest_16",
+   "type": "monster",
+   "name": "Spawn: Changed",
+   "x": 38.1845,
+   "y": 63.3263,
+   "variant": "overgrowth",
+   "loot_table": "drop_changed",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     627.67,
+     10,
+     -1186.43
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_guard_17",
+   "type": "spawn-zone",
+   "name": "Guarded Zone (Hidden)",
+   "description": "Radius 3 m, up to 3 guards. Spawns: Stalker (Invisible) 100%",
+   "x": 29.5695,
+   "y": 25.7044,
+   "variant": "overgrowth",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     564.55,
+     10.89,
+     -907.11
+    ],
+    "site_type": "spawn_zone"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_encounter_1",
+   "type": "loot-location",
+   "name": "Random Event",
+   "x": 37.8542,
+   "y": 25.3179,
+   "variant": "overgrowth",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     625.25,
+     10,
+     -904.24
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_encounter_2",
+   "type": "loot-location",
+   "name": "Random Event",
+   "x": 44.329,
+   "y": 33.4748,
+   "variant": "overgrowth",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     672.69,
+     10.04,
+     -964.8
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_encounter_3",
+   "type": "loot-location",
+   "name": "Random Event",
+   "x": 60.2924,
+   "y": 47.2941,
+   "variant": "overgrowth",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     789.65,
+     10.67,
+     -1067.4
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_amcore_1",
+   "type": "monster",
+   "name": "Lightning Anomaly",
+   "x": 25.2648,
+   "y": 45.8394,
+   "variant": "overgrowth",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     533.01,
+     11.39,
+     -1056.6
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_amcore_2",
+   "type": "monster",
+   "name": "Lightning Anomaly",
+   "x": 60.9202,
+   "y": 32.9953,
+   "variant": "overgrowth",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     794.25,
+     11.39,
+     -961.24
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_frog_1",
+   "type": "anomaly",
+   "name": "Springboard Anomaly",
+   "x": 53.5814,
+   "y": 49.0275,
+   "variant": "overgrowth",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     740.48,
+     9.48,
+     -1080.27
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_frog_2",
+   "type": "anomaly",
+   "name": "Springboard Anomaly",
+   "x": 59.3506,
+   "y": 43.1846,
+   "variant": "overgrowth",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     782.75,
+     10.76,
+     -1036.89
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_frog_3",
+   "type": "anomaly",
+   "name": "Springboard Anomaly",
+   "x": 53.8079,
+   "y": 43.5079,
+   "variant": "overgrowth",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     742.14,
+     15.64,
+     -1039.29
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_frog_4",
+   "type": "anomaly",
+   "name": "Springboard Anomaly",
+   "x": 40.2372,
+   "y": 67.5314,
+   "variant": "overgrowth",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     642.71,
+     12.33,
+     -1217.65
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_frog_5",
+   "type": "anomaly",
+   "name": "Springboard Anomaly",
+   "x": 45.0497,
+   "y": 69.1302,
+   "variant": "overgrowth",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     677.97,
+     12.33,
+     -1229.52
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_frog_6",
+   "type": "anomaly",
+   "name": "Springboard Anomaly",
+   "x": 50.4613,
+   "y": 68.8352,
+   "variant": "overgrowth",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     717.62,
+     12.33,
+     -1227.33
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_frog_7",
+   "type": "anomaly",
+   "name": "Springboard Anomaly",
+   "x": 56.5049,
+   "y": 67.9866,
+   "variant": "overgrowth",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     761.9,
+     12.33,
+     -1221.03
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_frog_8",
+   "type": "anomaly",
+   "name": "Springboard Anomaly",
+   "x": 33.7596,
+   "y": 67.4654,
+   "variant": "overgrowth",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     595.25,
+     12.33,
+     -1217.16
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_box_1",
+   "type": "container-tier-2",
+   "name": "T2 Crate (Long Range, Soviet)",
+   "x": 14.1249,
+   "y": 52.4123,
+   "variant": "overgrowth",
+   "loot_table": "box_long_range_soviet_weapons_t2",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     451.39,
+     1,
+     -1105.4
+    ],
+    "site_type": "t2_box",
+    "mode": "both"
+   }
+  },
+  {
+   "external_ref": "amh:pk_poi_park_admin",
+   "type": "area",
+   "name": "Administration",
+   "x": 5.4602,
+   "y": 68.888,
+   "geometry": [
+    [
+     3.0378,
+     67.6445
+    ],
+    [
+     7.9451,
+     67.6378
+    ],
+    [
+     7.859,
+     70.1902
+    ],
+    [
+     2.9987,
+     70.0797
+    ]
+   ],
+   "loot_table": "park_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:shg_adv_poi_private_house_1",
+   "type": "area",
+   "name": "House 1",
+   "x": 55.0183,
+   "y": 29.5315,
+   "geometry": [
+    [
+     56.4239,
+     29.7504
+    ],
+    [
+     54.5731,
+     30.8493
+    ],
+    [
+     53.5737,
+     29.3503
+    ],
+    [
+     55.5027,
+     28.1759
+    ]
+   ],
+   "variant": "regular",
+   "loot_table": "shegolskoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:shg_adv_poi_private_house_2",
+   "type": "area",
+   "name": "House 2",
+   "x": 49.7667,
+   "y": 27.2889,
+   "geometry": [
+    [
+     51.0021,
+     27.4645
+    ],
+    [
+     49.4184,
+     28.5155
+    ],
+    [
+     48.5073,
+     27.1079
+    ],
+    [
+     50.1389,
+     26.0679
+    ]
+   ],
+   "variant": "regular",
+   "loot_table": "shegolskoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:shg_adv_poi_private_house_4",
+   "type": "area",
+   "name": "House 4",
+   "x": 44.2227,
+   "y": 30.4092,
+   "geometry": [
+    [
+     45.4963,
+     30.7382
+    ],
+    [
+     43.9743,
+     31.7289
+    ],
+    [
+     42.8727,
+     30.1444
+    ],
+    [
+     44.5473,
+     29.0251
+    ]
+   ],
+   "variant": "regular",
+   "loot_table": "shegolskoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:shg_adv_poi_private_house_5",
+   "type": "area",
+   "name": "House 5",
+   "x": 42.5459,
+   "y": 37.3397,
+   "geometry": [
+    [
+     43.6984,
+     37.3527
+    ],
+    [
+     42.0559,
+     38.3732
+    ],
+    [
+     41.3832,
+     37.3434
+    ],
+    [
+     43.0459,
+     36.2896
+    ]
+   ],
+   "variant": "regular",
+   "loot_table": "shegolskoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:shg_adv_poi_private_house_7",
+   "type": "area",
+   "name": "House 7",
+   "x": 33.7274,
+   "y": 43.3798,
+   "geometry": [
+    [
+     35.1491,
+     43.5988
+    ],
+    [
+     33.3496,
+     44.7473
+    ],
+    [
+     32.2652,
+     43.1771
+    ],
+    [
+     34.1456,
+     41.9959
+    ]
+   ],
+   "variant": "regular",
+   "loot_table": "shegolskoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:shg_adv_poi_private_house_8",
+   "type": "area",
+   "name": "House 8",
+   "x": 33.8847,
+   "y": 37.0005,
+   "geometry": [
+    [
+     35.1605,
+     37.312
+    ],
+    [
+     33.5799,
+     38.2683
+    ],
+    [
+     32.6056,
+     36.7718
+    ],
+    [
+     34.1926,
+     35.65
+    ]
+   ],
+   "variant": "regular",
+   "loot_table": "shegolskoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:shg_adv_poi_private_house_9",
+   "type": "area",
+   "name": "House 9",
+   "x": 28.0403,
+   "y": 46.8461,
+   "geometry": [
+    [
+     29.4627,
+     46.9902
+    ],
+    [
+     27.5523,
+     48.239
+    ],
+    [
+     26.6286,
+     46.6866
+    ],
+    [
+     28.5178,
+     45.4687
+    ]
+   ],
+   "variant": "regular",
+   "loot_table": "shegolskoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:shg_adv_poi_private_house_10",
+   "type": "area",
+   "name": "House 10",
+   "x": 28.8005,
+   "y": 40.3778,
+   "geometry": [
+    [
+     30.1571,
+     40.6248
+    ],
+    [
+     28.5468,
+     41.7077
+    ],
+    [
+     27.3782,
+     40.1278
+    ],
+    [
+     29.1199,
+     39.0507
+    ]
+   ],
+   "variant": "regular",
+   "loot_table": "shegolskoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:shg_adv_poi_private_house_12",
+   "type": "area",
+   "name": "House 12",
+   "x": 36.4287,
+   "y": 54.5078,
+   "geometry": [
+    [
+     37.8002,
+     54.7329
+    ],
+    [
+     36.0758,
+     55.8465
+    ],
+    [
+     35.0609,
+     54.3073
+    ],
+    [
+     36.7778,
+     53.1444
+    ]
+   ],
+   "variant": "regular",
+   "loot_table": "shegolskoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:shg_adv_poi_private_house_13",
+   "type": "area",
+   "name": "House 13",
+   "x": 45.4376,
+   "y": 54.8231,
+   "geometry": [
+    [
+     46.7178,
+     55.0814
+    ],
+    [
+     45.1805,
+     56.0661
+    ],
+    [
+     44.1192,
+     54.5539
+    ],
+    [
+     45.7327,
+     53.5911
+    ]
+   ],
+   "variant": "regular",
+   "loot_table": "shegolskoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:shg_adv_poi_private_house_14",
+   "type": "area",
+   "name": "House 14",
+   "x": 40.1526,
+   "y": 59.1932,
+   "geometry": [
+    [
+     41.416,
+     59.4828
+    ],
+    [
+     39.9113,
+     60.4307
+    ],
+    [
+     38.8054,
+     58.9611
+    ],
+    [
+     40.4778,
+     57.8983
+    ]
+   ],
+   "variant": "regular",
+   "loot_table": "shegolskoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:shg_adv_poi_private_house_15",
+   "type": "area",
+   "name": "House 15",
+   "x": 44.5019,
+   "y": 63.6385,
+   "geometry": [
+    [
+     45.1141,
+     62.1901
+    ],
+    [
+     46.0615,
+     63.6943
+    ],
+    [
+     43.9395,
+     65.101
+    ],
+    [
+     42.8925,
+     63.5685
+    ]
+   ],
+   "variant": "regular",
+   "loot_table": "shegolskoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:shg_adv_poi_private_house_16",
+   "type": "area",
+   "name": "House 16",
+   "x": 63.9084,
+   "y": 26.7818,
+   "geometry": [
+    [
+     64.0104,
+     25.4209
+    ],
+    [
+     65.2792,
+     26.7593
+    ],
+    [
+     63.8566,
+     28.1021
+    ],
+    [
+     62.4873,
+     26.845
+    ]
+   ],
+   "variant": "regular",
+   "loot_table": "shegolskoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:shg_adv_poi_private_house_17",
+   "type": "area",
+   "name": "House 17",
+   "x": 60.5238,
+   "y": 23.4173,
+   "geometry": [
+    [
+     60.1371,
+     22.0444
+    ],
+    [
+     62.0457,
+     23.3047
+    ],
+    [
+     60.9075,
+     24.818
+    ],
+    [
+     59.0051,
+     23.502
+    ]
+   ],
+   "variant": "regular",
+   "loot_table": "shegolskoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:shg_adv_poi_shegolskoe_shop",
+   "type": "area",
+   "name": "Shop",
+   "x": 55.7619,
+   "y": 20.1277,
+   "geometry": [
+    [
+     54.7669,
+     18.244
+    ],
+    [
+     57.9291,
+     19.6021
+    ],
+    [
+     56.7271,
+     21.976
+    ],
+    [
+     53.6243,
+     20.6889
+    ]
+   ],
+   "variant": "regular",
+   "loot_table": "shegolskoe_adv_shop",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:shg_adv_poi_shegolskoe_tower",
+   "type": "area",
+   "name": "Water Tower",
+   "x": 56.8234,
+   "y": 53.8564,
+   "geometry": [
+    [
+     56.0057,
+     53.4008
+    ],
+    [
+     57.2003,
+     53.1134
+    ],
+    [
+     57.6522,
+     54.2541
+    ],
+    [
+     56.4356,
+     54.6572
+    ]
+   ],
+   "variant": "regular",
+   "loot_table": "shegolskoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:shg_distortion_poi_private_house_1",
+   "type": "area",
+   "name": "House 1",
+   "x": 55.0183,
+   "y": 29.5315,
+   "geometry": [
+    [
+     56.4239,
+     29.7504
+    ],
+    [
+     54.5731,
+     30.8493
+    ],
+    [
+     53.5737,
+     29.3503
+    ],
+    [
+     55.5027,
+     28.1759
+    ]
+   ],
+   "variant": "distortion",
+   "loot_table": "shegolskoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:shg_distortion_poi_private_house_2",
+   "type": "area",
+   "name": "House 2",
+   "x": 49.7667,
+   "y": 27.2889,
+   "geometry": [
+    [
+     51.0021,
+     27.4645
+    ],
+    [
+     49.4184,
+     28.5155
+    ],
+    [
+     48.5073,
+     27.1079
+    ],
+    [
+     50.1389,
+     26.0679
+    ]
+   ],
+   "variant": "distortion",
+   "loot_table": "shegolskoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:shg_distortion_poi_private_house_4",
+   "type": "area",
+   "name": "House 4",
+   "x": 44.2227,
+   "y": 30.4092,
+   "geometry": [
+    [
+     45.4963,
+     30.7382
+    ],
+    [
+     43.9743,
+     31.7289
+    ],
+    [
+     42.8727,
+     30.1444
+    ],
+    [
+     44.5473,
+     29.0251
+    ]
+   ],
+   "variant": "distortion",
+   "loot_table": "shegolskoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:shg_distortion_poi_private_house_5",
+   "type": "area",
+   "name": "House 5",
+   "x": 42.5459,
+   "y": 37.3397,
+   "geometry": [
+    [
+     43.6984,
+     37.3527
+    ],
+    [
+     42.0559,
+     38.3732
+    ],
+    [
+     41.3832,
+     37.3434
+    ],
+    [
+     43.0459,
+     36.2896
+    ]
+   ],
+   "variant": "distortion",
+   "loot_table": "shegolskoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:shg_distortion_poi_private_house_7",
+   "type": "area",
+   "name": "House 7",
+   "x": 33.7274,
+   "y": 43.3798,
+   "geometry": [
+    [
+     35.1491,
+     43.5988
+    ],
+    [
+     33.3496,
+     44.7473
+    ],
+    [
+     32.2652,
+     43.1771
+    ],
+    [
+     34.1456,
+     41.9959
+    ]
+   ],
+   "variant": "distortion",
+   "loot_table": "shegolskoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:shg_distortion_poi_private_house_8",
+   "type": "area",
+   "name": "House 8",
+   "x": 33.8847,
+   "y": 37.0005,
+   "geometry": [
+    [
+     35.1605,
+     37.312
+    ],
+    [
+     33.5799,
+     38.2683
+    ],
+    [
+     32.6056,
+     36.7718
+    ],
+    [
+     34.1926,
+     35.65
+    ]
+   ],
+   "variant": "distortion",
+   "loot_table": "shegolskoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:shg_distortion_poi_private_house_9",
+   "type": "area",
+   "name": "House 9",
+   "x": 28.0403,
+   "y": 46.8461,
+   "geometry": [
+    [
+     29.4627,
+     46.9902
+    ],
+    [
+     27.5523,
+     48.239
+    ],
+    [
+     26.6286,
+     46.6866
+    ],
+    [
+     28.5178,
+     45.4687
+    ]
+   ],
+   "variant": "distortion",
+   "loot_table": "shegolskoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:shg_distortion_poi_private_house_10",
+   "type": "area",
+   "name": "House 10",
+   "x": 28.8005,
+   "y": 40.3778,
+   "geometry": [
+    [
+     30.1571,
+     40.6248
+    ],
+    [
+     28.5468,
+     41.7077
+    ],
+    [
+     27.3782,
+     40.1278
+    ],
+    [
+     29.1199,
+     39.0507
+    ]
+   ],
+   "variant": "distortion",
+   "loot_table": "shegolskoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:shg_distortion_poi_private_house_12",
+   "type": "area",
+   "name": "House 12",
+   "x": 36.4287,
+   "y": 54.5078,
+   "geometry": [
+    [
+     37.8002,
+     54.7329
+    ],
+    [
+     36.0758,
+     55.8465
+    ],
+    [
+     35.0609,
+     54.3073
+    ],
+    [
+     36.7778,
+     53.1444
+    ]
+   ],
+   "variant": "distortion",
+   "loot_table": "shegolskoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:shg_distortion_poi_private_house_13",
+   "type": "area",
+   "name": "House 13",
+   "x": 45.4376,
+   "y": 54.8231,
+   "geometry": [
+    [
+     46.7178,
+     55.0814
+    ],
+    [
+     45.1805,
+     56.0661
+    ],
+    [
+     44.1192,
+     54.5539
+    ],
+    [
+     45.7327,
+     53.5911
+    ]
+   ],
+   "variant": "distortion",
+   "loot_table": "shegolskoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:shg_distortion_poi_private_house_14",
+   "type": "area",
+   "name": "House 14",
+   "x": 40.1526,
+   "y": 59.1932,
+   "geometry": [
+    [
+     41.416,
+     59.4828
+    ],
+    [
+     39.9113,
+     60.4307
+    ],
+    [
+     38.8054,
+     58.9611
+    ],
+    [
+     40.4778,
+     57.8983
+    ]
+   ],
+   "variant": "distortion",
+   "loot_table": "shegolskoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:shg_distortion_poi_private_house_15",
+   "type": "area",
+   "name": "House 15",
+   "x": 44.5019,
+   "y": 63.6385,
+   "geometry": [
+    [
+     45.1141,
+     62.1901
+    ],
+    [
+     46.0615,
+     63.6943
+    ],
+    [
+     43.9395,
+     65.101
+    ],
+    [
+     42.8925,
+     63.5685
+    ]
+   ],
+   "variant": "distortion",
+   "loot_table": "shegolskoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:shg_distortion_poi_private_house_16",
+   "type": "area",
+   "name": "House 16",
+   "x": 63.9084,
+   "y": 26.7818,
+   "geometry": [
+    [
+     64.0104,
+     25.4209
+    ],
+    [
+     65.2792,
+     26.7593
+    ],
+    [
+     63.8566,
+     28.1021
+    ],
+    [
+     62.4873,
+     26.845
+    ]
+   ],
+   "variant": "distortion",
+   "loot_table": "shegolskoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:shg_distortion_poi_private_house_17",
+   "type": "area",
+   "name": "House 17",
+   "x": 60.5238,
+   "y": 23.4173,
+   "geometry": [
+    [
+     60.1371,
+     22.0444
+    ],
+    [
+     62.0457,
+     23.3047
+    ],
+    [
+     60.9075,
+     24.818
+    ],
+    [
+     59.0051,
+     23.502
+    ]
+   ],
+   "variant": "distortion",
+   "loot_table": "shegolskoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:shg_distortion_poi_shegolskoe_shop",
+   "type": "area",
+   "name": "Shop",
+   "x": 55.7619,
+   "y": 20.1277,
+   "geometry": [
+    [
+     54.7669,
+     18.244
+    ],
+    [
+     57.9291,
+     19.6021
+    ],
+    [
+     56.7271,
+     21.976
+    ],
+    [
+     53.6243,
+     20.6889
+    ]
+   ],
+   "variant": "distortion",
+   "loot_table": "shegolskoe_adv_shop",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:shg_distortion_poi_shegolskoe_tower",
+   "type": "area",
+   "name": "Water Tower",
+   "x": 56.8234,
+   "y": 53.8564,
+   "geometry": [
+    [
+     56.0057,
+     53.4008
+    ],
+    [
+     57.2003,
+     53.1134
+    ],
+    [
+     57.6522,
+     54.2541
+    ],
+    [
+     56.4356,
+     54.6572
+    ]
+   ],
+   "variant": "distortion",
+   "loot_table": "shegolskoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_poi_private_house_1",
+   "type": "area",
+   "name": "House 1",
+   "x": 55.0183,
+   "y": 29.5315,
+   "geometry": [
+    [
+     56.4239,
+     29.7504
+    ],
+    [
+     54.5731,
+     30.8493
+    ],
+    [
+     53.5737,
+     29.3503
+    ],
+    [
+     55.5027,
+     28.1759
+    ]
+   ],
+   "variant": "overgrowth",
+   "loot_table": "shegolskoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_poi_private_house_2",
+   "type": "area",
+   "name": "House 2",
+   "x": 49.7667,
+   "y": 27.2889,
+   "geometry": [
+    [
+     51.0021,
+     27.4645
+    ],
+    [
+     49.4184,
+     28.5155
+    ],
+    [
+     48.5073,
+     27.1079
+    ],
+    [
+     50.1389,
+     26.0679
+    ]
+   ],
+   "variant": "overgrowth",
+   "loot_table": "shegolskoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_poi_private_house_4",
+   "type": "area",
+   "name": "House 4",
+   "x": 44.2227,
+   "y": 30.4092,
+   "geometry": [
+    [
+     45.4963,
+     30.7382
+    ],
+    [
+     43.9743,
+     31.7289
+    ],
+    [
+     42.8727,
+     30.1444
+    ],
+    [
+     44.5473,
+     29.0251
+    ]
+   ],
+   "variant": "overgrowth",
+   "loot_table": "shegolskoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_poi_private_house_5",
+   "type": "area",
+   "name": "House 5",
+   "x": 42.5459,
+   "y": 37.3397,
+   "geometry": [
+    [
+     43.6984,
+     37.3527
+    ],
+    [
+     42.0559,
+     38.3732
+    ],
+    [
+     41.3832,
+     37.3434
+    ],
+    [
+     43.0459,
+     36.2896
+    ]
+   ],
+   "variant": "overgrowth",
+   "loot_table": "shegolskoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_poi_private_house_7",
+   "type": "area",
+   "name": "House 7",
+   "x": 33.7274,
+   "y": 43.3798,
+   "geometry": [
+    [
+     35.1491,
+     43.5988
+    ],
+    [
+     33.3496,
+     44.7473
+    ],
+    [
+     32.2652,
+     43.1771
+    ],
+    [
+     34.1456,
+     41.9959
+    ]
+   ],
+   "variant": "overgrowth",
+   "loot_table": "shegolskoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_poi_private_house_8",
+   "type": "area",
+   "name": "House 8",
+   "x": 33.8847,
+   "y": 37.0005,
+   "geometry": [
+    [
+     35.1605,
+     37.312
+    ],
+    [
+     33.5799,
+     38.2683
+    ],
+    [
+     32.6056,
+     36.7718
+    ],
+    [
+     34.1926,
+     35.65
+    ]
+   ],
+   "variant": "overgrowth",
+   "loot_table": "shegolskoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_poi_private_house_9",
+   "type": "area",
+   "name": "House 9",
+   "x": 28.0403,
+   "y": 46.8461,
+   "geometry": [
+    [
+     29.4627,
+     46.9902
+    ],
+    [
+     27.5523,
+     48.239
+    ],
+    [
+     26.6286,
+     46.6866
+    ],
+    [
+     28.5178,
+     45.4687
+    ]
+   ],
+   "variant": "overgrowth",
+   "loot_table": "shegolskoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_poi_private_house_10",
+   "type": "area",
+   "name": "House 10",
+   "x": 28.8005,
+   "y": 40.3778,
+   "geometry": [
+    [
+     30.1571,
+     40.6248
+    ],
+    [
+     28.5468,
+     41.7077
+    ],
+    [
+     27.3782,
+     40.1278
+    ],
+    [
+     29.1199,
+     39.0507
+    ]
+   ],
+   "variant": "overgrowth",
+   "loot_table": "shegolskoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_poi_private_house_12",
+   "type": "area",
+   "name": "House 12",
+   "x": 36.4287,
+   "y": 54.5078,
+   "geometry": [
+    [
+     37.8002,
+     54.7329
+    ],
+    [
+     36.0758,
+     55.8465
+    ],
+    [
+     35.0609,
+     54.3073
+    ],
+    [
+     36.7778,
+     53.1444
+    ]
+   ],
+   "variant": "overgrowth",
+   "loot_table": "shegolskoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_poi_private_house_13",
+   "type": "area",
+   "name": "House 13",
+   "x": 45.4376,
+   "y": 54.8231,
+   "geometry": [
+    [
+     46.7178,
+     55.0814
+    ],
+    [
+     45.1805,
+     56.0661
+    ],
+    [
+     44.1192,
+     54.5539
+    ],
+    [
+     45.7327,
+     53.5911
+    ]
+   ],
+   "variant": "overgrowth",
+   "loot_table": "shegolskoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_poi_private_house_14",
+   "type": "area",
+   "name": "House 14",
+   "x": 40.1526,
+   "y": 59.1932,
+   "geometry": [
+    [
+     41.416,
+     59.4828
+    ],
+    [
+     39.9113,
+     60.4307
+    ],
+    [
+     38.8054,
+     58.9611
+    ],
+    [
+     40.4778,
+     57.8983
+    ]
+   ],
+   "variant": "overgrowth",
+   "loot_table": "shegolskoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_poi_private_house_15",
+   "type": "area",
+   "name": "House 15",
+   "x": 44.5019,
+   "y": 63.6385,
+   "geometry": [
+    [
+     45.1141,
+     62.1901
+    ],
+    [
+     46.0615,
+     63.6943
+    ],
+    [
+     43.9395,
+     65.101
+    ],
+    [
+     42.8925,
+     63.5685
+    ]
+   ],
+   "variant": "overgrowth",
+   "loot_table": "shegolskoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_poi_private_house_16",
+   "type": "area",
+   "name": "House 16",
+   "x": 63.9084,
+   "y": 26.7818,
+   "geometry": [
+    [
+     64.0104,
+     25.4209
+    ],
+    [
+     65.2792,
+     26.7593
+    ],
+    [
+     63.8566,
+     28.1021
+    ],
+    [
+     62.4873,
+     26.845
+    ]
+   ],
+   "variant": "overgrowth",
+   "loot_table": "shegolskoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_poi_private_house_17",
+   "type": "area",
+   "name": "House 17",
+   "x": 60.5238,
+   "y": 23.4173,
+   "geometry": [
+    [
+     60.1371,
+     22.0444
+    ],
+    [
+     62.0457,
+     23.3047
+    ],
+    [
+     60.9075,
+     24.818
+    ],
+    [
+     59.0051,
+     23.502
+    ]
+   ],
+   "variant": "overgrowth",
+   "loot_table": "shegolskoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_poi_shegolskoe_shop",
+   "type": "area",
+   "name": "Shop",
+   "x": 55.7619,
+   "y": 20.1277,
+   "geometry": [
+    [
+     54.7669,
+     18.244
+    ],
+    [
+     57.9291,
+     19.6021
+    ],
+    [
+     56.7271,
+     21.976
+    ],
+    [
+     53.6243,
+     20.6889
+    ]
+   ],
+   "variant": "overgrowth",
+   "loot_table": "shegolskoe_adv_shop",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:shg_overgrowth_poi_shegolskoe_tower",
+   "type": "area",
+   "name": "Water Tower",
+   "x": 56.8234,
+   "y": 53.8564,
+   "geometry": [
+    [
+     56.0057,
+     53.4008
+    ],
+    [
+     57.2003,
+     53.1134
+    ],
+    [
+     57.6522,
+     54.2541
+    ],
+    [
+     56.4356,
+     54.6572
+    ]
+   ],
+   "variant": "overgrowth",
+   "loot_table": "shegolskoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:shg_bonus_private_house_3",
+   "type": "area",
+   "name": "House 3",
+   "description": "Одноэтажный жилой дом с приусадебным участком. По выписке, обнаруженной при осмотре дома №9, строение закреплено за сотрудником объекта из руководящего состава, вместо фамилии указан табельный номер 02-1147. По подписке на дом доставлялось одиннадцать изданий. Заявления о прекращении подписки не поступало. Строение находится на высоте около тридцати метров.",
+   "x": 48.9564,
+   "y": 33.3276,
+   "geometry": [
+    [
+     50.3458,
+     33.5452
+    ],
+    [
+     48.5515,
+     34.6503
+    ],
+    [
+     47.5714,
+     33.15
+    ],
+    [
+     49.3569,
+     31.9647
+    ]
+   ],
+   "loot_table": "shegolskoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:shg_bonus_private_house_6",
+   "type": "area",
+   "name": "House 6",
+   "description": "Одноэтажный жилой дом с приусадебным участком, на учёте с 1961 года. Ордер на вселение не выдавался, однако домовая книга, похозяйственная книга, лицевой счёт и список на эвакуацию от 09.07.1988 называют четырёх разных жильцов, и ни одна фамилия не повторяется. Опрошено девять эвакуированных — девять ответов, ни один не совпал ни с документами, ни между собой. Дома №6 и №8 проходят по одному инвентарному делу. По описи в доме остались реактивы, числящиеся за институтом, допуска к ним не имел никто из перечисленных.",
+   "x": 39.2855,
+   "y": 33.2042,
+   "geometry": [
+    [
+     40.6249,
+     33.4526
+    ],
+    [
+     38.959,
+     34.5806
+    ],
+    [
+     37.9779,
+     32.9648
+    ],
+    [
+     39.5803,
+     31.8189
+    ]
+   ],
+   "loot_table": "shegolskoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:shg_bonus_private_house_11",
+   "type": "area",
+   "name": "House 11",
+   "x": 41.3985,
+   "y": 49.4468,
+   "geometry": [
+    [
+     42.7949,
+     49.6749
+    ],
+    [
+     41.0869,
+     50.7964
+    ],
+    [
+     39.9985,
+     49.2026
+    ],
+    [
+     41.7138,
+     48.1134
+    ]
+   ],
+   "loot_table": "shegolskoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:shg_bonus_shegolskoe_apartments",
+   "type": "area",
+   "name": "Dormitory",
+   "description": "Панельный дом типовой серии на три подъезда, 36 квартир. Сдан во второй половине 1970-х, обоснование к проекту в районном архиве отсутствует. По домовой книге на момент Инцидента числилось 132 жильца. Обстановка типовая, следов вывоза имущества нет. Одна комната заперта, ключ в описи не значится.",
+   "x": 29.1832,
+   "y": 25.0817,
+   "geometry": [
+    [
+     23.3373,
+     27.0091
+    ],
+    [
+     33.4936,
+     20.7621
+    ],
+    [
+     35.0497,
+     23.1832
+    ],
+    [
+     24.852,
+     29.3726
+    ]
+   ],
+   "loot_table": "shegolskoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+  "format": "active-matter-map/v1",
+  "map": "dogorsk",
+  "version": "0.4.0.156",
+  "markers": [
+    {
+      "type": "dynamic-extraction",
+      "name": "Dynamic extraction points",
+      "description": "Extraction points on Dogorsk are dynamic (added in 0.4.0.122); positions vary.",
+      "source": "Active Matter official news",
+      "source_url": "https://activematter.game/en/news/324"
+    },
+    {
+      "type": "building",
+      "name": "Cinema storage",
+      "description": "Opened by the Cinema storage key.",
+      "source": "Active Matter Wiki (wiki.gg)",
+      "source_url": "https://activematter.wiki.gg/wiki/Category:Dogorsk_keys"
+    },
+    {
+      "type": "building",
+      "name": "Hangar 29",
+      "description": "Opened by the Hangar 29 key.",
+      "source": "Active Matter Wiki (wiki.gg)",
+      "source_url": "https://activematter.wiki.gg/wiki/Category:Dogorsk_keys"
+    },
+    {
+      "type": "building",
+      "name": "Hangar 35",
+      "description": "Opened by the Hangar 35 key.",
+      "source": "Active Matter Wiki (wiki.gg)",
+      "source_url": "https://activematter.wiki.gg/wiki/Category:Dogorsk_keys"
+    },
+    {
+      "type": "building",
+      "name": "Building 5",
+      "source": "Active Matter Wiki (wiki.gg)",
+      "source_url": "https://activematter.wiki.gg/wiki/Dogorsk"
+    },
+    {
+      "type": "special-item",
+      "name": "Timeline scars (Timeline Collision)",
+      "description": "During Dogorsk: Timeline Collision, zones marked by wrecked WWII-era vehicles contain timeline scars holding Fracture Shards.",
+      "source": "Active Matter official news",
+      "source_url": "https://activematter.game/en/news/237",
+      "items": [
+        "fracture-shard"
+      ]
+    }
+  ]
+}

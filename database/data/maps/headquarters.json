@@ -1,0 +1,33 @@
+{
+  "format": "active-matter-map/v1",
+  "map": "headquarters",
+  "version": "0.4.0.156",
+  "markers": [
+    {
+      "type": "building",
+      "name": "Headquarters bunker",
+      "description": "Named in Assistance Protocol objective text.",
+      "source": "Active Matter Wiki (wiki.gg)",
+      "source_url": "https://activematter.wiki.gg/wiki/Headquarters:_Assistance_Protocol"
+    },
+    {
+      "type": "building",
+      "name": "North bunker",
+      "source": "Active Matter Wiki (wiki.gg)",
+      "source_url": "https://activematter.wiki.gg/wiki/Headquarters:_Assistance_Protocol"
+    },
+    {
+      "type": "building",
+      "name": "South bunker",
+      "source": "Active Matter Wiki (wiki.gg)",
+      "source_url": "https://activematter.wiki.gg/wiki/Headquarters:_Assistance_Protocol"
+    },
+    {
+      "type": "area",
+      "name": "Airport area",
+      "description": "Includes the terminal.",
+      "source": "Active Matter Wiki (wiki.gg)",
+      "source_url": "https://activematter.wiki.gg/wiki/Headquarters:_Assistance_Protocol"
+    }
+  ]
+}

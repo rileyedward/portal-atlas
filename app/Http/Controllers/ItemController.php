@@ -1,0 +1,150 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use App\Enums\ReportType;
+use App\Models\Item;
+use App\Models\ItemCategory;
+use App\Models\LootTable;
+use App\Models\Map;
+use App\Models\Objective;
+use App\Models\Recipe;
+use App\Services\Analytics;
+use App\Services\ItemLocator;
+use App\Services\KeepAdvisor;
+use App\Support\ConfidenceBreakdown;
+use App\Support\Pivot;
+use App\Support\SourceVisibility;
+use Illuminate\Http\Request;
+use Inertia\Inertia;
+use Inertia\Response;
+
+class ItemController extends Controller
+{
+    public function index(Request $request, ItemLocator $locator): Response
+    {
+        $items = Item::query()->published()
+            ->with('category')
+            ->orderBy('name')
+            ->get();
+        $places = $locator->placeCounts();
+
+        return Inertia::render('items/Index', [
+            'items' => $items->map(fn (Item $item) => [
+                'slug' => $item->slug,
+                'name' => $item->name,
+                'category' => $item->category?->name,
+                'rarity' => $item->rarity,
+                'locations' => $places[$item->id] ?? 0,
+                'confidence' => $item->effectiveConfidence(),
+            ]),
+            'categories' => ItemCategory::orderBy('sort_order')->orderBy('name')->pluck('name'),
+        ]);
+    }
+
+    public function show(Request $request, Item $item, KeepAdvisor $advisor, Analytics $analytics, ItemLocator $locator): Response
+    {
+        abort_unless($item->status->value === 'published' || $request->user()?->canManageContent(), 404);
+
+        $analytics->record('item_view', 'item', $item->id);
+
+        $item->load([
+            'category', 'source', 'verifiedVersion', 'introducedVersion',
+            'markers' => fn ($q) => $q->published()->where('is_visible', true)->with(['map', 'type']),
+            'usedInRecipes' => fn ($q) => $q->published()->with('ingredients'),
+            'producedBy' => fn ($q) => $q->published()->with('ingredients'),
+            'objectives' => fn ($q) => $q->published()->with('map'),
+        ]);
+
+        $confidence = $item->effectiveConfidence();
+        $tracking = $request->user()?->trackedItems()->whereKey($item->id)->first()?->pivot;
+
+        return Inertia::render('items/Show', [
+            'item' => [
+                'id' => $item->id,
+                'slug' => $item->slug,
+                'name' => $item->name,
+                'description' => $item->description,
+                'category' => $item->category?->name,
+                'rarity' => $item->rarity,
+                'value' => $item->value,
+                'weight' => $item->weight,
+                'metadata' => (object) SourceVisibility::filterMetadata($item->metadata, SourceVisibility::PUBLIC_ITEM_METADATA, $request->user()),
+                'confidence' => ['score' => $confidence, 'label' => ConfidenceBreakdown::labelFor($confidence)],
+                ...(SourceVisibility::visibleTo($request->user()) ? [
+                    'source' => $item->source ? ['name' => $item->source->name, 'url' => $item->source_url ?? $item->source->url] : null,
+                    'source_url' => $item->source_url,
+                ] : []),
+                'last_verified_at' => $item->last_verified_at?->toIso8601String(),
+                'verified_version' => $item->verifiedVersion?->version,
+            ],
+            'foundAt' => $locator->locate($item),
+            'lootPools' => $this->lootPools($item),
+            'usedIn' => $item->usedInRecipes->map(fn (Recipe $r) => $this->recipe($r, Pivot::int($r, 'quantity')))->values(),
+            'producedBy' => $item->producedBy->map(fn (Recipe $r) => $this->recipe($r))->values(),
+            'objectives' => $item->objectives->map(fn (Objective $o) => [
+                'slug' => $o->slug,
+                'name' => $o->name,
+                'kind' => $o->kind->label(),
+                'map' => $o->map?->name,
+                'role' => Pivot::get($o, 'role'),
+                'quantity' => Pivot::get($o, 'quantity'),
+            ])->values(),
+            'advice' => $advisor->advise($item, $request->user()),
+            'tracking' => $tracking ? [
+                'intent' => $tracking->getAttribute('intent'),
+                'quantity_needed' => (int) $tracking->getAttribute('quantity_needed'),
+                'quantity_owned' => (int) $tracking->getAttribute('quantity_owned'),
+                'is_favorite' => (bool) $tracking->getAttribute('is_favorite'),
+            ] : null,
+            'reportTypes' => ReportType::options(),
+        ]);
+    }
+
+    /**
+     * Loot pools that can drop the item, highest chance first.
+     *
+     * @return list<array{name: string, chance: float|null, map: array{slug: string, name: string}|null, spots: int}>
+     */
+    private function lootPools(Item $item): array
+    {
+        $pools = $item->lootTables()->withCount(['markers' => fn ($q) => $q->published()])->get();
+        $maps = Map::query()->published()->pluck('name', 'slug');
+
+        return array_values($pools
+            ->sortByDesc(fn (LootTable $pool) => (float) Pivot::get($pool, 'chance'))
+            ->take(60)
+            ->map(function (LootTable $pool) use ($maps) {
+                $slug = is_string($pool->metadata['map'] ?? null) ? $pool->metadata['map'] : null;
+                $chance = Pivot::get($pool, 'chance');
+
+                return [
+                    'name' => $pool->name,
+                    'chance' => $chance !== null ? (float) $chance : null,
+                    'map' => $slug !== null && isset($maps[$slug]) ? ['slug' => $slug, 'name' => (string) $maps[$slug]] : null,
+                    'spots' => (int) $pool->getAttribute('markers_count'),
+                ];
+            })
+            ->all());
+    }
+
+    /**
+     * @return array<string, mixed>
+     */
+    private function recipe(Recipe $recipe, ?int $quantity = null): array
+    {
+        return [
+            'slug' => $recipe->slug,
+            'name' => $recipe->name,
+            'kind' => $recipe->kind->label(),
+            'station' => $recipe->station,
+            'level' => $recipe->level,
+            'quantity' => $quantity,
+            'ingredients' => $recipe->ingredients->map(fn (Item $i) => [
+                'slug' => $i->slug,
+                'name' => $i->name,
+                'quantity' => Pivot::int($i, 'quantity'),
+            ])->values(),
+        ];
+    }
+}

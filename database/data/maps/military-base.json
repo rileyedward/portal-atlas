@@ -1,0 +1,35 @@
+{
+  "format": "active-matter-map/v1",
+  "map": "military-base",
+  "version": "0.4.0.156",
+  "markers": [
+    {
+      "type": "building",
+      "name": "Armory 1",
+      "description": "Opened by the Armory 1 key.",
+      "source": "Active Matter Wiki (wiki.gg)",
+      "source_url": "https://activematter.wiki.gg/wiki/Category:Military_Base_keys"
+    },
+    {
+      "type": "building",
+      "name": "Armory 2",
+      "description": "Opened by the Armory 2 key.",
+      "source": "Active Matter Wiki (wiki.gg)",
+      "source_url": "https://activematter.wiki.gg/wiki/Category:Military_Base_keys"
+    },
+    {
+      "type": "building",
+      "name": "Hangar 148",
+      "description": "Opened by the Hangar 148 key.",
+      "source": "Active Matter Wiki (wiki.gg)",
+      "source_url": "https://activematter.wiki.gg/wiki/Category:Military_Base_keys"
+    },
+    {
+      "type": "building",
+      "name": "Hangar 209",
+      "description": "Opened by the Hangar 209 key.",
+      "source": "Active Matter Wiki (wiki.gg)",
+      "source_url": "https://activematter.wiki.gg/wiki/Category:Military_Base_keys"
+    }
+  ]
+}

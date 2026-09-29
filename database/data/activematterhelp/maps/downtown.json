@@ -1,0 +1,7550 @@
+{
+ "format": "active-matter-map/v1",
+ "map": "downtown",
+ "markers": [
+  {
+   "external_ref": "amh:am_regular_extp_1",
+   "type": "extraction-point",
+   "name": "Permanent Extraction",
+   "x": 70.627,
+   "y": 49.2207,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -307.71,
+     5.26,
+     276.26
+    ],
+    "site_type": "extraction_always"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_extp_2",
+   "type": "extraction-point",
+   "name": "Permanent Extraction",
+   "x": 24.8485,
+   "y": 42.8109,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -603.86,
+     5.45,
+     305.17
+    ],
+    "site_type": "extraction_always"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_extf",
+   "type": "final-extraction",
+   "name": "Final Extraction",
+   "x": 47.4556,
+   "y": 45.0746,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -457.61,
+     5.2,
+     294.96
+    ],
+    "site_type": "extraction_final"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_extd_3",
+   "type": "dynamic-extraction",
+   "name": "Timed Extraction",
+   "x": 50.3308,
+   "y": 76.9927,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -439.01,
+     6.81,
+     151
+    ],
+    "site_type": "extraction_time"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_extd_4",
+   "type": "dynamic-extraction",
+   "name": "Timed Extraction",
+   "x": 59.1325,
+   "y": 56.136,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -382.07,
+     5.23,
+     245.07
+    ],
+    "site_type": "extraction_time"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_extd_5",
+   "type": "dynamic-extraction",
+   "name": "Timed Extraction",
+   "x": 63.2103,
+   "y": 25.0338,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -355.69,
+     5.26,
+     385.35
+    ],
+    "site_type": "extraction_time"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_extd_6",
+   "type": "dynamic-extraction",
+   "name": "Timed Extraction",
+   "x": 46.4679,
+   "y": 23.7124,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -464,
+     5.25,
+     391.31
+    ],
+    "site_type": "extraction_time"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_extd_7",
+   "type": "dynamic-extraction",
+   "name": "Timed Extraction",
+   "x": 18.3469,
+   "y": 23.3843,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -645.92,
+     5.25,
+     392.79
+    ],
+    "site_type": "extraction_time"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_extd_8",
+   "type": "dynamic-extraction",
+   "name": "Timed Extraction",
+   "x": 15.9061,
+   "y": 67.3104,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -661.71,
+     5.15,
+     194.67
+    ],
+    "site_type": "extraction_time"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_extd_9",
+   "type": "dynamic-extraction",
+   "name": "Timed Extraction",
+   "x": 6.9236,
+   "y": 39.953,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -719.82,
+     5.18,
+     318.06
+    ],
+    "site_type": "extraction_time"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_spawn_1",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 31.3346,
+   "y": 13.1344,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -561.9,
+     5.25,
+     439.02
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_spawn_2",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 40.2507,
+   "y": 2.8313,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -504.22,
+     5.26,
+     485.49
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_spawn_3",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 84.9719,
+   "y": 61.3507,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -214.91,
+     5.25,
+     221.55
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_spawn_4",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 67.3499,
+   "y": 86.9033,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -328.91,
+     4.35,
+     106.3
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_spawn_5",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 21.8018,
+   "y": 87.9698,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -623.57,
+     5.26,
+     101.49
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_spawn_6",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 85.9534,
+   "y": 47.09,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -208.56,
+     5.26,
+     285.87
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_spawn_7",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 86.9412,
+   "y": 18.4644,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -202.17,
+     5.26,
+     414.98
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_spawn_8",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 70.0442,
+   "y": 10.3629,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -311.48,
+     5.26,
+     451.52
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_spawn_9",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 56.9081,
+   "y": 3.829,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -396.46,
+     5.26,
+     480.99
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_spawn_10",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 19.698,
+   "y": 8.5781,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -637.18,
+     5.23,
+     459.57
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_spawn_11",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 2.8381,
+   "y": 19.5685,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -746.25,
+     5.22,
+     410
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_spawn_12",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 4.1427,
+   "y": 46.6222,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -737.81,
+     5.2,
+     287.98
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_spawn_13",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 6.3686,
+   "y": 59.7499,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -723.41,
+     4.93,
+     228.77
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_spawn_14",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 12.7435,
+   "y": 77.2565,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -682.17,
+     5.24,
+     149.81
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_spawn_15",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 80.4875,
+   "y": 75.3764,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -243.92,
+     5.25,
+     158.29
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:am_phone_1",
+   "type": "interactive",
+   "name": "Payphone #1",
+   "description": "Insert phone card → coin. ~5% drop rate for Lucky Quarter (epic) for key spot.",
+   "x": 53.9804,
+   "y": 10.5869,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -415.4,
+     6.47,
+     450.51
+    ],
+    "site_type": "phone"
+   }
+  },
+  {
+   "external_ref": "amh:am_phone_2",
+   "type": "interactive",
+   "name": "Payphone #2",
+   "description": "Insert phone card → coin. ~5% drop rate for Lucky Quarter (epic) for key spot.",
+   "x": 9.3597,
+   "y": 23.4973,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -704.06,
+     6.15,
+     392.28
+    ],
+    "site_type": "phone"
+   }
+  },
+  {
+   "external_ref": "amh:am_phone_3",
+   "type": "interactive",
+   "name": "Payphone #3",
+   "description": "Insert phone card → coin. ~5% drop rate for Lucky Quarter (epic) for key spot.",
+   "x": 63.9229,
+   "y": 3.9886,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -351.08,
+     6.48,
+     480.27
+    ],
+    "site_type": "phone"
+   }
+  },
+  {
+   "external_ref": "amh:am_phone_4",
+   "type": "interactive",
+   "name": "Payphone #4",
+   "description": "Insert phone card → coin. ~5% drop rate for Lucky Quarter (epic) for key spot.",
+   "x": 70.7012,
+   "y": 9.3475,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -307.23,
+     6.46,
+     456.1
+    ],
+    "site_type": "phone"
+   }
+  },
+  {
+   "external_ref": "amh:am_phone_5",
+   "type": "interactive",
+   "name": "Payphone #5",
+   "description": "Insert phone card → coin. ~5% drop rate for Lucky Quarter (epic) for key spot.",
+   "x": 74.8037,
+   "y": 15.438,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -280.69,
+     6.37,
+     428.63
+    ],
+    "site_type": "phone"
+   }
+  },
+  {
+   "external_ref": "amh:am_phone_6",
+   "type": "interactive",
+   "name": "Payphone #6",
+   "description": "Insert phone card → coin. ~5% drop rate for Lucky Quarter (epic) for key spot.",
+   "x": 87.204,
+   "y": 46.2985,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -200.47,
+     6.43,
+     289.44
+    ],
+    "site_type": "phone"
+   }
+  },
+  {
+   "external_ref": "amh:am_phone_7",
+   "type": "interactive",
+   "name": "Payphone #7",
+   "description": "Insert phone card → coin. ~5% drop rate for Lucky Quarter (epic) for key spot.",
+   "x": 77.9602,
+   "y": 41.7112,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -260.27,
+     5.85,
+     310.13
+    ],
+    "site_type": "phone"
+   }
+  },
+  {
+   "external_ref": "amh:am_phone_8",
+   "type": "interactive",
+   "name": "Payphone #8",
+   "description": "Insert phone card → coin. ~5% drop rate for Lucky Quarter (epic) for key spot.",
+   "x": 53.7794,
+   "y": 46.3317,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -416.7,
+     5.96,
+     289.29
+    ],
+    "site_type": "phone"
+   }
+  },
+  {
+   "external_ref": "amh:am_phone_9",
+   "type": "interactive",
+   "name": "Payphone #9",
+   "description": "Insert phone card → coin. ~5% drop rate for Lucky Quarter (epic) for key spot.",
+   "x": 53.7501,
+   "y": 81.8061,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -416.89,
+     6.46,
+     129.29
+    ],
+    "site_type": "phone"
+   }
+  },
+  {
+   "external_ref": "amh:am_phone_10",
+   "type": "interactive",
+   "name": "Payphone #10",
+   "description": "Insert phone card → coin. ~5% drop rate for Lucky Quarter (epic) for key spot.",
+   "x": 50.6245,
+   "y": 86.5752,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -437.11,
+     6.46,
+     107.78
+    ],
+    "site_type": "phone"
+   }
+  },
+  {
+   "external_ref": "amh:am_phone_11",
+   "type": "interactive",
+   "name": "Payphone #11",
+   "description": "Insert phone card → coin. ~5% drop rate for Lucky Quarter (epic) for key spot.",
+   "x": 5.401,
+   "y": 40.4585,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -729.67,
+     6.55,
+     315.78
+    ],
+    "site_type": "phone"
+   }
+  },
+  {
+   "external_ref": "amh:am_phone_12",
+   "type": "interactive",
+   "name": "Payphone #12",
+   "description": "Insert phone card → coin. ~5% drop rate for Lucky Quarter (epic) for key spot.",
+   "x": 11.4728,
+   "y": 33.4922,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -690.39,
+     6.23,
+     347.2
+    ],
+    "site_type": "phone"
+   }
+  },
+  {
+   "external_ref": "amh:am_phone_13",
+   "type": "interactive",
+   "name": "Payphone #13",
+   "description": "Insert phone card → coin. ~5% drop rate for Lucky Quarter (epic) for key spot.",
+   "x": 26.4778,
+   "y": 33.5033,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -593.32,
+     6.27,
+     347.15
+    ],
+    "site_type": "phone"
+   }
+  },
+  {
+   "external_ref": "amh:am_phone_14",
+   "type": "interactive",
+   "name": "Payphone #14",
+   "description": "Insert phone card → coin. ~5% drop rate for Lucky Quarter (epic) for key spot.",
+   "x": 30.9358,
+   "y": 44.8152,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -564.48,
+     6.5,
+     296.13
+    ],
+    "site_type": "phone"
+   }
+  },
+  {
+   "external_ref": "amh:am_phone_15",
+   "type": "interactive",
+   "name": "Payphone #15",
+   "description": "Insert phone card → coin. ~5% drop rate for Lucky Quarter (epic) for key spot.",
+   "x": 38.6493,
+   "y": 41.5538,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -514.58,
+     6.26,
+     310.84
+    ],
+    "site_type": "phone"
+   }
+  },
+  {
+   "external_ref": "amh:am_phone_16",
+   "type": "interactive",
+   "name": "Payphone #16",
+   "description": "Insert phone card → coin. ~5% drop rate for Lucky Quarter (epic) for key spot.",
+   "x": 34.9379,
+   "y": 28.8407,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -538.59,
+     6.46,
+     368.18
+    ],
+    "site_type": "phone"
+   }
+  },
+  {
+   "external_ref": "amh:am_phone_17",
+   "type": "interactive",
+   "name": "Payphone #17",
+   "description": "Insert phone card → coin. ~5% drop rate for Lucky Quarter (epic) for key spot.",
+   "x": 31.8324,
+   "y": 27.8052,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -558.68,
+     6.47,
+     372.85
+    ],
+    "site_type": "phone"
+   }
+  },
+  {
+   "external_ref": "amh:am_phone_18",
+   "type": "interactive",
+   "name": "Payphone #18",
+   "description": "Insert phone card → coin. ~5% drop rate for Lucky Quarter (epic) for key spot.",
+   "x": 30.9513,
+   "y": 56.3,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -564.38,
+     6.61,
+     244.33
+    ],
+    "site_type": "phone"
+   }
+  },
+  {
+   "external_ref": "amh:am_safe_comic",
+   "type": "safe",
+   "name": "Safe (Comic Book Store)",
+   "x": 27.4099,
+   "y": 50.4312,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -587.29,
+     12.8,
+     270.8
+    ],
+    "site_type": "safe",
+    "conditions": "Requires: Comic book store safe key"
+   }
+  },
+  {
+   "external_ref": "amh:am_safe_music",
+   "type": "safe",
+   "name": "Safe (Music Store)",
+   "x": 29.4148,
+   "y": 44.9682,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -574.32,
+     5.19,
+     295.44
+    ],
+    "site_type": "safe",
+    "conditions": "Requires: Record store safe key"
+   }
+  },
+  {
+   "external_ref": "amh:am_safe_gun",
+   "type": "safe",
+   "name": "Safe (Gun Shop)",
+   "x": 74.3044,
+   "y": 47.5246,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -283.92,
+     10.94,
+     283.91
+    ],
+    "site_type": "safe",
+    "conditions": "Requires: Gun store safe key"
+   }
+  },
+  {
+   "external_ref": "amh:am_safe_toy",
+   "type": "safe",
+   "name": "Safe (Toy Store)",
+   "x": 66.0051,
+   "y": 56.5661,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -337.61,
+     5.2,
+     243.13
+    ],
+    "site_type": "safe",
+    "conditions": "Requires: \"Toys for You\" store safe key"
+   }
+  },
+  {
+   "external_ref": "amh:am_safe_hardware",
+   "type": "safe",
+   "name": "Safe (Hardware Store)",
+   "x": 15.6913,
+   "y": 13.4913,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -663.1,
+     5.26,
+     437.41
+    ],
+    "site_type": "safe",
+    "conditions": "Requires: Hardware store safe key"
+   }
+  },
+  {
+   "external_ref": "amh:am_coin_collector",
+   "type": "interactive",
+   "name": "Coin Collector",
+   "x": 45.5883,
+   "y": 34.0864,
+   "loot_table": "am_coin_stash",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -469.69,
+     5.25,
+     344.52
+    ],
+    "site_type": "coin"
+   }
+  },
+  {
+   "external_ref": "amh:am_qbody_1",
+   "type": "loot-location",
+   "name": "Body (Quest)",
+   "x": 46.9053,
+   "y": 60.3707,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -461.17,
+     7.06,
+     225.97
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_police_pc_1",
+   "type": "interactive",
+   "name": "Police Computer (Quest)",
+   "x": 15.7021,
+   "y": 27.3995,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -663.03,
+     16.66,
+     374.68
+    ],
+    "site_type": "question"
+   }
+  },
+  {
+   "external_ref": "amh:am_safe_police_secret",
+   "type": "safe",
+   "name": "Secret Police Safe",
+   "x": 12.8501,
+   "y": 26.0027,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -681.48,
+     1.03,
+     380.98
+    ],
+    "site_type": "safe"
+   }
+  },
+  {
+   "external_ref": "amh:am_lucky_key",
+   "type": "key-spawn",
+   "name": "Key Spot (Insert Lucky Quarter)",
+   "description": "Requires Lucky Quarter (epic, drops from payphones ~5%). Spawns key when inserted.",
+   "x": 27.8257,
+   "y": 60.9183,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -584.6,
+     6.25,
+     223.5
+    ],
+    "site_type": "key"
+   }
+  },
+  {
+   "external_ref": "amh:am_office_lucky_safe",
+   "type": "safe",
+   "name": "Atlantic Capital Office Safe",
+   "x": 61.3816,
+   "y": 48.1786,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -367.52,
+     16.85,
+     280.96
+    ],
+    "site_type": "safe",
+    "conditions": "Requires: Lucky key"
+   }
+  },
+  {
+   "external_ref": "amh:am_coin_closet",
+   "type": "interactive",
+   "name": "Coin Collector Stash (Closet)",
+   "x": 13.6014,
+   "y": 57.6946,
+   "loot_table": "am_coin_closet",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -676.62,
+     9.32,
+     238.04
+    ],
+    "site_type": "question"
+   }
+  },
+  {
+   "external_ref": "amh:am_manager_deck",
+   "type": "interactive",
+   "name": "Deck of Cards (Secret Quest)",
+   "description": "Secret quest \"Deck of Cards\": extract the unusual deck of cards from the manager's suitcase.",
+   "x": 59.3675,
+   "y": 48.8748,
+   "loot_table": "am_manager_suitcase",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -380.55,
+     16.3,
+     277.82
+    ],
+    "site_type": "question"
+   }
+  },
+  {
+   "external_ref": "amh:am_nest_point_1",
+   "type": "monster",
+   "name": "Spawn Point",
+   "x": 74.8114,
+   "y": 70.8135,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -280.64,
+     6.09,
+     178.87
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_nest_point_2",
+   "type": "monster",
+   "name": "Spawn Point",
+   "x": 61.4218,
+   "y": 29.2065,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -367.26,
+     5.11,
+     366.53
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_nest_point_3",
+   "type": "monster",
+   "name": "Spawn Point",
+   "x": 51.1161,
+   "y": 17.1452,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -433.93,
+     5.43,
+     420.93
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_nest_point_4",
+   "type": "monster",
+   "name": "Spawn Point",
+   "x": 26.9508,
+   "y": 29.3617,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -590.26,
+     6.08,
+     365.83
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_nest_point_5",
+   "type": "monster",
+   "name": "Spawn Point",
+   "x": 10.1697,
+   "y": 56.9763,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -698.82,
+     5.34,
+     241.28
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_nest_point_6",
+   "type": "monster",
+   "name": "Spawn Point",
+   "x": 25.4127,
+   "y": 52.3868,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -600.21,
+     7.31,
+     261.98
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_nest_point_7",
+   "type": "monster",
+   "name": "Spawn Point",
+   "x": 62.9908,
+   "y": 70.4609,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -357.11,
+     6.09,
+     180.46
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_nest_point_8",
+   "type": "monster",
+   "name": "Spawn Point",
+   "x": 81.2589,
+   "y": 26.8607,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -238.93,
+     5.45,
+     377.11
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_car_1",
+   "type": "vehicle-spawn",
+   "name": "Vehicle (Transport)",
+   "x": 80.5169,
+   "y": 36.7359,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -243.73,
+     5.26,
+     332.57
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:am_car_2",
+   "type": "vehicle-spawn",
+   "name": "Vehicle (Transport)",
+   "x": 47.0692,
+   "y": 3.8955,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -460.11,
+     5.26,
+     480.69
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:am_car_3",
+   "type": "vehicle-spawn",
+   "name": "Vehicle (Transport)",
+   "x": 21.236,
+   "y": 20.4731,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -627.23,
+     5.26,
+     405.92
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:am_car_4",
+   "type": "vehicle-spawn",
+   "name": "Vehicle (Transport)",
+   "x": 32.4909,
+   "y": 49.939,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -554.42,
+     5.26,
+     273.02
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:am_car_5",
+   "type": "vehicle-spawn",
+   "name": "Vehicle (Transport)",
+   "x": 55.5386,
+   "y": 74.6225,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -405.32,
+     5.26,
+     161.69
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:am_car_6",
+   "type": "vehicle-spawn",
+   "name": "Vehicle (Transport)",
+   "x": 77.9834,
+   "y": 63.5013,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -260.12,
+     5.26,
+     211.85
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:am_car_7",
+   "type": "vehicle-spawn",
+   "name": "Vehicle (Transport)",
+   "x": 64.4021,
+   "y": 35.1595,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -347.98,
+     5.16,
+     339.68
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:am_car_8",
+   "type": "vehicle-spawn",
+   "name": "Vehicle (Transport)",
+   "x": 69.4073,
+   "y": 22.9142,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -315.6,
+     5.16,
+     394.91
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:am_train_anomaly_loot_1",
+   "type": "anomaly",
+   "name": "Train Anomaly",
+   "x": 41.1674,
+   "y": 43.21,
+   "loot_table": "am_train_anomaly",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -498.29,
+     52.69,
+     303.37
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:am_train_anomaly_loot_2",
+   "type": "anomaly",
+   "name": "Train Anomaly",
+   "x": 41.9295,
+   "y": 43.7399,
+   "loot_table": "am_train_anomaly",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -493.36,
+     53.31,
+     300.98
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:am_train_anomaly_loot_3",
+   "type": "anomaly",
+   "name": "Train Anomaly",
+   "x": 40.3991,
+   "y": 43.4162,
+   "loot_table": "am_train_anomaly",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -503.26,
+     47.52,
+     302.44
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:am_train_anomaly_loot_4",
+   "type": "anomaly",
+   "name": "Train Anomaly",
+   "x": 40.7067,
+   "y": 44.5891,
+   "loot_table": "am_train_anomaly",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -501.27,
+     41.24,
+     297.15
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:am_train_anomaly_loot_5",
+   "type": "anomaly",
+   "name": "Train Anomaly",
+   "x": 40.6434,
+   "y": 45.2941,
+   "loot_table": "am_train_anomaly",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -501.68,
+     36.18,
+     293.97
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:am_train_anomaly_loot_6",
+   "type": "anomaly",
+   "name": "Train Anomaly",
+   "x": 43.3377,
+   "y": 43.7665,
+   "loot_table": "am_train_anomaly",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -484.25,
+     61.1,
+     300.86
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:am_train_anomaly_loot_7",
+   "type": "anomaly",
+   "name": "Train Anomaly",
+   "x": 43.2944,
+   "y": 45.0037,
+   "loot_table": "am_train_anomaly",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -484.53,
+     52.07,
+     295.28
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:am_train_anomaly_loot_8",
+   "type": "anomaly",
+   "name": "Train Anomaly",
+   "x": 42.3314,
+   "y": 44.5225,
+   "loot_table": "am_train_anomaly",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -490.76,
+     39.72,
+     297.45
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:am_park_military_loot_1",
+   "type": "loot-location",
+   "name": "Park — Military Loot",
+   "x": 46.8806,
+   "y": 57.7811,
+   "loot_table": "reg_park",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -461.33,
+     9.08,
+     237.65
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_park_military_loot_2",
+   "type": "loot-location",
+   "name": "Park — Military Loot",
+   "x": 47.5206,
+   "y": 58.3376,
+   "loot_table": "reg_park",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -457.19,
+     9.19,
+     235.14
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_park_military_loot_3",
+   "type": "loot-location",
+   "name": "Park — Military Loot",
+   "x": 47.029,
+   "y": 58.2023,
+   "loot_table": "reg_park",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -460.37,
+     9.19,
+     235.75
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_park_military_loot_4",
+   "type": "loot-location",
+   "name": "Park — Military Loot",
+   "x": 46.3288,
+   "y": 59.8852,
+   "loot_table": "reg_park",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -464.9,
+     7.19,
+     228.16
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_park_military_loot_5",
+   "type": "loot-location",
+   "name": "Park — Military Loot",
+   "x": 46.6472,
+   "y": 60.0559,
+   "loot_table": "reg_park",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -462.84,
+     7.19,
+     227.39
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_park_military_loot_6",
+   "type": "loot-location",
+   "name": "Park — Military Loot",
+   "x": 51.0171,
+   "y": 71.1327,
+   "loot_table": "reg_park",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -434.57,
+     7.22,
+     177.43
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_park_military_loot_7",
+   "type": "loot-location",
+   "name": "Park — Military Loot",
+   "x": 51.1547,
+   "y": 71.5473,
+   "loot_table": "reg_park",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -433.68,
+     7.22,
+     175.56
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_park_military_loot_8",
+   "type": "loot-location",
+   "name": "Park — Military Loot",
+   "x": 50.3617,
+   "y": 70.8955,
+   "loot_table": "reg_park",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -438.81,
+     7.05,
+     178.5
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_park_military_loot_9",
+   "type": "loot-location",
+   "name": "Park — Military Loot",
+   "x": 45.3425,
+   "y": 71.6759,
+   "loot_table": "reg_park",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -471.28,
+     7.19,
+     174.98
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_park_military_loot_10",
+   "type": "loot-location",
+   "name": "Park — Military Loot",
+   "x": 45.8959,
+   "y": 71.7469,
+   "loot_table": "reg_park",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -467.7,
+     7.06,
+     174.66
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_park_military_loot_11",
+   "type": "loot-location",
+   "name": "Park — Military Loot",
+   "x": 46.3226,
+   "y": 71.7779,
+   "loot_table": "reg_park",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -464.94,
+     7.06,
+     174.52
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_flowermen_area_1",
+   "type": "monster",
+   "name": "Flowerman Street",
+   "x": 20.3194,
+   "y": 34.6208,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -633.16,
+     4.75,
+     342.11
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_flowermen_area_2",
+   "type": "monster",
+   "name": "Flowerman Street",
+   "x": 16.7099,
+   "y": 34.5742,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -656.51,
+     4.72,
+     342.32
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_flowermen_area_3",
+   "type": "monster",
+   "name": "Flowerman Street",
+   "x": 3.09,
+   "y": 39.31,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -744.62,
+     4.96,
+     320.96
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_flowermen_area_4",
+   "type": "monster",
+   "name": "Flowerman Street",
+   "x": 7.0256,
+   "y": 33.0,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -719.16,
+     4.89,
+     349.42
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_flowermen_area_5",
+   "type": "monster",
+   "name": "Flowerman Street",
+   "x": 12.3817,
+   "y": 66.5477,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -684.51,
+     5.15,
+     198.11
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_flowermen_area_6",
+   "type": "monster",
+   "name": "Flowerman Street",
+   "x": 15.0359,
+   "y": 64.1798,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -667.34,
+     1.75,
+     208.79
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_music_cd_1",
+   "type": "loot-location",
+   "name": "Music Store — CDs / Loot",
+   "x": 29.2293,
+   "y": 44.4316,
+   "loot_table": "reg_music_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -575.52,
+     5.88,
+     297.86
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_music_cd_2",
+   "type": "loot-location",
+   "name": "Music Store — CDs / Loot",
+   "x": 29.2308,
+   "y": 44.323,
+   "loot_table": "reg_music_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -575.51,
+     5.88,
+     298.35
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_music_cd_3",
+   "type": "loot-location",
+   "name": "Music Store — CDs / Loot",
+   "x": 29.22,
+   "y": 44.4804,
+   "loot_table": "reg_music_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -575.58,
+     5.7,
+     297.64
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_music_cd_4",
+   "type": "loot-location",
+   "name": "Music Store — CDs / Loot",
+   "x": 29.2169,
+   "y": 44.2942,
+   "loot_table": "reg_music_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -575.6,
+     5.7,
+     298.48
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_music_cd_5",
+   "type": "loot-location",
+   "name": "Music Store — CDs / Loot",
+   "x": 29.4117,
+   "y": 44.0392,
+   "loot_table": "reg_music_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -574.34,
+     5.88,
+     299.63
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_music_cd_6",
+   "type": "loot-location",
+   "name": "Music Store — CDs / Loot",
+   "x": 29.5369,
+   "y": 44.0414,
+   "loot_table": "reg_music_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -573.53,
+     5.88,
+     299.62
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_music_cd_7",
+   "type": "loot-location",
+   "name": "Music Store — CDs / Loot",
+   "x": 29.523,
+   "y": 44.0303,
+   "loot_table": "reg_music_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -573.62,
+     5.7,
+     299.67
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_music_cd_8",
+   "type": "loot-location",
+   "name": "Music Store — CDs / Loot",
+   "x": 29.7162,
+   "y": 44.2853,
+   "loot_table": "reg_music_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -572.37,
+     5.88,
+     298.52
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_music_cd_9",
+   "type": "loot-location",
+   "name": "Music Store — CDs / Loot",
+   "x": 29.7162,
+   "y": 44.3363,
+   "loot_table": "reg_music_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -572.37,
+     5.88,
+     298.29
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_music_cd_10",
+   "type": "loot-location",
+   "name": "Music Store — CDs / Loot",
+   "x": 29.7208,
+   "y": 44.4693,
+   "loot_table": "reg_music_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -572.34,
+     5.7,
+     297.69
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_music_cd_11",
+   "type": "loot-location",
+   "name": "Music Store — CDs / Loot",
+   "x": 28.9201,
+   "y": 44.3385,
+   "loot_table": "reg_music_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -577.52,
+     5.88,
+     298.28
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_music_cd_12",
+   "type": "loot-location",
+   "name": "Music Store — CDs / Loot",
+   "x": 29.4457,
+   "y": 46.0856,
+   "loot_table": "reg_music_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -574.12,
+     5.88,
+     290.4
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_music_cd_13",
+   "type": "loot-location",
+   "name": "Music Store — CDs / Loot",
+   "x": 29.9774,
+   "y": 43.8131,
+   "loot_table": "reg_music_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -570.68,
+     5.7,
+     300.65
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_music_cd_14",
+   "type": "loot-location",
+   "name": "Music Store — CDs / Loot",
+   "x": 28.3095,
+   "y": 45.2076,
+   "loot_table": "reg_music_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -581.47,
+     5.7,
+     294.36
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_music_cd_15",
+   "type": "loot-location",
+   "name": "Music Store — CDs / Loot",
+   "x": 30.2881,
+   "y": 45.7708,
+   "loot_table": "reg_music_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -568.67,
+     5.7,
+     291.82
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_music_cd_16",
+   "type": "loot-location",
+   "name": "Music Store — CDs / Loot",
+   "x": 29.0948,
+   "y": 43.4384,
+   "loot_table": "reg_music_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -576.39,
+     6.07,
+     302.34
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_music_cd_17",
+   "type": "loot-location",
+   "name": "Music Store — CDs / Loot",
+   "x": 29.4735,
+   "y": 44.2011,
+   "loot_table": "reg_music_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -573.94,
+     6.07,
+     298.9
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_toy_store_1",
+   "type": "loot-location",
+   "name": "Toy Store — Loot",
+   "x": 64.0017,
+   "y": 57.1736,
+   "loot_table": "reg_toy_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -350.57,
+     6.01,
+     240.39
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_toy_store_2",
+   "type": "loot-location",
+   "name": "Toy Store — Loot",
+   "x": 63.8672,
+   "y": 56.637,
+   "loot_table": "reg_toy_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -351.44,
+     6.01,
+     242.81
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_toy_store_3",
+   "type": "loot-location",
+   "name": "Toy Store — Loot",
+   "x": 64.3928,
+   "y": 58.3841,
+   "loot_table": "reg_toy_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -348.04,
+     6.01,
+     234.93
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_toy_store_4",
+   "type": "loot-location",
+   "name": "Toy Store — Loot",
+   "x": 64.9246,
+   "y": 56.1093,
+   "loot_table": "reg_toy_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -344.6,
+     6.4,
+     245.19
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_toy_store_5",
+   "type": "loot-location",
+   "name": "Toy Store — Loot",
+   "x": 63.2567,
+   "y": 57.5062,
+   "loot_table": "reg_toy_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -355.39,
+     6.4,
+     238.89
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_toy_store_6",
+   "type": "loot-location",
+   "name": "Toy Store — Loot",
+   "x": 65.2353,
+   "y": 58.0671,
+   "loot_table": "reg_toy_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -342.59,
+     5.63,
+     236.36
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_toy_store_7",
+   "type": "loot-location",
+   "name": "Toy Store — Loot",
+   "x": 64.4732,
+   "y": 58.2799,
+   "loot_table": "reg_toy_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -347.52,
+     5.63,
+     235.4
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_toy_store_8",
+   "type": "loot-location",
+   "name": "Toy Store — Loot",
+   "x": 63.8286,
+   "y": 57.6281,
+   "loot_table": "reg_toy_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -351.69,
+     6.38,
+     238.34
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_toy_store_9",
+   "type": "loot-location",
+   "name": "Toy Store — Loot",
+   "x": 64.3542,
+   "y": 59.3752,
+   "loot_table": "reg_toy_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -348.29,
+     6.38,
+     230.46
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_toy_store_10",
+   "type": "loot-location",
+   "name": "Toy Store — Loot",
+   "x": 64.8859,
+   "y": 57.1004,
+   "loot_table": "reg_toy_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -344.85,
+     6.38,
+     240.72
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_toy_store_11",
+   "type": "loot-location",
+   "name": "Toy Store — Loot",
+   "x": 63.2196,
+   "y": 58.4972,
+   "loot_table": "reg_toy_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -355.63,
+     6.01,
+     234.42
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_toy_store_12",
+   "type": "loot-location",
+   "name": "Toy Store — Loot",
+   "x": 65.2306,
+   "y": 58.1048,
+   "loot_table": "reg_toy_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -342.62,
+     6.01,
+     236.19
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_toy_store_13",
+   "type": "loot-location",
+   "name": "Toy Store — Loot",
+   "x": 64.8936,
+   "y": 57.3554,
+   "loot_table": "reg_toy_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -344.8,
+     6.4,
+     239.57
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_toy_store_14",
+   "type": "loot-location",
+   "name": "Toy Store — Loot",
+   "x": 65.4208,
+   "y": 59.1025,
+   "loot_table": "reg_toy_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -341.39,
+     6.4,
+     231.69
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_toy_store_15",
+   "type": "loot-location",
+   "name": "Toy Store — Loot",
+   "x": 65.9525,
+   "y": 56.8277,
+   "loot_table": "reg_toy_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -337.95,
+     6.01,
+     241.95
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_toy_store_16",
+   "type": "loot-location",
+   "name": "Toy Store — Loot",
+   "x": 65.4548,
+   "y": 57.3,
+   "loot_table": "reg_toy_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -341.17,
+     5.63,
+     239.82
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_toy_store_17",
+   "type": "loot-location",
+   "name": "Toy Store — Loot",
+   "x": 64.8952,
+   "y": 56.7235,
+   "loot_table": "reg_toy_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -344.79,
+     6.39,
+     242.42
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_toy_store_18",
+   "type": "loot-location",
+   "name": "Toy Store — Loot",
+   "x": 65.4223,
+   "y": 58.4706,
+   "loot_table": "reg_toy_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -341.38,
+     5.24,
+     234.54
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_toy_store_19",
+   "type": "loot-location",
+   "name": "Toy Store — Loot",
+   "x": 65.9541,
+   "y": 56.1958,
+   "loot_table": "reg_toy_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -337.94,
+     6.77,
+     244.8
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_toy_store_am_1",
+   "type": "anomaly",
+   "name": "Toys — Active Matter",
+   "x": 64.0419,
+   "y": 55.7369,
+   "loot_table": "am_toy_am",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -350.31,
+     5.2,
+     246.87
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:am_toy_store_am_2",
+   "type": "anomaly",
+   "name": "Toys — Active Matter",
+   "x": 65.1982,
+   "y": 59.0604,
+   "loot_table": "am_toy_am",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -342.83,
+     5.2,
+     231.88
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:am_toy_store_am_3",
+   "type": "anomaly",
+   "name": "Toys — Active Matter",
+   "x": 64.603,
+   "y": 57.7367,
+   "loot_table": "am_toy_am",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -346.68,
+     5.2,
+     237.85
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:am_toy_store_am_4",
+   "type": "anomaly",
+   "name": "Toys — Active Matter",
+   "x": 64.2846,
+   "y": 58.2245,
+   "loot_table": "am_toy_am",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -348.74,
+     5.2,
+     235.65
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:am_toy_store_am_5",
+   "type": "anomaly",
+   "name": "Toys — Active Matter",
+   "x": 66.2632,
+   "y": 58.7877,
+   "loot_table": "am_toy_am",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -335.94,
+     5.2,
+     233.11
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:am_toy_store_am_6",
+   "type": "anomaly",
+   "name": "Toys — Active Matter",
+   "x": 64.2862,
+   "y": 57.5926,
+   "loot_table": "am_toy_am",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -348.73,
+     5.2,
+     238.5
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:am_toy_store_am_7",
+   "type": "anomaly",
+   "name": "Toys — Active Matter",
+   "x": 65.0699,
+   "y": 56.4552,
+   "loot_table": "am_toy_am",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -343.66,
+     5.2,
+     243.63
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:am_toy_store_am_8",
+   "type": "anomaly",
+   "name": "Toys — Active Matter",
+   "x": 65.9834,
+   "y": 57.4729,
+   "loot_table": "am_toy_am",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -337.75,
+     5.2,
+     239.04
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:am_hardware_store_1",
+   "type": "loot-location",
+   "name": "Hardware Store — Loot",
+   "x": 14.8906,
+   "y": 11.7686,
+   "loot_table": "reg_hardware_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -668.28,
+     6.01,
+     445.18
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_hardware_store_2",
+   "type": "loot-location",
+   "name": "Hardware Store — Loot",
+   "x": 14.5938,
+   "y": 11.7686,
+   "loot_table": "reg_hardware_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -670.2,
+     6.01,
+     445.18
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_hardware_store_3",
+   "type": "loot-location",
+   "name": "Hardware Store — Loot",
+   "x": 14.3047,
+   "y": 11.7864,
+   "loot_table": "reg_hardware_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -672.07,
+     6.01,
+     445.1
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_hardware_store_4",
+   "type": "loot-location",
+   "name": "Hardware Store — Loot",
+   "x": 14.5799,
+   "y": 11.7819,
+   "loot_table": "reg_hardware_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -670.29,
+     6.77,
+     445.12
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_hardware_store_5",
+   "type": "loot-location",
+   "name": "Hardware Store — Loot",
+   "x": 14.6154,
+   "y": 11.2764,
+   "loot_table": "reg_hardware_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -670.06,
+     6.77,
+     447.4
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_hardware_store_6",
+   "type": "loot-location",
+   "name": "Hardware Store — Loot",
+   "x": 14.7545,
+   "y": 11.2764,
+   "loot_table": "reg_hardware_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -669.16,
+     6.77,
+     447.4
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_hardware_store_7",
+   "type": "loot-location",
+   "name": "Hardware Store — Loot",
+   "x": 14.3171,
+   "y": 11.2675,
+   "loot_table": "reg_hardware_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -671.99,
+     6.4,
+     447.44
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_hardware_store_8",
+   "type": "loot-location",
+   "name": "Hardware Store — Loot",
+   "x": 14.4516,
+   "y": 11.1944,
+   "loot_table": "reg_hardware_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -671.12,
+     6.4,
+     447.77
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_hardware_store_9",
+   "type": "loot-location",
+   "name": "Hardware Store — Loot",
+   "x": 14.9168,
+   "y": 11.2143,
+   "loot_table": "reg_hardware_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -668.11,
+     6.4,
+     447.68
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_hardware_store_10",
+   "type": "loot-location",
+   "name": "Hardware Store — Loot",
+   "x": 14.9029,
+   "y": 11.2143,
+   "loot_table": "reg_hardware_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -668.2,
+     5.63,
+     447.68
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_hardware_store_11",
+   "type": "loot-location",
+   "name": "Hardware Store — Loot",
+   "x": 14.6324,
+   "y": 11.2143,
+   "loot_table": "reg_hardware_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -669.95,
+     5.63,
+     447.68
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_hardware_store_12",
+   "type": "loot-location",
+   "name": "Hardware Store — Loot",
+   "x": 14.2954,
+   "y": 10.6357,
+   "loot_table": "reg_hardware_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -672.13,
+     6.4,
+     450.29
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_hardware_store_13",
+   "type": "loot-location",
+   "name": "Hardware Store — Loot",
+   "x": 14.4485,
+   "y": 10.6445,
+   "loot_table": "reg_hardware_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -671.14,
+     6.4,
+     450.25
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_hardware_store_14",
+   "type": "loot-location",
+   "name": "Hardware Store — Loot",
+   "x": 14.4608,
+   "y": 10.6445,
+   "loot_table": "reg_hardware_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -671.06,
+     6.01,
+     450.25
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_hardware_store_15",
+   "type": "loot-location",
+   "name": "Hardware Store — Loot",
+   "x": 14.736,
+   "y": 10.6445,
+   "loot_table": "reg_hardware_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -669.28,
+     6.01,
+     450.25
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_hardware_store_16",
+   "type": "loot-location",
+   "name": "Hardware Store — Loot",
+   "x": 14.753,
+   "y": 10.6445,
+   "loot_table": "reg_hardware_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -669.17,
+     6.77,
+     450.25
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_hardware_store_17",
+   "type": "loot-location",
+   "name": "Hardware Store — Loot",
+   "x": 14.8967,
+   "y": 10.6445,
+   "loot_table": "reg_hardware_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -668.24,
+     6.77,
+     450.25
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_hardware_store_18",
+   "type": "loot-location",
+   "name": "Hardware Store — Loot",
+   "x": 14.9014,
+   "y": 10.0703,
+   "loot_table": "reg_hardware_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -668.21,
+     6.4,
+     452.84
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_hardware_store_19",
+   "type": "loot-location",
+   "name": "Hardware Store — Loot",
+   "x": 14.7422,
+   "y": 10.0703,
+   "loot_table": "reg_hardware_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -669.24,
+     6.4,
+     452.84
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_hardware_store_20",
+   "type": "loot-location",
+   "name": "Hardware Store — Loot",
+   "x": 14.4593,
+   "y": 10.0814,
+   "loot_table": "reg_hardware_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -671.07,
+     6.4,
+     452.79
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_hardware_store_21",
+   "type": "loot-location",
+   "name": "Hardware Store — Loot",
+   "x": 14.4485,
+   "y": 10.0814,
+   "loot_table": "reg_hardware_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -671.14,
+     6.01,
+     452.79
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_hardware_store_22",
+   "type": "loot-location",
+   "name": "Hardware Store — Loot",
+   "x": 14.164,
+   "y": 10.0814,
+   "loot_table": "reg_hardware_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -672.98,
+     6.01,
+     452.79
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_hardware_store_23",
+   "type": "loot-location",
+   "name": "Hardware Store — Loot",
+   "x": 14.6216,
+   "y": 10.0193,
+   "loot_table": "reg_hardware_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -670.02,
+     6.01,
+     453.07
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_hardware_store_24",
+   "type": "loot-location",
+   "name": "Hardware Store — Loot",
+   "x": 14.906,
+   "y": 10.0038,
+   "loot_table": "reg_hardware_store",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -668.18,
+     5.63,
+     453.14
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_police_station_enemy_1",
+   "type": "monster",
+   "name": "Police Station (Enemies)",
+   "x": 27.5892,
+   "y": 72.7801,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -586.13,
+     5,
+     170
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_police_station_enemy_2",
+   "type": "monster",
+   "name": "Police Station (Enemies)",
+   "x": 26.2567,
+   "y": 74.9928,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -594.75,
+     5,
+     160.02
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_police_station_enemy_3",
+   "type": "monster",
+   "name": "Police Station (Enemies)",
+   "x": 25.9738,
+   "y": 70.8822,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -596.58,
+     4.97,
+     178.56
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_police_station_enemy_4",
+   "type": "monster",
+   "name": "Police Station (Enemies)",
+   "x": 25.0046,
+   "y": 74.5871,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -602.85,
+     5,
+     161.85
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_police_station_enemy_5",
+   "type": "monster",
+   "name": "Police Station (Enemies)",
+   "x": 26.5891,
+   "y": 72.8821,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -592.6,
+     5.11,
+     169.54
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_police_station_enemy_6",
+   "type": "monster",
+   "name": "Police Station (Enemies)",
+   "x": 25.2952,
+   "y": 72.5251,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -600.97,
+     5.11,
+     171.15
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_police_station_enemy_7",
+   "type": "monster",
+   "name": "Police Station (Enemies)",
+   "x": 24.68,
+   "y": 71.9775,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -604.95,
+     5.11,
+     173.62
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_police_department_enemy_1",
+   "type": "monster",
+   "name": "Police Dept (Enemies)",
+   "x": 11.5455,
+   "y": 26.9073,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -689.92,
+     5.83,
+     376.9
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_police_department_enemy_2",
+   "type": "monster",
+   "name": "Police Dept (Enemies)",
+   "x": 11.4775,
+   "y": 26.2022,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -690.36,
+     5.83,
+     380.08
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_police_department_enemy_3",
+   "type": "monster",
+   "name": "Police Dept (Enemies)",
+   "x": 12.2875,
+   "y": 25.5482,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -685.12,
+     5.83,
+     383.03
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_police_department_enemy_4",
+   "type": "monster",
+   "name": "Police Dept (Enemies)",
+   "x": 14.6834,
+   "y": 26.3175,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -669.62,
+     5.83,
+     379.56
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_police_department_enemy_5",
+   "type": "monster",
+   "name": "Police Dept (Enemies)",
+   "x": 15.008,
+   "y": 29.0845,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -667.52,
+     5.83,
+     367.08
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_police_department_enemy_6",
+   "type": "monster",
+   "name": "Police Dept (Enemies)",
+   "x": 13.2613,
+   "y": 28.9959,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -678.82,
+     5.83,
+     367.48
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_police_department_enemy_7",
+   "type": "monster",
+   "name": "Police Dept (Enemies)",
+   "x": 12.6785,
+   "y": 29.3816,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -682.59,
+     5.83,
+     365.74
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_police_department_enemy_8",
+   "type": "monster",
+   "name": "Police Dept (Enemies)",
+   "x": 11.816,
+   "y": 29.3196,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -688.17,
+     5.83,
+     366.02
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_police_department_enemy_9",
+   "type": "monster",
+   "name": "Police Dept (Enemies)",
+   "x": 15.3589,
+   "y": 25.761,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -665.25,
+     10.91,
+     382.07
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_police_department_enemy_10",
+   "type": "monster",
+   "name": "Police Dept (Enemies)",
+   "x": 14.7236,
+   "y": 29.4903,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -669.36,
+     10.93,
+     365.25
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_police_department_enemy_11",
+   "type": "monster",
+   "name": "Police Dept (Enemies)",
+   "x": 13.7359,
+   "y": 28.9249,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -675.75,
+     10.91,
+     367.8
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_police_department_enemy_12",
+   "type": "monster",
+   "name": "Police Dept (Enemies)",
+   "x": 11.241,
+   "y": 29.3284,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -691.89,
+     10.92,
+     365.98
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_police_department_enemy_13",
+   "type": "monster",
+   "name": "Police Dept (Enemies)",
+   "x": 12.8594,
+   "y": 28.8717,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -681.42,
+     10.93,
+     368.04
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_police_department_enemy_14",
+   "type": "monster",
+   "name": "Police Dept (Enemies)",
+   "x": 13.3463,
+   "y": 29.5568,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -678.27,
+     15.64,
+     364.95
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_police_department_enemy_15",
+   "type": "monster",
+   "name": "Police Dept (Enemies)",
+   "x": 12.7079,
+   "y": 27.6013,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -682.4,
+     15.64,
+     373.77
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_police_department_enemy_16",
+   "type": "monster",
+   "name": "Police Dept (Enemies)",
+   "x": 12.6229,
+   "y": 25.5992,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -682.95,
+     15.64,
+     382.8
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_police_department_enemy_17",
+   "type": "monster",
+   "name": "Police Dept (Enemies)",
+   "x": 13.8657,
+   "y": 25.6679,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -674.91,
+     15.64,
+     382.49
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_police_department_enemy_18",
+   "type": "monster",
+   "name": "Police Dept (Enemies)",
+   "x": 14.5211,
+   "y": 28.1556,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -670.67,
+     20.49,
+     371.27
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_police_department_enemy_19",
+   "type": "monster",
+   "name": "Police Dept (Enemies)",
+   "x": 13.0696,
+   "y": 28.9759,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -680.06,
+     20.49,
+     367.57
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_police_department_enemy_20",
+   "type": "monster",
+   "name": "Police Dept (Enemies)",
+   "x": 12.8779,
+   "y": 25.5105,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -681.3,
+     20.49,
+     383.2
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_police_department_enemy_21",
+   "type": "monster",
+   "name": "Police Dept (Enemies)",
+   "x": 14.753,
+   "y": 25.7965,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -669.17,
+     20.49,
+     381.91
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_police_department_enemy_22",
+   "type": "monster",
+   "name": "Police Dept (Enemies)",
+   "x": 14.8689,
+   "y": 25.1203,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -668.42,
+     20.49,
+     384.96
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_police_department_enemy_23",
+   "type": "monster",
+   "name": "Police Dept (Enemies)",
+   "x": 11.292,
+   "y": 27.3818,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -691.56,
+     20.49,
+     374.76
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_police_department_enemy_24",
+   "type": "monster",
+   "name": "Police Dept (Enemies)",
+   "x": 11.2317,
+   "y": 25.4728,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -691.95,
+     20.49,
+     383.37
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_america_city_park_nest_1",
+   "type": "monster",
+   "name": "Spawn Point (Park)",
+   "x": 46.7848,
+   "y": 57.1115,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -461.95,
+     9.06,
+     240.67
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_america_city_park_nest_2",
+   "type": "monster",
+   "name": "Spawn Point (Park)",
+   "x": 47.2222,
+   "y": 64.3638,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -459.12,
+     5.06,
+     207.96
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_america_city_park_nest_3",
+   "type": "monster",
+   "name": "Spawn Point (Park)",
+   "x": 46.1726,
+   "y": 70.5585,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -465.91,
+     7.06,
+     180.02
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_america_city_park_nest_4",
+   "type": "monster",
+   "name": "Spawn Point (Park)",
+   "x": 50.4328,
+   "y": 70.2348,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -438.35,
+     7.06,
+     181.48
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_spas12_1",
+   "type": "loot-location",
+   "name": "Shotgun SPAS-12",
+   "x": 27.2167,
+   "y": 51.0476,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -588.54,
+     13.2,
+     268.02
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_12ga_1",
+   "type": "ammo-box",
+   "name": "12 Gauge Ammo",
+   "x": 26.7607,
+   "y": 50.2805,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -591.49,
+     13.18,
+     271.48
+    ],
+    "site_type": "ammo_box"
+   }
+  },
+  {
+   "external_ref": "amh:am_12ga_2",
+   "type": "ammo-box",
+   "name": "12 Gauge Ammo",
+   "x": 27.2862,
+   "y": 52.0276,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -588.09,
+     13.18,
+     263.6
+    ],
+    "site_type": "ammo_box"
+   }
+  },
+  {
+   "external_ref": "amh:am_12ga_3",
+   "type": "ammo-box",
+   "name": "12 Gauge Ammo",
+   "x": 26.8117,
+   "y": 50.1585,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -591.16,
+     13.18,
+     272.03
+    ],
+    "site_type": "ammo_box"
+   }
+  },
+  {
+   "external_ref": "amh:am_spas12_2",
+   "type": "loot-location",
+   "name": "Shotgun SPAS-12",
+   "x": 73.7031,
+   "y": 46.2098,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -287.81,
+     12.61,
+     289.84
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_spas12_3",
+   "type": "loot-location",
+   "name": "Shotgun SPAS-12",
+   "x": 73.2533,
+   "y": 45.6267,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -290.72,
+     12.61,
+     292.47
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_body_key_1",
+   "type": "loot-location",
+   "name": "Body — Armory Key",
+   "x": 15.1425,
+   "y": 27.6101,
+   "loot_table": "am_police_body_key",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -666.65,
+     20.49,
+     373.73
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_carab_1",
+   "type": "loot-location",
+   "name": "Abandoned Car",
+   "x": 69.7026,
+   "y": 59.8186,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -313.69,
+     5.1,
+     228.46
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_carab_2",
+   "type": "loot-location",
+   "name": "Abandoned Car",
+   "x": 70.7244,
+   "y": 59.0981,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -307.08,
+     5.1,
+     231.71
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_carab_3",
+   "type": "loot-location",
+   "name": "Abandoned Car",
+   "x": 70.2977,
+   "y": 58.914,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -309.84,
+     5.1,
+     232.54
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_carab_4",
+   "type": "loot-location",
+   "name": "Abandoned Car",
+   "x": 71.2468,
+   "y": 59.3819,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -303.7,
+     5.1,
+     230.43
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_carab_5",
+   "type": "loot-location",
+   "name": "Abandoned Car",
+   "x": 69.4537,
+   "y": 57.0073,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -315.3,
+     5.1,
+     241.14
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_carab_6",
+   "type": "loot-location",
+   "name": "Abandoned Car",
+   "x": 70.8202,
+   "y": 60.0492,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -306.46,
+     4.84,
+     227.42
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_mon_1",
+   "type": "spawn-zone",
+   "name": "Distortion Zone",
+   "description": "Radius 20 m, up to 6 guards. Spawns: Distorted (dormant, small) 20%, Distorted (dormant) 80%",
+   "x": 65.9479,
+   "y": 81.0899,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -337.98,
+     5.11,
+     132.52
+    ],
+    "site_type": "spawn_zone"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_mon_2",
+   "type": "spawn-zone",
+   "name": "Distortion Zone",
+   "description": "Radius 20 m, up to 6 guards. Spawns: Distorted (dormant, small) 20%, Distorted (dormant) 80%",
+   "x": 74.4126,
+   "y": 22.9231,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -283.22,
+     5.26,
+     394.87
+    ],
+    "site_type": "spawn_zone"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_mon_3",
+   "type": "spawn-zone",
+   "name": "Distortion Zone",
+   "description": "Radius 20 m, up to 6 guards. Spawns: Distorted (dormant, small) 20%, Distorted (dormant) 80%",
+   "x": 32.4538,
+   "y": 70.625,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -554.66,
+     5.23,
+     179.72
+    ],
+    "site_type": "spawn_zone"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_mon_4",
+   "type": "monster",
+   "name": "Spawn: Distorted",
+   "x": 65.4919,
+   "y": 80.4913,
+   "variant": "regular",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -340.93,
+     5.11,
+     135.22
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_mon_5",
+   "type": "monster",
+   "name": "Spawn: Distorted",
+   "x": 73.9566,
+   "y": 22.3245,
+   "variant": "regular",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -286.17,
+     5.26,
+     397.57
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_mon_6",
+   "type": "monster",
+   "name": "Spawn: Distorted",
+   "x": 31.9978,
+   "y": 70.0264,
+   "variant": "regular",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -557.61,
+     5.23,
+     182.42
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_mon_7",
+   "type": "monster",
+   "name": "Spawn: Flowermen",
+   "x": 24.9583,
+   "y": 32.4613,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -603.15,
+     5.16,
+     351.85
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_mon_8",
+   "type": "monster",
+   "name": "Spawn: Flowermen",
+   "x": 22.383,
+   "y": 67.3592,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -619.81,
+     5.18,
+     194.45
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_mon_9",
+   "type": "monster",
+   "name": "Spawn: Flowermen",
+   "x": 75.8888,
+   "y": 45.5136,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -273.67,
+     5.26,
+     292.98
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_mon_10",
+   "type": "monster",
+   "name": "Spawn: Inorganics",
+   "x": 56.6438,
+   "y": 22.2823,
+   "variant": "regular",
+   "loot_table": "drop_invisible",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -398.17,
+     5.23,
+     397.76
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_mon_11",
+   "type": "monster",
+   "name": "Spawn: Inorganics",
+   "x": 40.3914,
+   "y": 69.9976,
+   "variant": "regular",
+   "loot_table": "drop_invisible",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -503.31,
+     5.26,
+     182.55
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_mon_12",
+   "type": "monster",
+   "name": "Spawn: Changed Police",
+   "x": 47.3273,
+   "y": 43.5802,
+   "variant": "regular",
+   "loot_table": "drop_changed",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -458.44,
+     5.21,
+     301.7
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_mon_13",
+   "type": "monster",
+   "name": "Spawn: Changed Police",
+   "x": 57.9376,
+   "y": 70.084,
+   "variant": "regular",
+   "loot_table": "drop_changed",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -389.8,
+     5.25,
+     182.16
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_mon_14",
+   "type": "monster",
+   "name": "Spawn: Changed Police",
+   "x": 11.8144,
+   "y": 40.9086,
+   "variant": "regular",
+   "loot_table": "drop_changed",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -688.18,
+     5.19,
+     313.75
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_mon_15",
+   "type": "monster",
+   "name": "Dendroid Guard",
+   "x": 72.8854,
+   "y": 44.3895,
+   "variant": "regular",
+   "loot_table": "drop_dendroid",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -293.1,
+     10.95,
+     298.05
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_mon_16",
+   "type": "monster",
+   "name": "Dendroid Guard",
+   "x": 72.281,
+   "y": 44.9017,
+   "variant": "regular",
+   "loot_table": "drop_dendroid",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -297.01,
+     10.95,
+     295.74
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_mon_17",
+   "type": "monster",
+   "name": "Dendroid Guard",
+   "x": 72.6272,
+   "y": 46.3029,
+   "variant": "regular",
+   "loot_table": "drop_dendroid",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -294.77,
+     10.95,
+     289.42
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_mon_18",
+   "type": "monster",
+   "name": "Dendroid Guard",
+   "x": 73.1172,
+   "y": 45.5047,
+   "variant": "regular",
+   "loot_table": "drop_dendroid",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -291.6,
+     10.95,
+     293.02
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_mon_19",
+   "type": "monster",
+   "name": "Dendroid Guard",
+   "x": 73.5964,
+   "y": 46.5579,
+   "variant": "regular",
+   "loot_table": "drop_dendroid",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -288.5,
+     10.95,
+     288.27
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_mon_20",
+   "type": "monster",
+   "name": "Dendroid Guard",
+   "x": 74.1483,
+   "y": 46.7264,
+   "variant": "regular",
+   "loot_table": "drop_dendroid",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -284.93,
+     10.95,
+     287.51
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_mon_21",
+   "type": "monster",
+   "name": "Dendroid Guard",
+   "x": 74.1529,
+   "y": 45.4138,
+   "variant": "regular",
+   "loot_table": "drop_dendroid",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -284.9,
+     10.95,
+     293.43
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_mon_22",
+   "type": "monster",
+   "name": "Flowerman Alpha",
+   "x": 24.915,
+   "y": 46.702,
+   "variant": "regular",
+   "loot_table": "drop_flowerman_alpha",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -603.43,
+     11.24,
+     287.62
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:am_br_extz_1",
+   "type": "dynamic-extraction",
+   "name": "Unstable Zone Extraction",
+   "x": 70.627,
+   "y": 49.2207,
+   "variant": "br",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -307.71,
+     5.26,
+     276.26
+    ],
+    "site_type": "extraction_time"
+   }
+  },
+  {
+   "external_ref": "amh:am_br_extz_2",
+   "type": "dynamic-extraction",
+   "name": "Unstable Zone Extraction",
+   "x": 24.8485,
+   "y": 42.8109,
+   "variant": "br",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -603.86,
+     5.45,
+     305.17
+    ],
+    "site_type": "extraction_time"
+   }
+  },
+  {
+   "external_ref": "amh:am_br_extz_3",
+   "type": "dynamic-extraction",
+   "name": "Unstable Zone Extraction",
+   "x": 47.4556,
+   "y": 45.0746,
+   "variant": "br",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -457.61,
+     5.2,
+     294.96
+    ],
+    "site_type": "extraction_time"
+   }
+  },
+  {
+   "external_ref": "amh:am_br_extz_4",
+   "type": "dynamic-extraction",
+   "name": "Unstable Zone Extraction",
+   "x": 50.3308,
+   "y": 76.9927,
+   "variant": "br",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -439.01,
+     6.81,
+     151
+    ],
+    "site_type": "extraction_time"
+   }
+  },
+  {
+   "external_ref": "amh:am_br_extz_5",
+   "type": "dynamic-extraction",
+   "name": "Unstable Zone Extraction",
+   "x": 59.1325,
+   "y": 56.136,
+   "variant": "br",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -382.07,
+     5.23,
+     245.07
+    ],
+    "site_type": "extraction_time"
+   }
+  },
+  {
+   "external_ref": "amh:am_br_extz_6",
+   "type": "dynamic-extraction",
+   "name": "Unstable Zone Extraction",
+   "x": 63.2103,
+   "y": 25.0338,
+   "variant": "br",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -355.69,
+     5.26,
+     385.35
+    ],
+    "site_type": "extraction_time"
+   }
+  },
+  {
+   "external_ref": "amh:am_br_extz_7",
+   "type": "dynamic-extraction",
+   "name": "Unstable Zone Extraction",
+   "x": 46.4679,
+   "y": 23.7124,
+   "variant": "br",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -464,
+     5.25,
+     391.31
+    ],
+    "site_type": "extraction_time"
+   }
+  },
+  {
+   "external_ref": "amh:am_br_extz_8",
+   "type": "dynamic-extraction",
+   "name": "Unstable Zone Extraction",
+   "x": 18.3469,
+   "y": 23.3843,
+   "variant": "br",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -645.92,
+     5.25,
+     392.79
+    ],
+    "site_type": "extraction_time"
+   }
+  },
+  {
+   "external_ref": "amh:am_br_extz_9",
+   "type": "dynamic-extraction",
+   "name": "Unstable Zone Extraction",
+   "x": 15.9061,
+   "y": 67.3104,
+   "variant": "br",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -661.71,
+     5.15,
+     194.67
+    ],
+    "site_type": "extraction_time"
+   }
+  },
+  {
+   "external_ref": "amh:am_br_extz_10",
+   "type": "dynamic-extraction",
+   "name": "Unstable Zone Extraction",
+   "x": 6.9236,
+   "y": 39.953,
+   "variant": "br",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -719.82,
+     5.18,
+     318.06
+    ],
+    "site_type": "extraction_time"
+   }
+  },
+  {
+   "external_ref": "amh:am_br_spawn_1",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 31.3346,
+   "y": 13.1344,
+   "variant": "br",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -561.9,
+     5.25,
+     439.02
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:am_br_spawn_2",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 40.2507,
+   "y": 2.8313,
+   "variant": "br",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -504.22,
+     5.26,
+     485.49
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:am_br_spawn_3",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 84.9719,
+   "y": 61.3507,
+   "variant": "br",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -214.91,
+     5.25,
+     221.55
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:am_br_spawn_4",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 67.3499,
+   "y": 86.9033,
+   "variant": "br",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -328.91,
+     4.35,
+     106.3
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:am_br_spawn_5",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 21.8018,
+   "y": 87.9698,
+   "variant": "br",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -623.57,
+     5.26,
+     101.49
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:am_br_spawn_6",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 85.9534,
+   "y": 47.09,
+   "variant": "br",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -208.56,
+     5.26,
+     285.87
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:am_br_spawn_7",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 86.9412,
+   "y": 18.4644,
+   "variant": "br",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -202.17,
+     5.26,
+     414.98
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:am_br_spawn_8",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 70.0442,
+   "y": 10.3629,
+   "variant": "br",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -311.48,
+     5.26,
+     451.52
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:am_br_spawn_9",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 56.9081,
+   "y": 3.829,
+   "variant": "br",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -396.46,
+     5.26,
+     480.99
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:am_br_spawn_10",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 19.698,
+   "y": 8.5781,
+   "variant": "br",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -637.18,
+     5.23,
+     459.57
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:am_br_spawn_11",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 2.8381,
+   "y": 19.5685,
+   "variant": "br",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -746.25,
+     5.22,
+     410
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:am_br_spawn_12",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 4.1427,
+   "y": 46.6222,
+   "variant": "br",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -737.81,
+     5.2,
+     287.98
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:am_br_spawn_13",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 6.3686,
+   "y": 59.7499,
+   "variant": "br",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -723.41,
+     4.93,
+     228.77
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:am_br_spawn_14",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 12.7435,
+   "y": 77.2565,
+   "variant": "br",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -682.17,
+     5.24,
+     149.81
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:am_br_spawn_15",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 80.4875,
+   "y": 75.3764,
+   "variant": "br",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -243.92,
+     5.25,
+     158.29
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:am_portal_1",
+   "type": "portal",
+   "name": "Portal",
+   "x": 66.1225,
+   "y": 41.9994,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -336.85,
+     7.14,
+     308.83
+    ],
+    "site_type": "portal",
+    "group": "1"
+   }
+  },
+  {
+   "external_ref": "amh:am_portal_2",
+   "type": "portal",
+   "name": "Portal",
+   "x": 15.1008,
+   "y": 26.7787,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -666.92,
+     21.66,
+     377.48
+    ],
+    "site_type": "portal",
+    "group": "1"
+   }
+  },
+  {
+   "external_ref": "amh:am_portal_3",
+   "type": "portal",
+   "name": "Portal",
+   "x": 30.9312,
+   "y": 54.9963,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -564.51,
+     6.77,
+     250.21
+    ],
+    "site_type": "portal",
+    "group": "2"
+   }
+  },
+  {
+   "external_ref": "amh:am_portal_4",
+   "type": "portal",
+   "name": "Portal",
+   "x": 12.1978,
+   "y": 26.9206,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -685.7,
+     2.91,
+     376.84
+    ],
+    "site_type": "portal",
+    "group": "2"
+   }
+  },
+  {
+   "external_ref": "amh:am_portal_5",
+   "type": "portal",
+   "name": "Portal",
+   "x": 62.2256,
+   "y": 62.0047,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -362.06,
+     7.06,
+     218.6
+    ],
+    "site_type": "portal",
+    "group": "3"
+   }
+  },
+  {
+   "external_ref": "amh:am_portal_6",
+   "type": "portal",
+   "name": "Portal",
+   "x": 15.396,
+   "y": 26.8696,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -665.01,
+     17.73,
+     377.07
+    ],
+    "site_type": "portal",
+    "group": "3"
+   }
+  },
+  {
+   "external_ref": "amh:am_portal_7",
+   "type": "portal",
+   "name": "Portal",
+   "x": 60.0723,
+   "y": 65.7761,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -375.99,
+     6.84,
+     201.59
+    ],
+    "site_type": "portal",
+    "group": "4"
+   }
+  },
+  {
+   "external_ref": "amh:am_portal_8",
+   "type": "portal",
+   "name": "Portal",
+   "x": 49.3585,
+   "y": 6.0861,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -445.3,
+     7.21,
+     470.81
+    ],
+    "site_type": "portal",
+    "group": "4"
+   }
+  },
+  {
+   "external_ref": "amh:am_portal_9",
+   "type": "portal",
+   "name": "Portal",
+   "x": 34.8497,
+   "y": 16.6419,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -539.16,
+     6.86,
+     423.2
+    ],
+    "site_type": "portal",
+    "group": "5"
+   }
+  },
+  {
+   "external_ref": "amh:am_portal_10",
+   "type": "portal",
+   "name": "Portal",
+   "x": 7.8742,
+   "y": 60.9272,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -713.67,
+     6.86,
+     223.46
+    ],
+    "site_type": "portal",
+    "group": "5"
+   }
+  },
+  {
+   "external_ref": "amh:am_portal_11",
+   "type": "portal",
+   "name": "Portal",
+   "x": 9.437,
+   "y": 60.7654,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -703.56,
+     6.86,
+     224.19
+    ],
+    "site_type": "portal",
+    "group": "6"
+   }
+  },
+  {
+   "external_ref": "amh:am_portal_12",
+   "type": "portal",
+   "name": "Portal",
+   "x": 69.6469,
+   "y": 19.9521,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -314.05,
+     6.86,
+     408.27
+    ],
+    "site_type": "portal",
+    "group": "6"
+   }
+  },
+  {
+   "external_ref": "amh:am_portal_13",
+   "type": "portal",
+   "name": "Portal",
+   "x": 68.013,
+   "y": 42.2367,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -324.62,
+     7.31,
+     307.76
+    ],
+    "site_type": "portal",
+    "group": "7"
+   }
+  },
+  {
+   "external_ref": "amh:am_portal_14",
+   "type": "portal",
+   "name": "Portal",
+   "x": 30.9095,
+   "y": 79.0147,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -564.65,
+     7.31,
+     141.88
+    ],
+    "site_type": "portal",
+    "group": "7"
+   }
+  },
+  {
+   "external_ref": "amh:am_portal_15",
+   "type": "portal",
+   "name": "Portal",
+   "x": 10.2934,
+   "y": 19.8102,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -698.02,
+     6.64,
+     408.91
+    ],
+    "site_type": "portal",
+    "group": "8"
+   }
+  },
+  {
+   "external_ref": "amh:am_portal_16",
+   "type": "portal",
+   "name": "Portal",
+   "x": 82.31,
+   "y": 65.7606,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -232.13,
+     7.09,
+     201.66
+    ],
+    "site_type": "portal",
+    "group": "8"
+   }
+  },
+  {
+   "external_ref": "amh:am_door_1",
+   "type": "locked-door",
+   "name": "Locked Door",
+   "x": 14.8195,
+   "y": 27.3507,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -668.74,
+     21.97,
+     374.9
+    ],
+    "site_type": "locked_doors"
+   }
+  },
+  {
+   "external_ref": "amh:am_door_2",
+   "type": "locked-door",
+   "name": "Locked Door",
+   "x": 14.2877,
+   "y": 25.0227,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -672.18,
+     17.18,
+     385.4
+    ],
+    "site_type": "locked_doors"
+   }
+  },
+  {
+   "external_ref": "amh:am_door_3",
+   "type": "locked-door",
+   "name": "Locked Door",
+   "x": 13.1809,
+   "y": 26.3242,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -679.34,
+     2.32,
+     379.53
+    ],
+    "site_type": "locked_doors"
+   }
+  },
+  {
+   "external_ref": "amh:am_door_4",
+   "type": "locked-door",
+   "name": "Locked Door",
+   "x": 13.1809,
+   "y": 27.6035,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -679.34,
+     2.32,
+     373.76
+    ],
+    "site_type": "locked_doors"
+   }
+  },
+  {
+   "external_ref": "amh:am_door_5",
+   "type": "locked-door",
+   "name": "Locked Door 🔑 Police station armory key",
+   "x": 26.2969,
+   "y": 71.9132,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -594.49,
+     6.44,
+     173.91
+    ],
+    "site_type": "locked_doors",
+    "conditions": "Requires: Police station armory key"
+   }
+  },
+  {
+   "external_ref": "amh:am_door_6",
+   "type": "locked-door",
+   "name": "Locked Door 🔑 Police station armory key",
+   "x": 25.691,
+   "y": 72.31,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -598.41,
+     6.44,
+     172.12
+    ],
+    "site_type": "locked_doors",
+    "conditions": "Requires: Police station armory key"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_box_t2_long_1",
+   "type": "container-tier-2",
+   "name": "T2 Crate (Long Range)",
+   "x": 39.3944,
+   "y": 42.4606,
+   "variant": "regular",
+   "loot_table": "t2_long",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -509.76,
+     49.69,
+     306.75
+    ],
+    "site_type": "t2_box",
+    "mode": "pvp"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_box_t3_box_1",
+   "type": "container-tier-3",
+   "name": "T3 Crate (Long Range)",
+   "x": 39.0404,
+   "y": 41.7511,
+   "variant": "regular",
+   "loot_table": "t3_box",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -512.05,
+     50.78,
+     309.95
+    ],
+    "site_type": "t3_box",
+    "mode": "pvp"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_box_t3_box_2",
+   "type": "container-tier-3",
+   "name": "T3 Crate (Long Range)",
+   "x": 39.7839,
+   "y": 42.2234,
+   "variant": "regular",
+   "loot_table": "t3_box",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -507.24,
+     50.47,
+     307.82
+    ],
+    "site_type": "t3_box",
+    "mode": "both"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_box_t2_long_2",
+   "type": "container-tier-2",
+   "name": "T2 Crate (Long Range)",
+   "x": 39.5659,
+   "y": 43.4982,
+   "variant": "regular",
+   "loot_table": "t2_long",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -508.65,
+     49.13,
+     302.07
+    ],
+    "site_type": "t2_box",
+    "mode": "both"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_box_t3_box_3",
+   "type": "container-tier-3",
+   "name": "T3 Crate (Long Range)",
+   "x": 44.3223,
+   "y": 47.1144,
+   "variant": "regular",
+   "loot_table": "t3_box",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -477.88,
+     54.08,
+     285.76
+    ],
+    "site_type": "t3_box",
+    "mode": "both"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_box_t3_box_4",
+   "type": "container-tier-3",
+   "name": "T3 Crate (Long Range)",
+   "x": 43.8617,
+   "y": 46.5845,
+   "variant": "regular",
+   "loot_table": "t3_box",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -480.86,
+     52.89,
+     288.15
+    ],
+    "site_type": "t3_box",
+    "mode": "pvp"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_box_t2_close_1",
+   "type": "container-tier-2",
+   "name": "T2 Crate (Close Range)",
+   "x": 44.3873,
+   "y": 48.3316,
+   "variant": "regular",
+   "loot_table": "t2_close",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -477.46,
+     52.88,
+     280.27
+    ],
+    "site_type": "t2_box",
+    "mode": "both"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_box_t2_close_2",
+   "type": "container-tier-2",
+   "name": "T2 Crate (Close Range)",
+   "x": 44.919,
+   "y": 46.0568,
+   "variant": "regular",
+   "loot_table": "t2_close",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -474.02,
+     51.33,
+     290.53
+    ],
+    "site_type": "t2_box",
+    "mode": "pvp"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_box_t2_ammo_1",
+   "type": "ammo-box",
+   "name": "T2 Crate (Ammo)",
+   "x": 12.3307,
+   "y": 28.9271,
+   "variant": "regular",
+   "loot_table": "t2_ammo",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -684.84,
+     5.83,
+     367.79
+    ],
+    "site_type": "ammo_box",
+    "mode": "both"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_box_t2_ammo_2",
+   "type": "ammo-box",
+   "name": "T2 Crate (Ammo)",
+   "x": 12.4729,
+   "y": 28.9271,
+   "variant": "regular",
+   "loot_table": "t2_ammo",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -683.92,
+     5.83,
+     367.79
+    ],
+    "site_type": "ammo_box",
+    "mode": "pvp"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_box_t2_ammo_3",
+   "type": "ammo-box",
+   "name": "T2 Crate (Ammo)",
+   "x": 12.8826,
+   "y": 28.3751,
+   "variant": "regular",
+   "loot_table": "t2_ammo",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -681.27,
+     5.83,
+     370.28
+    ],
+    "site_type": "ammo_box",
+    "mode": "both"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_box_t2_ammo_4",
+   "type": "ammo-box",
+   "name": "T2 Crate (Ammo)",
+   "x": 12.8826,
+   "y": 28.5679,
+   "variant": "regular",
+   "loot_table": "t2_ammo",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -681.27,
+     5.83,
+     369.41
+    ],
+    "site_type": "ammo_box",
+    "mode": "pvp"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_box_t2_ammo_5",
+   "type": "ammo-box",
+   "name": "T2 Crate (Ammo)",
+   "x": 12.7543,
+   "y": 28.3241,
+   "variant": "regular",
+   "loot_table": "t2_ammo",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -682.1,
+     5.83,
+     370.51
+    ],
+    "site_type": "ammo_box",
+    "mode": "both"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_box_t2_ammo_6",
+   "type": "ammo-box",
+   "name": "T2 Crate (Ammo)",
+   "x": 12.6074,
+   "y": 28.9293,
+   "variant": "regular",
+   "loot_table": "t2_ammo",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -683.05,
+     5.83,
+     367.78
+    ],
+    "site_type": "ammo_box",
+    "mode": "pvp"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_box_pve_t2_long_3",
+   "type": "container-tier-2",
+   "name": "T2 Crate (Long Range)",
+   "x": 40.0977,
+   "y": 41.2234,
+   "variant": "regular",
+   "loot_table": "t2_long",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -505.21,
+     50.78,
+     312.33
+    ],
+    "site_type": "t2_box",
+    "mode": "pve"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_box_pve_t2_long_4",
+   "type": "container-tier-2",
+   "name": "T2 Crate (Long Range)",
+   "x": 43.2511,
+   "y": 47.4536,
+   "variant": "regular",
+   "loot_table": "t2_long",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -484.81,
+     52.89,
+     284.23
+    ],
+    "site_type": "t2_box",
+    "mode": "pve"
+   }
+  },
+  {
+   "external_ref": "amh:am_br_box_t2_long_1",
+   "type": "container-tier-2",
+   "name": "T2 Crate (Long Range)",
+   "x": 39.3944,
+   "y": 42.4606,
+   "variant": "br",
+   "loot_table": "t2_long",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -509.76,
+     49.69,
+     306.75
+    ],
+    "site_type": "t2_box",
+    "mode": "pvp"
+   }
+  },
+  {
+   "external_ref": "amh:am_br_box_t3_box_1",
+   "type": "container-tier-3",
+   "name": "T3 Crate (Long Range)",
+   "x": 39.0481,
+   "y": 41.8021,
+   "variant": "br",
+   "loot_table": "t3_box",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -512,
+     50.78,
+     309.72
+    ],
+    "site_type": "t3_box",
+    "mode": "pvp"
+   }
+  },
+  {
+   "external_ref": "amh:am_br_box_t3_box_2",
+   "type": "container-tier-3",
+   "name": "T3 Crate (Long Range)",
+   "x": 39.7839,
+   "y": 42.2234,
+   "variant": "br",
+   "loot_table": "t3_box",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -507.24,
+     50.47,
+     307.82
+    ],
+    "site_type": "t3_box",
+    "mode": "pvp"
+   }
+  },
+  {
+   "external_ref": "amh:am_br_box_t2_long_2",
+   "type": "container-tier-2",
+   "name": "T2 Crate (Long Range)",
+   "x": 39.5737,
+   "y": 43.5514,
+   "variant": "br",
+   "loot_table": "t2_long",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -508.6,
+     49.13,
+     301.83
+    ],
+    "site_type": "t2_box",
+    "mode": "pvp"
+   }
+  },
+  {
+   "external_ref": "amh:am_br_box_t3_box_3",
+   "type": "container-tier-3",
+   "name": "T3 Crate (Long Range)",
+   "x": 44.3223,
+   "y": 47.1144,
+   "variant": "br",
+   "loot_table": "t3_box",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -477.88,
+     54.08,
+     285.76
+    ],
+    "site_type": "t3_box",
+    "mode": "pvp"
+   }
+  },
+  {
+   "external_ref": "amh:am_br_box_t3_box_4",
+   "type": "container-tier-3",
+   "name": "T3 Crate (Long Range)",
+   "x": 43.8462,
+   "y": 46.5313,
+   "variant": "br",
+   "loot_table": "t3_box",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -480.96,
+     52.89,
+     288.39
+    ],
+    "site_type": "t3_box",
+    "mode": "pvp"
+   }
+  },
+  {
+   "external_ref": "amh:am_br_box_t2_close_1",
+   "type": "container-tier-2",
+   "name": "T2 Crate (Close Range)",
+   "x": 44.3733,
+   "y": 48.2784,
+   "variant": "br",
+   "loot_table": "t2_close",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -477.55,
+     52.88,
+     280.51
+    ],
+    "site_type": "t2_box",
+    "mode": "pvp"
+   }
+  },
+  {
+   "external_ref": "amh:am_br_box_t2_close_2",
+   "type": "container-tier-2",
+   "name": "T2 Crate (Close Range)",
+   "x": 44.9051,
+   "y": 46.0036,
+   "variant": "br",
+   "loot_table": "t2_close",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -474.11,
+     51.33,
+     290.77
+    ],
+    "site_type": "t2_box",
+    "mode": "pvp"
+   }
+  },
+  {
+   "external_ref": "amh:am_br_box_t2_ammo_1",
+   "type": "ammo-box",
+   "name": "T2 Crate (Ammo)",
+   "x": 12.3307,
+   "y": 28.9271,
+   "variant": "br",
+   "loot_table": "t2_ammo",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -684.84,
+     5.83,
+     367.79
+    ],
+    "site_type": "ammo_box",
+    "mode": "pvp"
+   }
+  },
+  {
+   "external_ref": "amh:am_br_box_t2_ammo_2",
+   "type": "ammo-box",
+   "name": "T2 Crate (Ammo)",
+   "x": 12.4729,
+   "y": 28.9271,
+   "variant": "br",
+   "loot_table": "t2_ammo",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -683.92,
+     5.83,
+     367.79
+    ],
+    "site_type": "ammo_box",
+    "mode": "pvp"
+   }
+  },
+  {
+   "external_ref": "amh:am_br_box_t2_ammo_3",
+   "type": "ammo-box",
+   "name": "T2 Crate (Ammo)",
+   "x": 12.8826,
+   "y": 28.3751,
+   "variant": "br",
+   "loot_table": "t2_ammo",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -681.27,
+     5.83,
+     370.28
+    ],
+    "site_type": "ammo_box",
+    "mode": "pvp"
+   }
+  },
+  {
+   "external_ref": "amh:am_br_box_t2_ammo_4",
+   "type": "ammo-box",
+   "name": "T2 Crate (Ammo)",
+   "x": 12.8826,
+   "y": 28.5679,
+   "variant": "br",
+   "loot_table": "t2_ammo",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -681.27,
+     5.83,
+     369.41
+    ],
+    "site_type": "ammo_box",
+    "mode": "pvp"
+   }
+  },
+  {
+   "external_ref": "amh:am_br_box_t2_ammo_5",
+   "type": "ammo-box",
+   "name": "T2 Crate (Ammo)",
+   "x": 12.7543,
+   "y": 28.3241,
+   "variant": "br",
+   "loot_table": "t2_ammo",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -682.1,
+     5.83,
+     370.51
+    ],
+    "site_type": "ammo_box",
+    "mode": "pvp"
+   }
+  },
+  {
+   "external_ref": "amh:am_br_box_t2_ammo_6",
+   "type": "ammo-box",
+   "name": "T2 Crate (Ammo)",
+   "x": 12.6074,
+   "y": 28.9293,
+   "variant": "br",
+   "loot_table": "t2_ammo",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -683.05,
+     5.83,
+     367.78
+    ],
+    "site_type": "ammo_box",
+    "mode": "pvp"
+   }
+  },
+  {
+   "external_ref": "amh:amx_1",
+   "type": "vehicle-spawn",
+   "name": "Pickup (Spawn)",
+   "x": 45.1323,
+   "y": 33.4878,
+   "loot_table": "america_city_vehicle_pickup_spawn",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -472.64,
+     5.25,
+     347.22
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:amx_2",
+   "type": "loot-location",
+   "name": "Weapon: SPAS-12",
+   "x": 27.3372,
+   "y": 51.9056,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -587.76,
+     13.2,
+     264.15
+    ],
+    "site_type": "floor_loot",
+    "conditions": "Item: SPAS-12"
+   }
+  },
+  {
+   "external_ref": "amh:amx_3",
+   "type": "ammo-box",
+   "name": "12 Gauge ammo box",
+   "x": 27.869,
+   "y": 49.6308,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -584.32,
+     13.18,
+     274.41
+    ],
+    "site_type": "ammo_box",
+    "conditions": "Item: Патроны 12 Калибра"
+   }
+  },
+  {
+   "external_ref": "amh:amx_4",
+   "type": "loot-location",
+   "name": "Weapon: MP5",
+   "x": 73.7788,
+   "y": 47.376,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -287.32,
+     11.53,
+     284.58
+    ],
+    "site_type": "floor_loot",
+    "conditions": "Item: MP5"
+   }
+  },
+  {
+   "external_ref": "amh:amx_5",
+   "type": "loot-location",
+   "name": "Weapon: MP5",
+   "x": 73.7155,
+   "y": 47.5179,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -287.73,
+     11.57,
+     283.94
+    ],
+    "site_type": "floor_loot",
+    "conditions": "Item: MP5"
+   }
+  },
+  {
+   "external_ref": "amh:amx_6",
+   "type": "loot-location",
+   "name": "Weapon: SPAS-12",
+   "x": 74.3106,
+   "y": 45.1012,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -283.88,
+     12.61,
+     294.84
+    ],
+    "site_type": "floor_loot",
+    "conditions": "Item: SPAS-12"
+   }
+  },
+  {
+   "external_ref": "amh:amx_7",
+   "type": "loot-location",
+   "name": "Weapon: M4",
+   "x": 73.3321,
+   "y": 45.3739,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -290.21,
+     11.92,
+     293.61
+    ],
+    "site_type": "floor_loot",
+    "conditions": "Item: M4"
+   }
+  },
+  {
+   "external_ref": "amh:amx_8",
+   "type": "loot-location",
+   "name": "Weapon: M4",
+   "x": 72.9534,
+   "y": 45.9482,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -292.66,
+     11.23,
+     291.02
+    ],
+    "site_type": "floor_loot",
+    "conditions": "Item: M4"
+   }
+  },
+  {
+   "external_ref": "amh:amx_9",
+   "type": "loot-location",
+   "name": "Weapon: M9",
+   "x": 73.5238,
+   "y": 46.9459,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -288.97,
+     11.59,
+     286.52
+    ],
+    "site_type": "floor_loot",
+    "conditions": "Item: М9"
+   }
+  },
+  {
+   "external_ref": "amh:amx_10",
+   "type": "loot-location",
+   "name": "Weapon: M9",
+   "x": 73.2517,
+   "y": 46.3495,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -290.73,
+     11.59,
+     289.21
+    ],
+    "site_type": "floor_loot",
+    "conditions": "Item: М9"
+   }
+  },
+  {
+   "external_ref": "amh:amx_11",
+   "type": "loot-location",
+   "name": "Weapon: M45A1",
+   "x": 73.7773,
+   "y": 48.0966,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -287.33,
+     11.88,
+     281.33
+    ],
+    "site_type": "floor_loot",
+    "conditions": "Item: M45A1"
+   }
+  },
+  {
+   "external_ref": "amh:amx_12",
+   "type": "documents",
+   "name": "Phone card",
+   "x": 13.1562,
+   "y": 57.1226,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -679.5,
+     10.12,
+     240.62
+    ],
+    "site_type": "documents",
+    "conditions": "Item: Телефонная карта"
+   }
+  },
+  {
+   "external_ref": "amh:amx_13",
+   "type": "loot-location",
+   "name": "Weapon: Rusty M4",
+   "x": 72.8761,
+   "y": 44.7753,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -293.16,
+     11.92,
+     296.31
+    ],
+    "site_type": "floor_loot",
+    "conditions": "Item: Ржавая M4"
+   }
+  },
+  {
+   "external_ref": "amh:amx_14",
+   "type": "documents",
+   "name": "Utility bill",
+   "description": "Located on 2nd floor.",
+   "x": 13.5565,
+   "y": 58.9939,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -676.91,
+     10.09,
+     232.18
+    ],
+    "site_type": "documents",
+    "conditions": "Item: Квитанция за коммунальные услуги"
+   }
+  },
+  {
+   "external_ref": "amh:amx_15",
+   "type": "ammo-box",
+   "name": "T2 Crate (Ammo)",
+   "x": 75.0433,
+   "y": 35.0331,
+   "loot_table": "t2_ammo",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -279.14,
+     5,
+     340.25
+    ],
+    "site_type": "ammo_box"
+   }
+  },
+  {
+   "external_ref": "amh:amx_16",
+   "type": "container-tier-2",
+   "name": "T2 Crate (Close Range)",
+   "x": 74.5548,
+   "y": 34.3259,
+   "loot_table": "t2_close",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -282.3,
+     5,
+     343.44
+    ],
+    "site_type": "t2_box"
+   }
+  },
+  {
+   "external_ref": "amh:amx_17",
+   "type": "ammo-box",
+   "name": "T2 Crate (Ammo)",
+   "x": 57.7923,
+   "y": 69.7404,
+   "loot_table": "t2_ammo",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -390.74,
+     5.01,
+     183.71
+    ],
+    "site_type": "ammo_box"
+   }
+  },
+  {
+   "external_ref": "amh:amx_18",
+   "type": "container-tier-2",
+   "name": "T2 Crate (Close Range)",
+   "x": 57.2667,
+   "y": 69.1218,
+   "loot_table": "t2_close",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -394.14,
+     5,
+     186.5
+    ],
+    "site_type": "t2_box"
+   }
+  },
+  {
+   "external_ref": "amh:amx_19",
+   "type": "ammo-box",
+   "name": "T2 Crate (Ammo)",
+   "x": 67.9528,
+   "y": 8.3343,
+   "loot_table": "t2_ammo",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -325.01,
+     4.99,
+     460.67
+    ],
+    "site_type": "ammo_box"
+   }
+  },
+  {
+   "external_ref": "amh:amx_20",
+   "type": "container-tier-2",
+   "name": "T2 Crate (Close Range)",
+   "x": 67.5818,
+   "y": 7.8287,
+   "loot_table": "t2_close",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -327.41,
+     4.98,
+     462.95
+    ],
+    "site_type": "t2_box"
+   }
+  },
+  {
+   "external_ref": "amh:amx_21",
+   "type": "loot-location",
+   "name": "1945 silver quarter",
+   "x": 15.9278,
+   "y": 24.5948,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -661.57,
+     16.6,
+     387.33
+    ],
+    "site_type": "floor_loot",
+    "conditions": "Item: Серебряный четвертак 1945 года"
+   }
+  },
+  {
+   "external_ref": "amh:amx_22",
+   "type": "loot-location",
+   "name": "1976 bicentennial quarter",
+   "x": 25.218,
+   "y": 46.0435,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -601.47,
+     11.76,
+     290.59
+    ],
+    "site_type": "floor_loot",
+    "conditions": "Item: Юбилейный четвертак 1976 года"
+   }
+  },
+  {
+   "external_ref": "amh:amx_23",
+   "type": "loot-location",
+   "name": "1932 Washington quarter",
+   "x": 47.0646,
+   "y": 74.2234,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -460.14,
+     5.34,
+     163.49
+    ],
+    "site_type": "floor_loot",
+    "conditions": "Item: Четвертак Вашингтона 1932 года"
+   }
+  },
+  {
+   "external_ref": "amh:col_beacon_1",
+   "type": "interactive",
+   "name": "Defense Beacon #1",
+   "description": "Collapse Mode (PvE): defend beacons against waves of changed. Activate and hold point.",
+   "x": 67.911,
+   "y": 44.7709,
+   "variant": "collapse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -325.28,
+     5,
+     296.33
+    ],
+    "site_type": "question"
+   }
+  },
+  {
+   "external_ref": "amh:col_beacon_2",
+   "type": "interactive",
+   "name": "Defense Beacon #2",
+   "description": "Collapse Mode (PvE): defend beacons against waves of changed. Activate and hold point.",
+   "x": 81.8772,
+   "y": 43.598,
+   "variant": "collapse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -234.93,
+     5,
+     301.62
+    ],
+    "site_type": "question"
+   }
+  },
+  {
+   "external_ref": "amh:col_beacon_3",
+   "type": "interactive",
+   "name": "Defense Beacon #3",
+   "description": "Collapse Mode (PvE): defend beacons against waves of changed. Activate and hold point.",
+   "x": 61.5779,
+   "y": 63.8649,
+   "variant": "collapse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -366.25,
+     5.02,
+     210.21
+    ],
+    "site_type": "question"
+   }
+  },
+  {
+   "external_ref": "amh:col_beacon_4",
+   "type": "interactive",
+   "name": "Defense Beacon #4",
+   "description": "Collapse Mode (PvE): defend beacons against waves of changed. Activate and hold point.",
+   "x": 73.4248,
+   "y": 78.4848,
+   "variant": "collapse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -289.61,
+     4.97,
+     144.27
+    ],
+    "site_type": "question"
+   }
+  },
+  {
+   "external_ref": "amh:col_beacon_5",
+   "type": "interactive",
+   "name": "Defense Beacon #5",
+   "description": "Collapse Mode (PvE): defend beacons against waves of changed. Activate and hold point.",
+   "x": 69.4831,
+   "y": 60.2399,
+   "variant": "collapse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -315.11,
+     5.09,
+     226.56
+    ],
+    "site_type": "question"
+   }
+  },
+  {
+   "external_ref": "amh:col_beacon_6",
+   "type": "interactive",
+   "name": "Defense Beacon #6",
+   "description": "Collapse Mode (PvE): defend beacons against waves of changed. Activate and hold point.",
+   "x": 74.9768,
+   "y": 36.2681,
+   "variant": "collapse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -279.57,
+     5,
+     334.68
+    ],
+    "site_type": "question"
+   }
+  },
+  {
+   "external_ref": "amh:col_beacon_7",
+   "type": "interactive",
+   "name": "Defense Beacon #7",
+   "description": "Collapse Mode (PvE): defend beacons against waves of changed. Activate and hold point.",
+   "x": 82.0472,
+   "y": 79.4049,
+   "variant": "collapse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -233.83,
+     5.09,
+     140.12
+    ],
+    "site_type": "question"
+   }
+  },
+  {
+   "external_ref": "amh:col_beacon_8",
+   "type": "interactive",
+   "name": "Defense Beacon #8",
+   "description": "Collapse Mode (PvE): defend beacons against waves of changed. Activate and hold point.",
+   "x": 80.925,
+   "y": 60.8607,
+   "variant": "collapse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -241.09,
+     5,
+     223.76
+    ],
+    "site_type": "question"
+   }
+  },
+  {
+   "external_ref": "amh:col_beacon_9",
+   "type": "interactive",
+   "name": "Defense Beacon #9",
+   "description": "Collapse Mode (PvE): defend beacons against waves of changed. Activate and hold point.",
+   "x": 65.1873,
+   "y": 78.3629,
+   "variant": "collapse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -342.9,
+     4.98,
+     144.82
+    ],
+    "site_type": "question"
+   }
+  },
+  {
+   "external_ref": "amh:col_beacon_10",
+   "type": "interactive",
+   "name": "Defense Beacon #10",
+   "description": "Collapse Mode (PvE): defend beacons against waves of changed. Activate and hold point.",
+   "x": 76.7684,
+   "y": 70.37,
+   "variant": "collapse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -267.98,
+     4.98,
+     180.87
+    ],
+    "site_type": "question"
+   }
+  },
+  {
+   "external_ref": "amh:col_extf",
+   "type": "final-extraction",
+   "name": "Final Extraction",
+   "x": 71.6101,
+   "y": 63.1355,
+   "variant": "collapse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -301.35,
+     5.26,
+     213.5
+    ],
+    "site_type": "extraction_final"
+   }
+  },
+  {
+   "external_ref": "amh:col_mongen_1",
+   "type": "monster",
+   "name": "Monster Spawn (Waves)",
+   "x": 45.5883,
+   "y": 34.0864,
+   "variant": "collapse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -469.69,
+     5.25,
+     344.52
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:colx_1",
+   "type": "vehicle-spawn",
+   "name": "Pickup (Spawn)",
+   "x": 45.1323,
+   "y": 33.4878,
+   "variant": "collapse",
+   "loot_table": "america_city_vehicle_pickup_spawn",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -472.64,
+     5.25,
+     347.22
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:colx_2",
+   "type": "container-tier-2",
+   "name": "T2 Crate (Long Range)",
+   "x": 39.4717,
+   "y": 42.1923,
+   "variant": "collapse",
+   "loot_table": "t2_long",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -509.26,
+     50.78,
+     307.96
+    ],
+    "site_type": "t2_box"
+   }
+  },
+  {
+   "external_ref": "amh:colx_3",
+   "type": "container-tier-3",
+   "name": "T3 Crate (Long Range)",
+   "x": 39.7839,
+   "y": 42.2234,
+   "variant": "collapse",
+   "loot_table": "t3_box",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -507.24,
+     50.47,
+     307.82
+    ],
+    "site_type": "t3_box"
+   }
+  },
+  {
+   "external_ref": "amh:colx_4",
+   "type": "container-tier-2",
+   "name": "T2 Crate (Long Range)",
+   "x": 39.6463,
+   "y": 42.5537,
+   "variant": "collapse",
+   "loot_table": "t2_long",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -508.13,
+     49.13,
+     306.33
+    ],
+    "site_type": "t2_box"
+   }
+  },
+  {
+   "external_ref": "amh:colx_5",
+   "type": "container-tier-3",
+   "name": "T3 Crate (Long Range)",
+   "x": 44.3223,
+   "y": 47.1144,
+   "variant": "collapse",
+   "loot_table": "t3_box",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -477.88,
+     54.08,
+     285.76
+    ],
+    "site_type": "t3_box"
+   }
+  },
+  {
+   "external_ref": "amh:colx_6",
+   "type": "container-tier-2",
+   "name": "T2 Crate (Long Range)",
+   "x": 43.854,
+   "y": 46.5268,
+   "variant": "collapse",
+   "loot_table": "t2_long",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -480.91,
+     52.89,
+     288.41
+    ],
+    "site_type": "t2_box"
+   }
+  },
+  {
+   "external_ref": "amh:colx_7",
+   "type": "container-tier-2",
+   "name": "T2 Crate (Close Range)",
+   "x": 44.3811,
+   "y": 48.274,
+   "variant": "collapse",
+   "loot_table": "t2_close",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -477.5,
+     52.88,
+     280.53
+    ],
+    "site_type": "t2_box"
+   }
+  },
+  {
+   "external_ref": "amh:colx_8",
+   "type": "safe",
+   "name": "Safe (Comic Book Store)",
+   "x": 27.4099,
+   "y": 50.4312,
+   "variant": "collapse",
+   "loot_table": "am_safe_comic",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -587.29,
+     12.8,
+     270.8
+    ],
+    "site_type": "safe",
+    "conditions": "Requires: Comic book store safe key"
+   }
+  },
+  {
+   "external_ref": "amh:colx_9",
+   "type": "loot-location",
+   "name": "Weapon: SPAS-12",
+   "x": 27.2167,
+   "y": 51.0476,
+   "variant": "collapse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -588.54,
+     13.2,
+     268.02
+    ],
+    "site_type": "floor_loot",
+    "conditions": "Item: SPAS-12"
+   }
+  },
+  {
+   "external_ref": "amh:colx_10",
+   "type": "ammo-box",
+   "name": "12 Gauge ammo box",
+   "x": 26.7622,
+   "y": 50.327,
+   "variant": "collapse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -591.48,
+     13.18,
+     271.27
+    ],
+    "site_type": "ammo_box",
+    "conditions": "Item: Патроны 12 Калибра"
+   }
+  },
+  {
+   "external_ref": "amh:colx_11",
+   "type": "safe",
+   "name": "Safe (Music Store)",
+   "x": 29.4148,
+   "y": 44.9682,
+   "variant": "collapse",
+   "loot_table": "am_safe_music",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -574.32,
+     5.19,
+     295.44
+    ],
+    "site_type": "safe",
+    "conditions": "Requires: Record store safe key"
+   }
+  },
+  {
+   "external_ref": "amh:colx_12",
+   "type": "safe",
+   "name": "Safe (Gun Shop)",
+   "x": 74.3044,
+   "y": 47.5246,
+   "variant": "collapse",
+   "loot_table": "am_safe_gun",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -283.92,
+     10.94,
+     283.91
+    ],
+    "site_type": "safe",
+    "conditions": "Requires: Gun store safe key"
+   }
+  },
+  {
+   "external_ref": "amh:colx_13",
+   "type": "loot-location",
+   "name": "Weapon: MP5",
+   "x": 73.802,
+   "y": 46.3827,
+   "variant": "collapse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -287.17,
+     11.53,
+     289.06
+    ],
+    "site_type": "floor_loot",
+    "conditions": "Item: MP5"
+   }
+  },
+  {
+   "external_ref": "amh:colx_14",
+   "type": "loot-location",
+   "name": "Weapon: MP5",
+   "x": 73.7155,
+   "y": 47.5179,
+   "variant": "collapse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -287.73,
+     11.57,
+     283.94
+    ],
+    "site_type": "floor_loot",
+    "conditions": "Item: MP5"
+   }
+  },
+  {
+   "external_ref": "amh:colx_15",
+   "type": "loot-location",
+   "name": "Weapon: SPAS-12",
+   "x": 73.2594,
+   "y": 45.6444,
+   "variant": "collapse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -290.68,
+     12.61,
+     292.39
+    ],
+    "site_type": "floor_loot",
+    "conditions": "Item: SPAS-12"
+   }
+  },
+  {
+   "external_ref": "amh:colx_16",
+   "type": "loot-location",
+   "name": "Weapon: Rusty M4",
+   "x": 73.3321,
+   "y": 45.3739,
+   "variant": "collapse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -290.21,
+     11.92,
+     293.61
+    ],
+    "site_type": "floor_loot",
+    "conditions": "Item: Ржавая M4"
+   }
+  },
+  {
+   "external_ref": "amh:colx_17",
+   "type": "loot-location",
+   "name": "Weapon: M4",
+   "x": 72.9534,
+   "y": 45.9482,
+   "variant": "collapse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -292.66,
+     11.23,
+     291.02
+    ],
+    "site_type": "floor_loot",
+    "conditions": "Item: M4"
+   }
+  },
+  {
+   "external_ref": "amh:colx_18",
+   "type": "loot-location",
+   "name": "Weapon: M9",
+   "x": 73.6753,
+   "y": 46.9459,
+   "variant": "collapse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -287.99,
+     11.59,
+     286.52
+    ],
+    "site_type": "floor_loot",
+    "conditions": "Item: М9"
+   }
+  },
+  {
+   "external_ref": "amh:colx_19",
+   "type": "loot-location",
+   "name": "Weapon: M45A1",
+   "x": 73.3429,
+   "y": 46.3495,
+   "variant": "collapse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -290.14,
+     11.88,
+     289.21
+    ],
+    "site_type": "floor_loot",
+    "conditions": "Item: M45A1"
+   }
+  },
+  {
+   "external_ref": "amh:colx_20",
+   "type": "safe",
+   "name": "Safe (Toy Store)",
+   "x": 66.0051,
+   "y": 56.5661,
+   "variant": "collapse",
+   "loot_table": "am_safe_toy",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -337.61,
+     5.2,
+     243.13
+    ],
+    "site_type": "safe",
+    "conditions": "Requires: \"Toys for You\" store safe key"
+   }
+  },
+  {
+   "external_ref": "amh:colx_21",
+   "type": "safe",
+   "name": "Safe (Hardware Store)",
+   "x": 15.6913,
+   "y": 13.4913,
+   "variant": "collapse",
+   "loot_table": "am_safe_hardware",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -663.1,
+     5.26,
+     437.41
+    ],
+    "site_type": "safe",
+    "conditions": "Requires: Hardware store safe key"
+   }
+  },
+  {
+   "external_ref": "amh:colx_22",
+   "type": "ammo-box",
+   "name": "T2 Crate (Ammo)",
+   "x": 12.3307,
+   "y": 28.9271,
+   "variant": "collapse",
+   "loot_table": "t2_ammo",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -684.84,
+     5.83,
+     367.79
+    ],
+    "site_type": "ammo_box"
+   }
+  },
+  {
+   "external_ref": "amh:colx_23",
+   "type": "ammo-box",
+   "name": "T2 Crate (Ammo)",
+   "x": 12.8826,
+   "y": 28.3751,
+   "variant": "collapse",
+   "loot_table": "t2_ammo",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -681.27,
+     5.83,
+     370.28
+    ],
+    "site_type": "ammo_box"
+   }
+  },
+  {
+   "external_ref": "amh:colx_24",
+   "type": "ammo-box",
+   "name": "T2 Crate (Ammo)",
+   "x": 12.7543,
+   "y": 28.3241,
+   "variant": "collapse",
+   "loot_table": "t2_ammo",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -682.1,
+     5.83,
+     370.51
+    ],
+    "site_type": "ammo_box"
+   }
+  },
+  {
+   "external_ref": "amh:colx_25",
+   "type": "documents",
+   "name": "Phone card",
+   "x": 13.6215,
+   "y": 57.75,
+   "variant": "collapse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -676.49,
+     9.89,
+     237.79
+    ],
+    "site_type": "documents",
+    "conditions": "Item: Телефонная карта"
+   }
+  },
+  {
+   "external_ref": "amh:colx_26",
+   "type": "loot-location",
+   "name": "1945 silver quarter",
+   "x": 15.2275,
+   "y": 25.9406,
+   "variant": "collapse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -666.1,
+     16.6,
+     381.26
+    ],
+    "site_type": "floor_loot",
+    "conditions": "Item: Серебряный четвертак 1945 года"
+   }
+  },
+  {
+   "external_ref": "amh:colx_27",
+   "type": "loot-location",
+   "name": "1976 bicentennial quarter",
+   "x": 25.218,
+   "y": 46.0435,
+   "variant": "collapse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -601.47,
+     11.76,
+     290.59
+    ],
+    "site_type": "floor_loot",
+    "conditions": "Item: Юбилейный четвертак 1976 года"
+   }
+  },
+  {
+   "external_ref": "amh:colx_28",
+   "type": "loot-location",
+   "name": "1932 Washington quarter",
+   "x": 47.0646,
+   "y": 74.2234,
+   "variant": "collapse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -460.14,
+     5.34,
+     163.49
+    ],
+    "site_type": "floor_loot",
+    "conditions": "Item: Четвертак Вашингтона 1932 года"
+   }
+  },
+  {
+   "external_ref": "amh:am_regular_poi_america_city_park",
+   "type": "area",
+   "name": "Meridian Park",
+   "x": 44.6497,
+   "y": 64.1178,
+   "geometry": [
+    [
+     53.975,
+     41.6169
+    ],
+    [
+     35.232,
+     41.2354
+    ],
+    [
+     35.3984,
+     86.8595
+    ],
+    [
+     53.9934,
+     86.7595
+    ]
+   ],
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:am_regular_poi_comic_book_shop",
+   "type": "area",
+   "name": "Comic Book Store",
+   "x": 26.0902,
+   "y": 51.883,
+   "geometry": [
+    [
+     25.7256,
+     54.9844
+    ],
+    [
+     27.5853,
+     52.8652
+    ],
+    [
+     27.4268,
+     49.1852
+    ],
+    [
+     24.6833,
+     48.9113
+    ],
+    [
+     25.0301,
+     53.4689
+    ]
+   ],
+   "variant": "regular",
+   "loot_table": "am_floor",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:am_regular_poi_police_department",
+   "type": "area",
+   "name": "Police Department",
+   "x": 13.1301,
+   "y": 27.4045,
+   "geometry": [
+    [
+     15.8934,
+     24.4593
+    ],
+    [
+     10.3143,
+     24.6814
+    ],
+    [
+     10.3788,
+     30.2343
+    ],
+    [
+     15.9337,
+     30.243
+    ]
+   ],
+   "variant": "regular",
+   "loot_table": "am_floor",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:am_regular_poi_atlantic_capital",
+   "type": "area",
+   "name": "Atlantic Capital Office",
+   "x": 64.2725,
+   "y": 49.7213,
+   "geometry": [
+    [
+     63.4647,
+     43.9686
+    ],
+    [
+     60.4881,
+     43.7601
+    ],
+    [
+     60.4207,
+     45.2148
+    ],
+    [
+     59.2053,
+     45.39
+    ],
+    [
+     59.1062,
+     53.6687
+    ],
+    [
+     59.5328,
+     53.7677
+    ],
+    [
+     59.5432,
+     54.5853
+    ],
+    [
+     67.8701,
+     54.575
+    ],
+    [
+     71.0979,
+     54.5749
+    ],
+    [
+     71.1377,
+     50.1469
+    ],
+    [
+     70.0818,
+     50.1896
+    ],
+    [
+     70.0769,
+     48.1835
+    ],
+    [
+     63.5175,
+     48.3517
+    ]
+   ],
+   "variant": "regular",
+   "loot_table": "am_floor",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:am_regular_poi_police_station_america",
+   "type": "area",
+   "name": "Police Station",
+   "x": 25.6178,
+   "y": 72.7123,
+   "geometry": [
+    [
+     23.8015,
+     74.3774
+    ],
+    [
+     23.8139,
+     71.0355
+    ],
+    [
+     27.4194,
+     71.0705
+    ],
+    [
+     27.4363,
+     74.3657
+    ]
+   ],
+   "variant": "regular",
+   "loot_table": "am_floor",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:am_regular_bonus_5",
+   "type": "area",
+   "name": "Music Store",
+   "x": 29.2897,
+   "y": 44.4363,
+   "geometry": [
+    [
+     28.6411,
+     47.1974
+    ],
+    [
+     30.0184,
+     47.2406
+    ],
+    [
+     30.0495,
+     41.6305
+    ],
+    [
+     28.4498,
+     41.6768
+    ]
+   ],
+   "variant": "regular",
+   "loot_table": "poizone_am_regular_bonus_5",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:am_regular_bonus_6",
+   "type": "area",
+   "name": "Toy Store",
+   "x": 65.481,
+   "y": 57.4462,
+   "geometry": [
+    [
+     67.3739,
+     58.5473
+    ],
+    [
+     62.4491,
+     58.7873
+    ],
+    [
+     62.497,
+     56.7101
+    ],
+    [
+     66.526,
+     56.0429
+    ],
+    [
+     66.5638,
+     57.2991
+    ],
+    [
+     67.4764,
+     57.2908
+    ]
+   ],
+   "variant": "regular",
+   "loot_table": "poizone_am_regular_bonus_6",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:am_regular_bonus_7",
+   "type": "area",
+   "name": "Hardware Store",
+   "x": 15.707,
+   "y": 10.0675,
+   "geometry": [
+    [
+     13.9801,
+     13.4729
+    ],
+    [
+     14.0436,
+     7.6031
+    ],
+    [
+     16.8007,
+     7.5041
+    ],
+    [
+     16.8048,
+     8.2864
+    ],
+    [
+     16.906,
+     13.4708
+    ]
+   ],
+   "variant": "regular",
+   "loot_table": "poizone_am_regular_bonus_7",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:am_regular_bonus_8",
+   "type": "area",
+   "name": "Cobble Hill Hotel",
+   "x": 47.0471,
+   "y": 13.367,
+   "geometry": [
+    [
+     41.5895,
+     18.2899
+    ],
+    [
+     41.5895,
+     7.0534
+    ],
+    [
+     45.5526,
+     7.0603
+    ],
+    [
+     45.5718,
+     13.7461
+    ],
+    [
+     49.3322,
+     13.7275
+    ],
+    [
+     49.3086,
+     8.2837
+    ],
+    [
+     53.2774,
+     8.2837
+    ],
+    [
+     53.2952,
+     19.4672
+    ],
+    [
+     45.4772,
+     19.477
+    ],
+    [
+     45.4772,
+     18.2808
+    ]
+   ],
+   "variant": "regular",
+   "loot_table": "poizone_am_regular_bonus_8",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:am_regular_bonus_9",
+   "type": "area",
+   "name": "Gun Store",
+   "x": 73.4743,
+   "y": 46.4739,
+   "geometry": [
+    [
+     74.2613,
+     47.5618
+    ],
+    [
+     72.7777,
+     47.5668
+    ],
+    [
+     72.143,
+     46.0149
+    ],
+    [
+     73.009,
+     44.7794
+    ],
+    [
+     74.3621,
+     46.4657
+    ],
+    [
+     74.2929,
+     46.455
+    ]
+   ],
+   "variant": "regular",
+   "loot_table": "poizone_am_regular_bonus_9",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:am_br_poi_america_city_park",
+   "type": "area",
+   "name": "Meridian Park",
+   "x": 44.6497,
+   "y": 64.1178,
+   "geometry": [
+    [
+     53.975,
+     41.6169
+    ],
+    [
+     35.232,
+     41.2354
+    ],
+    [
+     35.3984,
+     86.8595
+    ],
+    [
+     53.9934,
+     86.7595
+    ]
+   ],
+   "variant": "br",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:am_br_poi_comic_book_shop",
+   "type": "area",
+   "name": "Comic Book Store",
+   "x": 26.0902,
+   "y": 51.883,
+   "geometry": [
+    [
+     25.7256,
+     54.9844
+    ],
+    [
+     27.5853,
+     52.8652
+    ],
+    [
+     27.4268,
+     49.1852
+    ],
+    [
+     24.6833,
+     48.9113
+    ],
+    [
+     25.0301,
+     53.4689
+    ]
+   ],
+   "variant": "br",
+   "loot_table": "am_floor",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:am_br_poi_police_department",
+   "type": "area",
+   "name": "Police Department",
+   "x": 13.1301,
+   "y": 27.4045,
+   "geometry": [
+    [
+     15.8934,
+     24.4593
+    ],
+    [
+     10.3143,
+     24.6814
+    ],
+    [
+     10.3788,
+     30.2343
+    ],
+    [
+     15.9337,
+     30.243
+    ]
+   ],
+   "variant": "br",
+   "loot_table": "am_floor",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:am_br_poi_atlantic_capital",
+   "type": "area",
+   "name": "Atlantic Capital Office",
+   "x": 64.2725,
+   "y": 49.7213,
+   "geometry": [
+    [
+     63.4647,
+     43.9686
+    ],
+    [
+     60.4881,
+     43.7601
+    ],
+    [
+     60.4207,
+     45.2148
+    ],
+    [
+     59.2053,
+     45.39
+    ],
+    [
+     59.1062,
+     53.6687
+    ],
+    [
+     59.5328,
+     53.7677
+    ],
+    [
+     59.5432,
+     54.5853
+    ],
+    [
+     67.8701,
+     54.575
+    ],
+    [
+     71.0979,
+     54.5749
+    ],
+    [
+     71.1377,
+     50.1469
+    ],
+    [
+     70.0818,
+     50.1896
+    ],
+    [
+     70.0769,
+     48.1835
+    ],
+    [
+     63.5175,
+     48.3517
+    ]
+   ],
+   "variant": "br",
+   "loot_table": "am_floor",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:am_br_poi_police_station_america",
+   "type": "area",
+   "name": "Police Station",
+   "x": 25.6178,
+   "y": 72.7123,
+   "geometry": [
+    [
+     23.8015,
+     74.3774
+    ],
+    [
+     23.8139,
+     71.0355
+    ],
+    [
+     27.4194,
+     71.0705
+    ],
+    [
+     27.4363,
+     74.3657
+    ]
+   ],
+   "variant": "br",
+   "loot_table": "am_floor",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:am_br_poi_music_store",
+   "type": "area",
+   "name": "Music Store",
+   "x": 29.2897,
+   "y": 44.4363,
+   "geometry": [
+    [
+     28.6411,
+     47.1974
+    ],
+    [
+     30.0184,
+     47.2406
+    ],
+    [
+     30.0495,
+     41.6305
+    ],
+    [
+     28.4498,
+     41.6768
+    ]
+   ],
+   "variant": "br",
+   "loot_table": "am_floor",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:am_br_poi_toy_store",
+   "type": "area",
+   "name": "Toy Store",
+   "x": 65.481,
+   "y": 57.4462,
+   "geometry": [
+    [
+     67.3739,
+     58.5473
+    ],
+    [
+     62.4491,
+     58.7873
+    ],
+    [
+     62.497,
+     56.7101
+    ],
+    [
+     66.526,
+     56.0429
+    ],
+    [
+     66.5638,
+     57.2991
+    ],
+    [
+     67.4764,
+     57.2908
+    ]
+   ],
+   "variant": "br",
+   "loot_table": "am_floor",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:am_br_poi_hardware_store",
+   "type": "area",
+   "name": "Hardware Store",
+   "x": 15.707,
+   "y": 10.0675,
+   "geometry": [
+    [
+     13.9801,
+     13.4729
+    ],
+    [
+     14.0436,
+     7.6031
+    ],
+    [
+     16.8007,
+     7.5041
+    ],
+    [
+     16.8048,
+     8.2864
+    ],
+    [
+     16.906,
+     13.4708
+    ]
+   ],
+   "variant": "br",
+   "loot_table": "am_floor",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:am_br_poi_cobble_hill_inn",
+   "type": "area",
+   "name": "Cobble Hill Hotel",
+   "x": 47.0471,
+   "y": 13.367,
+   "geometry": [
+    [
+     41.5895,
+     18.2899
+    ],
+    [
+     41.5895,
+     7.0534
+    ],
+    [
+     45.5526,
+     7.0603
+    ],
+    [
+     45.5718,
+     13.7461
+    ],
+    [
+     49.3322,
+     13.7275
+    ],
+    [
+     49.3086,
+     8.2837
+    ],
+    [
+     53.2774,
+     8.2837
+    ],
+    [
+     53.2952,
+     19.4672
+    ],
+    [
+     45.4772,
+     19.477
+    ],
+    [
+     45.4772,
+     18.2808
+    ]
+   ],
+   "variant": "br",
+   "loot_table": "am_floor",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:am_br_poi_gun_shop",
+   "type": "area",
+   "name": "Gun Store",
+   "x": 73.4743,
+   "y": 46.4739,
+   "geometry": [
+    [
+     74.2613,
+     47.5618
+    ],
+    [
+     72.7777,
+     47.5668
+    ],
+    [
+     72.143,
+     46.0149
+    ],
+    [
+     73.009,
+     44.7794
+    ],
+    [
+     74.3621,
+     46.4657
+    ],
+    [
+     74.2929,
+     46.455
+    ]
+   ],
+   "variant": "br",
+   "loot_table": "am_floor",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  }
+ ]
+}

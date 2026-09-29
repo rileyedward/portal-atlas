@@ -1,0 +1,51 @@
+{
+  "format": "active-matter-map/v1",
+  "map": "cargo-port",
+  "version": "0.4.0.156",
+  "markers": [
+    {
+      "type": "extraction-point",
+      "name": "Portal on a barge near the shore",
+      "description": "\"There is a portal on one of the barges near the shore\" (in-game objective text).",
+      "source": "Active Matter Wiki (wiki.gg)",
+      "source_url": "https://activematter.wiki.gg/wiki/Cargo_Port",
+      "objectives": [
+        "harbor-anomaly-entrance"
+      ]
+    },
+    {
+      "type": "landmark",
+      "name": "The crane",
+      "description": "Locked; requires the Port crane key.",
+      "source": "Active Matter official news",
+      "source_url": "https://activematter.game/en/news/206"
+    },
+    {
+      "type": "container",
+      "name": "The \"Stash\"",
+      "description": "Known as the \"Stash\".",
+      "source": "Active Matter official news",
+      "source_url": "https://activematter.game/en/news/52"
+    },
+    {
+      "type": "area",
+      "name": "Floating barges",
+      "description": "Barges affected by a large gravity anomaly at the center.",
+      "source": "Active Matter official news",
+      "source_url": "https://activematter.game/en/news/241"
+    },
+    {
+      "type": "building",
+      "name": "Locked barns",
+      "source": "Active Matter official news",
+      "source_url": "https://activematter.game/en/news/45"
+    },
+    {
+      "type": "anomaly",
+      "name": "Colossal gravity anomaly",
+      "description": "A large black gravity ball at the center of the barges.",
+      "source": "Active Matter Wiki (wiki.gg)",
+      "source_url": "https://activematter.wiki.gg/wiki/Dalniy_Island"
+    }
+  ]
+}

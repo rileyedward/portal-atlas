@@ -1,0 +1,101 @@
+{
+  "format": "active-matter-map/v1",
+  "map": "ozernoe",
+  "version": "0.4.0.156",
+  "markers": [
+    {
+      "type": "extraction-point",
+      "name": "Extraction portal (administration building)",
+      "description": "An extraction portal is adjacent to a room of the administration building.",
+      "source": "Active Matter Wiki (wiki.gg)",
+      "source_url": "https://activematter.wiki.gg/wiki/Ozernoe"
+    },
+    {
+      "type": "landmark",
+      "name": "Observation deck",
+      "description": "By the lakeside; sniper positions.",
+      "source": "Active Matter official news",
+      "source_url": "https://activematter.game/en/news/13"
+    },
+    {
+      "type": "building",
+      "name": "Power plant",
+      "description": "By the lakeside; sniper positions. There is a medical cache at the power substation.",
+      "source": "Active Matter official news",
+      "source_url": "https://activematter.game/en/news/13"
+    },
+    {
+      "type": "building",
+      "name": "Village church",
+      "description": "By the lakeside. Swarms have been reported here; can be abseiled via a gravity anomaly on the western wall.",
+      "source": "Active Matter official news",
+      "source_url": "https://activematter.game/en/news/324"
+    },
+    {
+      "type": "loot-location",
+      "name": "Fire station",
+      "description": "Loot with high competition. Compound includes a water tower and garage.",
+      "source": "Active Matter official news",
+      "source_url": "https://activematter.game/en/news/13"
+    },
+    {
+      "type": "container",
+      "name": "Stash: fire station substation",
+      "description": "Inside a substation structure on the northeastern corner of the fire station compound.",
+      "source": "Active Matter Wiki (wiki.gg)",
+      "source_url": "https://activematter.wiki.gg/wiki/Ozernoe"
+    },
+    {
+      "type": "area",
+      "name": "Sylvan glade",
+      "source": "Active Matter official news",
+      "source_url": "https://activematter.game/en/news/13"
+    },
+    {
+      "type": "landmark",
+      "name": "Lake Tikhoe",
+      "source": "Active Matter Wiki (wiki.gg)",
+      "source_url": "https://activematter.wiki.gg/wiki/Ozernoe"
+    },
+    {
+      "type": "building",
+      "name": "Bus station",
+      "description": "Northern spawn area.",
+      "source": "Active Matter Wiki (wiki.gg)",
+      "source_url": "https://activematter.wiki.gg/wiki/Ozernoe"
+    },
+    {
+      "type": "building",
+      "name": "Post office",
+      "source": "Active Matter Wiki (wiki.gg)",
+      "source_url": "https://activematter.wiki.gg/wiki/Ozernoe"
+    },
+    {
+      "type": "building",
+      "name": "Shop",
+      "source": "Active Matter Wiki (wiki.gg)",
+      "source_url": "https://activematter.wiki.gg/wiki/Ozernoe"
+    },
+    {
+      "type": "building",
+      "name": "Administration building",
+      "description": "Adjacent to the extraction portal.",
+      "source": "Active Matter Wiki (wiki.gg)",
+      "source_url": "https://activematter.wiki.gg/wiki/Ozernoe"
+    },
+    {
+      "type": "enemy",
+      "name": "Swarms (church)",
+      "description": "Swarms reported at the church.",
+      "source": "Active Matter official news",
+      "source_url": "https://activematter.game/en/news/324"
+    },
+    {
+      "type": "enemy",
+      "name": "Turned soldiers (fire station, southern road, village)",
+      "description": "Turned soldiers guard the fire station, the southern road and the village.",
+      "source": "Active Matter Wiki (wiki.gg)",
+      "source_url": "https://activematter.wiki.gg/wiki/Ozernoe"
+    }
+  ]
+}

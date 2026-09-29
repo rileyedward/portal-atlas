@@ -1,0 +1,7565 @@
+{
+ "format": "active-matter-map/v1",
+ "map": "ozernoe",
+ "markers": [
+  {
+   "external_ref": "amh:ozr_extp_1",
+   "type": "extraction-point",
+   "name": "Permanent Extraction",
+   "x": 30.1647,
+   "y": 26.6291,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -36.62,
+     80.01,
+     -527.37
+    ],
+    "site_type": "extraction_always"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_extp_2",
+   "type": "extraction-point",
+   "name": "Permanent Extraction",
+   "x": 59.0151,
+   "y": 23.0773,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     189.46,
+     80.34,
+     -500.93
+    ],
+    "site_type": "extraction_always"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_extp_3",
+   "type": "extraction-point",
+   "name": "Permanent Extraction",
+   "x": 52.817,
+   "y": 67.9545,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     140.89,
+     53.54,
+     -835
+    ],
+    "site_type": "extraction_always"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_extp_4",
+   "type": "extraction-point",
+   "name": "Permanent Extraction",
+   "x": 34.9195,
+   "y": 51.3937,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     0.64,
+     85.56,
+     -711.72
+    ],
+    "site_type": "extraction_always"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_extd_5",
+   "type": "dynamic-extraction",
+   "name": "Timed Extraction",
+   "x": 42.5609,
+   "y": 40.3622,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     60.52,
+     80,
+     -629.6
+    ],
+    "site_type": "extraction_time"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_extd_6",
+   "type": "dynamic-extraction",
+   "name": "Timed Extraction",
+   "x": 62.4708,
+   "y": 44.2565,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     216.54,
+     80,
+     -658.59
+    ],
+    "site_type": "extraction_time"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_extd_7",
+   "type": "dynamic-extraction",
+   "name": "Timed Extraction",
+   "x": 67.1924,
+   "y": 31.6143,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     253.54,
+     79.21,
+     -564.48
+    ],
+    "site_type": "extraction_time"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_extd_8",
+   "type": "dynamic-extraction",
+   "name": "Timed Extraction",
+   "x": 49.0423,
+   "y": 31.5122,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     111.31,
+     79.78,
+     -563.72
+    ],
+    "site_type": "extraction_time"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_extd_9",
+   "type": "dynamic-extraction",
+   "name": "Timed Extraction",
+   "x": 26.4462,
+   "y": 59.9844,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -65.76,
+     80.65,
+     -775.67
+    ],
+    "site_type": "extraction_time"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_extd_10",
+   "type": "dynamic-extraction",
+   "name": "Timed Extraction",
+   "x": 39.6437,
+   "y": 45.3675,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     37.66,
+     80.01,
+     -666.86
+    ],
+    "site_type": "extraction_time"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_extd_11",
+   "type": "dynamic-extraction",
+   "name": "Timed Extraction",
+   "x": 50.566,
+   "y": 56.9176,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     123.25,
+     75.35,
+     -752.84
+    ],
+    "site_type": "extraction_time"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_extf",
+   "type": "final-extraction",
+   "name": "Final Extraction",
+   "x": 55.6972,
+   "y": 42.928,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     163.46,
+     80.1,
+     -648.7
+    ],
+    "site_type": "extraction_final"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_spawn_1",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 55.7789,
+   "y": 67.8013,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     164.1,
+     53.51,
+     -833.86
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_spawn_2",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 41.9509,
+   "y": 71.6823,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     55.74,
+     55.47,
+     -862.75
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_spawn_3",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 64.3595,
+   "y": 56.1035,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     231.34,
+     62.97,
+     -746.78
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_spawn_4",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 65.9725,
+   "y": 45.6455,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     243.98,
+     75.74,
+     -668.93
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_spawn_5",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 61.9259,
+   "y": 61.8584,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     212.27,
+     58.55,
+     -789.62
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_spawn_6",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 67.4783,
+   "y": 50.5246,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     255.78,
+     66.85,
+     -705.25
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_spawn_7",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 55.294,
+   "y": 58.946,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     160.3,
+     68.82,
+     -767.94
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_spawn_8",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 49.2222,
+   "y": 62.1365,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     112.72,
+     71.84,
+     -791.69
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_spawn_9",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 29.394,
+   "y": 67.7933,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -42.66,
+     68.13,
+     -833.8
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_spawn_10",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 48.4246,
+   "y": 67.6872,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     106.47,
+     54.91,
+     -833.01
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_spawn_11",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 38.5054,
+   "y": 71.3814,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     28.74,
+     55.53,
+     -860.51
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_spawn_12",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 46.5883,
+   "y": 71.6191,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     92.08,
+     51.8,
+     -862.28
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_spawn_13",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 50.0211,
+   "y": 69.8647,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     118.98,
+     55.02,
+     -849.22
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_spawn_14",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 61.0377,
+   "y": 64.6552,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     205.31,
+     53.35,
+     -810.44
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_spawn_15",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 68.4098,
+   "y": 53.625,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     263.08,
+     58.31,
+     -728.33
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_spawn_16",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 56.6517,
+   "y": 54.7252,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     170.94,
+     73.6,
+     -736.52
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_spawn_17",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 49.1571,
+   "y": 58.406,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     112.21,
+     76.5,
+     -763.92
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_spawn_18",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 57.7275,
+   "y": 64.6969,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     179.37,
+     60.45,
+     -810.75
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_spawn_19",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 69.5481,
+   "y": 50.0249,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     272,
+     64.78,
+     -701.53
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_spawn_20",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 66.7777,
+   "y": 45.5972,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     250.29,
+     76.11,
+     -668.57
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_spawn_21",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 32.2435,
+   "y": 67.9196,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -20.33,
+     67.84,
+     -834.74
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_spawn_22",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 53.9017,
+   "y": 20.1676,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     149.39,
+     80.85,
+     -479.27
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_spawn_23",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 41.993,
+   "y": 19.2273,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     56.07,
+     89.41,
+     -472.27
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_spawn_24",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 30.9266,
+   "y": 23.8229,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -30.65,
+     80.05,
+     -506.48
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_spawn_25",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 63.521,
+   "y": 24.6665,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     224.77,
+     79.92,
+     -512.76
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_spawn_26",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 48.3353,
+   "y": 19.0151,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     105.77,
+     85.45,
+     -470.69
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_spawn_27",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 35.5921,
+   "y": 19.0137,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     5.91,
+     86.05,
+     -470.68
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_spawn_28",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 23.6119,
+   "y": 26.1523,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -87.97,
+     80.07,
+     -523.82
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_spawn_29",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 40.7169,
+   "y": 25.1246,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     46.07,
+     80.39,
+     -516.17
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_spawn_30",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 42.714,
+   "y": 23.8108,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     61.72,
+     80.58,
+     -506.39
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_spawn_31",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 67.6684,
+   "y": 30.8096,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     257.27,
+     79.36,
+     -558.49
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_spawn_32",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 61.8098,
+   "y": 25.1985,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     211.36,
+     79.82,
+     -516.72
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_spawn_33",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 51.421,
+   "y": 15.6245,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     129.95,
+     82.99,
+     -445.45
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_spawn_34",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 58.765,
+   "y": 21.061,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     187.5,
+     80,
+     -485.92
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_spawn_35",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 25.5082,
+   "y": 21.022,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -73.11,
+     80,
+     -485.63
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_spawn_36",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 20.9525,
+   "y": 25.9024,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -108.81,
+     80.74,
+     -521.96
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_spawn_37",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 44.1611,
+   "y": 17.2701,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     73.06,
+     89.39,
+     -457.7
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_spawn_38",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 65.8027,
+   "y": 26.3188,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     242.65,
+     80.16,
+     -525.06
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_spawn_39",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 55.5032,
+   "y": 17.1975,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     161.94,
+     85.5,
+     -457.16
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_spawn_40",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 43.0126,
+   "y": 26.2315,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     64.06,
+     80.25,
+     -524.41
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_spawn_41",
+   "type": "spawn",
+   "name": "Player Spawn",
+   "x": 47.1855,
+   "y": 14.7593,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     96.76,
+     86.95,
+     -439.01
+    ],
+    "site_type": "spawn"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_lore_53",
+   "type": "documents",
+   "name": "A Soldier's Letter",
+   "x": 35.6303,
+   "y": 46.9244,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     6.21,
+     81.3,
+     -678.45
+    ],
+    "site_type": "documents"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_lore_54",
+   "type": "documents",
+   "name": "Prayer (Part 1 of 2)",
+   "x": 59.4656,
+   "y": 45.4561,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     192.99,
+     82.88,
+     -667.52
+    ],
+    "site_type": "documents"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_lore_55",
+   "type": "documents",
+   "name": "Prayer (Part 2 of 2)",
+   "x": 58.6323,
+   "y": 46.0741,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     186.46,
+     80.7,
+     -672.12
+    ],
+    "site_type": "documents"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_lore_56",
+   "type": "documents",
+   "name": "Denunciation of the Airport Chief",
+   "x": 33.951,
+   "y": 51.0874,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -6.95,
+     86.73,
+     -709.44
+    ],
+    "site_type": "documents"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_lore_57",
+   "type": "documents",
+   "name": "Love Letter",
+   "x": 51.9493,
+   "y": 37.4041,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     134.09,
+     82.15,
+     -607.58
+    ],
+    "site_type": "documents"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_morozov_note",
+   "type": "documents",
+   "name": "Morozov's Suicide Note",
+   "description": "In Morozov's bag where he was transferred after his last report. Addressed 'to whom it may concern': waypoint chain for 'Double Accounting' quest.",
+   "x": 45.755,
+   "y": 38.4694,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     85.55,
+     86.89,
+     -615.51
+    ],
+    "site_type": "documents"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_secret_stash_1",
+   "type": "safe",
+   "name": "Secret Stash",
+   "x": 46.7287,
+   "y": 46.2823,
+   "variant": "regular",
+   "loot_table": "secret_stash",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     93.18,
+     80.54,
+     -673.67
+    ],
+    "site_type": "safe"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_secret_stash_2",
+   "type": "safe",
+   "name": "Secret Stash",
+   "x": 58.913,
+   "y": 21.6816,
+   "variant": "regular",
+   "loot_table": "secret_stash",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     188.66,
+     80.19,
+     -490.54
+    ],
+    "site_type": "safe"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_secret_stash_3",
+   "type": "safe",
+   "name": "Secret Stash",
+   "x": 31.6974,
+   "y": 55.5581,
+   "variant": "regular",
+   "loot_table": "secret_stash",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -24.61,
+     80.47,
+     -742.72
+    ],
+    "site_type": "safe"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_flowerman_house_1",
+   "type": "monster",
+   "name": "Flowermen",
+   "x": 59.9709,
+   "y": 45.7127,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     196.95,
+     81.5,
+     -669.43
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_flowerman_house_2",
+   "type": "monster",
+   "name": "Flowermen",
+   "x": 60.1164,
+   "y": 46.6181,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     198.09,
+     81.5,
+     -676.17
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_flowerman_house_3",
+   "type": "monster",
+   "name": "Flowermen",
+   "x": 58.936,
+   "y": 52.4241,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     188.84,
+     75.5,
+     -719.39
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_flowerman_house_4",
+   "type": "monster",
+   "name": "Flowermen",
+   "x": 59.0113,
+   "y": 53.7782,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     189.43,
+     76.5,
+     -729.47
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_flowerman_house_5",
+   "type": "monster",
+   "name": "Flowermen",
+   "x": 52.6218,
+   "y": 50.4077,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     139.36,
+     75.5,
+     -704.38
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_flowerman_house_6",
+   "type": "monster",
+   "name": "Flowermen",
+   "x": 52.1624,
+   "y": 50.855,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     135.76,
+     75.5,
+     -707.71
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_distorted_house_1",
+   "type": "monster",
+   "name": "Distorted",
+   "x": 49.3792,
+   "y": 40.3863,
+   "variant": "regular",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     113.95,
+     81.5,
+     -629.78
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_distorted_house_2",
+   "type": "monster",
+   "name": "Distorted",
+   "x": 51.6889,
+   "y": 37.0374,
+   "variant": "regular",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     132.05,
+     81.5,
+     -604.85
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_distorted_house_3",
+   "type": "monster",
+   "name": "Distorted",
+   "x": 49.0793,
+   "y": 35.3501,
+   "variant": "regular",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     111.6,
+     81.5,
+     -592.29
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_distorted_house_4",
+   "type": "monster",
+   "name": "Distorted",
+   "x": 46.1072,
+   "y": 38.2074,
+   "variant": "regular",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     88.31,
+     80.5,
+     -613.56
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_distorted_house_5",
+   "type": "monster",
+   "name": "Distorted",
+   "x": 45.9464,
+   "y": 38.0771,
+   "variant": "regular",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     87.05,
+     83.7,
+     -612.59
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_distorted_house_6",
+   "type": "monster",
+   "name": "Distorted",
+   "x": 47.137,
+   "y": 36.6881,
+   "variant": "regular",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     96.38,
+     80.5,
+     -602.25
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_distorted_house_7",
+   "type": "monster",
+   "name": "Distorted",
+   "x": 50.6987,
+   "y": 45.6576,
+   "variant": "regular",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     124.29,
+     81.5,
+     -669.02
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_distorted_house_8",
+   "type": "monster",
+   "name": "Distorted",
+   "x": 50.5723,
+   "y": 54.0938,
+   "variant": "regular",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     123.3,
+     76.5,
+     -731.82
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_distorted_house_9",
+   "type": "monster",
+   "name": "Distorted",
+   "x": 49.9853,
+   "y": 55.3727,
+   "variant": "regular",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     118.7,
+     75.5,
+     -741.34
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_distorted_house_10",
+   "type": "monster",
+   "name": "Distorted",
+   "x": 48.4157,
+   "y": 58.1736,
+   "variant": "regular",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     106.4,
+     76.5,
+     -762.19
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_distorted_house_11",
+   "type": "monster",
+   "name": "Distorted",
+   "x": 49.2643,
+   "y": 58.4906,
+   "variant": "regular",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     113.05,
+     76.5,
+     -764.55
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_distorted_house_12",
+   "type": "monster",
+   "name": "Distorted",
+   "x": 35.2539,
+   "y": 46.731,
+   "variant": "regular",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     3.26,
+     81.38,
+     -677.01
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_distorted_house_13",
+   "type": "monster",
+   "name": "Distorted",
+   "x": 37.4565,
+   "y": 44.1947,
+   "variant": "regular",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     20.52,
+     80.11,
+     -658.13
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_distorted_house_14",
+   "type": "monster",
+   "name": "Distorted",
+   "x": 26.8762,
+   "y": 60.0999,
+   "variant": "regular",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -62.39,
+     80.65,
+     -776.53
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_distorted_house_15",
+   "type": "monster",
+   "name": "Distorted",
+   "x": 43.3227,
+   "y": 18.0774,
+   "variant": "regular",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     66.49,
+     90.02,
+     -463.71
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_church_sniper_gun_1",
+   "type": "loot-location",
+   "name": "Church — Sniper Rifle",
+   "x": 56.0162,
+   "y": 38.8308,
+   "variant": "regular",
+   "loot_table": "ozernoe_adv_church_sniper_gun",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     165.96,
+     94.9,
+     -618.2
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_church_sniper_loot_1",
+   "type": "loot-location",
+   "name": "Church — Sniper Loot",
+   "x": 55.8516,
+   "y": 39.1035,
+   "variant": "regular",
+   "loot_table": "ozernoe_adv_church_sniper",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     164.67,
+     94.75,
+     -620.23
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_church_sniper_loot_2",
+   "type": "loot-location",
+   "name": "Church — Sniper Loot",
+   "x": 55.7776,
+   "y": 39.1048,
+   "variant": "regular",
+   "loot_table": "ozernoe_adv_church_sniper",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     164.09,
+     94.76,
+     -620.24
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_church_sniper_loot_3",
+   "type": "loot-location",
+   "name": "Church — Sniper Loot",
+   "x": 55.5262,
+   "y": 38.5137,
+   "variant": "regular",
+   "loot_table": "ozernoe_adv_church_sniper",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     162.12,
+     94.83,
+     -615.84
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_military_uaz_1",
+   "type": "vehicle-spawn",
+   "name": "Military UAZ (Vehicle Spawn)",
+   "x": 65.0907,
+   "y": 41.2568,
+   "variant": "regular",
+   "loot_table": "ozernoe_adv_military_uaz",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     237.07,
+     79.97,
+     -636.26
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_military_uaz_2",
+   "type": "vehicle-spawn",
+   "name": "Military UAZ (Vehicle Spawn)",
+   "x": 52.0577,
+   "y": 27.7065,
+   "variant": "regular",
+   "loot_table": "ozernoe_adv_military_uaz",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     134.94,
+     80,
+     -535.39
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_military_uaz_3",
+   "type": "vehicle-spawn",
+   "name": "Military UAZ (Vehicle Spawn)",
+   "x": 56.1298,
+   "y": 62.0559,
+   "variant": "regular",
+   "loot_table": "ozernoe_adv_military_uaz",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     166.85,
+     64.29,
+     -791.09
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_military_uaz_4",
+   "type": "vehicle-spawn",
+   "name": "Military UAZ (Vehicle Spawn)",
+   "x": 38.7619,
+   "y": 60.7233,
+   "variant": "regular",
+   "loot_table": "ozernoe_adv_military_uaz",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     30.75,
+     72.34,
+     -781.17
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_military_uaz_5",
+   "type": "vehicle-spawn",
+   "name": "Military UAZ (Vehicle Spawn)",
+   "x": 28.1651,
+   "y": 54.3222,
+   "variant": "regular",
+   "loot_table": "ozernoe_adv_military_uaz",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -52.29,
+     80.01,
+     -733.52
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_military_uaz_6",
+   "type": "vehicle-spawn",
+   "name": "Military UAZ (Vehicle Spawn)",
+   "x": 31.8671,
+   "y": 32.5734,
+   "variant": "regular",
+   "loot_table": "ozernoe_adv_military_uaz",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -23.28,
+     79.9,
+     -571.62
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_military_uaz_7",
+   "type": "vehicle-spawn",
+   "name": "Military UAZ (Vehicle Spawn)",
+   "x": 52.045,
+   "y": 42.4041,
+   "variant": "regular",
+   "loot_table": "ozernoe_adv_military_uaz",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     134.84,
+     80,
+     -644.8
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_gravizone_am_pile_1",
+   "type": "anomaly",
+   "name": "Gravizone — Active Matter",
+   "x": 61.8838,
+   "y": 23.6953,
+   "variant": "regular",
+   "loot_table": "ozernoe_adv_gravizone_am_pile",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     211.94,
+     83.71,
+     -505.53
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_gravizone_am_pile_2",
+   "type": "anomaly",
+   "name": "Gravizone — Active Matter",
+   "x": 61.8838,
+   "y": 23.5959,
+   "variant": "regular",
+   "loot_table": "ozernoe_adv_gravizone_am_pile",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     211.94,
+     85.6,
+     -504.79
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_gravizone_am_pile_3",
+   "type": "anomaly",
+   "name": "Gravizone — Active Matter",
+   "x": 61.8838,
+   "y": 23.7759,
+   "variant": "regular",
+   "loot_table": "ozernoe_adv_gravizone_am_pile",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     211.94,
+     87.16,
+     -506.13
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_gravizone_am_pile_4",
+   "type": "anomaly",
+   "name": "Gravizone — Active Matter",
+   "x": 56.6964,
+   "y": 40.698,
+   "variant": "regular",
+   "loot_table": "ozernoe_adv_gravizone_am_pile",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     171.29,
+     84.39,
+     -632.1
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_gravizone_am_pile_5",
+   "type": "anomaly",
+   "name": "Gravizone — Active Matter",
+   "x": 56.7181,
+   "y": 40.698,
+   "variant": "regular",
+   "loot_table": "ozernoe_adv_gravizone_am_pile",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     171.46,
+     86.65,
+     -632.1
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_gravizone_am_pile_6",
+   "type": "anomaly",
+   "name": "Gravizone — Active Matter",
+   "x": 56.7066,
+   "y": 40.6214,
+   "variant": "regular",
+   "loot_table": "ozernoe_adv_gravizone_am_pile",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     171.37,
+     89.33,
+     -631.53
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_gravizone_am_pile_7",
+   "type": "anomaly",
+   "name": "Gravizone — Active Matter",
+   "x": 35.5997,
+   "y": 52.4415,
+   "variant": "regular",
+   "loot_table": "ozernoe_adv_gravizone_am_pile",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     5.97,
+     85.15,
+     -719.52
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_gravizone_am_pile_8",
+   "type": "anomaly",
+   "name": "Gravizone — Active Matter",
+   "x": 35.4517,
+   "y": 52.596,
+   "variant": "regular",
+   "loot_table": "ozernoe_adv_gravizone_am_pile",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     4.81,
+     86.76,
+     -720.67
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_gravizone_am_pile_9",
+   "type": "anomaly",
+   "name": "Gravizone — Active Matter",
+   "x": 35.6329,
+   "y": 52.4066,
+   "variant": "regular",
+   "loot_table": "ozernoe_adv_gravizone_am_pile",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     6.23,
+     87.94,
+     -719.26
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_gravizone_am_pile_10",
+   "type": "anomaly",
+   "name": "Gravizone — Active Matter",
+   "x": 29.4297,
+   "y": 57.5771,
+   "variant": "regular",
+   "loot_table": "ozernoe_adv_gravizone_am_pile",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -42.38,
+     87.94,
+     -757.75
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_gravizone_am_pile_11",
+   "type": "anomaly",
+   "name": "Gravizone — Active Matter",
+   "x": 29.5803,
+   "y": 57.6174,
+   "variant": "regular",
+   "loot_table": "ozernoe_adv_gravizone_am_pile",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -41.2,
+     92.63,
+     -758.05
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_gravizone_am_pile_12",
+   "type": "anomaly",
+   "name": "Gravizone — Active Matter",
+   "x": 29.5229,
+   "y": 57.4831,
+   "variant": "regular",
+   "loot_table": "ozernoe_adv_gravizone_am_pile",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -41.65,
+     95.45,
+     -757.05
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_monster_conversion_1",
+   "type": "artifact",
+   "name": "Artifact: Distorted Hunter",
+   "x": 50.0223,
+   "y": 67.8994,
+   "variant": "regular",
+   "loot_table": "ozernoe_monster_conversion",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     118.99,
+     54.29,
+     -834.59
+    ],
+    "site_type": "artifact"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_monster_conversion_2",
+   "type": "artifact",
+   "name": "Artifact: Distorted Hunter",
+   "x": 63.5657,
+   "y": 52.0694,
+   "variant": "regular",
+   "loot_table": "ozernoe_monster_conversion",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     225.12,
+     71.07,
+     -716.75
+    ],
+    "site_type": "artifact"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_monster_conversion_3",
+   "type": "artifact",
+   "name": "Artifact: Distorted Hunter",
+   "x": 47.867,
+   "y": 35.6282,
+   "variant": "regular",
+   "loot_table": "ozernoe_monster_conversion",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     102.1,
+     81.01,
+     -594.36
+    ],
+    "site_type": "artifact"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_monster_conversion_4",
+   "type": "artifact",
+   "name": "Artifact: Distorted Hunter",
+   "x": 32.6379,
+   "y": 37.8501,
+   "variant": "regular",
+   "loot_table": "ozernoe_monster_conversion",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -17.24,
+     84.23,
+     -610.9
+    ],
+    "site_type": "artifact"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_monster_conversion_5",
+   "type": "artifact",
+   "name": "Artifact: Distorted Hunter",
+   "x": 31.5659,
+   "y": 55.3109,
+   "variant": "regular",
+   "loot_table": "ozernoe_monster_conversion",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -25.64,
+     81.47,
+     -740.88
+    ],
+    "site_type": "artifact"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_monster_conversion_6",
+   "type": "artifact",
+   "name": "Artifact: Distorted Hunter",
+   "x": 43.0394,
+   "y": 50.8698,
+   "variant": "regular",
+   "loot_table": "ozernoe_monster_conversion",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     64.27,
+     80.21,
+     -707.82
+    ],
+    "site_type": "artifact"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_sleeper_1",
+   "type": "monster",
+   "name": "Distorted",
+   "x": 55.9256,
+   "y": 40.3501,
+   "variant": "regular",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     165.25,
+     80.5,
+     -629.51
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_sleeper_2",
+   "type": "monster",
+   "name": "Distorted",
+   "x": 55.5977,
+   "y": 40.0277,
+   "variant": "regular",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     162.68,
+     80.5,
+     -627.11
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_sleeper_3",
+   "type": "monster",
+   "name": "Distorted",
+   "x": 56.3136,
+   "y": 39.939,
+   "variant": "regular",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     168.29,
+     80.5,
+     -626.45
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_sleeper_4",
+   "type": "monster",
+   "name": "Distorted",
+   "x": 56.2293,
+   "y": 40.3017,
+   "variant": "regular",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     167.63,
+     80.5,
+     -629.15
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_sleeper_5",
+   "type": "monster",
+   "name": "Distorted",
+   "x": 25.2415,
+   "y": 56.0968,
+   "variant": "regular",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -75.2,
+     80.23,
+     -746.73
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_nest_6",
+   "type": "monster",
+   "name": "Spawn: Distorted",
+   "x": 47.904,
+   "y": 32.5184,
+   "variant": "regular",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     102.39,
+     80.23,
+     -571.21
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_nest_7",
+   "type": "monster",
+   "name": "Spawn: Distorted",
+   "x": 32.2435,
+   "y": 53.5028,
+   "variant": "regular",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -20.33,
+     80.01,
+     -727.42
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_nest_8",
+   "type": "monster",
+   "name": "Spawn: Distorted",
+   "x": 46.6138,
+   "y": 53.1186,
+   "variant": "regular",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     92.28,
+     75.95,
+     -724.56
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_nest_9",
+   "type": "monster",
+   "name": "Spawn: Flowermen",
+   "x": 27.7286,
+   "y": 48.4545,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -55.71,
+     80.01,
+     -689.84
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_nest_10",
+   "type": "monster",
+   "name": "Spawn: Flowermen",
+   "x": 36.4522,
+   "y": 36.7244,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     12.65,
+     80.09,
+     -602.52
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_nest_11",
+   "type": "monster",
+   "name": "Spawn: Flowermen",
+   "x": 53.8915,
+   "y": 37.2483,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     149.31,
+     80,
+     -606.42
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_nest_12",
+   "type": "monster",
+   "name": "Spawn: Inorganics",
+   "x": 38.8002,
+   "y": 52.6766,
+   "variant": "regular",
+   "loot_table": "drop_invisible",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     31.05,
+     78.22,
+     -721.27
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_nest_13",
+   "type": "monster",
+   "name": "Spawn: Inorganics",
+   "x": 27.4785,
+   "y": 34.927,
+   "variant": "regular",
+   "loot_table": "drop_invisible",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -57.67,
+     84.29,
+     -589.14
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_nest_14",
+   "type": "monster",
+   "name": "Spawn: Changed",
+   "x": 38.3421,
+   "y": 60.3431,
+   "variant": "regular",
+   "loot_table": "drop_changed",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     27.46,
+     72.12,
+     -778.34
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_nest_15",
+   "type": "monster",
+   "name": "Spawn: Changed",
+   "x": 19.7963,
+   "y": 50.761,
+   "variant": "regular",
+   "loot_table": "drop_changed",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -117.87,
+     80,
+     -707.01
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_nest_16",
+   "type": "monster",
+   "name": "Spawn: Changed",
+   "x": 63.4534,
+   "y": 39.0336,
+   "variant": "regular",
+   "loot_table": "drop_changed",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     224.24,
+     78.29,
+     -619.71
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_guard_17",
+   "type": "spawn-zone",
+   "name": "Guarded Zone: Distorted Alpha",
+   "description": "Radius 10 m, up to 6 guards. Spawns: Distorted (dormant, small) 20%, Distorted (dormant) 80%",
+   "x": 50.0581,
+   "y": 31.75,
+   "variant": "regular",
+   "loot_table": "changed_human_alpha_death",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     119.27,
+     80,
+     -565.49
+    ],
+    "site_type": "spawn_zone"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_guard_18",
+   "type": "spawn-zone",
+   "name": "Guarded Zone (Soldiers)",
+   "description": "Radius 10 m, up to 2 guards. Spawns: Turned Soldier 100%",
+   "x": 28.0273,
+   "y": 56.2419,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -53.37,
+     80.01,
+     -747.81
+    ],
+    "site_type": "spawn_zone"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_guard_19",
+   "type": "spawn-zone",
+   "name": "Guarded Zone: Distorted Alpha",
+   "description": "Radius 10 m, up to 6 guards. Spawns: Distorted (dormant, small) 20%, Distorted (dormant) 80%",
+   "x": 32.6059,
+   "y": 26.2839,
+   "variant": "regular",
+   "loot_table": "changed_human_alpha_death",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -17.49,
+     80.08,
+     -524.8
+    ],
+    "site_type": "spawn_zone"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_fire_20",
+   "type": "anomaly",
+   "name": "Fire Anomaly",
+   "x": 30.984,
+   "y": 16.5823,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -30.2,
+     81.95,
+     -452.58
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_fire_21",
+   "type": "anomaly",
+   "name": "Fire Anomaly",
+   "x": 30.2796,
+   "y": 13.7102,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -35.72,
+     82.17,
+     -431.2
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_fire_22",
+   "type": "anomaly",
+   "name": "Fire Anomaly",
+   "x": 28.5824,
+   "y": 12.0162,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -49.02,
+     82.17,
+     -418.59
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_scientist_squad_nest_1",
+   "type": "monster",
+   "name": "Changed",
+   "x": 56.0992,
+   "y": 44.1894,
+   "variant": "regular",
+   "loot_table": "drop_changed",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     166.61,
+     80,
+     -658.09
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_adv_power_station_nest_1",
+   "type": "monster",
+   "name": "Lightning Anomaly",
+   "x": 56.5394,
+   "y": 24.1883,
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     170.06,
+     79.81,
+     -509.2
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_secret_stash_1",
+   "type": "safe",
+   "name": "Secret Stash",
+   "x": 46.7287,
+   "y": 46.2823,
+   "variant": "overgrowth",
+   "loot_table": "ozernoe_secret_stash",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     93.18,
+     80.54,
+     -673.67
+    ],
+    "site_type": "safe"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_secret_stash_2",
+   "type": "safe",
+   "name": "Secret Stash",
+   "x": 58.913,
+   "y": 21.6816,
+   "variant": "overgrowth",
+   "loot_table": "ozernoe_secret_stash",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     188.66,
+     80.19,
+     -490.54
+    ],
+    "site_type": "safe"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_secret_stash_3",
+   "type": "safe",
+   "name": "Secret Stash",
+   "x": 31.6974,
+   "y": 55.5581,
+   "variant": "overgrowth",
+   "loot_table": "ozernoe_secret_stash",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -24.61,
+     80.47,
+     -742.72
+    ],
+    "site_type": "safe"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_church_sniper_gun_1",
+   "type": "loot-location",
+   "name": "Church — Sniper Rifle",
+   "x": 56.0162,
+   "y": 38.8308,
+   "variant": "overgrowth",
+   "loot_table": "ozernoe_church_sniper_gun",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     165.96,
+     94.9,
+     -618.2
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_church_sniper_loot_1",
+   "type": "loot-location",
+   "name": "Church — Sniper Loot",
+   "x": 55.8516,
+   "y": 39.1035,
+   "variant": "overgrowth",
+   "loot_table": "ozernoe_church_sniper",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     164.67,
+     94.75,
+     -620.23
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_church_sniper_loot_2",
+   "type": "loot-location",
+   "name": "Church — Sniper Loot",
+   "x": 55.7776,
+   "y": 39.1048,
+   "variant": "overgrowth",
+   "loot_table": "ozernoe_church_sniper",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     164.09,
+     94.76,
+     -620.24
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_church_sniper_loot_3",
+   "type": "loot-location",
+   "name": "Church — Sniper Loot",
+   "x": 55.5262,
+   "y": 38.5137,
+   "variant": "overgrowth",
+   "loot_table": "ozernoe_church_sniper",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     162.12,
+     94.83,
+     -615.84
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_military_uaz_1",
+   "type": "vehicle-spawn",
+   "name": "Military UAZ (Vehicle Spawn)",
+   "x": 65.0907,
+   "y": 41.2568,
+   "variant": "overgrowth",
+   "loot_table": "ozernoe_military_uaz",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     237.07,
+     79.97,
+     -636.26
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_military_uaz_2",
+   "type": "vehicle-spawn",
+   "name": "Military UAZ (Vehicle Spawn)",
+   "x": 52.0577,
+   "y": 27.7065,
+   "variant": "overgrowth",
+   "loot_table": "ozernoe_military_uaz",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     134.94,
+     80,
+     -535.39
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_military_uaz_3",
+   "type": "vehicle-spawn",
+   "name": "Military UAZ (Vehicle Spawn)",
+   "x": 56.1298,
+   "y": 62.0559,
+   "variant": "overgrowth",
+   "loot_table": "ozernoe_military_uaz",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     166.85,
+     64.29,
+     -791.09
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_military_uaz_4",
+   "type": "vehicle-spawn",
+   "name": "Military UAZ (Vehicle Spawn)",
+   "x": 38.7619,
+   "y": 60.7233,
+   "variant": "overgrowth",
+   "loot_table": "ozernoe_military_uaz",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     30.75,
+     72.34,
+     -781.17
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_military_uaz_5",
+   "type": "vehicle-spawn",
+   "name": "Military UAZ (Vehicle Spawn)",
+   "x": 28.1651,
+   "y": 54.3222,
+   "variant": "overgrowth",
+   "loot_table": "ozernoe_military_uaz",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -52.29,
+     80.01,
+     -733.52
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_military_uaz_6",
+   "type": "vehicle-spawn",
+   "name": "Military UAZ (Vehicle Spawn)",
+   "x": 31.8671,
+   "y": 32.5734,
+   "variant": "overgrowth",
+   "loot_table": "ozernoe_military_uaz",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -23.28,
+     79.9,
+     -571.62
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_military_uaz_7",
+   "type": "vehicle-spawn",
+   "name": "Military UAZ (Vehicle Spawn)",
+   "x": 52.045,
+   "y": 42.4041,
+   "variant": "overgrowth",
+   "loot_table": "ozernoe_military_uaz",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     134.84,
+     80,
+     -644.8
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_gravizone_am_pile_1",
+   "type": "anomaly",
+   "name": "Gravizone — Active Matter",
+   "x": 61.8838,
+   "y": 23.6953,
+   "variant": "overgrowth",
+   "loot_table": "ozernoe_gravizone_am_pile",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     211.94,
+     83.71,
+     -505.53
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_gravizone_am_pile_2",
+   "type": "anomaly",
+   "name": "Gravizone — Active Matter",
+   "x": 61.8838,
+   "y": 23.5959,
+   "variant": "overgrowth",
+   "loot_table": "ozernoe_gravizone_am_pile",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     211.94,
+     85.6,
+     -504.79
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_gravizone_am_pile_3",
+   "type": "anomaly",
+   "name": "Gravizone — Active Matter",
+   "x": 61.8838,
+   "y": 23.7759,
+   "variant": "overgrowth",
+   "loot_table": "ozernoe_gravizone_am_pile",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     211.94,
+     87.16,
+     -506.13
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_gravizone_am_pile_4",
+   "type": "anomaly",
+   "name": "Gravizone — Active Matter",
+   "x": 56.6964,
+   "y": 40.698,
+   "variant": "overgrowth",
+   "loot_table": "ozernoe_gravizone_am_pile",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     171.29,
+     84.39,
+     -632.1
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_gravizone_am_pile_5",
+   "type": "anomaly",
+   "name": "Gravizone — Active Matter",
+   "x": 56.7181,
+   "y": 40.698,
+   "variant": "overgrowth",
+   "loot_table": "ozernoe_gravizone_am_pile",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     171.46,
+     86.65,
+     -632.1
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_gravizone_am_pile_6",
+   "type": "anomaly",
+   "name": "Gravizone — Active Matter",
+   "x": 56.7066,
+   "y": 40.6214,
+   "variant": "overgrowth",
+   "loot_table": "ozernoe_gravizone_am_pile",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     171.37,
+     89.33,
+     -631.53
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_gravizone_am_pile_7",
+   "type": "anomaly",
+   "name": "Gravizone — Active Matter",
+   "x": 35.5997,
+   "y": 52.4415,
+   "variant": "overgrowth",
+   "loot_table": "ozernoe_gravizone_am_pile",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     5.97,
+     85.15,
+     -719.52
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_gravizone_am_pile_8",
+   "type": "anomaly",
+   "name": "Gravizone — Active Matter",
+   "x": 35.4517,
+   "y": 52.596,
+   "variant": "overgrowth",
+   "loot_table": "ozernoe_gravizone_am_pile",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     4.81,
+     86.76,
+     -720.67
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_gravizone_am_pile_9",
+   "type": "anomaly",
+   "name": "Gravizone — Active Matter",
+   "x": 35.6329,
+   "y": 52.4066,
+   "variant": "overgrowth",
+   "loot_table": "ozernoe_gravizone_am_pile",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     6.23,
+     87.94,
+     -719.26
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_gravizone_am_pile_10",
+   "type": "anomaly",
+   "name": "Gravizone — Active Matter",
+   "x": 29.4297,
+   "y": 57.5771,
+   "variant": "overgrowth",
+   "loot_table": "ozernoe_gravizone_am_pile",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -42.38,
+     87.94,
+     -757.75
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_gravizone_am_pile_11",
+   "type": "anomaly",
+   "name": "Gravizone — Active Matter",
+   "x": 29.5803,
+   "y": 57.6174,
+   "variant": "overgrowth",
+   "loot_table": "ozernoe_gravizone_am_pile",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -41.2,
+     92.63,
+     -758.05
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_gravizone_am_pile_12",
+   "type": "anomaly",
+   "name": "Gravizone — Active Matter",
+   "x": 29.5229,
+   "y": 57.4831,
+   "variant": "overgrowth",
+   "loot_table": "ozernoe_gravizone_am_pile",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -41.65,
+     95.45,
+     -757.05
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_monster_conversion_1",
+   "type": "artifact",
+   "name": "Artifact: Distorted Hunter",
+   "x": 50.0223,
+   "y": 67.8994,
+   "variant": "overgrowth",
+   "loot_table": "ozernoe_monster_conversion",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     118.99,
+     54.29,
+     -834.59
+    ],
+    "site_type": "artifact"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_monster_conversion_2",
+   "type": "artifact",
+   "name": "Artifact: Distorted Hunter",
+   "x": 63.5657,
+   "y": 52.0694,
+   "variant": "overgrowth",
+   "loot_table": "ozernoe_monster_conversion",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     225.12,
+     71.07,
+     -716.75
+    ],
+    "site_type": "artifact"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_monster_conversion_3",
+   "type": "artifact",
+   "name": "Artifact: Distorted Hunter",
+   "x": 47.867,
+   "y": 35.6282,
+   "variant": "overgrowth",
+   "loot_table": "ozernoe_monster_conversion",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     102.1,
+     81.01,
+     -594.36
+    ],
+    "site_type": "artifact"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_monster_conversion_4",
+   "type": "artifact",
+   "name": "Artifact: Distorted Hunter",
+   "x": 32.6379,
+   "y": 37.8501,
+   "variant": "overgrowth",
+   "loot_table": "ozernoe_monster_conversion",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -17.24,
+     84.23,
+     -610.9
+    ],
+    "site_type": "artifact"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_monster_conversion_5",
+   "type": "artifact",
+   "name": "Artifact: Distorted Hunter",
+   "x": 31.5659,
+   "y": 55.3109,
+   "variant": "overgrowth",
+   "loot_table": "ozernoe_monster_conversion",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -25.64,
+     81.47,
+     -740.88
+    ],
+    "site_type": "artifact"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_monster_conversion_6",
+   "type": "artifact",
+   "name": "Artifact: Distorted Hunter",
+   "x": 43.0394,
+   "y": 50.8698,
+   "variant": "overgrowth",
+   "loot_table": "ozernoe_monster_conversion",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     64.27,
+     80.21,
+     -707.82
+    ],
+    "site_type": "artifact"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_hflower_1",
+   "type": "monster",
+   "name": "Flowermen (indoors)",
+   "x": 26.954,
+   "y": 60.0852,
+   "variant": "overgrowth",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -61.78,
+     80.65,
+     -776.42
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_hflower_2",
+   "type": "monster",
+   "name": "Flowermen (indoors)",
+   "x": 23.0007,
+   "y": 57.4536,
+   "variant": "overgrowth",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -92.76,
+     87.54,
+     -756.83
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_hflower_3",
+   "type": "monster",
+   "name": "Flowermen (indoors)",
+   "x": 55.946,
+   "y": 40.2319,
+   "variant": "overgrowth",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     165.41,
+     80.5,
+     -628.63
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_nest_4",
+   "type": "monster",
+   "name": "Spawn: Flowermen",
+   "x": 45.9566,
+   "y": 30.8137,
+   "variant": "overgrowth",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     87.13,
+     79.61,
+     -558.52
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_nest_5",
+   "type": "monster",
+   "name": "Spawn: Flowermen",
+   "x": 36.4522,
+   "y": 36.7244,
+   "variant": "overgrowth",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     12.65,
+     80.09,
+     -602.52
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_nest_6",
+   "type": "monster",
+   "name": "Spawn: Flowermen",
+   "x": 53.8915,
+   "y": 37.2483,
+   "variant": "overgrowth",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     149.31,
+     80,
+     -606.42
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_nest_7",
+   "type": "monster",
+   "name": "Spawn: Inorganics",
+   "x": 38.8002,
+   "y": 52.6766,
+   "variant": "overgrowth",
+   "loot_table": "drop_invisible",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     31.05,
+     78.22,
+     -721.27
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_nest_8",
+   "type": "monster",
+   "name": "Spawn: Inorganics",
+   "x": 27.4785,
+   "y": 34.927,
+   "variant": "overgrowth",
+   "loot_table": "drop_invisible",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -57.67,
+     84.29,
+     -589.14
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_nest_9",
+   "type": "monster",
+   "name": "Spawn: Changed",
+   "x": 38.3421,
+   "y": 60.3431,
+   "variant": "overgrowth",
+   "loot_table": "drop_changed",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     27.46,
+     72.12,
+     -778.34
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_nest_10",
+   "type": "monster",
+   "name": "Spawn: Changed",
+   "x": 19.7963,
+   "y": 50.761,
+   "variant": "overgrowth",
+   "loot_table": "drop_changed",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -117.87,
+     80,
+     -707.01
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_nest_11",
+   "type": "monster",
+   "name": "Spawn: Changed",
+   "x": 63.4534,
+   "y": 39.0336,
+   "variant": "overgrowth",
+   "loot_table": "drop_changed",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     224.24,
+     78.29,
+     -619.71
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_guard_12",
+   "type": "spawn-zone",
+   "name": "Guarded Zone (Soldiers)",
+   "description": "Radius 10 m, up to 2 guards. Spawns: Turned Soldier 100%",
+   "x": 28.0273,
+   "y": 56.2419,
+   "variant": "overgrowth",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -53.37,
+     80.01,
+     -747.81
+    ],
+    "site_type": "spawn_zone"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_guard_13",
+   "type": "spawn-zone",
+   "name": "Guarded Zone: Distorted Alpha",
+   "description": "Radius 10 m, up to 6 guards. Spawns: Distorted (dormant, small) 20%, Distorted (dormant) 80%",
+   "x": 32.6059,
+   "y": 26.2839,
+   "variant": "overgrowth",
+   "loot_table": "changed_human_alpha_death",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -17.49,
+     80.08,
+     -524.8
+    ],
+    "site_type": "spawn_zone"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_dendroid_nest_1",
+   "type": "monster",
+   "name": "Spawn: Dendroids",
+   "x": 26.9732,
+   "y": 42.1743,
+   "variant": "overgrowth",
+   "loot_table": "drop_dendroid",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -61.63,
+     79.08,
+     -643.09
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_scientist_squad_nest_1",
+   "type": "monster",
+   "name": "Changed",
+   "x": 56.0992,
+   "y": 44.1894,
+   "variant": "overgrowth",
+   "loot_table": "drop_changed",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     166.61,
+     80,
+     -658.09
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_flowerman_alpha_1",
+   "type": "boss",
+   "name": "Flowerman Alpha (Boss)",
+   "x": 25.2134,
+   "y": 51.5925,
+   "variant": "overgrowth",
+   "loot_table": "drop_flowerman_alpha",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -75.42,
+     80.01,
+     -713.2
+    ],
+    "site_type": "boss"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_secret_stash_1",
+   "type": "safe",
+   "name": "Secret Stash",
+   "x": 46.7287,
+   "y": 46.2823,
+   "variant": "fire",
+   "loot_table": "secret_stash",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     93.18,
+     80.54,
+     -673.67
+    ],
+    "site_type": "safe"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_secret_stash_2",
+   "type": "safe",
+   "name": "Secret Stash",
+   "x": 58.913,
+   "y": 21.6816,
+   "variant": "fire",
+   "loot_table": "secret_stash",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     188.66,
+     80.19,
+     -490.54
+    ],
+    "site_type": "safe"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_secret_stash_3",
+   "type": "safe",
+   "name": "Secret Stash",
+   "x": 31.6974,
+   "y": 55.5581,
+   "variant": "fire",
+   "loot_table": "secret_stash",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -24.61,
+     80.47,
+     -742.72
+    ],
+    "site_type": "safe"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_distorted_house_1",
+   "type": "monster",
+   "name": "Distorted",
+   "x": 49.3792,
+   "y": 40.3863,
+   "variant": "fire",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     113.95,
+     81.5,
+     -629.78
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_distorted_house_2",
+   "type": "monster",
+   "name": "Distorted",
+   "x": 51.6889,
+   "y": 37.0374,
+   "variant": "fire",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     132.05,
+     81.5,
+     -604.85
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_distorted_house_3",
+   "type": "monster",
+   "name": "Distorted",
+   "x": 49.0793,
+   "y": 35.3501,
+   "variant": "fire",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     111.6,
+     81.5,
+     -592.29
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_distorted_house_4",
+   "type": "monster",
+   "name": "Distorted",
+   "x": 46.1072,
+   "y": 38.2074,
+   "variant": "fire",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     88.31,
+     80.5,
+     -613.56
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_distorted_house_5",
+   "type": "monster",
+   "name": "Distorted",
+   "x": 45.9464,
+   "y": 38.0771,
+   "variant": "fire",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     87.05,
+     83.7,
+     -612.59
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_distorted_house_6",
+   "type": "monster",
+   "name": "Distorted",
+   "x": 47.137,
+   "y": 36.6881,
+   "variant": "fire",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     96.38,
+     80.5,
+     -602.25
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_distorted_house_7",
+   "type": "monster",
+   "name": "Distorted",
+   "x": 50.6987,
+   "y": 45.6576,
+   "variant": "fire",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     124.29,
+     81.5,
+     -669.02
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_distorted_house_8",
+   "type": "monster",
+   "name": "Distorted",
+   "x": 50.5723,
+   "y": 54.0938,
+   "variant": "fire",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     123.3,
+     76.5,
+     -731.82
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_distorted_house_9",
+   "type": "monster",
+   "name": "Distorted",
+   "x": 49.9853,
+   "y": 55.3727,
+   "variant": "fire",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     118.7,
+     75.5,
+     -741.34
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_distorted_house_10",
+   "type": "monster",
+   "name": "Distorted",
+   "x": 48.4157,
+   "y": 58.1736,
+   "variant": "fire",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     106.4,
+     76.5,
+     -762.19
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_distorted_house_11",
+   "type": "monster",
+   "name": "Distorted",
+   "x": 49.2643,
+   "y": 58.4906,
+   "variant": "fire",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     113.05,
+     76.5,
+     -764.55
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_distorted_house_12",
+   "type": "monster",
+   "name": "Distorted",
+   "x": 35.2539,
+   "y": 46.731,
+   "variant": "fire",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     3.26,
+     81.38,
+     -677.01
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_distorted_house_13",
+   "type": "monster",
+   "name": "Distorted",
+   "x": 37.4565,
+   "y": 44.1947,
+   "variant": "fire",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     20.52,
+     80.11,
+     -658.13
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_distorted_house_14",
+   "type": "monster",
+   "name": "Distorted",
+   "x": 26.8762,
+   "y": 60.0999,
+   "variant": "fire",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -62.39,
+     80.65,
+     -776.53
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_distorted_house_15",
+   "type": "monster",
+   "name": "Distorted",
+   "x": 43.3227,
+   "y": 18.0774,
+   "variant": "fire",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     66.49,
+     90.02,
+     -463.71
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_church_sniper_gun_1",
+   "type": "loot-location",
+   "name": "Church — Sniper Rifle",
+   "x": 56.0162,
+   "y": 38.8308,
+   "variant": "fire",
+   "loot_table": "ozernoe_adv_church_sniper_gun",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     165.96,
+     94.9,
+     -618.2
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_church_sniper_loot_1",
+   "type": "loot-location",
+   "name": "Church — Sniper Loot",
+   "x": 55.8516,
+   "y": 39.1035,
+   "variant": "fire",
+   "loot_table": "ozernoe_adv_church_sniper",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     164.67,
+     94.75,
+     -620.23
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_church_sniper_loot_2",
+   "type": "loot-location",
+   "name": "Church — Sniper Loot",
+   "x": 55.516,
+   "y": 38.7972,
+   "variant": "fire",
+   "loot_table": "ozernoe_adv_church_sniper",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     162.04,
+     94.76,
+     -617.95
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_church_sniper_loot_3",
+   "type": "loot-location",
+   "name": "Church — Sniper Loot",
+   "x": 55.4688,
+   "y": 38.5795,
+   "variant": "fire",
+   "loot_table": "ozernoe_adv_church_sniper",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     161.67,
+     94.83,
+     -616.33
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_military_uaz_1",
+   "type": "vehicle-spawn",
+   "name": "Military UAZ (Vehicle Spawn)",
+   "x": 65.0907,
+   "y": 41.2568,
+   "variant": "fire",
+   "loot_table": "ozernoe_adv_military_uaz",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     237.07,
+     79.97,
+     -636.26
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_military_uaz_2",
+   "type": "vehicle-spawn",
+   "name": "Military UAZ (Vehicle Spawn)",
+   "x": 52.0577,
+   "y": 27.7065,
+   "variant": "fire",
+   "loot_table": "ozernoe_adv_military_uaz",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     134.94,
+     80,
+     -535.39
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_military_uaz_3",
+   "type": "vehicle-spawn",
+   "name": "Military UAZ (Vehicle Spawn)",
+   "x": 56.1298,
+   "y": 62.0559,
+   "variant": "fire",
+   "loot_table": "ozernoe_adv_military_uaz",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     166.85,
+     64.29,
+     -791.09
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_military_uaz_4",
+   "type": "vehicle-spawn",
+   "name": "Military UAZ (Vehicle Spawn)",
+   "x": 38.7619,
+   "y": 60.7233,
+   "variant": "fire",
+   "loot_table": "ozernoe_adv_military_uaz",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     30.75,
+     72.34,
+     -781.17
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_military_uaz_5",
+   "type": "vehicle-spawn",
+   "name": "Military UAZ (Vehicle Spawn)",
+   "x": 28.1651,
+   "y": 54.3222,
+   "variant": "fire",
+   "loot_table": "ozernoe_adv_military_uaz",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -52.29,
+     80.01,
+     -733.52
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_military_uaz_6",
+   "type": "vehicle-spawn",
+   "name": "Military UAZ (Vehicle Spawn)",
+   "x": 31.8671,
+   "y": 32.5734,
+   "variant": "fire",
+   "loot_table": "ozernoe_adv_military_uaz",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -23.28,
+     79.9,
+     -571.62
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_military_uaz_7",
+   "type": "vehicle-spawn",
+   "name": "Military UAZ (Vehicle Spawn)",
+   "x": 52.045,
+   "y": 42.4041,
+   "variant": "fire",
+   "loot_table": "ozernoe_adv_military_uaz",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     134.84,
+     80,
+     -644.8
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_gravizone_am_pile_1",
+   "type": "anomaly",
+   "name": "Gravizone — Active Matter",
+   "x": 61.8838,
+   "y": 23.6953,
+   "variant": "fire",
+   "loot_table": "ozernoe_adv_gravizone_am_pile",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     211.94,
+     83.71,
+     -505.53
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_gravizone_am_pile_2",
+   "type": "anomaly",
+   "name": "Gravizone — Active Matter",
+   "x": 61.8838,
+   "y": 23.5959,
+   "variant": "fire",
+   "loot_table": "ozernoe_adv_gravizone_am_pile",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     211.94,
+     85.6,
+     -504.79
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_gravizone_am_pile_3",
+   "type": "anomaly",
+   "name": "Gravizone — Active Matter",
+   "x": 61.8838,
+   "y": 23.7759,
+   "variant": "fire",
+   "loot_table": "ozernoe_adv_gravizone_am_pile",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     211.94,
+     87.16,
+     -506.13
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_gravizone_am_pile_4",
+   "type": "anomaly",
+   "name": "Gravizone — Active Matter",
+   "x": 56.6964,
+   "y": 40.698,
+   "variant": "fire",
+   "loot_table": "ozernoe_adv_gravizone_am_pile",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     171.29,
+     84.39,
+     -632.1
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_gravizone_am_pile_5",
+   "type": "anomaly",
+   "name": "Gravizone — Active Matter",
+   "x": 56.7181,
+   "y": 40.698,
+   "variant": "fire",
+   "loot_table": "ozernoe_adv_gravizone_am_pile",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     171.46,
+     86.65,
+     -632.1
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_gravizone_am_pile_6",
+   "type": "anomaly",
+   "name": "Gravizone — Active Matter",
+   "x": 56.7066,
+   "y": 40.6214,
+   "variant": "fire",
+   "loot_table": "ozernoe_adv_gravizone_am_pile",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     171.37,
+     89.33,
+     -631.53
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_gravizone_am_pile_7",
+   "type": "anomaly",
+   "name": "Gravizone — Active Matter",
+   "x": 35.5997,
+   "y": 52.4415,
+   "variant": "fire",
+   "loot_table": "ozernoe_adv_gravizone_am_pile",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     5.97,
+     85.15,
+     -719.52
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_gravizone_am_pile_8",
+   "type": "anomaly",
+   "name": "Gravizone — Active Matter",
+   "x": 35.4517,
+   "y": 52.596,
+   "variant": "fire",
+   "loot_table": "ozernoe_adv_gravizone_am_pile",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     4.81,
+     86.76,
+     -720.67
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_gravizone_am_pile_9",
+   "type": "anomaly",
+   "name": "Gravizone — Active Matter",
+   "x": 35.6329,
+   "y": 52.4066,
+   "variant": "fire",
+   "loot_table": "ozernoe_adv_gravizone_am_pile",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     6.23,
+     87.94,
+     -719.26
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_gravizone_am_pile_10",
+   "type": "anomaly",
+   "name": "Gravizone — Active Matter",
+   "x": 29.4297,
+   "y": 57.5771,
+   "variant": "fire",
+   "loot_table": "ozernoe_adv_gravizone_am_pile",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -42.38,
+     87.94,
+     -757.75
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_gravizone_am_pile_11",
+   "type": "anomaly",
+   "name": "Gravizone — Active Matter",
+   "x": 29.5803,
+   "y": 57.6174,
+   "variant": "fire",
+   "loot_table": "ozernoe_adv_gravizone_am_pile",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -41.2,
+     92.63,
+     -758.05
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_gravizone_am_pile_12",
+   "type": "anomaly",
+   "name": "Gravizone — Active Matter",
+   "x": 29.5229,
+   "y": 57.4831,
+   "variant": "fire",
+   "loot_table": "ozernoe_adv_gravizone_am_pile",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -41.65,
+     95.45,
+     -757.05
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_monster_conversion_1",
+   "type": "artifact",
+   "name": "Artifact: Distorted Hunter",
+   "x": 50.0223,
+   "y": 67.8994,
+   "variant": "fire",
+   "loot_table": "ozernoe_monster_conversion",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     118.99,
+     54.29,
+     -834.59
+    ],
+    "site_type": "artifact"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_monster_conversion_2",
+   "type": "artifact",
+   "name": "Artifact: Distorted Hunter",
+   "x": 63.5657,
+   "y": 52.0694,
+   "variant": "fire",
+   "loot_table": "ozernoe_monster_conversion",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     225.12,
+     71.07,
+     -716.75
+    ],
+    "site_type": "artifact"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_monster_conversion_3",
+   "type": "artifact",
+   "name": "Artifact: Distorted Hunter",
+   "x": 47.867,
+   "y": 35.6282,
+   "variant": "fire",
+   "loot_table": "ozernoe_monster_conversion",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     102.1,
+     81.01,
+     -594.36
+    ],
+    "site_type": "artifact"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_monster_conversion_4",
+   "type": "artifact",
+   "name": "Artifact: Distorted Hunter",
+   "x": 32.6379,
+   "y": 37.8501,
+   "variant": "fire",
+   "loot_table": "ozernoe_monster_conversion",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -17.24,
+     84.23,
+     -610.9
+    ],
+    "site_type": "artifact"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_monster_conversion_5",
+   "type": "artifact",
+   "name": "Artifact: Distorted Hunter",
+   "x": 31.5659,
+   "y": 55.3109,
+   "variant": "fire",
+   "loot_table": "ozernoe_monster_conversion",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -25.64,
+     81.47,
+     -740.88
+    ],
+    "site_type": "artifact"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_monster_conversion_6",
+   "type": "artifact",
+   "name": "Artifact: Distorted Hunter",
+   "x": 43.0394,
+   "y": 50.8698,
+   "variant": "fire",
+   "loot_table": "ozernoe_monster_conversion",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     64.27,
+     80.21,
+     -707.82
+    ],
+    "site_type": "artifact"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_fire_anomaly_1",
+   "type": "anomaly",
+   "name": "Fire Anomaly",
+   "x": 63.8898,
+   "y": 34.8531,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     227.66,
+     77.01,
+     -588.59
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_fire_anomaly_2",
+   "type": "anomaly",
+   "name": "Fire Anomaly",
+   "x": 69.5953,
+   "y": 37.9307,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     272.37,
+     79.12,
+     -611.5
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_fire_anomaly_3",
+   "type": "anomaly",
+   "name": "Fire Anomaly",
+   "x": 65.9648,
+   "y": 40.5825,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     243.92,
+     76.64,
+     -631.24
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_fire_anomaly_4",
+   "type": "anomaly",
+   "name": "Fire Anomaly",
+   "x": 52.5873,
+   "y": 25.7761,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     139.09,
+     81.73,
+     -521.02
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_fire_anomaly_5",
+   "type": "anomaly",
+   "name": "Fire Anomaly",
+   "x": 29.5088,
+   "y": 52.5517,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -41.76,
+     80.09,
+     -720.34
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_fire_anomaly_6",
+   "type": "anomaly",
+   "name": "Fire Anomaly",
+   "x": 54.6967,
+   "y": 36.2314,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     155.62,
+     80.07,
+     -598.85
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_fire_anomaly_7",
+   "type": "anomaly",
+   "name": "Fire Anomaly",
+   "x": 60.2593,
+   "y": 49.9066,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     199.21,
+     79.35,
+     -700.65
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_fire_anomaly_8",
+   "type": "anomaly",
+   "name": "Fire Anomaly",
+   "x": 47.5977,
+   "y": 51.7833,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     99.99,
+     77.37,
+     -714.62
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_fire_anomaly_9",
+   "type": "anomaly",
+   "name": "Fire Anomaly",
+   "x": 37.7933,
+   "y": 35.9909,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     23.16,
+     80.7,
+     -597.06
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_nesting_swarm_spot_1",
+   "type": "monster",
+   "name": "Spawn: Devourers",
+   "x": 68.7429,
+   "y": 38.6454,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     265.69,
+     77.97,
+     -616.82
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_nesting_swarm_spot_2",
+   "type": "monster",
+   "name": "Spawn: Devourers",
+   "x": 66.3043,
+   "y": 40.3595,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     246.58,
+     77.74,
+     -629.58
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_nesting_swarm_spot_3",
+   "type": "monster",
+   "name": "Spawn: Devourers",
+   "x": 24.5499,
+   "y": 57.3407,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -80.62,
+     88.83,
+     -755.99
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_nesting_swarm_spot_4",
+   "type": "monster",
+   "name": "Spawn: Devourers",
+   "x": 20.0541,
+   "y": 58.0325,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -115.85,
+     86.77,
+     -761.14
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_nesting_swarm_spot_5",
+   "type": "monster",
+   "name": "Spawn: Devourers",
+   "x": 39.9053,
+   "y": 45.5891,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     39.71,
+     81.05,
+     -668.51
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_nesting_swarm_spot_6",
+   "type": "monster",
+   "name": "Spawn: Devourers",
+   "x": 29.5637,
+   "y": 28.2331,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -41.33,
+     81,
+     -539.31
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_nesting_swarm_spot_7",
+   "type": "monster",
+   "name": "Spawn: Devourers",
+   "x": 40.3953,
+   "y": 33.9437,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     43.55,
+     81.34,
+     -581.82
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_nesting_swarm_spot_8",
+   "type": "monster",
+   "name": "Spawn: Devourers",
+   "x": 52.0156,
+   "y": 40.8108,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     134.61,
+     81.64,
+     -632.94
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_nesting_swarm_spot_9",
+   "type": "monster",
+   "name": "Spawn: Devourers",
+   "x": 55.8848,
+   "y": 40.0183,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     164.93,
+     95.79,
+     -627.04
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_group_1",
+   "type": "monster",
+   "name": "Distorted group",
+   "x": 59.4056,
+   "y": 23.6227,
+   "variant": "fire",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     192.52,
+     80.33,
+     -504.99
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_sleeper_2",
+   "type": "monster",
+   "name": "Distorted",
+   "x": 25.2415,
+   "y": 56.0968,
+   "variant": "fire",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -75.2,
+     80.23,
+     -746.73
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_sleeper_3",
+   "type": "monster",
+   "name": "Distorted",
+   "x": 28.8236,
+   "y": 28.2707,
+   "variant": "fire",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -47.13,
+     80.03,
+     -539.59
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_sleeper_4",
+   "type": "monster",
+   "name": "Distorted",
+   "x": 46.7389,
+   "y": 55.4251,
+   "variant": "fire",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     93.26,
+     75.12,
+     -741.73
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_sleeper_5",
+   "type": "monster",
+   "name": "Distorted",
+   "x": 65.7083,
+   "y": 50.6186,
+   "variant": "fire",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     241.91,
+     67.4,
+     -705.95
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_sleeper_6",
+   "type": "monster",
+   "name": "Distorted",
+   "x": 50.6323,
+   "y": 21.5929,
+   "variant": "fire",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     123.77,
+     81.27,
+     -489.88
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_sleeper_7",
+   "type": "monster",
+   "name": "Distorted",
+   "x": 65.7823,
+   "y": 32.1127,
+   "variant": "fire",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     242.49,
+     80,
+     -568.19
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_sleeper_8",
+   "type": "monster",
+   "name": "Distorted",
+   "x": 23.8812,
+   "y": 47.8527,
+   "variant": "fire",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -85.86,
+     80,
+     -685.36
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_sleeper_9",
+   "type": "monster",
+   "name": "Distorted",
+   "x": 52.0194,
+   "y": 67.937,
+   "variant": "fire",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     134.64,
+     53.49,
+     -834.87
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_sleeper_10",
+   "type": "monster",
+   "name": "Distorted",
+   "x": 53.1271,
+   "y": 42.9992,
+   "variant": "fire",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     143.32,
+     80.18,
+     -649.23
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_sleeper_11",
+   "type": "monster",
+   "name": "Distorted",
+   "x": 67.1937,
+   "y": 39.0887,
+   "variant": "fire",
+   "loot_table": "drop_distorted_corpse",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     253.55,
+     80.12,
+     -620.12
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_shy_1",
+   "type": "monster",
+   "name": "Shy",
+   "x": 23.1334,
+   "y": 56.0551,
+   "variant": "fire",
+   "loot_table": "drop_shy",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -91.72,
+     87.4,
+     -746.42
+    ],
+    "site_type": "monster"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_box_1",
+   "type": "container-tier-3",
+   "name": "T3 Crate (Long Range, Soviet)",
+   "x": 55.5288,
+   "y": 39.6717,
+   "variant": "fire",
+   "loot_table": "box_long_range_soviet_weapons_t3",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     162.14,
+     80.5,
+     -624.46
+    ],
+    "site_type": "t3_box"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_box_2",
+   "type": "container-tier-3",
+   "name": "T3 Crate (Long Range, Soviet)",
+   "x": 55.9027,
+   "y": 39.6381,
+   "variant": "fire",
+   "loot_table": "box_long_range_soviet_weapons_t3",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     165.07,
+     80.5,
+     -624.21
+    ],
+    "site_type": "t3_box"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_box_1~2",
+   "type": "container-tier-2",
+   "name": "T2 Crate (Long Range, Soviet)",
+   "x": 56.3174,
+   "y": 39.583,
+   "variant": "fire",
+   "loot_table": "box_long_range_soviet_weapons_t2",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     168.32,
+     80.5,
+     -623.8
+    ],
+    "site_type": "t2_box"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_box_2~2",
+   "type": "container-tier-2",
+   "name": "T2 Crate (Long Range, Soviet)",
+   "x": 55.9499,
+   "y": 39.8571,
+   "variant": "fire",
+   "loot_table": "box_long_range_soviet_weapons_t2",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     165.44,
+     80.5,
+     -625.84
+    ],
+    "site_type": "t2_box"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_box_1~3",
+   "type": "medical-supplies",
+   "name": "T3 Medical Supplies (Soviet)",
+   "x": 55.5275,
+   "y": 39.6744,
+   "variant": "fire",
+   "loot_table": "box_medical_items_t3",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     162.13,
+     80.5,
+     -624.48
+    ],
+    "site_type": "medical"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_box_2~3",
+   "type": "medical-supplies",
+   "name": "T3 Medical Supplies (Soviet)",
+   "x": 55.9614,
+   "y": 40.7329,
+   "variant": "fire",
+   "loot_table": "box_medical_items_t3",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     165.53,
+     80.5,
+     -632.36
+    ],
+    "site_type": "medical"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_box_3",
+   "type": "container-tier-3",
+   "name": "T3 Crate (Long Range, Soviet)",
+   "x": 59.7374,
+   "y": 31.9313,
+   "variant": "fire",
+   "loot_table": "box_long_range_soviet_weapons_t3",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     195.12,
+     69.92,
+     -566.84
+    ],
+    "site_type": "t3_box"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_box_3~2",
+   "type": "container-tier-2",
+   "name": "T2 Crate (Long Range, Soviet)",
+   "x": 59.9786,
+   "y": 31.3685,
+   "variant": "fire",
+   "loot_table": "box_long_range_soviet_weapons_t2",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     197.01,
+     69.9,
+     -562.65
+    ],
+    "site_type": "t2_box"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_box_1~4",
+   "type": "container-tier-2",
+   "name": "T2 Crate (Close Range, Soviet)",
+   "x": 60.6945,
+   "y": 31.797,
+   "variant": "fire",
+   "loot_table": "box_close_range_soviet_weapons_t2",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     202.62,
+     69.94,
+     -565.84
+    ],
+    "site_type": "t2_box"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_box_1~5",
+   "type": "loot-location",
+   "name": "Weapon Specifications",
+   "x": 59.4643,
+   "y": 31.5941,
+   "variant": "fire",
+   "loot_table": "weapon_specifications",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     192.98,
+     69.99,
+     -564.33
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_box_4",
+   "type": "container-tier-3",
+   "name": "T3 Crate (Long Range, Soviet)",
+   "x": 24.0866,
+   "y": 56.2983,
+   "variant": "fire",
+   "loot_table": "box_long_range_soviet_weapons_t3",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -84.25,
+     97.71,
+     -748.23
+    ],
+    "site_type": "t3_box"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_box_5",
+   "type": "container-tier-3",
+   "name": "T3 Crate (Long Range, Soviet)",
+   "x": 23.8391,
+   "y": 56.168,
+   "variant": "fire",
+   "loot_table": "box_long_range_soviet_weapons_t3",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -86.19,
+     97.02,
+     -747.26
+    ],
+    "site_type": "t3_box"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_box_2~4",
+   "type": "container-tier-2",
+   "name": "T2 Crate (Close Range, Soviet)",
+   "x": 23.5915,
+   "y": 56.3466,
+   "variant": "fire",
+   "loot_table": "box_close_range_soviet_weapons_t2",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -88.13,
+     97.74,
+     -748.59
+    ],
+    "site_type": "t2_box"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_box_3~3",
+   "type": "container-tier-2",
+   "name": "T2 Crate (Close Range, Soviet)",
+   "x": 22.3537,
+   "y": 57.3434,
+   "variant": "fire",
+   "loot_table": "box_close_range_soviet_weapons_t2",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -97.83,
+     87.36,
+     -756.01
+    ],
+    "site_type": "t2_box"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_box_4~2",
+   "type": "container-tier-2",
+   "name": "T2 Crate (Long Range, Soviet)",
+   "x": 22.0193,
+   "y": 56.927,
+   "variant": "fire",
+   "loot_table": "box_long_range_soviet_weapons_t2",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -100.45,
+     87.36,
+     -752.91
+    ],
+    "site_type": "t2_box"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_box_5~2",
+   "type": "container-tier-2",
+   "name": "T2 Crate (Long Range, Soviet)",
+   "x": 21.1669,
+   "y": 56.5683,
+   "variant": "fire",
+   "loot_table": "box_long_range_soviet_weapons_t2",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -107.13,
+     84.2,
+     -750.24
+    ],
+    "site_type": "t2_box"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_box_2~5",
+   "type": "loot-location",
+   "name": "Weapon Specifications",
+   "x": 21.662,
+   "y": 56.2056,
+   "variant": "fire",
+   "loot_table": "weapon_specifications",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -103.25,
+     84.2,
+     -747.54
+    ],
+    "site_type": "floor_loot"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_core_1",
+   "type": "anomaly",
+   "name": "Fire Core Spawn",
+   "x": 65.5513,
+   "y": 37.3396,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     240.68,
+     77.23,
+     -607.1
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_core_2",
+   "type": "anomaly",
+   "name": "Fire Core Spawn",
+   "x": 64.14,
+   "y": 42.2737,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     229.62,
+     80.03,
+     -643.83
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_core_3",
+   "type": "anomaly",
+   "name": "Fire Core Spawn",
+   "x": 43.0165,
+   "y": 37.6526,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     64.09,
+     80.04,
+     -609.43
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_core_4",
+   "type": "anomaly",
+   "name": "Fire Core Spawn",
+   "x": 39.6667,
+   "y": 38.2074,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     37.84,
+     79.97,
+     -613.56
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_core_5",
+   "type": "anomaly",
+   "name": "Fire Core Spawn",
+   "x": 49.4711,
+   "y": 24.6168,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     114.67,
+     80.45,
+     -512.39
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_core_6",
+   "type": "anomaly",
+   "name": "Fire Core Spawn",
+   "x": 25.0731,
+   "y": 53.9044,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -76.52,
+     80.01,
+     -730.41
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_core_7",
+   "type": "anomaly",
+   "name": "Fire Core Spawn",
+   "x": 57.0588,
+   "y": 48.5458,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     174.13,
+     80,
+     -690.52
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_core_8",
+   "type": "anomaly",
+   "name": "Fire Core Spawn",
+   "x": 52.4367,
+   "y": 52.5933,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     137.91,
+     74.99,
+     -720.65
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_core_9",
+   "type": "anomaly",
+   "name": "Fire Core Spawn",
+   "x": 49.1137,
+   "y": 61.6421,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     111.87,
+     71.87,
+     -788.01
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_core_10",
+   "type": "anomaly",
+   "name": "Fire Core Spawn",
+   "x": 34.9349,
+   "y": 59.658,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     0.76,
+     70.88,
+     -773.24
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_core_11",
+   "type": "anomaly",
+   "name": "Fire Core Spawn",
+   "x": 48.3442,
+   "y": 45.9478,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     105.84,
+     80,
+     -671.18
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_core_12",
+   "type": "anomaly",
+   "name": "Fire Core Spawn",
+   "x": 31.5238,
+   "y": 25.22,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -25.97,
+     80.07,
+     -516.88
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_core_13",
+   "type": "anomaly",
+   "name": "Fire Core Spawn",
+   "x": 33.7774,
+   "y": 21.9288,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -8.31,
+     85.03,
+     -492.38
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_core_14",
+   "type": "anomaly",
+   "name": "Fire Core Spawn",
+   "x": 30.3153,
+   "y": 36.4759,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -35.44,
+     84.78,
+     -600.67
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_core_15",
+   "type": "anomaly",
+   "name": "Fire Core Spawn",
+   "x": 35.8575,
+   "y": 49.6447,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     7.99,
+     80,
+     -698.7
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_core_16",
+   "type": "anomaly",
+   "name": "Fire Core Spawn",
+   "x": 53.6797,
+   "y": 41.5067,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     147.65,
+     80,
+     -638.12
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_core_17",
+   "type": "anomaly",
+   "name": "Fire Core Spawn",
+   "x": 54.6023,
+   "y": 30.2615,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     154.88,
+     73.05,
+     -554.41
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_core_18",
+   "type": "anomaly",
+   "name": "Fire Core Spawn",
+   "x": 60.5847,
+   "y": 33.9558,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     201.76,
+     74.29,
+     -581.91
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_core_19",
+   "type": "anomaly",
+   "name": "Fire Core Spawn",
+   "x": 56.7181,
+   "y": 26.2315,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     171.46,
+     80,
+     -524.41
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_core_20",
+   "type": "anomaly",
+   "name": "Fire Core Spawn",
+   "x": 63.4343,
+   "y": 26.2624,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     224.09,
+     79.92,
+     -524.64
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_core_21",
+   "type": "anomaly",
+   "name": "Fire Core Spawn",
+   "x": 43.3381,
+   "y": 33.2209,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     66.61,
+     80.05,
+     -576.44
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_core_22",
+   "type": "anomaly",
+   "name": "Fire Core Spawn",
+   "x": 52.0092,
+   "y": 55.9665,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     134.56,
+     74.99,
+     -745.76
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_core_23",
+   "type": "anomaly",
+   "name": "Fire Core Spawn",
+   "x": 57.6841,
+   "y": 64.4376,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     179.03,
+     60.45,
+     -808.82
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_core_24",
+   "type": "anomaly",
+   "name": "Fire Core Spawn",
+   "x": 55.9001,
+   "y": 48.4128,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     165.05,
+     80.01,
+     -689.53
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_core_25",
+   "type": "anomaly",
+   "name": "Fire Core Spawn",
+   "x": 62.4057,
+   "y": 45.7544,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     216.03,
+     79.34,
+     -669.74
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_core_26",
+   "type": "anomaly",
+   "name": "Fire Core Spawn",
+   "x": 60.9127,
+   "y": 40.0411,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     204.33,
+     79.96,
+     -627.21
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_core_27",
+   "type": "anomaly",
+   "name": "Fire Core Spawn",
+   "x": 57.7466,
+   "y": 37.5653,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     179.52,
+     80,
+     -608.78
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_core_28",
+   "type": "anomaly",
+   "name": "Fire Core Spawn",
+   "x": 55.5721,
+   "y": 57.3541,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     162.48,
+     69.2,
+     -756.09
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_core_29",
+   "type": "anomaly",
+   "name": "Fire Core Spawn",
+   "x": 51.0687,
+   "y": 18.7827,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     127.19,
+     83.36,
+     -468.96
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_core_30",
+   "type": "anomaly",
+   "name": "Fire Core Spawn",
+   "x": 37.4552,
+   "y": 32.4243,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     20.51,
+     80.01,
+     -570.51
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_core_31",
+   "type": "anomaly",
+   "name": "Fire Core Spawn",
+   "x": 25.4661,
+   "y": 19.4073,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -73.44,
+     80.01,
+     -473.61
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_core_32",
+   "type": "anomaly",
+   "name": "Fire Core Spawn",
+   "x": 20.6156,
+   "y": 31.3792,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -111.45,
+     83.08,
+     -562.73
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_core_33",
+   "type": "anomaly",
+   "name": "Fire Core Spawn",
+   "x": 22.0818,
+   "y": 37.2187,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -99.96,
+     85.81,
+     -606.2
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_core_34",
+   "type": "anomaly",
+   "name": "Fire Core Spawn",
+   "x": 18.7589,
+   "y": 47.7412,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -126,
+     80,
+     -684.53
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_core_35",
+   "type": "anomaly",
+   "name": "Fire Core Spawn",
+   "x": 21.0992,
+   "y": 59.2563,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -107.66,
+     80.01,
+     -770.25
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_core_36",
+   "type": "anomaly",
+   "name": "Fire Core Spawn",
+   "x": 32.7106,
+   "y": 53.0313,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -16.67,
+     79.94,
+     -723.91
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_core_37",
+   "type": "anomaly",
+   "name": "Fire Core Spawn",
+   "x": 41.6281,
+   "y": 61.81,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     53.21,
+     72.85,
+     -789.26
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_core_38",
+   "type": "anomaly",
+   "name": "Fire Core Spawn",
+   "x": 54.2884,
+   "y": 64.7425,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     152.42,
+     56.98,
+     -811.09
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_core_39",
+   "type": "anomaly",
+   "name": "Fire Core Spawn",
+   "x": 63.5402,
+   "y": 56.614,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     224.92,
+     63.42,
+     -750.58
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_core_40",
+   "type": "anomaly",
+   "name": "Fire Core Spawn",
+   "x": 60.4852,
+   "y": 51.1707,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     200.98,
+     76.49,
+     -710.06
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_core_41",
+   "type": "anomaly",
+   "name": "Fire Core Spawn",
+   "x": 49.2898,
+   "y": 43.0126,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     113.25,
+     80,
+     -649.33
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_core_42",
+   "type": "anomaly",
+   "name": "Fire Core Spawn",
+   "x": 54.6687,
+   "y": 30.901,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     155.4,
+     71.4,
+     -559.17
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_core_43",
+   "type": "anomaly",
+   "name": "Fire Core Spawn",
+   "x": 52.9982,
+   "y": 32.5479,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     142.31,
+     74.19,
+     -571.43
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_core_44",
+   "type": "anomaly",
+   "name": "Fire Core Spawn",
+   "x": 59.2142,
+   "y": 30.3368,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     191.02,
+     70.64,
+     -554.97
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozr_fire_core_45",
+   "type": "anomaly",
+   "name": "Fire Core Spawn",
+   "x": 49.0499,
+   "y": 38.053,
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     111.37,
+     80.04,
+     -612.41
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozrx_1",
+   "type": "anomaly",
+   "name": "Gravitational anomaly",
+   "x": 61.977,
+   "y": 23.659,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     212.67,
+     84.41,
+     -505.26
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozrx_2",
+   "type": "anomaly",
+   "name": "Gravitational anomaly",
+   "x": 56.8164,
+   "y": 40.6993,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     172.23,
+     84.68,
+     -632.11
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozrx_3",
+   "type": "anomaly",
+   "name": "Gravitational anomaly",
+   "x": 29.5714,
+   "y": 57.5597,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -41.27,
+     86.49,
+     -757.62
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozrx_4",
+   "type": "anomaly",
+   "name": "Gravitational anomaly",
+   "x": 29.6288,
+   "y": 57.5382,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     -40.82,
+     95.71,
+     -757.46
+    ],
+    "site_type": "anomaly"
+   }
+  },
+  {
+   "external_ref": "amh:ozrx_5",
+   "type": "vehicle-spawn",
+   "name": "Civilian Car (Spawn)",
+   "x": 42.4945,
+   "y": 41.7592,
+   "loot_table": "ozernoe_vehicle_civic_spawn",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     60,
+     0,
+     -640
+    ],
+    "site_type": "spawn_car"
+   }
+  },
+  {
+   "external_ref": "amh:ozrx_6",
+   "type": "documents",
+   "name": "Shopping List",
+   "x": 37.5675,
+   "y": 43.6117,
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps",
+   "metadata": {
+    "game_coords": [
+     21.39,
+     81.2,
+     -653.79
+    ],
+    "site_type": "documents",
+    "conditions": "Item: Список покупок"
+   }
+  },
+  {
+   "external_ref": "amh:dg_bonus_0",
+   "type": "area",
+   "name": "Cinema",
+   "x": 12.1628,
+   "y": 91.7861,
+   "geometry": [
+    [
+     10.7758,
+     97.1696
+    ],
+    [
+     17.0705,
+     89.4514
+    ],
+    [
+     13.5973,
+     86.4154
+    ],
+    [
+     7.2076,
+     94.1078
+    ]
+   ],
+   "loot_table": "poizone_dg_bonus_0",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:dg_poi_private_house_5",
+   "type": "area",
+   "name": "House 5",
+   "x": 7.6451,
+   "y": 60.7422,
+   "geometry": [
+    [
+     2.8302,
+     56.6361
+    ],
+    [
+     9.6506,
+     66.9117
+    ],
+    [
+     12.4469,
+     64.8479
+    ],
+    [
+     5.6527,
+     54.5731
+    ]
+   ],
+   "loot_table": "dogorsk_floor",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:ozr_adv_poi_bus_station",
+   "type": "area",
+   "name": "Bus Station",
+   "x": 27.4612,
+   "y": 24.0815,
+   "geometry": [
+    [
+     28.2669,
+     27.3665
+    ],
+    [
+     31.5288,
+     28.2133
+    ],
+    [
+     32.6681,
+     25.9153
+    ],
+    [
+     26.1848,
+     18.2161
+    ],
+    [
+     23.5395,
+     20.3626
+    ],
+    [
+     24.0063,
+     23.0682
+    ],
+    [
+     26.0337,
+     25.4282
+    ]
+   ],
+   "variant": "regular",
+   "loot_table": "ozernoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:ozr_adv_poi_power_station",
+   "type": "area",
+   "name": "Power Station",
+   "x": 60.1833,
+   "y": 23.4864,
+   "geometry": [
+    [
+     58.2286,
+     22.1235
+    ],
+    [
+     62.1842,
+     22.1773
+    ],
+    [
+     62.133,
+     24.852
+    ],
+    [
+     58.1873,
+     24.7928
+    ]
+   ],
+   "variant": "regular",
+   "loot_table": "ozernoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:ozr_adv_poi_private_house_1",
+   "type": "area",
+   "name": "House 1",
+   "x": 60.018,
+   "y": 46.191,
+   "geometry": [
+    [
+     59.3849,
+     47.3372
+    ],
+    [
+     59.1348,
+     45.1071
+    ],
+    [
+     60.6636,
+     45.0843
+    ],
+    [
+     60.8887,
+     47.2353
+    ]
+   ],
+   "variant": "regular",
+   "loot_table": "ozernoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:ozr_adv_poi_private_house_2",
+   "type": "area",
+   "name": "House 2",
+   "x": 56.4392,
+   "y": 46.6165,
+   "geometry": [
+    [
+     55.7641,
+     47.9932
+    ],
+    [
+     55.5676,
+     45.3407
+    ],
+    [
+     57.1164,
+     45.2609
+    ],
+    [
+     57.3087,
+     47.8711
+    ]
+   ],
+   "variant": "regular",
+   "loot_table": "ozernoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:ozr_adv_poi_private_house_3",
+   "type": "area",
+   "name": "House 3",
+   "description": "Одноэтажный жилой дом с приусадебным участком. По выписке, обнаруженной при осмотре дома №9, строение закреплено за сотрудником объекта из руководящего состава, вместо фамилии указан табельный номер 02-1147. По подписке на дом доставлялось одиннадцать изданий. Заявления о прекращении подписки не поступало. Строение находится на высоте около тридцати метров.",
+   "x": 59.0692,
+   "y": 53.0252,
+   "geometry": [
+    [
+     58.5527,
+     54.4112
+    ],
+    [
+     58.0054,
+     52.0192
+    ],
+    [
+     59.5776,
+     51.6304
+    ],
+    [
+     60.1412,
+     54.0401
+    ]
+   ],
+   "variant": "regular",
+   "loot_table": "ozernoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:ozr_adv_poi_private_house_5",
+   "type": "area",
+   "name": "House 5",
+   "x": 52.3107,
+   "y": 50.5927,
+   "geometry": [
+    [
+     51.9377,
+     51.5998
+    ],
+    [
+     51.2464,
+     50.7052
+    ],
+    [
+     52.672,
+     49.549
+    ],
+    [
+     53.3868,
+     50.5167
+    ]
+   ],
+   "variant": "regular",
+   "loot_table": "ozernoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:ozr_adv_poi_private_house_6",
+   "type": "area",
+   "name": "House 6",
+   "description": "Одноэтажный жилой дом с приусадебным участком, на учёте с 1961 года. Ордер на вселение не выдавался, однако домовая книга, похозяйственная книга, лицевой счёт и список на эвакуацию от 09.07.1988 называют четырёх разных жильцов, и ни одна фамилия не повторяется. Опрошено девять эвакуированных — девять ответов, ни один не совпал ни с документами, ни между собой. Дома №6 и №8 проходят по одному инвентарному делу. По описи в доме остались реактивы, числящиеся за институтом, допуска к ним не имел никто из перечисленных.",
+   "x": 50.2409,
+   "y": 54.6626,
+   "geometry": [
+    [
+     49.0995,
+     55.6199
+    ],
+    [
+     49.8322,
+     53.1682
+    ],
+    [
+     51.3709,
+     53.7399
+    ],
+    [
+     50.6611,
+     56.1223
+    ]
+   ],
+   "variant": "regular",
+   "loot_table": "ozernoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:ozr_adv_poi_private_house_7",
+   "type": "area",
+   "name": "House 7",
+   "x": 48.8103,
+   "y": 58.3508,
+   "geometry": [
+    [
+     47.627,
+     58.5013
+    ],
+    [
+     48.2502,
+     57.2638
+    ],
+    [
+     49.9998,
+     58.2052
+    ],
+    [
+     49.364,
+     59.433
+    ]
+   ],
+   "variant": "regular",
+   "loot_table": "ozernoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:ozr_adv_poi_private_house_8",
+   "type": "area",
+   "name": "House 8",
+   "x": 49.5861,
+   "y": 40.0764,
+   "geometry": [
+    [
+     48.5346,
+     40.6624
+    ],
+    [
+     49.5217,
+     38.772
+    ],
+    [
+     50.6165,
+     39.5425
+    ],
+    [
+     49.6718,
+     41.3287
+    ]
+   ],
+   "variant": "regular",
+   "loot_table": "ozernoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:ozr_adv_poi_private_house_10",
+   "type": "area",
+   "name": "House 10",
+   "x": 48.5748,
+   "y": 34.9508,
+   "geometry": [
+    [
+     47.1676,
+     34.6395
+    ],
+    [
+     48.0585,
+     33.5709
+    ],
+    [
+     49.9815,
+     35.2477
+    ],
+    [
+     49.0916,
+     36.3451
+    ]
+   ],
+   "variant": "regular",
+   "loot_table": "ozernoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:ozr_adv_poi_private_house_11",
+   "type": "area",
+   "name": "House 11",
+   "x": 51.4252,
+   "y": 37.4336,
+   "geometry": [
+    [
+     50.3501,
+     37.8957
+    ],
+    [
+     51.4183,
+     36.1387
+    ],
+    [
+     52.4748,
+     36.9941
+    ],
+    [
+     51.4576,
+     38.7057
+    ]
+   ],
+   "variant": "regular",
+   "loot_table": "ozernoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:ozr_adv_poi_lake_tikhoe",
+   "type": "area",
+   "name": "Quiet Lake",
+   "x": 58.3154,
+   "y": 30.9926,
+   "geometry": [
+    [
+     58.2226,
+     30.9172
+    ],
+    [
+     58.4003,
+     30.9082
+    ],
+    [
+     58.3777,
+     31.0749
+    ],
+    [
+     58.2612,
+     31.0702
+    ]
+   ],
+   "variant": "regular",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:ozr_adv_poi_post_office",
+   "type": "area",
+   "name": "Post Office",
+   "x": 35.3098,
+   "y": 46.9613,
+   "geometry": [
+    [
+     34.0879,
+     47.1581
+    ],
+    [
+     35.3169,
+     45.6548
+    ],
+    [
+     36.4969,
+     46.8008
+    ],
+    [
+     35.3375,
+     48.2315
+    ]
+   ],
+   "variant": "regular",
+   "loot_table": "ozernoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:ozr_adv_poi_shop",
+   "type": "area",
+   "name": "Shop",
+   "x": 37.8312,
+   "y": 44.6436,
+   "geometry": [
+    [
+     35.7757,
+     44.9839
+    ],
+    [
+     37.8479,
+     42.4399
+    ],
+    [
+     39.8545,
+     44.3508
+    ],
+    [
+     37.8465,
+     46.7997
+    ]
+   ],
+   "variant": "regular",
+   "loot_table": "ozernoe_adv_shop",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:ozr_adv_poi_admin_building",
+   "type": "area",
+   "name": "Administration",
+   "x": 34.1654,
+   "y": 51.2869,
+   "geometry": [
+    [
+     32.0407,
+     50.6494
+    ],
+    [
+     33.3287,
+     49.1501
+    ],
+    [
+     36.2587,
+     51.9678
+    ],
+    [
+     35.0334,
+     53.3803
+    ]
+   ],
+   "variant": "regular",
+   "loot_table": "ozernoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_poi_bus_station",
+   "type": "area",
+   "name": "Bus Station",
+   "x": 27.4612,
+   "y": 24.0815,
+   "geometry": [
+    [
+     28.2669,
+     27.3665
+    ],
+    [
+     31.5288,
+     28.2133
+    ],
+    [
+     32.6681,
+     25.9153
+    ],
+    [
+     26.1848,
+     18.2161
+    ],
+    [
+     23.5395,
+     20.3626
+    ],
+    [
+     24.0063,
+     23.0682
+    ],
+    [
+     26.0337,
+     25.4282
+    ]
+   ],
+   "variant": "overgrowth",
+   "loot_table": "ozernoe_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_poi_power_station",
+   "type": "area",
+   "name": "Power Station",
+   "x": 60.1833,
+   "y": 23.4864,
+   "geometry": [
+    [
+     58.2286,
+     22.1235
+    ],
+    [
+     62.1842,
+     22.1773
+    ],
+    [
+     62.133,
+     24.852
+    ],
+    [
+     58.1873,
+     24.7928
+    ]
+   ],
+   "variant": "overgrowth",
+   "loot_table": "ozernoe_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_poi_private_house_1",
+   "type": "area",
+   "name": "House 1",
+   "x": 60.018,
+   "y": 46.191,
+   "geometry": [
+    [
+     59.3849,
+     47.3372
+    ],
+    [
+     59.1348,
+     45.1071
+    ],
+    [
+     60.6636,
+     45.0843
+    ],
+    [
+     60.8887,
+     47.2353
+    ]
+   ],
+   "variant": "overgrowth",
+   "loot_table": "ozernoe_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_poi_private_house_2",
+   "type": "area",
+   "name": "House 2",
+   "x": 56.4392,
+   "y": 46.6165,
+   "geometry": [
+    [
+     55.7641,
+     47.9932
+    ],
+    [
+     55.5676,
+     45.3407
+    ],
+    [
+     57.1164,
+     45.2609
+    ],
+    [
+     57.3087,
+     47.8711
+    ]
+   ],
+   "variant": "overgrowth",
+   "loot_table": "ozernoe_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_poi_private_house_3",
+   "type": "area",
+   "name": "House 3",
+   "description": "Одноэтажный жилой дом с приусадебным участком. По выписке, обнаруженной при осмотре дома №9, строение закреплено за сотрудником объекта из руководящего состава, вместо фамилии указан табельный номер 02-1147. По подписке на дом доставлялось одиннадцать изданий. Заявления о прекращении подписки не поступало. Строение находится на высоте около тридцати метров.",
+   "x": 59.0692,
+   "y": 53.0252,
+   "geometry": [
+    [
+     58.5527,
+     54.4112
+    ],
+    [
+     58.0054,
+     52.0192
+    ],
+    [
+     59.5776,
+     51.6304
+    ],
+    [
+     60.1412,
+     54.0401
+    ]
+   ],
+   "variant": "overgrowth",
+   "loot_table": "ozernoe_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_poi_private_house_5",
+   "type": "area",
+   "name": "House 5",
+   "x": 52.3107,
+   "y": 50.5927,
+   "geometry": [
+    [
+     51.9377,
+     51.5998
+    ],
+    [
+     51.2464,
+     50.7052
+    ],
+    [
+     52.672,
+     49.549
+    ],
+    [
+     53.3868,
+     50.5167
+    ]
+   ],
+   "variant": "overgrowth",
+   "loot_table": "ozernoe_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_poi_private_house_6",
+   "type": "area",
+   "name": "House 6",
+   "description": "Одноэтажный жилой дом с приусадебным участком, на учёте с 1961 года. Ордер на вселение не выдавался, однако домовая книга, похозяйственная книга, лицевой счёт и список на эвакуацию от 09.07.1988 называют четырёх разных жильцов, и ни одна фамилия не повторяется. Опрошено девять эвакуированных — девять ответов, ни один не совпал ни с документами, ни между собой. Дома №6 и №8 проходят по одному инвентарному делу. По описи в доме остались реактивы, числящиеся за институтом, допуска к ним не имел никто из перечисленных.",
+   "x": 50.2409,
+   "y": 54.6626,
+   "geometry": [
+    [
+     49.0995,
+     55.6199
+    ],
+    [
+     49.8322,
+     53.1682
+    ],
+    [
+     51.3709,
+     53.7399
+    ],
+    [
+     50.6611,
+     56.1223
+    ]
+   ],
+   "variant": "overgrowth",
+   "loot_table": "ozernoe_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_poi_private_house_7",
+   "type": "area",
+   "name": "House 7",
+   "x": 48.8103,
+   "y": 58.3508,
+   "geometry": [
+    [
+     47.627,
+     58.5013
+    ],
+    [
+     48.2502,
+     57.2638
+    ],
+    [
+     49.9998,
+     58.2052
+    ],
+    [
+     49.364,
+     59.433
+    ]
+   ],
+   "variant": "overgrowth",
+   "loot_table": "ozernoe_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_poi_private_house_8",
+   "type": "area",
+   "name": "House 8",
+   "x": 49.5861,
+   "y": 40.0764,
+   "geometry": [
+    [
+     48.5346,
+     40.6624
+    ],
+    [
+     49.5217,
+     38.772
+    ],
+    [
+     50.6165,
+     39.5425
+    ],
+    [
+     49.6718,
+     41.3287
+    ]
+   ],
+   "variant": "overgrowth",
+   "loot_table": "ozernoe_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_poi_private_house_10",
+   "type": "area",
+   "name": "House 10",
+   "x": 48.5748,
+   "y": 34.9508,
+   "geometry": [
+    [
+     47.1676,
+     34.6395
+    ],
+    [
+     48.0585,
+     33.5709
+    ],
+    [
+     49.9815,
+     35.2477
+    ],
+    [
+     49.0916,
+     36.3451
+    ]
+   ],
+   "variant": "overgrowth",
+   "loot_table": "ozernoe_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_poi_private_house_11",
+   "type": "area",
+   "name": "House 11",
+   "x": 51.4252,
+   "y": 37.4336,
+   "geometry": [
+    [
+     50.3501,
+     37.8957
+    ],
+    [
+     51.4183,
+     36.1387
+    ],
+    [
+     52.4748,
+     36.9941
+    ],
+    [
+     51.4576,
+     38.7057
+    ]
+   ],
+   "variant": "overgrowth",
+   "loot_table": "ozernoe_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_poi_lake_tikhoe",
+   "type": "area",
+   "name": "Quiet Lake",
+   "x": 58.3154,
+   "y": 30.9926,
+   "geometry": [
+    [
+     58.2226,
+     30.9172
+    ],
+    [
+     58.4003,
+     30.9082
+    ],
+    [
+     58.3777,
+     31.0749
+    ],
+    [
+     58.2612,
+     31.0702
+    ]
+   ],
+   "variant": "overgrowth",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_poi_post_office",
+   "type": "area",
+   "name": "Post Office",
+   "x": 35.3098,
+   "y": 46.9613,
+   "geometry": [
+    [
+     34.0879,
+     47.1581
+    ],
+    [
+     35.3169,
+     45.6548
+    ],
+    [
+     36.4969,
+     46.8008
+    ],
+    [
+     35.3375,
+     48.2315
+    ]
+   ],
+   "variant": "overgrowth",
+   "loot_table": "ozernoe_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_poi_shop",
+   "type": "area",
+   "name": "Shop",
+   "x": 37.8312,
+   "y": 44.6436,
+   "geometry": [
+    [
+     35.7757,
+     44.9839
+    ],
+    [
+     37.8479,
+     42.4399
+    ],
+    [
+     39.8545,
+     44.3508
+    ],
+    [
+     37.8465,
+     46.7997
+    ]
+   ],
+   "variant": "overgrowth",
+   "loot_table": "ozernoe_shop",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:ozr_overgrowth_poi_admin_building",
+   "type": "area",
+   "name": "Administration",
+   "x": 34.1654,
+   "y": 51.2869,
+   "geometry": [
+    [
+     32.0407,
+     50.6494
+    ],
+    [
+     33.3287,
+     49.1501
+    ],
+    [
+     36.2587,
+     51.9678
+    ],
+    [
+     35.0334,
+     53.3803
+    ]
+   ],
+   "variant": "overgrowth",
+   "loot_table": "ozernoe_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:ozr_fire_poi_bus_station",
+   "type": "area",
+   "name": "Bus Station",
+   "x": 27.4612,
+   "y": 24.0815,
+   "geometry": [
+    [
+     28.2669,
+     27.3665
+    ],
+    [
+     31.5288,
+     28.2133
+    ],
+    [
+     32.6681,
+     25.9153
+    ],
+    [
+     26.1848,
+     18.2161
+    ],
+    [
+     23.5395,
+     20.3626
+    ],
+    [
+     24.0063,
+     23.0682
+    ],
+    [
+     26.0337,
+     25.4282
+    ]
+   ],
+   "variant": "fire",
+   "loot_table": "ozernoe_fire_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:ozr_fire_poi_power_station",
+   "type": "area",
+   "name": "Power Station",
+   "x": 60.1833,
+   "y": 23.4864,
+   "geometry": [
+    [
+     58.2286,
+     22.1235
+    ],
+    [
+     62.1842,
+     22.1773
+    ],
+    [
+     62.133,
+     24.852
+    ],
+    [
+     58.1873,
+     24.7928
+    ]
+   ],
+   "variant": "fire",
+   "loot_table": "ozernoe_fire_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:ozr_fire_poi_private_house_1",
+   "type": "area",
+   "name": "House 1",
+   "x": 60.018,
+   "y": 46.191,
+   "geometry": [
+    [
+     59.3849,
+     47.3372
+    ],
+    [
+     59.1348,
+     45.1071
+    ],
+    [
+     60.6636,
+     45.0843
+    ],
+    [
+     60.8887,
+     47.2353
+    ]
+   ],
+   "variant": "fire",
+   "loot_table": "ozernoe_fire_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:ozr_fire_poi_private_house_2",
+   "type": "area",
+   "name": "House 2",
+   "x": 56.4392,
+   "y": 46.6165,
+   "geometry": [
+    [
+     55.7641,
+     47.9932
+    ],
+    [
+     55.5676,
+     45.3407
+    ],
+    [
+     57.1164,
+     45.2609
+    ],
+    [
+     57.3087,
+     47.8711
+    ]
+   ],
+   "variant": "fire",
+   "loot_table": "ozernoe_fire_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:ozr_fire_poi_private_house_3",
+   "type": "area",
+   "name": "House 3",
+   "description": "Одноэтажный жилой дом с приусадебным участком. По выписке, обнаруженной при осмотре дома №9, строение закреплено за сотрудником объекта из руководящего состава, вместо фамилии указан табельный номер 02-1147. По подписке на дом доставлялось одиннадцать изданий. Заявления о прекращении подписки не поступало. Строение находится на высоте около тридцати метров.",
+   "x": 59.0692,
+   "y": 53.0252,
+   "geometry": [
+    [
+     58.5527,
+     54.4112
+    ],
+    [
+     58.0054,
+     52.0192
+    ],
+    [
+     59.5776,
+     51.6304
+    ],
+    [
+     60.1412,
+     54.0401
+    ]
+   ],
+   "variant": "fire",
+   "loot_table": "ozernoe_fire_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:ozr_fire_poi_private_house_5",
+   "type": "area",
+   "name": "House 5",
+   "x": 52.3107,
+   "y": 50.5927,
+   "geometry": [
+    [
+     51.9377,
+     51.5998
+    ],
+    [
+     51.2464,
+     50.7052
+    ],
+    [
+     52.672,
+     49.549
+    ],
+    [
+     53.3868,
+     50.5167
+    ]
+   ],
+   "variant": "fire",
+   "loot_table": "ozernoe_fire_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:ozr_fire_poi_private_house_6",
+   "type": "area",
+   "name": "House 6",
+   "description": "Одноэтажный жилой дом с приусадебным участком, на учёте с 1961 года. Ордер на вселение не выдавался, однако домовая книга, похозяйственная книга, лицевой счёт и список на эвакуацию от 09.07.1988 называют четырёх разных жильцов, и ни одна фамилия не повторяется. Опрошено девять эвакуированных — девять ответов, ни один не совпал ни с документами, ни между собой. Дома №6 и №8 проходят по одному инвентарному делу. По описи в доме остались реактивы, числящиеся за институтом, допуска к ним не имел никто из перечисленных.",
+   "x": 50.2409,
+   "y": 54.6626,
+   "geometry": [
+    [
+     49.0995,
+     55.6199
+    ],
+    [
+     49.8322,
+     53.1682
+    ],
+    [
+     51.3709,
+     53.7399
+    ],
+    [
+     50.6611,
+     56.1223
+    ]
+   ],
+   "variant": "fire",
+   "loot_table": "ozernoe_fire_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:ozr_fire_poi_private_house_7",
+   "type": "area",
+   "name": "House 7",
+   "x": 48.8103,
+   "y": 58.3508,
+   "geometry": [
+    [
+     47.627,
+     58.5013
+    ],
+    [
+     48.2502,
+     57.2638
+    ],
+    [
+     49.9998,
+     58.2052
+    ],
+    [
+     49.364,
+     59.433
+    ]
+   ],
+   "variant": "fire",
+   "loot_table": "ozernoe_fire_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:ozr_fire_poi_private_house_8",
+   "type": "area",
+   "name": "House 8",
+   "x": 49.5861,
+   "y": 40.0764,
+   "geometry": [
+    [
+     48.5346,
+     40.6624
+    ],
+    [
+     49.5217,
+     38.772
+    ],
+    [
+     50.6165,
+     39.5425
+    ],
+    [
+     49.6718,
+     41.3287
+    ]
+   ],
+   "variant": "fire",
+   "loot_table": "ozernoe_fire_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:ozr_fire_poi_private_house_10",
+   "type": "area",
+   "name": "House 10",
+   "x": 48.5748,
+   "y": 34.9508,
+   "geometry": [
+    [
+     47.1676,
+     34.6395
+    ],
+    [
+     48.0585,
+     33.5709
+    ],
+    [
+     49.9815,
+     35.2477
+    ],
+    [
+     49.0916,
+     36.3451
+    ]
+   ],
+   "variant": "fire",
+   "loot_table": "ozernoe_fire_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:ozr_fire_poi_private_house_11",
+   "type": "area",
+   "name": "House 11",
+   "x": 51.4252,
+   "y": 37.4336,
+   "geometry": [
+    [
+     50.3501,
+     37.8957
+    ],
+    [
+     51.4183,
+     36.1387
+    ],
+    [
+     52.4748,
+     36.9941
+    ],
+    [
+     51.4576,
+     38.7057
+    ]
+   ],
+   "variant": "fire",
+   "loot_table": "ozernoe_fire_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:ozr_fire_poi_lake_tikhoe_fire",
+   "type": "area",
+   "name": "Quiet Lake",
+   "x": 58.3154,
+   "y": 30.9926,
+   "geometry": [
+    [
+     58.2226,
+     30.9172
+    ],
+    [
+     58.4003,
+     30.9082
+    ],
+    [
+     58.3777,
+     31.0749
+    ],
+    [
+     58.2612,
+     31.0702
+    ]
+   ],
+   "variant": "fire",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:ozr_fire_poi_post_office",
+   "type": "area",
+   "name": "Post Office",
+   "x": 35.3098,
+   "y": 46.9613,
+   "geometry": [
+    [
+     34.0879,
+     47.1581
+    ],
+    [
+     35.3169,
+     45.6548
+    ],
+    [
+     36.4969,
+     46.8008
+    ],
+    [
+     35.3375,
+     48.2315
+    ]
+   ],
+   "variant": "fire",
+   "loot_table": "ozernoe_fire_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:ozr_fire_poi_shop",
+   "type": "area",
+   "name": "Shop",
+   "x": 37.8312,
+   "y": 44.6436,
+   "geometry": [
+    [
+     35.7757,
+     44.9839
+    ],
+    [
+     37.8479,
+     42.4399
+    ],
+    [
+     39.8545,
+     44.3508
+    ],
+    [
+     37.8465,
+     46.7997
+    ]
+   ],
+   "variant": "fire",
+   "loot_table": "ozernoe_adv_shop",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:ozr_fire_poi_admin_building",
+   "type": "area",
+   "name": "Administration",
+   "x": 34.1654,
+   "y": 51.2869,
+   "geometry": [
+    [
+     32.0407,
+     50.6494
+    ],
+    [
+     33.3287,
+     49.1501
+    ],
+    [
+     36.2587,
+     51.9678
+    ],
+    [
+     35.0334,
+     53.3803
+    ]
+   ],
+   "variant": "fire",
+   "loot_table": "ozernoe_fire_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:ozr_bonus_fire_station",
+   "type": "area",
+   "name": "Fire Station",
+   "description": "Пожарная часть посёлка Озёрное, депо на три выезда, штатная численность 42 человека. В здании размещался штаб гражданской обороны посёлка, оповещение велось с пункта связи на втором этаже. 9 июля 1988 года номер вызова повышен до третьего, по расписанию выезда подняты объектовые части и добровольные дружины. Последняя запись в книге службы сделана начальником части майором Климовым 10 июля 1988 года, дежурство караулом не сдано.",
+   "x": 25.0536,
+   "y": 56.035,
+   "geometry": [
+    [
+     25.9697,
+     62.9715
+    ],
+    [
+     31.7019,
+     55.6882
+    ],
+    [
+     24.1098,
+     49.103
+    ],
+    [
+     18.4331,
+     56.3775
+    ]
+   ],
+   "loot_table": "ozernoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:ozr_bonus_church",
+   "type": "area",
+   "name": "Church",
+   "description": "Здание бывшей церкви посёлка Озёрное, высота 33 метра по техническому паспорту. Религиозное общество снято с регистрации в 1962 году, здание принято на баланс штаба гражданской обороны посёлка, инвентарный номер 7-0416. По требованию-накладной от 11 мая 1987 года со склада выданы материалы на оборудование поста наблюдения на крыше.",
+   "x": 55.985,
+   "y": 39.9826,
+   "geometry": [
+    [
+     55.0406,
+     41.4899
+    ],
+    [
+     56.9112,
+     41.5212
+    ],
+    [
+     56.9195,
+     38.4493
+    ],
+    [
+     55.0686,
+     38.4701
+    ]
+   ],
+   "loot_table": "ozernoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:ozr_bonus_private_house_4",
+   "type": "area",
+   "name": "House 4",
+   "x": 50.6219,
+   "y": 46.2967,
+   "geometry": [
+    [
+     49.6166,
+     47.425
+    ],
+    [
+     50.194,
+     44.8514
+    ],
+    [
+     51.5456,
+     45.0985
+    ],
+    [
+     51.1314,
+     47.812
+    ]
+   ],
+   "loot_table": "ozernoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  },
+  {
+   "external_ref": "amh:ozr_bonus_private_house_9",
+   "type": "area",
+   "name": "House 9",
+   "x": 46.5839,
+   "y": 37.5494,
+   "geometry": [
+    [
+     44.9866,
+     38.1977
+    ],
+    [
+     46.9359,
+     35.7892
+    ],
+    [
+     48.1661,
+     36.9161
+    ],
+    [
+     46.2469,
+     39.2946
+    ]
+   ],
+   "loot_table": "ozernoe_adv_overall_zone",
+   "source": "Active Matter Help (activematterhelp.ru)",
+   "source_url": "https://activematterhelp.ru/maps"
+  }
+ ]
+}

@@ -1,0 +1,122 @@
+{
+  "format": "active-matter-map/v1",
+  "map": "shegolskoe",
+  "version": "0.4.0.156",
+  "markers": [
+    {
+      "type": "extraction-point",
+      "name": "Extraction portal (southern Euclid anomaly)",
+      "description": "The lone static extraction portal sits at the top of a southern gravity anomaly known as a \"Euclid\". Occasionally, other extraction portals appear.",
+      "source": "Active Matter Wiki (wiki.gg)",
+      "source_url": "https://activematter.wiki.gg/wiki/Shegolskoe",
+      "metadata": {
+        "conditions": "Works until the raid timer runs out."
+      }
+    },
+    {
+      "type": "landmark",
+      "name": "Water tower",
+      "description": "Offers an excellent view over the village.",
+      "source": "Active Matter official news",
+      "source_url": "https://activematter.game/en/news/223"
+    },
+    {
+      "type": "area",
+      "name": "Floating houses",
+      "description": "Gravitational anomalies have ripped part of the settlement from the ground; some floating houses are only reachable through portals in other buildings.",
+      "source": "Active Matter official news",
+      "source_url": "https://activematter.game/en/news/223"
+    },
+    {
+      "type": "building",
+      "name": "House #3 (suspended)",
+      "description": "Suspended by a gravity anomaly; reached through a portal in house #9.",
+      "source": "Active Matter Wiki (wiki.gg)",
+      "source_url": "https://activematter.wiki.gg/wiki/Shegolskoe"
+    },
+    {
+      "type": "building",
+      "name": "House #6 (suspended)",
+      "description": "Suspended by a gravity anomaly; reached through a portal in house #8.",
+      "source": "Active Matter Wiki (wiki.gg)",
+      "source_url": "https://activematter.wiki.gg/wiki/Shegolskoe"
+    },
+    {
+      "type": "building",
+      "name": "Three-story apartment block",
+      "description": "North of the village. Contains a surveillance room.",
+      "source": "Active Matter Wiki (wiki.gg)",
+      "source_url": "https://activematter.wiki.gg/wiki/Shegolskoe"
+    },
+    {
+      "type": "building",
+      "name": "House #7",
+      "description": "Contains a surveillance room.",
+      "source": "Active Matter Wiki (wiki.gg)",
+      "source_url": "https://activematter.wiki.gg/wiki/Shegolskoe"
+    },
+    {
+      "type": "landmark",
+      "name": "Radio tower",
+      "description": "In the wooded area to the southwest.",
+      "source": "Active Matter Wiki (wiki.gg)",
+      "source_url": "https://activematter.wiki.gg/wiki/Shegolskoe"
+    },
+    {
+      "type": "landmark",
+      "name": "Downed helicopter",
+      "description": "By the lake and northern bridge to the west.",
+      "source": "Active Matter Wiki (wiki.gg)",
+      "source_url": "https://activematter.wiki.gg/wiki/Shegolskoe"
+    },
+    {
+      "type": "container",
+      "name": "Stash: trailer by the radio tower",
+      "description": "Inside the trailer next to the southern radio tower.",
+      "source": "Active Matter Wiki (wiki.gg)",
+      "source_url": "https://activematter.wiki.gg/wiki/Shegolskoe"
+    },
+    {
+      "type": "container",
+      "name": "Stash: apartment balcony",
+      "description": "On the balcony of the top apartment on the eastern portion of the three-story building.",
+      "source": "Active Matter Wiki (wiki.gg)",
+      "source_url": "https://activematter.wiki.gg/wiki/Shegolskoe"
+    },
+    {
+      "type": "container",
+      "name": "House #4 attic",
+      "description": "Locked attic opened by the \"Shegolskoe 4 attic key\".",
+      "source": "Active Matter Wiki (wiki.gg)",
+      "source_url": "https://activematter.wiki.gg/wiki/Shegolskoe"
+    },
+    {
+      "type": "container",
+      "name": "House #8 attic",
+      "description": "Locked attic opened by the \"Shegolskoe 8 attic key\".",
+      "source": "Active Matter Wiki (wiki.gg)",
+      "source_url": "https://activematter.wiki.gg/wiki/Shegolskoe"
+    },
+    {
+      "type": "container",
+      "name": "House #11 attic",
+      "description": "Locked attic opened by the \"Shegolskoe 11 attic key\".",
+      "source": "Active Matter Wiki (wiki.gg)",
+      "source_url": "https://activematter.wiki.gg/wiki/Shegolskoe"
+    },
+    {
+      "type": "container",
+      "name": "House #15 attic",
+      "description": "Locked attic opened by the \"Shegolskoe 15 attic key\".",
+      "source": "Active Matter Wiki (wiki.gg)",
+      "source_url": "https://activematter.wiki.gg/wiki/Shegolskoe"
+    },
+    {
+      "type": "anomaly",
+      "name": "Ball lightning",
+      "description": "Reported inside buildings in the regular setting.",
+      "source": "Active Matter Wiki (wiki.gg)",
+      "source_url": "https://activematter.wiki.gg/wiki/Shegolskoe"
+    }
+  ]
+}

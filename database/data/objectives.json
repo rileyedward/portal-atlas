@@ -1,0 +1,40 @@
+{
+  "format": "active-matter-data/v1",
+  "objectives": [
+    {
+      "slug": "active-matter-collection",
+      "name": "Active Matter Collection",
+      "kind": "objective",
+      "map": "shegolskoe",
+      "description": "Primary objective: collect 15 Active Matter.",
+      "source": "Active Matter Wiki (wiki.gg)",
+      "source_url": "https://activematter.wiki.gg/wiki/Shegolskoe",
+      "source_note": "Listed as the Shegolskoe primary objective on wiki.gg.",
+      "items": [
+        {
+          "item": "active-matter",
+          "quantity": 15,
+          "role": "required"
+        }
+      ]
+    },
+    {
+      "slug": "gigastructure-entry-protocol",
+      "name": "Gigastructure: Entry Protocol",
+      "kind": "investigation",
+      "map": "gigastructure",
+      "description": "Investigation that unlocks access to the Gigastructure raid.",
+      "source": "Active Matter Wiki (wiki.gg)",
+      "source_url": "https://activematter.wiki.gg/wiki/Gigastructure"
+    },
+    {
+      "slug": "harbor-anomaly-entrance",
+      "name": "Harbor Anomaly: Entrance",
+      "kind": "objective",
+      "map": "cargo-port",
+      "description": "In-game objective text: \"A colossal gravitation anomaly ... There is a portal on one of the barges near the shore\".",
+      "source": "Active Matter Wiki (wiki.gg)",
+      "source_url": "https://activematter.wiki.gg/wiki/Cargo_Port"
+    }
+  ]
+}

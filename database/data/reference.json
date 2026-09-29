@@ -1,0 +1,567 @@
+{
+  "format": "active-matter-data/v1",
+  "versions": [
+    {
+      "version": "0.1.0",
+      "name": "Early Version",
+      "released_at": "2025-09-09",
+      "source_url": "https://activematter.game/en/news/28",
+      "notes": "PC early version via Gaijin launcher."
+    },
+    {
+      "version": "0.2.1",
+      "name": "Fire Walk",
+      "released_at": "2025-12-18",
+      "source_url": "https://activematter.game/en/news/104",
+      "notes": "Added Dam; Dogorsk opened to open play."
+    },
+    {
+      "version": "0.3.0",
+      "name": "Gigastructure",
+      "released_at": "2026-04-01",
+      "source_url": "https://activematter.game/en/news/192",
+      "notes": "Added Gigastructure and Park."
+    },
+    {
+      "version": "0.4.0",
+      "name": "250 Shades of Liberty",
+      "released_at": "2026-08-27",
+      "source_url": "https://activematter.game/en/news/291",
+      "notes": "Added Downtown (America) and Airport (Africa). Full release on 2026-09-15 (news/318)."
+    },
+    {
+      "version": "0.4.0.156",
+      "name": "Build 0.4.0.156",
+      "released_at": "2026-09-26",
+      "is_current": true,
+      "source_url": "https://activematter.game/en/news/339",
+      "notes": "Latest build at research time. Builds ship every few days — update from the admin panel."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Active Matter official news",
+      "kind": "official",
+      "url": "https://activematter.game/en/news",
+      "reliability": 95,
+      "notes": "Official news, patch notes and developer Q&As."
+    },
+    {
+      "name": "Active Matter official FAQ",
+      "kind": "official",
+      "url": "https://activematter.game/en/faq",
+      "reliability": 95
+    },
+    {
+      "name": "Active Matter Wiki (wiki.gg)",
+      "kind": "community_wiki",
+      "url": "https://activematter.wiki.gg/",
+      "reliability": 55,
+      "notes": "Best English community wiki. Content licensed CC BY-SA 4.0; attribution required. Some copy-paste errors observed."
+    },
+    {
+      "name": "Active Matter Wiki (Fandom, EN)",
+      "kind": "community_wiki",
+      "url": "https://activemattergame.fandom.com/",
+      "reliability": 30,
+      "notes": "Low quality, partly vandalised. Use only for corroboration."
+    },
+    {
+      "name": "Active Matter Wiki (Fandom, RU)",
+      "kind": "community_wiki",
+      "url": "https://active-matter.fandom.com/ru/",
+      "reliability": 40,
+      "notes": "Russian wiki with small interactive maps (CC BY-SA)."
+    }
+  ],
+  "maps": [
+    {
+      "slug": "shegolskoe",
+      "name": "Shegolskoe",
+      "summary": "Village on the southern edge of Dalniy Island, partly torn from the ground by gravitational anomalies.",
+      "status": "published",
+      "width": 1000,
+      "height": 1000,
+      "sort_order": 0,
+      "version": "0.4.0.156",
+      "source": "Active Matter official news",
+      "source_url": "https://activematter.game/en/news/223",
+      "metadata": {
+        "region": "Dalniy Island",
+        "variants": [
+          "Overgrowth",
+          "Distortion"
+        ],
+        "facts": [
+          {
+            "text": "Located on the southern edge of Dalniy Island.",
+            "source_url": "https://activematter.game/en/news/223",
+            "confidence": "High"
+          },
+          {
+            "text": "Houses #3 and #6 are suspended by gravity anomalies and reached via portals in houses #9 and #8.",
+            "source_url": "https://activematter.wiki.gg/wiki/Shegolskoe",
+            "confidence": "Medium"
+          },
+          {
+            "text": "Only three abnormal signals, each in the same location every raid.",
+            "source_url": "https://activematter.wiki.gg/wiki/Shegolskoe",
+            "confidence": "Medium"
+          },
+          {
+            "text": "Overgrowth adds Flowermen and Dendroids; Distortion adds Distorted, Mimics, Hellhounds and the Alpha Mimic.",
+            "source_url": "https://activematter.wiki.gg/wiki/Shegolskoe",
+            "confidence": "Medium"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "ozernoe",
+      "name": "Ozernoe",
+      "summary": "Lakeside village with an observation deck, power plant, church and a contested fire station.",
+      "status": "published",
+      "width": 1000,
+      "height": 1000,
+      "sort_order": 1,
+      "version": "0.4.0.156",
+      "source": "Active Matter official news",
+      "source_url": "https://activematter.game/en/news/13",
+      "metadata": {
+        "region": "Dalniy Island",
+        "variants": [
+          "Overgrowth",
+          "Firestorm (limited-time)"
+        ],
+        "facts": [
+          {
+            "text": "The observation deck, power plant and village church are by the lakeside; these areas have sniper positions.",
+            "source_url": "https://activematter.game/en/news/13",
+            "confidence": "High"
+          },
+          {
+            "text": "The fire station holds loot but sees high competition.",
+            "source_url": "https://activematter.game/en/news/13",
+            "confidence": "High"
+          },
+          {
+            "text": "Seven abnormal signals.",
+            "source_url": "https://activematter.wiki.gg/wiki/Ozernoe",
+            "confidence": "Medium"
+          },
+          {
+            "text": "Spawns in the northern portion by the bus station or power station and lake, or south of the village.",
+            "source_url": "https://activematter.wiki.gg/wiki/Ozernoe",
+            "confidence": "Medium"
+          },
+          {
+            "text": "Located northeast of the Dogorsk raid.",
+            "source_url": "https://activematter.wiki.gg/wiki/Ozernoe",
+            "confidence": "Medium"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "factory",
+      "name": "Factory",
+      "summary": "Industrial complex (Malie Chelni) with six workshops, a construction site and a power station.",
+      "status": "published",
+      "width": 1000,
+      "height": 1000,
+      "sort_order": 2,
+      "version": "0.4.0.156",
+      "source": "Active Matter Wiki (wiki.gg)",
+      "source_url": "https://activematter.wiki.gg/wiki/Factory",
+      "metadata": {
+        "region": "Dalniy Island",
+        "variants": [
+          "Hive",
+          "Bloodbath (overtime)"
+        ],
+        "facts": [
+          {
+            "text": "Also known as Malie Chelni; a road bisects the map north/south.",
+            "source_url": "https://activematter.wiki.gg/wiki/Factory",
+            "confidence": "Medium"
+          },
+          {
+            "text": "Six abnormal signals.",
+            "source_url": "https://activematter.wiki.gg/wiki/Factory",
+            "confidence": "Medium"
+          },
+          {
+            "text": "Enemies reported: Devourers, Flowermen, Distorted, Invisibles, Turned Soldiers, ball lightning.",
+            "source_url": "https://activematter.wiki.gg/wiki/Factory",
+            "confidence": "Medium"
+          },
+          {
+            "text": "Factory: Bloodbath requires at least three data cards to extract.",
+            "source_url": "https://activematter.game/en/news/91",
+            "confidence": "High"
+          },
+          {
+            "text": "In-game valuable-loot descriptions were added for this raid.",
+            "source_url": "https://activematter.game/en/news/315",
+            "confidence": "High"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "dogorsk",
+      "name": "Dogorsk",
+      "summary": "Dalniy Island town with dynamic extraction points.",
+      "status": "published",
+      "width": 1000,
+      "height": 1000,
+      "sort_order": 3,
+      "version": "0.4.0.156",
+      "source": "Active Matter official news",
+      "source_url": "https://activematter.game/en/news/104",
+      "metadata": {
+        "region": "Dalniy Island",
+        "variants": [
+          "Timeline Collision (overtime)"
+        ],
+        "facts": [
+          {
+            "text": "Dynamic extraction points were added in 0.4.0.122.",
+            "source_url": "https://activematter.game/en/news/324",
+            "confidence": "High"
+          },
+          {
+            "text": "Alpha Mimic and Dendroids can spawn here.",
+            "source_url": "https://activematter.game/en/news/192",
+            "confidence": "High"
+          },
+          {
+            "text": "Timeline Collision: zones marked by wrecked WWII-era vehicles contain timeline scars with Fracture Shards.",
+            "source_url": "https://activematter.game/en/news/237",
+            "confidence": "High"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "cargo-port",
+      "name": "Cargo Port",
+      "summary": "Northeastern port with floating barges around a colossal gravity anomaly.",
+      "status": "published",
+      "width": 1000,
+      "height": 1000,
+      "sort_order": 4,
+      "version": "0.4.0.156",
+      "source": "Active Matter official news",
+      "source_url": "https://activematter.game/en/news/45",
+      "metadata": {
+        "region": "Dalniy Island",
+        "variants": [
+          "Darkness",
+          "Deep Cover (solo overtime)"
+        ],
+        "facts": [
+          {
+            "text": "Locked barns and flying ships.",
+            "source_url": "https://activematter.game/en/news/45",
+            "confidence": "High"
+          },
+          {
+            "text": "The crane is locked and requires a key.",
+            "source_url": "https://activematter.game/en/news/206",
+            "confidence": "High"
+          },
+          {
+            "text": "Static barges surround an active matter clump.",
+            "source_url": "https://activematter.game/en/news/270",
+            "confidence": "Medium"
+          },
+          {
+            "text": "Northeast of Dalniy Island per the community island layout.",
+            "source_url": "https://activematter.wiki.gg/wiki/Dalniy_Island",
+            "confidence": "Medium"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "dam",
+      "name": "Dam",
+      "summary": "Dam and administration building holding high-value gear; a submarine is frozen in space nearby.",
+      "status": "published",
+      "width": 1000,
+      "height": 1000,
+      "sort_order": 5,
+      "version": "0.4.0.156",
+      "source": "Active Matter official news",
+      "source_url": "https://activematter.game/en/news/223",
+      "metadata": {
+        "region": "Dalniy Island",
+        "facts": [
+          {
+            "text": "Inside the dam and its administration building players can find high-value gear.",
+            "source_url": "https://activematter.game/en/news/223",
+            "confidence": "High"
+          },
+          {
+            "text": "A final extraction point appears after the zone's collapse phase.",
+            "source_url": "https://activematter.game/en/news/320",
+            "confidence": "High"
+          },
+          {
+            "text": "Shy Girl is listed among the Dam's anomalies.",
+            "source_url": "https://activematter.game/en/news/142",
+            "confidence": "High"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "park",
+      "name": "Park",
+      "summary": "The greenest spot on Dalniy Island, overrun with Flowermen and Dendroids; home of the greenhouse lab.",
+      "status": "published",
+      "width": 1000,
+      "height": 1000,
+      "sort_order": 6,
+      "version": "0.4.0.156",
+      "source": "Active Matter official news",
+      "source_url": "https://activematter.game/en/news/171",
+      "metadata": {
+        "region": "Dalniy Island",
+        "facts": [
+          {
+            "text": "Lies between Shegolskoe and Dogorsk.",
+            "source_url": "https://activematter.game/en/news/171",
+            "confidence": "High"
+          },
+          {
+            "text": "Overrun with Flowermen and Dendroids; the Alpha Flowerman boss was introduced with this update.",
+            "source_url": "https://activematter.game/en/news/192",
+            "confidence": "High"
+          },
+          {
+            "text": "The underground lab is called Sector Flora.",
+            "source_url": "https://activematter.wiki.gg/wiki/Park",
+            "confidence": "Medium"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "military-base",
+      "name": "Military Base",
+      "summary": "Base with impressive stockpiles of rare firearms and destructible wooden crates.",
+      "status": "published",
+      "width": 1000,
+      "height": 1000,
+      "sort_order": 7,
+      "version": "0.4.0.156",
+      "source": "Active Matter official news",
+      "source_url": "https://activematter.game/en/news/14",
+      "metadata": {
+        "region": "Dalniy Island",
+        "region_note": "Region not officially confirmed.",
+        "variants": [
+          "Unstable Zone",
+          "Silent Observers"
+        ],
+        "facts": [
+          {
+            "text": "Impressive stockpiles of rare firearms.",
+            "source_url": "https://activematter.game/en/news/14",
+            "confidence": "High"
+          },
+          {
+            "text": "Unstable Zone variant has final zone-contraction locations.",
+            "source_url": "https://activematter.game/en/news/327",
+            "confidence": "High"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "scrapyard",
+      "name": "Scrapyard",
+      "summary": "Vehicle graveyard and industrial dump, played only at night in heavy fog.",
+      "status": "published",
+      "width": 1000,
+      "height": 1000,
+      "sort_order": 8,
+      "version": "0.4.0.156",
+      "source": "Active Matter Wiki (wiki.gg)",
+      "source_url": "https://activematter.wiki.gg/wiki/Scrapyard",
+      "metadata": {
+        "region": "Dalniy Island",
+        "region_note": "Region not officially confirmed.",
+        "variants": [
+          "Midnight"
+        ],
+        "facts": [
+          {
+            "text": "Only playable at night with extreme fog; filled with Distorted. A thermal scope dissipates the fog.",
+            "source_url": "https://activematter.wiki.gg/wiki/Scrapyard",
+            "confidence": "Medium"
+          },
+          {
+            "text": "Agents spawn around the exterior and fight inwards to the lone central extraction portal.",
+            "source_url": "https://activematter.wiki.gg/wiki/Scrapyard",
+            "confidence": "Medium"
+          },
+          {
+            "text": "Three abnormal signals, surrounded by gravity traps; roaming ball lightning; Invisibles.",
+            "source_url": "https://activematter.wiki.gg/wiki/Scrapyard",
+            "confidence": "Medium"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "headquarters",
+      "name": "Headquarters",
+      "summary": "Sweltering city of military bases, command centers, civilian blocks and an airfield.",
+      "status": "published",
+      "width": 1000,
+      "height": 1000,
+      "sort_order": 9,
+      "version": "0.4.0.156",
+      "source": "Active Matter official news",
+      "source_url": "https://activematter.game/en/news/223",
+      "metadata": {
+        "region_note": "Region unconfirmed (possibly Anguka Anga / Africa).",
+        "variants": [
+          "Unstable Zone",
+          "Code 2901 (solo overtime)",
+          "Assistance Protocol (overtime)"
+        ],
+        "facts": [
+          {
+            "text": "Military bases, command centers, civilian blocks and an airfield, patrolled by Turned Soldiers and monsters.",
+            "source_url": "https://activematter.game/en/news/223",
+            "confidence": "High"
+          },
+          {
+            "text": "Military facilities now always have weapons.",
+            "source_url": "https://activematter.game/en/news/223",
+            "confidence": "Medium"
+          },
+          {
+            "text": "Hellhounds and Dendroids can spawn here.",
+            "source_url": "https://activematter.game/en/news/336",
+            "confidence": "High"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "airport",
+      "name": "Airport",
+      "summary": "African raid: hangars with military gear and a plane suspended in a gravity anomaly.",
+      "status": "published",
+      "width": 1000,
+      "height": 1000,
+      "sort_order": 10,
+      "version": "0.4.0.156",
+      "source": "Active Matter official news",
+      "source_url": "https://activematter.game/en/news/291",
+      "metadata": {
+        "region": "Africa (Anguka Anga)",
+        "facts": [
+          {
+            "text": "Search hangars with military gear and a plane suspended in a gravity anomaly.",
+            "source_url": "https://activematter.game/en/news/291",
+            "confidence": "High"
+          },
+          {
+            "text": "Hangar 8A interior access is now key-gated (wall hole sealed).",
+            "source_url": "https://activematter.game/en/news/339",
+            "confidence": "High"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "downtown",
+      "name": "Downtown",
+      "summary": "Abandoned North American city: avenues, ruined skyscrapers, school buses and taxis.",
+      "status": "published",
+      "width": 1000,
+      "height": 1000,
+      "sort_order": 11,
+      "version": "0.4.0.156",
+      "source": "Active Matter official news",
+      "source_url": "https://activematter.game/en/news/291",
+      "metadata": {
+        "region": "America (Saltriver City per community sources)",
+        "variants": [
+          "Unstable Zone",
+          "Collapse"
+        ],
+        "facts": [
+          {
+            "text": "Avenues, ruined skyscrapers, school buses and taxis.",
+            "source_url": "https://activematter.game/en/news/291",
+            "confidence": "High"
+          },
+          {
+            "text": "Police and SWAT patrols, plus an American Flowermen variant with its own Alpha.",
+            "source_url": "https://activematter.game/en/news/291",
+            "confidence": "High"
+          },
+          {
+            "text": "Raid duration was raised from 30 to 45 minutes.",
+            "source_url": "https://activematter.game/en/news/303",
+            "confidence": "High"
+          },
+          {
+            "text": "Non-playable floors and rooftops are blocked by barriers.",
+            "source_url": "https://activematter.game/en/news/298",
+            "confidence": "Medium"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "gigastructure",
+      "name": "Gigastructure",
+      "summary": "Soviet-era building stranded between worlds; cyclical iterations end in a purge. Open raids only.",
+      "status": "published",
+      "width": 1000,
+      "height": 1000,
+      "sort_order": 12,
+      "version": "0.4.0.156",
+      "source": "Active Matter official news",
+      "source_url": "https://activematter.game/en/news/193",
+      "metadata": {
+        "facts": [
+          {
+            "text": "Occupying an elevator is the only confirmed way to survive a purge phase.",
+            "source_url": "https://activematter.game/en/news/193",
+            "confidence": "High"
+          },
+          {
+            "text": "Survivors reach a lobby with available extraction points and the option to re-enter; risk escalates with each re-entry.",
+            "source_url": "https://activematter.game/en/news/193",
+            "confidence": "High"
+          },
+          {
+            "text": "Total loss of all collected loot upon death.",
+            "source_url": "https://activematter.game/en/news/193",
+            "confidence": "High"
+          },
+          {
+            "text": "Access was unlocked through the \"Gigastructure: Entry Protocol\" investigation.",
+            "source_url": "https://activematter.wiki.gg/wiki/Gigastructure",
+            "confidence": "Medium"
+          },
+          {
+            "text": "Extraction portal opens in 5 seconds (20 seconds elsewhere).",
+            "source_url": "https://activematter.wiki.gg/wiki/Gigastructure",
+            "confidence": "Medium"
+          }
+        ]
+      }
+    }
+  ],
+  "objectives": []
+}

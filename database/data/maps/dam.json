@@ -1,0 +1,45 @@
+{
+  "format": "active-matter-map/v1",
+  "map": "dam",
+  "version": "0.4.0.156",
+  "markers": [
+    {
+      "type": "building",
+      "name": "Dam",
+      "description": "High-value gear inside the dam.",
+      "source": "Active Matter official news",
+      "source_url": "https://activematter.game/en/news/223"
+    },
+    {
+      "type": "building",
+      "name": "Administration building",
+      "description": "High-value gear inside.",
+      "source": "Active Matter official news",
+      "source_url": "https://activematter.game/en/news/223"
+    },
+    {
+      "type": "enemy-camp",
+      "name": "The workshop (Flowermen den)",
+      "description": "The workshop is a Flowermen den.",
+      "source": "Active Matter official news",
+      "source_url": "https://activematter.game/en/news/320"
+    },
+    {
+      "type": "landmark",
+      "name": "Submarine",
+      "description": "A large submarine frozen in space.",
+      "source": "Active Matter Wiki (wiki.gg)",
+      "source_url": "https://activematter.wiki.gg/wiki/Dalniy_Island"
+    },
+    {
+      "type": "extraction-point",
+      "name": "Final extraction point",
+      "description": "Appears after the zone's collapse phase.",
+      "source": "Active Matter official news",
+      "source_url": "https://activematter.game/en/news/320",
+      "metadata": {
+        "conditions": "Only after the collapse phase."
+      }
+    }
+  ]
+}

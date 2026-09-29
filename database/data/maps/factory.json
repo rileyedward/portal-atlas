@@ -1,0 +1,126 @@
+{
+  "format": "active-matter-map/v1",
+  "map": "factory",
+  "version": "0.4.0.156",
+  "markers": [
+    {
+      "type": "extraction-point",
+      "name": "Northwestern extraction portal (construction site)",
+      "description": "Extraction portal in the construction site, which also has gravity anomalies.",
+      "source": "Active Matter Wiki (wiki.gg)",
+      "source_url": "https://activematter.wiki.gg/wiki/Factory"
+    },
+    {
+      "type": "extraction-point",
+      "name": "Southern extraction portal (Euclid anomaly)",
+      "description": "In Malie Chelni, on a Euclid anomaly south of the factory complex.",
+      "source": "Active Matter Wiki (wiki.gg)",
+      "source_url": "https://activematter.wiki.gg/wiki/Factory"
+    },
+    {
+      "type": "building",
+      "name": "Factory #1",
+      "description": "One of the main factory workshops.",
+      "source": "Active Matter Wiki (wiki.gg)",
+      "source_url": "https://activematter.wiki.gg/wiki/Factory"
+    },
+    {
+      "type": "building",
+      "name": "Factory #2",
+      "description": "One of the main factory workshops.",
+      "source": "Active Matter Wiki (wiki.gg)",
+      "source_url": "https://activematter.wiki.gg/wiki/Factory"
+    },
+    {
+      "type": "building",
+      "name": "Factory #3",
+      "description": "One of the main factory workshops. The ship \"Severniy Veter\" rests on its roof.",
+      "source": "Active Matter Wiki (wiki.gg)",
+      "source_url": "https://activematter.wiki.gg/wiki/Factory"
+    },
+    {
+      "type": "building",
+      "name": "Factory #4",
+      "description": "One of the main factory workshops.",
+      "source": "Active Matter Wiki (wiki.gg)",
+      "source_url": "https://activematter.wiki.gg/wiki/Factory"
+    },
+    {
+      "type": "building",
+      "name": "Factory #5",
+      "description": "One of the main factory workshops.",
+      "source": "Active Matter Wiki (wiki.gg)",
+      "source_url": "https://activematter.wiki.gg/wiki/Factory"
+    },
+    {
+      "type": "landmark",
+      "name": "Ship \"Severniy Veter\"",
+      "description": "On the roof of Factory #3.",
+      "source": "Active Matter Wiki (wiki.gg)",
+      "source_url": "https://activematter.wiki.gg/wiki/Factory"
+    },
+    {
+      "type": "building",
+      "name": "Gas station",
+      "description": "Outside the factory. Shy Girl has been reported here.",
+      "source": "Active Matter Wiki (wiki.gg)",
+      "source_url": "https://activematter.wiki.gg/wiki/Factory"
+    },
+    {
+      "type": "building",
+      "name": "Dormitory",
+      "description": "In Malie Chelni, south of the factory complex.",
+      "source": "Active Matter Wiki (wiki.gg)",
+      "source_url": "https://activematter.wiki.gg/wiki/Factory"
+    },
+    {
+      "type": "area",
+      "name": "Malie Chelni",
+      "description": "Area south of the factory complex with a dormitory, a park, garages and a Euclid anomaly.",
+      "source": "Active Matter Wiki (wiki.gg)",
+      "source_url": "https://activematter.wiki.gg/wiki/Factory"
+    },
+    {
+      "type": "building",
+      "name": "Power station complex",
+      "description": "East of the dormitory.",
+      "source": "Active Matter Wiki (wiki.gg)",
+      "source_url": "https://activematter.wiki.gg/wiki/Factory"
+    },
+    {
+      "type": "building",
+      "name": "Hangar #17",
+      "description": "South of the power station complex. Opened by the Hangar 17 key.",
+      "source": "Active Matter Wiki (wiki.gg)",
+      "source_url": "https://activematter.wiki.gg/wiki/Factory"
+    },
+    {
+      "type": "building",
+      "name": "Hangar #18",
+      "description": "South of the power station complex. Opened by the Hangar 18 key.",
+      "source": "Active Matter Wiki (wiki.gg)",
+      "source_url": "https://activematter.wiki.gg/wiki/Factory"
+    },
+    {
+      "type": "enemy-camp",
+      "name": "Power station chimney hive",
+      "description": "Swarm hive on the power station chimney.",
+      "source": "Active Matter Wiki (wiki.gg)",
+      "source_url": "https://activematter.wiki.gg/wiki/Factory"
+    },
+    {
+      "type": "landmark",
+      "name": "Fishing installations",
+      "description": "Two small fishing installations along the southern coast.",
+      "source": "Active Matter Wiki (wiki.gg)",
+      "source_url": "https://activematter.wiki.gg/wiki/Factory"
+    },
+    {
+      "type": "monster",
+      "name": "Shy Girl (gas station)",
+      "description": "Reported in the gas station outside the factory.",
+      "source": "Active Matter Wiki (Fandom, EN)",
+      "source_url": "https://activemattergame.fandom.com/"
+    }
+  ]
+}
