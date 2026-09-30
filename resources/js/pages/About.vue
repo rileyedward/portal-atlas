@@ -85,6 +85,12 @@ const confidenceFactors = [
                         incorrect or outdated information from any entry.
                         Reports are reviewed by moderators.
                     </li>
+                    <li>
+                        <strong>Privacy-friendly visit counts.</strong> We count
+                        visits without cookies, using an anonymous hash that
+                        changes every day. IP addresses are never stored, and
+                        visit data is deleted after 90 days.
+                    </li>
                 </ul>
             </section>
 

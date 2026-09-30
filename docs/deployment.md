@@ -55,7 +55,8 @@ Check that these are present on the environment's Variables page:
 
 ### Defaults that are fine as they are
 
-- `SESSION_DRIVER=database`, `CACHE_STORE=database` and `QUEUE_CONNECTION=database`. The app queues nothing, so **no queue worker or scheduler is required**.
+- `SESSION_DRIVER=database`, `CACHE_STORE=database` and `QUEUE_CONNECTION=database`. The app queues nothing, so **no queue worker is required**.
+- **Enable the scheduler** in Cloud. It runs a daily `model:prune` that deletes page-view analytics older than 90 days. If the scheduler is off, the site still works; old rows are just never removed.
 
 ## 3. First deploy: load the data
 

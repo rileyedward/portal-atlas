@@ -47,6 +47,7 @@ resources/js/
 | Wayfinder route helpers                                                    | Typed, refactor-safe URLs in Vue                                                                   |
 | Deterministic planner (no LLM)                                             | Only uses known relationships; explainable output                                                  |
 | Aggregate-only analytics table                                             | No user IDs, IPs or user agents                                                                    |
+| Cookieless `page_views` with a daily-rotating visitor hash                 | Unique visitor counts with no cookie banner and no stored IPs; pruned after 90 days                |
 | Brand is `APP_NAME` ("Portal Atlas")                                       | Gaijin guidelines forbid using the game title as a product name or domain                          |
 
 ## Request flow: opening a map

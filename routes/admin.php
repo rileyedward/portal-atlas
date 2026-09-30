@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Admin\AnalyticsController;
 use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Admin\DataExchangeController;
 use App\Http\Controllers\Admin\GameVersionController;
@@ -18,6 +19,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::middleware(['auth', 'verified', 'can:manage-content', FlushPublicCache::class])->prefix('admin')->name('admin.')->group(function () {
     Route::get('/', DashboardController::class)->name('dashboard');
+    Route::get('analytics', AnalyticsController::class)->name('analytics.index');
 
     Route::resource('maps', MapController::class)->except('show');
     Route::get('maps/{map}/editor', MapEditorController::class)->name('maps.editor');

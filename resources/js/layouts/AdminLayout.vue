@@ -3,6 +3,7 @@ import { Link, usePage } from '@inertiajs/vue3';
 import {
     ArrowLeftRight,
     BookMarked,
+    ChartColumn,
     Crosshair,
     Flag,
     GitBranch,
@@ -21,6 +22,7 @@ import { Toaster } from '@/components/ui/sonner';
 import { useCurrentUrl } from '@/composables/useCurrentUrl';
 import { home } from '@/routes';
 import { dashboard } from '@/routes/admin';
+import { index as analytics } from '@/routes/admin/analytics';
 import { index as data } from '@/routes/admin/data';
 import { index as items } from '@/routes/admin/items';
 import { index as maps } from '@/routes/admin/maps';
@@ -47,6 +49,7 @@ const sections = computed(() => [
                 icon: LayoutDashboard,
                 exact: true,
             },
+            { title: 'Analytics', href: analytics().url, icon: ChartColumn },
             { title: 'Maps & editor', href: maps().url, icon: MapIcon },
             { title: 'Items', href: items().url, icon: Package },
             { title: 'Objectives', href: objectives().url, icon: Crosshair },

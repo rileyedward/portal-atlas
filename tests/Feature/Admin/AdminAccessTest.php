@@ -50,7 +50,7 @@ test('every admin page renders', function (string $route) {
 
     $this->actingAs($admin)->get(route($route))->assertOk();
 })->with([
-    'admin.dashboard', 'admin.maps.index', 'admin.maps.create', 'admin.items.index', 'admin.items.create',
+    'admin.dashboard', 'admin.analytics.index', 'admin.maps.index', 'admin.maps.create', 'admin.items.index', 'admin.items.create',
     'admin.objectives.index', 'admin.objectives.create', 'admin.recipes.index', 'admin.recipes.create',
     'admin.reports.index', 'admin.versions.index', 'admin.sources.index', 'admin.taxonomy.index',
     'admin.users.index', 'admin.data.index',

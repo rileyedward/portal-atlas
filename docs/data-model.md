@@ -79,6 +79,10 @@ Items have `slug`, `name`, `description`, `category`, `rarity` (free text constr
 
 `name` (one of map_view, search, marker_open, filter_toggle, item_view), `subject_type` and `subject_id`, `term` (lower-cased search text), `result_count`, and `created_at`. **No user, IP or device data.**
 
+### `page_views`
+
+One row per public page view, written after the response by the `RecordPageView` middleware. Columns: `visitor_hash`, `path` (no query string), `referrer_host` (external hosts only), `device` (desktop, mobile or tablet) and `created_at`. `visitor_hash` is an HMAC of IP, user agent and the current date, keyed with `APP_KEY`. It rotates every day, so unique visitors are counted per day and the raw IP and user agent are never stored. Staff, bots, prefetches and non-page routes (`/admin`, `/api`, `/settings`, the sitemap and robots.txt) are not recorded. Rows are pruned after 90 days (`PageView::RETENTION_DAYS`) and shown under Admin → Analytics.
+
 ## Confidence model (`App\Services\ConfidenceCalculator`)
 
 ```text
