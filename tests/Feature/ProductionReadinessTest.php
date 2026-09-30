@@ -5,12 +5,12 @@ use App\Models\Map;
 use App\Models\User;
 use Inertia\Testing\AssertableInertia as Assert;
 
-test('make-admin promotes an existing user and verifies their email', function () {
-    $user = User::factory()->unverified()->create(['email' => 'owner@example.com']);
+test('make-admin promotes an existing user', function () {
+    $user = User::factory()->create(['email' => 'owner@example.com']);
 
     $this->artisan('app:make-admin', ['email' => 'owner@example.com'])->assertSuccessful();
 
-    expect($user->refresh()->role)->toBe(UserRole::Admin)->and($user->email_verified_at)->not->toBeNull();
+    expect($user->refresh()->role)->toBe(UserRole::Admin);
 });
 
 test('make-admin can grant the editor role and rejects unknown users', function () {

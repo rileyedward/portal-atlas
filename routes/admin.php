@@ -17,7 +17,7 @@ use App\Http\Controllers\Admin\UserController;
 use App\Http\Middleware\FlushPublicCache;
 use Illuminate\Support\Facades\Route;
 
-Route::middleware(['auth', 'verified', 'can:manage-content', FlushPublicCache::class])->prefix('admin')->name('admin.')->group(function () {
+Route::middleware(['auth', 'can:manage-content', FlushPublicCache::class])->prefix('admin')->name('admin.')->group(function () {
     Route::get('/', DashboardController::class)->name('dashboard');
     Route::get('analytics', AnalyticsController::class)->name('analytics.index');
 

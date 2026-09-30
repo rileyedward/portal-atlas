@@ -30,12 +30,6 @@ class MakeAdmin extends Command
 
         $user->forceFill(['role' => $role])->save();
 
-        if ($user->email_verified_at === null) {
-            // The admin panel requires a verified email.
-            $user->forceFill(['email_verified_at' => now()])->save();
-            $this->warn('Email was unverified; marked as verified so the admin panel is reachable.');
-        }
-
         $this->info("{$user->email} is now {$role->label()}.");
 
         return self::SUCCESS;
