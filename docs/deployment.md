@@ -29,7 +29,7 @@ Cloud does not set these for you, or sets defaults that are wrong for this app.
 | `APP_NAME`                       | `"Portal Atlas"`                                                                                              | Page titles, emails and branding. The default is "Laravel". Do not use the game's name (see [map-data-strategy.md](map-data-strategy.md))          |
 | `VITE_APP_NAME`                  | `"Portal Atlas"`                                                                                              | Browser tab titles. It is read at **build time**, so set it in the environment before deploying                                                    |
 | `APP_URL`                        | `https://yourdomain.com`                                                                                      | Absolute URLs in the sitemap, emails and password-reset links, and the **passkey relying-party domain**. Update it when you attach a custom domain |
-| `MAIL_MAILER`                    | `resend`, `postmark`, `smtp`, `ses`                                                                           | Password resets, email verification (the admin panel requires a verified email) and account emails. The default `log` mailer sends nothing         |
+| `MAIL_MAILER`                    | `resend`, `postmark`, `smtp`, `ses`                                                                           | Password resets and account emails. The default `log` mailer sends nothing                                                                         |
 | Mail credentials for that mailer | `RESEND_API_KEY=…`, or `POSTMARK_API_KEY=…`, or `MAIL_HOST` / `MAIL_PORT` / `MAIL_USERNAME` / `MAIL_PASSWORD` | Needed to actually deliver mail                                                                                                                    |
 | `MAIL_FROM_ADDRESS`              | `noreply@yourdomain.com`                                                                                      | Must be a sender your mail provider has verified                                                                                                   |
 | `MAIL_FROM_NAME`                 | `"Portal Atlas"`                                                                                              | Sender name                                                                                                                                        |
@@ -77,7 +77,7 @@ This loads the full dataset: marker types, game versions, 13 maps (12 with base 
     ```bash
     php artisan app:make-admin you@yourdomain.com
     ```
-    This makes the account an admin and marks its email as verified. Use `--role=editor` to give someone content access without user management.
+    This makes the account an admin. Use `--role=editor` to give someone content access without user management.
 3. Visit `/admin`.
 
 ## 5. Custom domain
