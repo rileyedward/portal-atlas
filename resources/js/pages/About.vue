@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { Head, Link } from '@inertiajs/vue3';
+import SeoHead from '@/components/SeoHead.vue';
+import { Link } from '@inertiajs/vue3';
 import { index as items } from '@/routes/items';
 
 const confidenceFactors = [
@@ -27,12 +28,7 @@ const confidenceFactors = [
 </script>
 
 <template>
-    <Head title="About">
-        <meta
-            name="description"
-            content="About this unofficial, community-made Active Matter map and raid companion: data policy, confidence scores and how to send feedback."
-        />
-    </Head>
+    <SeoHead />
 
     <div class="mx-auto max-w-3xl px-4 py-8 md:py-12">
         <h1

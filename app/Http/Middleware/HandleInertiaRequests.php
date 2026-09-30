@@ -5,6 +5,7 @@ namespace App\Http\Middleware;
 use App\Enums\ReportStatus;
 use App\Enums\ReportType;
 use App\Models\Report;
+use App\Support\Seo;
 use Illuminate\Http\Request;
 use Inertia\Middleware;
 
@@ -41,6 +42,8 @@ class HandleInertiaRequests extends Middleware
         return [
             ...parent::share($request),
             'name' => config('app.name'),
+            // Pages override this with their own `seo` prop.
+            'seo' => Seo::defaults($request),
             'auth' => [
                 'user' => $request->user(),
                 'can' => [

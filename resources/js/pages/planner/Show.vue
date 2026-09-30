@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { Head, Link, usePage } from '@inertiajs/vue3';
+import SeoHead from '@/components/SeoHead.vue';
+import { Link, usePage } from '@inertiajs/vue3';
 import {
     DoorOpen,
     Info,
@@ -215,12 +216,7 @@ const otherExtracts = computed(() =>
 </script>
 
 <template>
-    <Head title="Raid planner">
-        <meta
-            name="description"
-            content="Plan an Active Matter raid: pick the items and objectives you need and get an ordered list of documented locations, nearby threats and the closest known extraction."
-        />
-    </Head>
+    <SeoHead />
 
     <div class="mx-auto max-w-7xl px-4 py-8">
         <header class="mb-6">

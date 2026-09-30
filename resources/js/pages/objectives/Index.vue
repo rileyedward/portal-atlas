@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { Head, Link } from '@inertiajs/vue3';
+import SeoHead from '@/components/SeoHead.vue';
+import { Link } from '@inertiajs/vue3';
 import { Search } from '@lucide/vue';
 import { computed, ref } from 'vue';
 import ConfidenceMeter from '@/components/game/ConfidenceMeter.vue';
@@ -57,12 +58,7 @@ function reset(): void {
 </script>
 
 <template>
-    <Head title="Objectives">
-        <meta
-            name="description"
-            content="Active Matter objectives — investigations, contracts and targets — with maps, related locations, required items and sourced confidence scores."
-        />
-    </Head>
+    <SeoHead />
 
     <div class="mx-auto max-w-7xl px-4 py-8">
         <header class="mb-6">

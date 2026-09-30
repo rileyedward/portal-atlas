@@ -15,8 +15,10 @@ use App\Services\KeepAdvisor;
 use App\Support\ConfidenceBreakdown;
 use App\Support\Pivot;
 use App\Support\PublicCache;
+use App\Support\Seo;
 use App\Support\SourceVisibility;
 use Illuminate\Http\Request;
+use Illuminate\Support\Str;
 use Inertia\Inertia;
 use Inertia\Response;
 
@@ -24,25 +26,31 @@ class ItemController extends Controller
 {
     public function index(ItemLocator $locator, PublicCache $cache): Response
     {
-        return Inertia::render('items/Index', $cache->remember('items.index', function () use ($locator) {
-            $places = $locator->placeCounts();
+        return Inertia::render('items/Index', [
+            'seo' => Seo::make(
+                'Active Matter Item Database',
+                'Searchable Active Matter item database: categories, rarity, known loot locations and confidence scores for every item, with sources.',
+            ),
+            ...$cache->remember('items.index', function () use ($locator) {
+                $places = $locator->placeCounts();
 
-            return [
-                'items' => Item::query()->published()
-                    ->with('category')
-                    ->orderBy('name')
-                    ->get()
-                    ->map(fn (Item $item) => [
-                        'slug' => $item->slug,
-                        'name' => $item->name,
-                        'category' => $item->category?->name,
-                        'rarity' => $item->rarity,
-                        'locations' => $places[$item->id] ?? 0,
-                        'confidence' => $item->effectiveConfidence(),
-                    ])->all(),
-                'categories' => ItemCategory::orderBy('sort_order')->orderBy('name')->pluck('name')->all(),
-            ];
-        }));
+                return [
+                    'items' => Item::query()->published()
+                        ->with('category')
+                        ->orderBy('name')
+                        ->get()
+                        ->map(fn (Item $item) => [
+                            'slug' => $item->slug,
+                            'name' => $item->name,
+                            'category' => $item->category?->name,
+                            'rarity' => $item->rarity,
+                            'locations' => $places[$item->id] ?? 0,
+                            'confidence' => $item->effectiveConfidence(),
+                        ])->all(),
+                    'categories' => ItemCategory::orderBy('sort_order')->orderBy('name')->pluck('name')->all(),
+                ];
+            }),
+        ]);
     }
 
     public function show(Request $request, Item $item, KeepAdvisor $advisor, Analytics $analytics, ItemLocator $locator, PublicCache $cache): Response
@@ -60,8 +68,10 @@ class ItemController extends Controller
 
         $confidence = $item->effectiveConfidence();
         $tracking = $request->user()?->trackedItems()->whereKey($item->id)->first()?->pivot;
+        $related = $cache->remember("item.{$item->id}.related", fn () => $this->related($item, $locator));
 
         return Inertia::render('items/Show', [
+            'seo' => Seo::make("{$item->name} – Where to Find It in Active Matter", $this->metaDescription($item, $related)),
             'item' => [
                 'id' => $item->id,
                 'slug' => $item->slug,
@@ -80,7 +90,7 @@ class ItemController extends Controller
                 'last_verified_at' => $item->last_verified_at?->toIso8601String(),
                 'verified_version' => $item->verifiedVersion?->version,
             ],
-            ...$cache->remember("item.{$item->id}.related", fn () => $this->related($item, $locator)),
+            ...$related,
             'advice' => $advisor->advise($item, $request->user()),
             'tracking' => $tracking ? [
                 'intent' => $tracking->getAttribute('intent'),
@@ -90,6 +100,29 @@ class ItemController extends Controller
             ] : null,
             'reportTypes' => ReportType::options(),
         ]);
+    }
+
+    /**
+     * @param  array<string, mixed>  $related
+     */
+    private function metaDescription(Item $item, array $related): string
+    {
+        $maps = count($related['foundAt']);
+        $recipes = count($related['usedIn']);
+        $locations = 0;
+        foreach ($related['foundAt'] as $group) {
+            foreach (data_get($group, 'markers', []) as $marker) {
+                $locations += (int) data_get($marker, 'count', 1);
+            }
+        }
+
+        return collect([
+            $item->description ? Str::limit($item->description, 120) : "{$item->name} in Active Matter.",
+            $locations
+                ? "{$locations} known ".Str::plural('location', $locations)." on {$maps} ".Str::plural('map', $maps).'.'
+                : 'No mapped locations yet.',
+            $recipes ? "Used in {$recipes} ".Str::plural('recipe', $recipes).' or '.Str::plural('upgrade', $recipes).'.' : null,
+        ])->filter()->implode(' ');
     }
 
     /**

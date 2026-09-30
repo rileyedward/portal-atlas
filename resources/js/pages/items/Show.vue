@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { Head, Link, usePage } from '@inertiajs/vue3';
+import SeoHead from '@/components/SeoHead.vue';
+import { Link, usePage } from '@inertiajs/vue3';
 import {
     ChevronLeft,
     CircleHelp,
@@ -123,24 +124,6 @@ const locationCount = computed(() =>
     ),
 );
 
-const metaDescription = computed(() => {
-    const parts = [
-        props.item.description?.slice(0, 120) ??
-            `${props.item.name} in Active Matter.`,
-        locationCount.value
-            ? `${locationCount.value} known location${locationCount.value === 1 ? '' : 's'} on ${props.foundAt.length} map${props.foundAt.length === 1 ? '' : 's'}.`
-            : 'No mapped locations yet.',
-    ];
-
-    if (props.usedIn.length) {
-        parts.push(
-            `Used in ${props.usedIn.length} recipe${props.usedIn.length === 1 ? '' : 's'} or upgrade${props.usedIn.length === 1 ? '' : 's'}.`,
-        );
-    }
-
-    return parts.join(' ');
-});
-
 const verdict = computed(() => {
     switch (advice.value.verdict) {
         case 'keep':
@@ -199,9 +182,7 @@ function display(value: number | string | null): string {
 </script>
 
 <template>
-    <Head :title="`${item.name} — where to find it`">
-        <meta name="description" :content="metaDescription" />
-    </Head>
+    <SeoHead />
 
     <div class="mx-auto max-w-7xl px-4 py-6 md:py-8">
         <Link

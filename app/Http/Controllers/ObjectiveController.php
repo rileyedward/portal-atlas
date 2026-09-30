@@ -11,6 +11,7 @@ use App\Models\Objective;
 use App\Support\ConfidenceBreakdown;
 use App\Support\Pivot;
 use App\Support\PublicCache;
+use App\Support\Seo;
 use App\Support\SourceVisibility;
 use Illuminate\Http\Request;
 use Inertia\Inertia;
@@ -21,6 +22,10 @@ class ObjectiveController extends Controller
     public function index(PublicCache $cache): Response
     {
         return Inertia::render('objectives/Index', [
+            'seo' => Seo::make(
+                'Active Matter Objectives & Contracts',
+                'Active Matter objectives — investigations, contracts and targets — with maps, related locations, required items and sourced confidence scores.',
+            ),
             'objectives' => $cache->remember('objectives.index', fn () => Objective::query()->published()->with('map')->orderBy('name')->get()
                 ->map(fn (Objective $o) => [
                     'slug' => $o->slug,
@@ -38,17 +43,23 @@ class ObjectiveController extends Controller
 
         $objective->load(['map', 'source', 'verifiedVersion']);
         $confidence = $objective->effectiveConfidence();
+        $kind = $objective->kind->label();
+        $map = $objective->map?->status === MapStatus::Published ? $objective->map : null;
 
         return Inertia::render('objectives/Show', [
+            'seo' => Seo::make(
+                "{$objective->name} – Active Matter {$kind}",
+                $objective->description ?: "{$objective->name}: {$kind} in Active Matter".($map ? " on {$map->name}" : '').' — locations, required items and rewards.',
+            ),
             'objective' => [
                 'id' => $objective->id,
                 'slug' => $objective->slug,
                 'name' => $objective->name,
-                'kind' => $objective->kind->label(),
+                'kind' => $kind,
                 'description' => $objective->description,
                 'giver' => $objective->giver,
                 'rewards' => $objective->rewards,
-                'map' => $objective->map?->status === MapStatus::Published ? ['slug' => $objective->map->slug, 'name' => $objective->map->name] : null,
+                'map' => $map ? ['slug' => $map->slug, 'name' => $map->name] : null,
                 'confidence' => ['score' => $confidence, 'label' => ConfidenceBreakdown::labelFor($confidence)],
                 ...(SourceVisibility::visibleTo($request->user()) ? [
                     'source' => $objective->source ? ['name' => $objective->source->name, 'url' => $objective->source_url ?? $objective->source->url] : null,

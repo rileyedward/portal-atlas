@@ -12,6 +12,7 @@ use App\Models\MarkerCategory;
 use App\Models\RaidRoute;
 use App\Services\Analytics;
 use App\Support\PublicCache;
+use App\Support\Seo;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Gate;
 use Inertia\Inertia;
@@ -28,6 +29,10 @@ class MapController extends Controller
         $user = $request->user();
 
         return Inertia::render('maps/Show', [
+            'seo' => Seo::make(
+                "{$map->name} Interactive Map – Active Matter",
+                $map->summary ?? "Interactive {$map->name} map for Active Matter with extraction points, loot, objectives and threats.",
+            ),
             'map' => new MapResource($map->load('gameVersion'))->resolve(),
             'maps' => $cache->remember('maps.published', fn () => MapSummaryResource::collection(
                 Map::query()->published()->orderBy('sort_order')->orderBy('name')->get()

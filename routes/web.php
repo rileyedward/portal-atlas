@@ -16,7 +16,9 @@ use App\Http\Controllers\RaidPlannerController;
 use App\Http\Controllers\ReportController;
 use App\Http\Controllers\SitemapController;
 use App\Http\Controllers\VerificationController;
+use App\Support\Seo;
 use Illuminate\Support\Facades\Route;
+use Inertia\Inertia;
 
 /*
 | Public, anonymous-friendly pages. The map must always work without an account.
@@ -29,7 +31,9 @@ Route::get('items/{item}', [ItemController::class, 'show'])->name('items.show');
 Route::get('objectives', [ObjectiveController::class, 'index'])->name('objectives.index');
 Route::get('objectives/{objective}', [ObjectiveController::class, 'show'])->name('objectives.show');
 Route::get('planner', [RaidPlannerController::class, 'show'])->name('planner.show');
-Route::inertia('about', 'About')->name('about');
+Route::get('about', fn () => Inertia::render('About', [
+    'seo' => Seo::make('About', 'About this unofficial, community-made Active Matter interactive map and raid companion: data policy, confidence scores and how to send feedback.'),
+]))->name('about');
 Route::get('sitemap.xml', SitemapController::class)->name('sitemap');
 Route::get('robots.txt', fn () => response(implode("\n", [
     'User-agent: *',

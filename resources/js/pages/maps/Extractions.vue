@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { Head, Link } from '@inertiajs/vue3';
+import SeoHead from '@/components/SeoHead.vue';
+import { Link } from '@inertiajs/vue3';
 import { ChevronLeft, DoorOpen, Map as MapIcon } from '@lucide/vue';
 import ConfidenceMeter from '@/components/game/ConfidenceMeter.vue';
 import FeedbackButton from '@/components/game/FeedbackButton.vue';
@@ -21,12 +22,7 @@ defineProps<{
 </script>
 
 <template>
-    <Head :title="`${map.name} extraction points`">
-        <meta
-            name="description"
-            :content="`Documented extraction points on ${map.name} in Active Matter: type, conditions, confidence and the game version each was verified for.`"
-        />
-    </Head>
+    <SeoHead />
 
     <div class="mx-auto max-w-7xl px-4 py-6 md:py-8">
         <Link

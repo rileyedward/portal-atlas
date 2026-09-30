@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { Head, Link } from '@inertiajs/vue3';
+import SeoHead from '@/components/SeoHead.vue';
+import { Link } from '@inertiajs/vue3';
 import { ArrowDown, ArrowUp, ArrowUpDown, Search } from '@lucide/vue';
 import { computed, ref, watch } from 'vue';
 import ConfidenceMeter from '@/components/game/ConfidenceMeter.vue';
@@ -112,12 +113,7 @@ function reset(): void {
 </script>
 
 <template>
-    <Head title="Item database">
-        <meta
-            name="description"
-            content="Searchable Active Matter item database: categories, rarity, known loot locations and confidence scores for every item, with sources."
-        />
-    </Head>
+    <SeoHead />
 
     <div class="mx-auto max-w-7xl px-4 py-8">
         <header class="mb-6">

@@ -37,8 +37,41 @@
         @fonts
 
         @vite(['resources/css/app.css', 'resources/js/app.ts', "resources/js/pages/{$page['component']}.vue"])
+        {{-- Server-rendered meta for crawlers and link previews; SeoHead.vue takes over on client visits. --}}
+        @php
+            $seo = $page['props']['seo'] ?? \App\Support\Seo::make();
+            $siteName = config('app.name');
+            $fullTitle = $seo['title'] ? "{$seo['title']} - {$siteName}" : $siteName;
+            $ogImage = file_exists(public_path('og-image.png')) ? asset('og-image.png') : null;
+            $websiteSchema = json_encode([
+                '@context' => 'https://schema.org',
+                '@type' => 'WebSite',
+                'name' => $siteName,
+                'alternateName' => ['Active Matter Interactive Map', 'Active Matter Map'],
+                'url' => route('home'),
+                'description' => $seo['description'],
+            ], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_HEX_TAG);
+        @endphp
+        @if ($seo['noindex'])
+            <meta name="robots" content="noindex">
+        @endif
+        <meta property="og:site_name" content="{{ $siteName }}">
+        <meta property="og:type" content="website">
+        <meta name="twitter:card" content="{{ $ogImage ? 'summary_large_image' : 'summary' }}">
+        @if ($ogImage)
+            <meta property="og:image" content="{{ $ogImage }}">
+        @endif
+        @if (request()->routeIs('home'))
+            <script type="application/ld+json">{!! $websiteSchema !!}</script>
+        @endif
+
         <x-inertia::head>
-            <title>{{ config('app.name', 'Laravel') }}</title>
+            <title>{{ $fullTitle }}</title>
+            <link data-inertia="canonical" rel="canonical" href="{{ $seo['url'] }}">
+            <meta data-inertia="description" name="description" content="{{ $seo['description'] }}">
+            <meta data-inertia="og:title" property="og:title" content="{{ $fullTitle }}">
+            <meta data-inertia="og:description" property="og:description" content="{{ $seo['description'] }}">
+            <meta data-inertia="og:url" property="og:url" content="{{ $seo['url'] }}">
         </x-inertia::head>
     </head>
     <body class="font-sans antialiased">

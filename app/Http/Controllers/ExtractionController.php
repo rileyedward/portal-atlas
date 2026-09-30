@@ -6,6 +6,7 @@ use App\Models\Map;
 use App\Models\Marker;
 use App\Support\ConfidenceBreakdown;
 use App\Support\PublicCache;
+use App\Support\Seo;
 use Illuminate\Support\Facades\Gate;
 use Inertia\Inertia;
 use Inertia\Response;
@@ -17,6 +18,10 @@ class ExtractionController extends Controller
         Gate::authorize('view', $map);
 
         return Inertia::render('maps/Extractions', [
+            'seo' => Seo::make(
+                "{$map->name} Extraction Points – Active Matter",
+                "Documented extraction points on {$map->name} in Active Matter: type, conditions, confidence and the game version each was verified for.",
+            ),
             'map' => ['slug' => $map->slug, 'name' => $map->name],
             'extracts' => $cache->remember("map.{$map->id}.extractions", fn () => $map->markers()->published()->where('is_visible', true)
                 ->whereHas('type.category', fn ($q) => $q->where('slug', 'extraction'))

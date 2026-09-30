@@ -19,6 +19,12 @@ declare module '@inertiajs/core' {
         sharedPageProps: {
             name: string;
             auth: Auth;
+            seo: {
+                title: string | null;
+                description: string;
+                url: string;
+                noindex: boolean;
+            };
             sidebarOpen: boolean;
             feedbackTypes: {
                 value: string;

@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { Head, Link } from '@inertiajs/vue3';
+import SeoHead from '@/components/SeoHead.vue';
+import { Link } from '@inertiajs/vue3';
 import { ChevronLeft, MapPin, TriangleAlert } from '@lucide/vue';
 import { computed } from 'vue';
 import FeedbackButton from '@/components/game/FeedbackButton.vue';
@@ -49,18 +50,10 @@ const required = computed(() => props.items.filter((i) => i.role !== 'reward'));
 const rewardItems = computed(() =>
     props.items.filter((i) => i.role === 'reward'),
 );
-
-const metaDescription = computed(
-    () =>
-        props.objective.description?.slice(0, 155) ??
-        `${props.objective.name}: ${props.objective.kind} in Active Matter${props.objective.map ? ` on ${props.objective.map.name}` : ''} — locations, required items and rewards.`,
-);
 </script>
 
 <template>
-    <Head :title="`${objective.name} — ${objective.kind}`">
-        <meta name="description" :content="metaDescription" />
-    </Head>
+    <SeoHead />
 
     <div class="mx-auto max-w-7xl px-4 py-6 md:py-8">
         <Link

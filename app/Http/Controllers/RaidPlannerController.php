@@ -9,6 +9,7 @@ use App\Models\Objective;
 use App\Services\ItemLocator;
 use App\Services\RaidPlanner;
 use App\Support\PublicCache;
+use App\Support\Seo;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Gate;
@@ -26,6 +27,10 @@ class RaidPlannerController extends Controller
             ->all() ?? [];
 
         return Inertia::render('planner/Show', [
+            'seo' => Seo::make(
+                'Active Matter Raid Planner',
+                'Plan an Active Matter raid: pick the items and objectives you need and get an ordered list of documented locations, nearby threats and the closest known extraction.',
+            ),
             ...$cache->remember('planner', fn () => [
                 'maps' => Map::query()->published()->orderBy('sort_order')->get(['id', 'slug', 'name', 'metadata'])
                     ->map(fn (Map $map) => [

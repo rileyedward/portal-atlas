@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { Head, Link, router, usePage } from '@inertiajs/vue3';
+import SeoHead from '@/components/SeoHead.vue';
+import { Link, router, usePage } from '@inertiajs/vue3';
 import {
     ChevronDown,
     ExternalLink,
@@ -448,12 +449,6 @@ function showRoute(route: RaidRoute | null): void {
 const facts = computed(() => props.map.metadata.facts ?? []);
 const variants = computed(() => props.map.metadata.variants ?? []);
 
-const description = computed(
-    () =>
-        props.map.summary ??
-        `Interactive ${props.map.name} map with extraction points, loot, objectives and threats.`,
-);
-
 watch(
     () => props.map.slug,
     () => {
@@ -470,11 +465,7 @@ watch(
 </script>
 
 <template>
-    <Head :title="`${map.name} interactive map`">
-        <meta name="description" :content="description" />
-        <meta property="og:title" :content="`${map.name} interactive map`" />
-        <meta property="og:description" :content="description" />
-    </Head>
+    <SeoHead />
 
     <div
         class="dark flex h-svh flex-col overflow-hidden bg-background text-foreground"

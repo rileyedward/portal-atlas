@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { Head, Link } from '@inertiajs/vue3';
+import SeoHead from '@/components/SeoHead.vue';
+import { Link } from '@inertiajs/vue3';
 import {
     ArrowRight,
     Crosshair,
@@ -43,12 +44,7 @@ const shortcuts = [
 </script>
 
 <template>
-    <Head title="Raid maps & companion">
-        <meta
-            name="description"
-            content="Unofficial community interactive maps and raid companion for Active Matter: extraction portals, loot, objectives, threats and an item database with confidence scores."
-        />
-    </Head>
+    <SeoHead />
 
     <section class="relative overflow-hidden border-b">
         <div
@@ -58,7 +54,7 @@ const shortcuts = [
             <p
                 class="mb-3 font-display text-xs tracking-[0.25em] text-anomaly uppercase"
             >
-                Unofficial raid companion for Active Matter
+                Unofficial Active Matter interactive map & raid companion
             </p>
             <h1
                 class="max-w-3xl text-4xl leading-[1.05] font-semibold tracking-wide uppercase md:text-6xl"
