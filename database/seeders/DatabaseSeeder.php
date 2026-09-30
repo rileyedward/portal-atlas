@@ -4,29 +4,37 @@ namespace Database\Seeders;
 
 use App\Enums\UserRole;
 use App\Models\User;
+use App\Support\PublicCache;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
 {
     /**
-     * Reference data (maps, items, markers, loot pools...) is loaded by the
-     * 2026_09_30_000010_seed_reference_data migration, so `migrate` alone
-     * gives a complete database. This seeder only adds a local test admin.
+     * Loads the reference dataset (marker taxonomy, versions, maps with base
+     * images, items, loot pools, objectives and markers). Every step upserts
+     * by natural key, so it is safe to run on every deploy:
      *
-     * Refresh reference data at any time with:
-     *   php artisan db:seed --class=GameDataSeeder
+     *   php artisan db:seed --force
+     *
+     * A local test admin (admin@test.com / password) is created only when
+     * APP_ENV=local.
      */
     public function run(): void
     {
-        if (! app()->environment('local')) {
-            return;
+        $this->call([
+            MarkerTaxonomySeeder::class,
+            GameDataSeeder::class,
+        ]);
+
+        if (app()->environment('local')) {
+            $admin = User::firstOrCreate(['email' => 'admin@test.com'], [
+                'name' => 'Test Admin',
+                'password' => 'password',
+                'email_verified_at' => now(),
+            ]);
+            $admin->forceFill(['role' => UserRole::Admin])->save();
         }
 
-        $admin = User::firstOrCreate(['email' => 'admin@test.com'], [
-            'name' => 'Test Admin',
-            'password' => 'password',
-            'email_verified_at' => now(),
-        ]);
-        $admin->forceFill(['role' => UserRole::Admin])->save();
+        app(PublicCache::class)->flush();
     }
 }

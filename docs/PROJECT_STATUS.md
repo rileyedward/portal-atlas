@@ -107,7 +107,7 @@ These maps are seeded and published, each with a summary, region, variants and s
 | `npx vp check` (lint and format)                            | pass                                                  |
 | `npm run build`                                             | pass                                                  |
 | `tests/e2e/smoke.mjs` (Playwright, headless)                | **all steps pass, no JS errors** (desktop and mobile) |
-| `migrate:fresh --seed`                                      | pass                                                  |
+| `migrate` + `db:seed --force` on fresh PostgreSQL           | pass: about 7 s, about 1,000 queries, idempotent      |
 
 Test coverage includes:
 
@@ -125,7 +125,7 @@ Test coverage includes:
 
 ## Deployment status
 
-The app is not deployed. It is ready for Laravel Cloud (see [deployment.md](deployment.md)). The CI workflow runs against a PostgreSQL service. Blockers before a public launch are decisions 1 and 2 above.
+Ready for Laravel Cloud: follow [deployment.md](deployment.md). Deploy with `php artisan migrate --force`, then run `php artisan db:seed --force` once to load the data, then `php artisan app:make-admin <email>`. The CI workflow runs against a PostgreSQL service. Blockers before a public launch are decisions 1 and 2 above.
 
 ## Remaining TODOs
 

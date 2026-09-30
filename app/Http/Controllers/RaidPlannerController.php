@@ -8,6 +8,7 @@ use App\Models\Map;
 use App\Models\Objective;
 use App\Services\ItemLocator;
 use App\Services\RaidPlanner;
+use App\Support\PublicCache;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Gate;
@@ -17,7 +18,7 @@ use Inertia\Response;
 
 class RaidPlannerController extends Controller
 {
-    public function show(Request $request, ItemLocator $locator): Response
+    public function show(Request $request, ItemLocator $locator, PublicCache $cache): Response
     {
         $needed = $request->user()?->trackedItems()
             ->wherePivot('intent', 'need')
@@ -25,18 +26,20 @@ class RaidPlannerController extends Controller
             ->all() ?? [];
 
         return Inertia::render('planner/Show', [
-            'maps' => Map::query()->published()->orderBy('sort_order')->get(['id', 'slug', 'name', 'metadata'])
-                ->map(fn (Map $map) => [
-                    'id' => $map->id,
-                    'slug' => $map->slug,
-                    'name' => $map->name,
-                    'variants' => $map->metadata['variant_options'] ?? [],
-                ]),
-            // Only items with at least one known location can be planned for.
-            'items' => Item::query()->published()
-                ->whereIn('id', array_keys($locator->placeCounts()))
-                ->orderBy('name')->get(['id', 'slug', 'name']),
-            'objectives' => Objective::query()->published()->whereHas('markers')->orderBy('name')->get(['id', 'slug', 'name', 'map_id']),
+            ...$cache->remember('planner', fn () => [
+                'maps' => Map::query()->published()->orderBy('sort_order')->get(['id', 'slug', 'name', 'metadata'])
+                    ->map(fn (Map $map) => [
+                        'id' => $map->id,
+                        'slug' => $map->slug,
+                        'name' => $map->name,
+                        'variants' => $map->metadata['variant_options'] ?? [],
+                    ])->all(),
+                // Only items with at least one known location can be planned for.
+                'items' => Item::query()->published()
+                    ->whereIn('id', array_keys($locator->placeCounts()))
+                    ->orderBy('name')->get(['id', 'slug', 'name'])->toArray(),
+                'objectives' => Objective::query()->published()->whereHas('markers')->orderBy('name')->get(['id', 'slug', 'name', 'map_id'])->toArray(),
+            ]),
             'neededItemIds' => $needed,
         ]);
     }

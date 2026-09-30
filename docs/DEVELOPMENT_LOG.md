@@ -97,3 +97,10 @@ See [TODO.md](TODO.md). The critical path is **human in-game verification**: tra
     - Descriptions and field notes no longer mention where data came from.
     - Editors and admins still see everything.
     - The About page no longer names sources.
+
+## 2026-09-30: Production readiness
+
+- **Data loading moved from a migration to `php artisan db:seed --force`.** On the production server, the per-row import took about 10 minutes and the deploy was cancelled. The importers are now batched: 82,587 queries became 981, and a full seed takes about 7 seconds on Postgres. Re-running it is idempotent (every row reports "unchanged"), and stored confidence scores are identical to a full recalculation.
+- The bundled map images moved into `public/map-images`, because Cloud's filesystem is ephemeral. Admin uploads use a configurable `MEDIA_DISK`.
+- **Hardening:** trusted proxies, security headers, branded error pages (the new `Error` page), and the `app:make-admin` command for the first admin.
+- [deployment.md](deployment.md) was rewritten for Laravel Cloud, with the full list of environment variables.

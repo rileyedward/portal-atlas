@@ -53,12 +53,14 @@ cp .env.example .env        # SQLite + Herd (http://active-matter-map.test)
 composer install && npm install
 php artisan key:generate
 touch database/database.sqlite
-php artisan migrate:fresh --seed   # sourced dataset + local admin (admin@test.com / password)
+php artisan migrate:fresh --seed   # schema, then the dataset + local admin (admin@test.com / password)
 php artisan storage:link
 herd link active-matter-map && npm run build
 ```
 
 The full guide, including running PostgreSQL without admin rights, is in [docs/development.md](docs/development.md).
+
+**Production:** see [docs/deployment.md](docs/deployment.md). In short: `php artisan migrate --force`, then `php artisan db:seed --force`, then `php artisan app:make-admin you@example.com`.
 
 ## Quality gates
 

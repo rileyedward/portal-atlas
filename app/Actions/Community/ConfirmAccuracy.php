@@ -8,6 +8,7 @@ use App\Models\Marker;
 use App\Models\Objective;
 use App\Models\User;
 use App\Services\ConfidenceCalculator;
+use App\Support\PublicCache;
 
 /**
  * Records that a user has confirmed a data point for the current game version.
@@ -15,7 +16,7 @@ use App\Services\ConfidenceCalculator;
  */
 class ConfirmAccuracy
 {
-    public function __construct(private ConfidenceCalculator $confidence) {}
+    public function __construct(private ConfidenceCalculator $confidence, private PublicCache $cache) {}
 
     public function handle(Marker|Item|Objective $subject, User $user, ?string $note = null): void
     {
@@ -35,5 +36,6 @@ class ConfirmAccuracy
         }
 
         $this->confidence->refresh($subject);
+        $this->cache->flush();
     }
 }

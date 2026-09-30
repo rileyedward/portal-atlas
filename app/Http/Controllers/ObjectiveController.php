@@ -10,6 +10,7 @@ use App\Models\Marker;
 use App\Models\Objective;
 use App\Support\ConfidenceBreakdown;
 use App\Support\Pivot;
+use App\Support\PublicCache;
 use App\Support\SourceVisibility;
 use Illuminate\Http\Request;
 use Inertia\Inertia;
@@ -17,29 +18,25 @@ use Inertia\Response;
 
 class ObjectiveController extends Controller
 {
-    public function index(): Response
+    public function index(PublicCache $cache): Response
     {
         return Inertia::render('objectives/Index', [
-            'objectives' => Objective::query()->published()->with('map')->orderBy('name')->get()
+            'objectives' => $cache->remember('objectives.index', fn () => Objective::query()->published()->with('map')->orderBy('name')->get()
                 ->map(fn (Objective $o) => [
                     'slug' => $o->slug,
                     'name' => $o->name,
                     'kind' => $o->kind->label(),
                     'map' => $o->map?->status === MapStatus::Published ? $o->map->name : null,
                     'confidence' => $o->effectiveConfidence(),
-                ]),
+                ])->all()),
         ]);
     }
 
-    public function show(Request $request, Objective $objective): Response
+    public function show(Request $request, Objective $objective, PublicCache $cache): Response
     {
         abort_unless($objective->status === ContentStatus::Published || $request->user()?->canManageContent(), 404);
 
-        $objective->load([
-            'map', 'source', 'verifiedVersion',
-            'markers' => fn ($q) => $q->published()->where('is_visible', true)->with(['map', 'type']),
-            'items' => fn ($q) => $q->published(),
-        ]);
+        $objective->load(['map', 'source', 'verifiedVersion']);
         $confidence = $objective->effectiveConfidence();
 
         return Inertia::render('objectives/Show', [
@@ -60,6 +57,24 @@ class ObjectiveController extends Controller
                 'last_verified_at' => $objective->last_verified_at?->toIso8601String(),
                 'verified_version' => $objective->verifiedVersion?->version,
             ],
+            ...$cache->remember("objective.{$objective->id}.related", fn () => $this->related($objective)),
+            'reportTypes' => ReportType::options(),
+        ]);
+    }
+
+    /**
+     * Linked markers and items. Shared by every viewer.
+     *
+     * @return array{markers: list<array<string, mixed>>, items: list<array<string, mixed>>}
+     */
+    private function related(Objective $objective): array
+    {
+        $objective->load([
+            'markers' => fn ($q) => $q->published()->where('is_visible', true)->with(['map', 'type']),
+            'items' => fn ($q) => $q->published(),
+        ]);
+
+        return [
             'markers' => $objective->markers
                 ->filter(fn (Marker $m) => $m->map->status === MapStatus::Published)
                 ->map(fn (Marker $m) => [
@@ -68,14 +83,13 @@ class ObjectiveController extends Controller
                     'type' => $m->type->name,
                     'role' => Pivot::get($m, 'role'),
                     'map' => ['slug' => $m->map->slug, 'name' => $m->map->name],
-                ])->values(),
-            'reportTypes' => ReportType::options(),
+                ])->values()->all(),
             'items' => $objective->items->map(fn (Item $i) => [
                 'slug' => $i->slug,
                 'name' => $i->name,
                 'role' => Pivot::get($i, 'role'),
                 'quantity' => Pivot::int($i, 'quantity'),
-            ])->values(),
-        ]);
+            ])->values()->all(),
+        ];
     }
 }

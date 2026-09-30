@@ -8,26 +8,29 @@ use App\Models\Item;
 use App\Models\Map;
 use App\Models\Marker;
 use App\Models\Objective;
+use App\Support\PublicCache;
 use Inertia\Inertia;
 use Inertia\Response;
 
 class HomeController extends Controller
 {
-    public function __invoke(): Response
+    public function __invoke(PublicCache $cache): Response
     {
-        $maps = Map::query()->published()
-            ->withCount(['markers' => fn ($q) => $q->published()])
-            ->orderBy('sort_order')->orderBy('name')->get();
+        return Inertia::render('Home', $cache->remember('home', function () {
+            $maps = Map::query()->published()
+                ->withCount(['markers' => fn ($q) => $q->published()])
+                ->orderBy('sort_order')->orderBy('name')->get();
 
-        return Inertia::render('Home', [
-            'maps' => MapSummaryResource::collection($maps)->resolve(),
-            'currentVersion' => GameVersion::current()?->label(),
-            'stats' => [
-                'maps' => $maps->count(),
-                'markers' => Marker::query()->published()->count(),
-                'items' => Item::query()->published()->count(),
-                'objectives' => Objective::query()->published()->count(),
-            ],
-        ]);
+            return [
+                'maps' => MapSummaryResource::collection($maps)->resolve(),
+                'currentVersion' => GameVersion::current()?->label(),
+                'stats' => [
+                    'maps' => $maps->count(),
+                    'markers' => Marker::query()->published()->count(),
+                    'items' => Item::query()->published()->count(),
+                    'objectives' => Objective::query()->published()->count(),
+                ],
+            ];
+        }));
     }
 }

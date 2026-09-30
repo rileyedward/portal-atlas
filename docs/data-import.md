@@ -101,7 +101,9 @@ Keys, all optional: `versions`, `sources`, `maps`, `item_categories`, `items`, `
 | `objectives.json` | 3 objectives with sources                                                                 | `tools/build_reference.py`                               |
 | `maps/*.json`     | 85 **unplaced** markers (every one cites a source)                                        | `tools/build_reference.py`                               |
 
-`php artisan db:seed` (the `GameDataSeeder`) loads them in order. Re-running it is idempotent.
+`php artisan db:seed --force` (via `DatabaseSeeder`, which calls `MarkerTaxonomySeeder` and `GameDataSeeder`) loads them in order. Re-running it is idempotent: rows are upserted by stable keys, and unchanged rows are skipped.
+
+The importers batch their writes. They preload lookups once per file, insert new rows in chunks of 500, only save rows that changed, and compute confidence in memory for records without reports or confirmations. A full seed makes about 1,000 queries, not the 80,000+ of a naive row-by-row import, so it stays fast against a remote production database.
 
 To regenerate after editing the scripts or the research notes:
 

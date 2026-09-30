@@ -59,16 +59,7 @@ class ConfidenceCalculator
             $factors['open_reports'] = -min($openReports * self::PER_OPEN_REPORT, self::MAX_REPORT_PENALTY);
         }
 
-        $current = $this->currentVersion ??= GameVersion::current();
-        if ($subject->verified_version_id === null) {
-            $factors['never_verified'] = -self::NEVER_VERIFIED_PENALTY;
-        } elseif ($current !== null && $subject->verified_version_id !== $current->id) {
-            $factors['outdated_version'] = -self::OUTDATED_VERSION_PENALTY;
-        }
-
-        if ($subject->last_verified_at instanceof CarbonInterface && $subject->last_verified_at->lt(now()->subDays(self::STALE_DAYS))) {
-            $factors['stale'] = -self::STALE_PENALTY;
-        }
+        $factors += $this->stalenessFactors($subject->verified_version_id, $subject->last_verified_at);
 
         $score = max(0, min(100, array_sum($factors)));
 
@@ -77,6 +68,40 @@ class ConfidenceCalculator
         }
 
         return new ConfidenceBreakdown($score, $factors);
+    }
+
+    /**
+     * Stored score for a record with no confirmations, admin verification or
+     * open reports yet, computed without touching the database. Used by bulk
+     * imports; equals what refresh() would store for such a record.
+     */
+    public function baseline(?int $sourceReliability, ?int $verifiedVersionId, ?CarbonInterface $lastVerifiedAt): int
+    {
+        $factors = ['source' => $sourceReliability ?? self::UNSOURCED_BASE]
+            + $this->stalenessFactors($verifiedVersionId, $lastVerifiedAt);
+
+        return max(0, min(100, array_sum($factors)));
+    }
+
+    /**
+     * @return array<string, int>
+     */
+    private function stalenessFactors(?int $verifiedVersionId, ?CarbonInterface $lastVerifiedAt): array
+    {
+        $factors = [];
+        $current = $this->currentVersion ??= GameVersion::current();
+
+        if ($verifiedVersionId === null) {
+            $factors['never_verified'] = -self::NEVER_VERIFIED_PENALTY;
+        } elseif ($current !== null && $verifiedVersionId !== $current->id) {
+            $factors['outdated_version'] = -self::OUTDATED_VERSION_PENALTY;
+        }
+
+        if ($lastVerifiedAt !== null && $lastVerifiedAt->lt(now()->subDays(self::STALE_DAYS))) {
+            $factors['stale'] = -self::STALE_PENALTY;
+        }
+
+        return $factors;
     }
 
     /**

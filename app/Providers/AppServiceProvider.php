@@ -7,6 +7,7 @@ use App\Models\Map;
 use App\Models\Marker;
 use App\Models\Objective;
 use App\Models\User;
+use App\Support\PublicCache;
 use Carbon\CarbonImmutable;
 use Illuminate\Cache\RateLimiting\Limit;
 use Illuminate\Database\Eloquent\Relations\Relation;
@@ -25,7 +26,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        //
+        $this->app->scoped(PublicCache::class);
     }
 
     /**

@@ -19,6 +19,18 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+    | Public Page Cache TTL
+    |--------------------------------------------------------------------------
+    |
+    | Seconds that shared public page data (App\Support\PublicCache) is kept.
+    | Content writes flush it explicitly; this is only a safety net.
+    |
+    */
+
+    'public_ttl' => (int) env('PUBLIC_CACHE_TTL', 86400),
+
+    /*
+    |--------------------------------------------------------------------------
     | Cache Stores
     |--------------------------------------------------------------------------
     |

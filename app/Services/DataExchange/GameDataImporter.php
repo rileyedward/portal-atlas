@@ -16,8 +16,10 @@ use App\Models\Objective;
 use App\Models\Recipe;
 use App\Models\Source;
 use App\Services\ConfidenceCalculator;
+use App\Support\PublicCache;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
+use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Validation\Rule;
@@ -32,7 +34,7 @@ class GameDataImporter
 {
     public const FORMAT = 'active-matter-data/v1';
 
-    public function __construct(private ConfidenceCalculator $confidence) {}
+    public function __construct(private ConfidenceCalculator $confidence, private PublicCache $cache) {}
 
     /**
      * @param  array<string, mixed>  $payload
@@ -188,36 +190,11 @@ class GameDataImporter
                 }
 
                 $categories = ItemCategory::pluck('id', 'slug');
-                foreach ($data['items'] ?? [] as $row) {
-                    $item = Item::updateOrCreate(['slug' => $row['slug']], [
-                        ...Arr::only($row, ['name', 'external_ref', 'description', 'rarity', 'value', 'weight', 'status', 'source_url', 'source_note', 'metadata']),
-                        ...$refs($row, [
-                            'item_category_id' => ['category', $categories],
-                            'source_id' => ['source', $sources],
-                            'verified_version_id' => ['verified_version', $versions],
-                        ]),
-                    ]);
-                    $this->track($result, $item);
-                    $this->confidence->refresh($item);
-                }
+                $this->importItems($data['items'] ?? [], $result, $refs, $categories, $sources, $versions);
 
                 $items = Item::pluck('id', 'slug');
                 $maps = Map::pluck('id', 'slug');
-                foreach ($data['loot_tables'] ?? [] as $row) {
-                    $table = LootTable::updateOrCreate(['key' => $row['key']], [
-                        'name' => $row['name'],
-                        'metadata' => $row['metadata'] ?? null,
-                        ...$refs($row, ['source_id' => ['source', $sources]]),
-                    ]);
-                    $this->track($result, $table);
-                    $entries = [];
-                    foreach ($row['items'] ?? [] as $entry) {
-                        isset($items[$entry['item']])
-                            ? $entries[$items[$entry['item']]] = ['chance' => $entry['chance'] ?? null]
-                            : $this->missing($result, 'item', $entry['item']);
-                    }
-                    $table->items()->sync($entries);
-                }
+                $this->importLootTables($data['loot_tables'] ?? [], $result, $refs, $sources, $items);
                 foreach ($data['recipes'] ?? [] as $row) {
                     $recipe = Recipe::updateOrCreate(['slug' => $row['slug']], [
                         ...Arr::only($row, ['name', 'kind', 'station', 'level', 'output_quantity', 'description', 'source_url']),
@@ -254,6 +231,8 @@ class GameDataImporter
                     throw new RollbackImport;
                 }
             });
+
+            $this->cache->flush();
         } catch (RollbackImport) {
             // Dry run or reference errors: nothing persisted.
         } catch (Throwable $e) {
@@ -262,6 +241,185 @@ class GameDataImporter
         }
 
         return $result;
+    }
+
+    /**
+     * Upsert items with preloaded lookups and chunked inserts (a handful of
+     * queries instead of several per item).
+     *
+     * @param  list<array<string, mixed>>  $rows
+     * @param  Collection<string, int>  $categories
+     * @param  Collection<string, int>  $sources
+     * @param  Collection<string, int>  $versions
+     */
+    private function importItems(array $rows, ImportResult $result, callable $refs, $categories, $sources, $versions): void
+    {
+        if ($rows === []) {
+            return;
+        }
+
+        $existing = Item::all()->keyBy('slug');
+        $reliability = Source::pluck('reliability', 'id');
+        $morph = (new Item)->getMorphClass();
+        $flagged = array_flip(array_merge(
+            DB::table('reports')->where('reportable_type', $morph)->pluck('reportable_id')->all(),
+            DB::table('verifications')->where('verifiable_type', $morph)->pluck('verifiable_id')->all(),
+        ));
+        $now = now();
+        $inserts = [];
+
+        foreach ($rows as $row) {
+            $attributes = [
+                ...Arr::only($row, ['name', 'external_ref', 'description', 'rarity', 'value', 'weight', 'status', 'source_url', 'source_note', 'metadata']),
+                ...$refs($row, [
+                    'item_category_id' => ['category', $categories],
+                    'source_id' => ['source', $sources],
+                    'verified_version_id' => ['verified_version', $versions],
+                ]),
+            ];
+
+            $item = $existing->get($row['slug']);
+
+            if ($item) {
+                $item->fill($attributes);
+                $item->confidence = $this->confidence->baseline(
+                    $item->source_id !== null ? (int) ($reliability[$item->source_id] ?? 0) : null,
+                    $item->verified_version_id,
+                    $item->last_verified_at,
+                );
+                if ($item->isDirty()) {
+                    $item->save();
+                    $result->updated++;
+                } else {
+                    $result->unchanged++;
+                }
+                if (isset($flagged[$item->id])) {
+                    $this->confidence->refresh($item);
+                }
+
+                continue;
+            }
+
+            $sourceId = $attributes['source_id'] ?? null;
+            $inserts[] = [
+                'slug' => $row['slug'],
+                'name' => $attributes['name'],
+                'external_ref' => $attributes['external_ref'] ?? null,
+                'description' => $attributes['description'] ?? null,
+                'rarity' => $attributes['rarity'] ?? null,
+                'value' => $attributes['value'] ?? null,
+                'weight' => $attributes['weight'] ?? null,
+                'status' => $attributes['status'] ?? ContentStatus::Published->value,
+                'source_url' => $attributes['source_url'] ?? null,
+                'source_note' => $attributes['source_note'] ?? null,
+                'metadata' => isset($attributes['metadata']) ? json_encode($attributes['metadata']) : null,
+                'item_category_id' => $attributes['item_category_id'] ?? null,
+                'source_id' => $sourceId,
+                'verified_version_id' => $attributes['verified_version_id'] ?? null,
+                'confidence' => $this->confidence->baseline(
+                    $sourceId !== null ? (int) ($reliability[$sourceId] ?? 0) : null,
+                    $attributes['verified_version_id'] ?? null,
+                    null,
+                ),
+                'confirmations_count' => 0,
+                'open_reports_count' => 0,
+                'created_at' => $now,
+                'updated_at' => $now,
+            ];
+            $result->created++;
+        }
+
+        foreach (array_chunk($inserts, 500) as $chunk) {
+            DB::table('items')->insert($chunk);
+        }
+    }
+
+    /**
+     * Upsert loot tables and their item lists. Pivots are only rewritten for
+     * tables whose contents actually changed.
+     *
+     * @param  list<array<string, mixed>>  $rows
+     * @param  Collection<string, int>  $sources
+     * @param  Collection<string, int>  $items
+     */
+    private function importLootTables(array $rows, ImportResult $result, callable $refs, $sources, $items): void
+    {
+        if ($rows === []) {
+            return;
+        }
+
+        $existing = LootTable::all()->keyBy('key');
+        $now = now();
+        $newTables = [];
+
+        foreach ($rows as $row) {
+            $attributes = [
+                'name' => $row['name'],
+                'metadata' => $row['metadata'] ?? null,
+                ...$refs($row, ['source_id' => ['source', $sources]]),
+            ];
+            $table = $existing->get($row['key']);
+
+            if ($table) {
+                $table->fill($attributes);
+                if ($table->isDirty()) {
+                    $table->save();
+                    $result->updated++;
+                } else {
+                    $result->unchanged++;
+                }
+
+                continue;
+            }
+
+            $newTables[] = [
+                'key' => $row['key'],
+                'name' => $attributes['name'],
+                'metadata' => $attributes['metadata'] !== null ? json_encode($attributes['metadata']) : null,
+                'source_id' => $attributes['source_id'] ?? null,
+                'created_at' => $now,
+                'updated_at' => $now,
+            ];
+            $result->created++;
+        }
+
+        foreach (array_chunk($newTables, 500) as $chunk) {
+            DB::table('loot_tables')->insert($chunk);
+        }
+
+        $tableIds = LootTable::pluck('id', 'key');
+        $current = DB::table('item_loot_table')->get(['loot_table_id', 'item_id', 'chance'])
+            ->groupBy('loot_table_id')
+            ->map(fn ($group) => $group->mapWithKeys(fn ($pivot) => [(int) $pivot->item_id => $pivot->chance !== null ? round((float) $pivot->chance, 3) : null])->sortKeys()->all());
+
+        $replace = [];
+        $pivots = [];
+        foreach ($rows as $row) {
+            $tableId = (int) $tableIds[$row['key']];
+            $desired = [];
+            foreach ($row['items'] ?? [] as $entry) {
+                isset($items[$entry['item']])
+                    ? $desired[(int) $items[$entry['item']]] = isset($entry['chance']) ? round((float) $entry['chance'], 3) : null
+                    : $this->missing($result, 'item', $entry['item']);
+            }
+            ksort($desired);
+
+            if (($current[$tableId] ?? []) === $desired) {
+                continue;
+            }
+
+            $replace[] = $tableId;
+            foreach ($desired as $itemId => $chance) {
+                $pivots[] = ['loot_table_id' => $tableId, 'item_id' => $itemId, 'chance' => $chance, 'created_at' => $now, 'updated_at' => $now];
+            }
+        }
+
+        foreach (array_chunk($replace, 500) as $chunk) {
+            DB::table('item_loot_table')->whereIn('loot_table_id', $chunk)->delete();
+        }
+        foreach (array_chunk($pivots, 1000) as $chunk) {
+            DB::table('item_loot_table')->insert($chunk);
+        }
     }
 
     private function track(ImportResult $result, Model $model): void

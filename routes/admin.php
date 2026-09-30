@@ -13,9 +13,10 @@ use App\Http\Controllers\Admin\ReportController;
 use App\Http\Controllers\Admin\SourceController;
 use App\Http\Controllers\Admin\TaxonomyController;
 use App\Http\Controllers\Admin\UserController;
+use App\Http\Middleware\FlushPublicCache;
 use Illuminate\Support\Facades\Route;
 
-Route::middleware(['auth', 'verified', 'can:manage-content'])->prefix('admin')->name('admin.')->group(function () {
+Route::middleware(['auth', 'verified', 'can:manage-content', FlushPublicCache::class])->prefix('admin')->name('admin.')->group(function () {
     Route::get('/', DashboardController::class)->name('dashboard');
 
     Route::resource('maps', MapController::class)->except('show');

@@ -7,6 +7,7 @@ use App\Models\Item;
 use App\Models\Marker;
 use App\Models\Objective;
 use App\Services\ConfidenceCalculator;
+use App\Support\PublicCache;
 use Illuminate\Database\Eloquent\Builder;
 
 /**
@@ -15,6 +16,8 @@ use Illuminate\Database\Eloquent\Builder;
  */
 class RecalculateConfidence
 {
+    public function __construct(private PublicCache $cache) {}
+
     public function handle(?int $sourceId = null): int
     {
         $calculator = new ConfidenceCalculator(GameVersion::current());
@@ -31,6 +34,8 @@ class RecalculateConfidence
                     }
                 });
         }
+
+        $this->cache->flush();
 
         return $count;
     }

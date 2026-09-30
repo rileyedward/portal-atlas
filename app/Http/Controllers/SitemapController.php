@@ -5,14 +5,14 @@ namespace App\Http\Controllers;
 use App\Models\Item;
 use App\Models\Map;
 use App\Models\Objective;
+use App\Support\PublicCache;
 use Illuminate\Http\Response;
-use Illuminate\Support\Facades\Cache;
 
 class SitemapController extends Controller
 {
-    public function __invoke(): Response
+    public function __invoke(PublicCache $cache): Response
     {
-        $xml = Cache::remember('sitemap.xml', now()->addHour(), function () {
+        $xml = $cache->remember('sitemap.xml', function () {
             $urls = collect([route('home'), route('items.index'), route('objectives.index'), route('planner.show'), route('about')]);
 
             Map::query()->published()->get(['slug'])->each(function (Map $map) use ($urls) {

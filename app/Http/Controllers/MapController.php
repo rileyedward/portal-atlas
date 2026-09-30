@@ -11,6 +11,7 @@ use App\Models\Map;
 use App\Models\MarkerCategory;
 use App\Models\RaidRoute;
 use App\Services\Analytics;
+use App\Support\PublicCache;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Gate;
 use Inertia\Inertia;
@@ -18,24 +19,28 @@ use Inertia\Response;
 
 class MapController extends Controller
 {
-    public function show(Request $request, Map $map, Analytics $analytics): Response
+    public function show(Request $request, Map $map, Analytics $analytics, PublicCache $cache): Response
     {
         Gate::authorize('view', $map);
 
         $analytics->record('map_view', 'map', $map->id);
 
-        $markers = $map->markers()
-            ->published()
-            ->where('is_visible', true)
-            ->get(['id', 'map_id', 'marker_type_id', 'name', 'x', 'y', 'geometry', 'floor', 'variant', 'status', 'confidence', 'confidence_override']);
-
         $user = $request->user();
 
         return Inertia::render('maps/Show', [
             'map' => new MapResource($map->load('gameVersion'))->resolve(),
-            'maps' => MapSummaryResource::collection(Map::query()->published()->orderBy('sort_order')->orderBy('name')->get())->resolve(),
-            'categories' => MarkerCategoryResource::collection(MarkerCategory::with('types')->orderBy('sort_order')->get())->resolve(),
-            'markers' => MarkerResource::collection($markers)->resolve(),
+            'maps' => $cache->remember('maps.published', fn () => MapSummaryResource::collection(
+                Map::query()->published()->orderBy('sort_order')->orderBy('name')->get()
+            )->resolve()),
+            'categories' => $cache->remember('marker-categories', fn () => MarkerCategoryResource::collection(
+                MarkerCategory::with('types')->orderBy('sort_order')->get()
+            )->resolve()),
+            'markers' => $cache->remember("map.{$map->id}.markers", fn () => MarkerResource::collection(
+                $map->markers()
+                    ->published()
+                    ->where('is_visible', true)
+                    ->get(['id', 'map_id', 'marker_type_id', 'name', 'x', 'y', 'geometry', 'floor', 'variant', 'status', 'confidence', 'confidence_override'])
+            )->resolve()),
             'reportTypes' => ReportType::options(),
             'focus' => $request->integer('marker') ?: null,
             'personal' => $user ? [

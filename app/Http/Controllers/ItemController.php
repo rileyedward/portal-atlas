@@ -14,6 +14,7 @@ use App\Services\ItemLocator;
 use App\Services\KeepAdvisor;
 use App\Support\ConfidenceBreakdown;
 use App\Support\Pivot;
+use App\Support\PublicCache;
 use App\Support\SourceVisibility;
 use Illuminate\Http\Request;
 use Inertia\Inertia;
@@ -21,39 +22,40 @@ use Inertia\Response;
 
 class ItemController extends Controller
 {
-    public function index(Request $request, ItemLocator $locator): Response
+    public function index(ItemLocator $locator, PublicCache $cache): Response
     {
-        $items = Item::query()->published()
-            ->with('category')
-            ->orderBy('name')
-            ->get();
-        $places = $locator->placeCounts();
+        return Inertia::render('items/Index', $cache->remember('items.index', function () use ($locator) {
+            $places = $locator->placeCounts();
 
-        return Inertia::render('items/Index', [
-            'items' => $items->map(fn (Item $item) => [
-                'slug' => $item->slug,
-                'name' => $item->name,
-                'category' => $item->category?->name,
-                'rarity' => $item->rarity,
-                'locations' => $places[$item->id] ?? 0,
-                'confidence' => $item->effectiveConfidence(),
-            ]),
-            'categories' => ItemCategory::orderBy('sort_order')->orderBy('name')->pluck('name'),
-        ]);
+            return [
+                'items' => Item::query()->published()
+                    ->with('category')
+                    ->orderBy('name')
+                    ->get()
+                    ->map(fn (Item $item) => [
+                        'slug' => $item->slug,
+                        'name' => $item->name,
+                        'category' => $item->category?->name,
+                        'rarity' => $item->rarity,
+                        'locations' => $places[$item->id] ?? 0,
+                        'confidence' => $item->effectiveConfidence(),
+                    ])->all(),
+                'categories' => ItemCategory::orderBy('sort_order')->orderBy('name')->pluck('name')->all(),
+            ];
+        }));
     }
 
-    public function show(Request $request, Item $item, KeepAdvisor $advisor, Analytics $analytics, ItemLocator $locator): Response
+    public function show(Request $request, Item $item, KeepAdvisor $advisor, Analytics $analytics, ItemLocator $locator, PublicCache $cache): Response
     {
         abort_unless($item->status->value === 'published' || $request->user()?->canManageContent(), 404);
 
         $analytics->record('item_view', 'item', $item->id);
 
+        // KeepAdvisor reads these; load the published subset so it never falls back to drafts.
         $item->load([
             'category', 'source', 'verifiedVersion', 'introducedVersion',
-            'markers' => fn ($q) => $q->published()->where('is_visible', true)->with(['map', 'type']),
-            'usedInRecipes' => fn ($q) => $q->published()->with('ingredients'),
-            'producedBy' => fn ($q) => $q->published()->with('ingredients'),
-            'objectives' => fn ($q) => $q->published()->with('map'),
+            'usedInRecipes' => fn ($q) => $q->published(),
+            'objectives' => fn ($q) => $q->published(),
         ]);
 
         $confidence = $item->effectiveConfidence();
@@ -78,18 +80,7 @@ class ItemController extends Controller
                 'last_verified_at' => $item->last_verified_at?->toIso8601String(),
                 'verified_version' => $item->verifiedVersion?->version,
             ],
-            'foundAt' => $locator->locate($item),
-            'lootPools' => $this->lootPools($item),
-            'usedIn' => $item->usedInRecipes->map(fn (Recipe $r) => $this->recipe($r, Pivot::int($r, 'quantity')))->values(),
-            'producedBy' => $item->producedBy->map(fn (Recipe $r) => $this->recipe($r))->values(),
-            'objectives' => $item->objectives->map(fn (Objective $o) => [
-                'slug' => $o->slug,
-                'name' => $o->name,
-                'kind' => $o->kind->label(),
-                'map' => $o->map?->name,
-                'role' => Pivot::get($o, 'role'),
-                'quantity' => Pivot::get($o, 'quantity'),
-            ])->values(),
+            ...$cache->remember("item.{$item->id}.related", fn () => $this->related($item, $locator)),
             'advice' => $advisor->advise($item, $request->user()),
             'tracking' => $tracking ? [
                 'intent' => $tracking->getAttribute('intent'),
@@ -99,6 +90,36 @@ class ItemController extends Controller
             ] : null,
             'reportTypes' => ReportType::options(),
         ]);
+    }
+
+    /**
+     * Where the item is found and what it is used for. Shared by every viewer.
+     *
+     * @return array<string, mixed>
+     */
+    private function related(Item $item, ItemLocator $locator): array
+    {
+        $item->load([
+            'markers' => fn ($q) => $q->published()->where('is_visible', true)->with(['map', 'type']),
+            'usedInRecipes' => fn ($q) => $q->published()->with('ingredients'),
+            'producedBy' => fn ($q) => $q->published()->with('ingredients'),
+            'objectives' => fn ($q) => $q->published()->with('map'),
+        ]);
+
+        return [
+            'foundAt' => $locator->locate($item),
+            'lootPools' => $this->lootPools($item),
+            'usedIn' => $item->usedInRecipes->map(fn (Recipe $r) => $this->recipe($r, Pivot::int($r, 'quantity')))->values()->all(),
+            'producedBy' => $item->producedBy->map(fn (Recipe $r) => $this->recipe($r))->values()->all(),
+            'objectives' => $item->objectives->map(fn (Objective $o) => [
+                'slug' => $o->slug,
+                'name' => $o->name,
+                'kind' => $o->kind->label(),
+                'map' => $o->map?->name,
+                'role' => Pivot::get($o, 'role'),
+                'quantity' => Pivot::get($o, 'quantity'),
+            ])->values()->all(),
+        ];
     }
 
     /**
@@ -144,7 +165,7 @@ class ItemController extends Controller
                 'slug' => $i->slug,
                 'name' => $i->name,
                 'quantity' => Pivot::int($i, 'quantity'),
-            ])->values(),
+            ])->values()->all(),
         ];
     }
 }

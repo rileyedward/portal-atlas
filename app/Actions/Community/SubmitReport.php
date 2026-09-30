@@ -11,6 +11,7 @@ use App\Models\Objective;
 use App\Models\Report;
 use App\Models\User;
 use App\Services\ConfidenceCalculator;
+use App\Support\PublicCache;
 use Illuminate\Validation\ValidationException;
 
 /**
@@ -20,7 +21,7 @@ use Illuminate\Validation\ValidationException;
  */
 class SubmitReport
 {
-    public function __construct(private ConfidenceCalculator $confidence) {}
+    public function __construct(private ConfidenceCalculator $confidence, private PublicCache $cache) {}
 
     /**
      * @param  array{email?: string|null, page_url?: string|null, context?: string|null, suggested_x?: float|null, suggested_y?: float|null}  $details
@@ -74,6 +75,7 @@ class SubmitReport
 
         if ($subject instanceof Marker || $subject instanceof Item || $subject instanceof Objective) {
             $this->confidence->refresh($subject);
+            $this->cache->flush();
         }
 
         return $report;

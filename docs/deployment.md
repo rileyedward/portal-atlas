@@ -1,64 +1,111 @@
-# Deployment
+# Deployment (Laravel Cloud)
 
-The target is Laravel Cloud (recommended) or any Laravel host with PHP 8.4 and PostgreSQL.
+The app is a standard Laravel 13 + Inertia app with PostgreSQL. These steps target [Laravel Cloud](https://cloud.laravel.com), and the same variables apply on any Laravel host.
 
-## Environment
+## 1. Create the environment
 
-```dotenv
-APP_NAME="Portal Atlas"          # do NOT use the game's title (Gaijin guidelines 1.1.7)
-APP_ENV=production
-APP_DEBUG=false
-APP_URL=https://your-domain.example   # no game name in the domain
-DB_CONNECTION=pgsql
-DB_URL=...                       # or DB_HOST/DB_PORT/DB_DATABASE/DB_USERNAME/DB_PASSWORD
-SESSION_DRIVER=database
-SESSION_SECURE_COOKIE=true
-CACHE_STORE=database             # or redis
-QUEUE_CONNECTION=database        # nothing heavy is queued today; mail (verification) benefits
-FILESYSTEM_DISK=public           # map base images; use s3/r2 in multi-instance setups
-MAIL_MAILER=...                  # needed for email verification and password resets
-LOG_CHANNEL=stack
-LOG_LEVEL=warning
-```
+1. Create the application from the Git repository. PHP **8.4**; Node 20+ is used for the build.
+2. **Attach a PostgreSQL database.** Cloud injects the `DB_*` connection variables.
+3. _(Optional, recommended)_ **Attach an object-storage bucket** for map images that admins upload. See `MEDIA_DISK` below. The 12 bundled map images ship in `public/map-images` and do not need a bucket.
+4. Build commands (Cloud's defaults are fine):
+    ```bash
+    composer install --no-dev --optimize-autoloader
+    npm ci && npm run build
+    ```
+5. Deploy command:
+    ```bash
+    php artisan migrate --force
+    ```
+    Migrations only create tables. They load no data, so they finish in seconds.
 
-If you store map images on S3 or R2, set `FILESYSTEM_DISK` and configure the `public` disk (or change `Map::imageUrl()` to use your disk).
+## 2. Environment variables
 
-## Build and release
+### You must set these
+
+Cloud does not set these for you, or sets defaults that are wrong for this app.
+
+| Variable                         | Example                                                                                                       | Why                                                                                                                                                |
+| -------------------------------- | ------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `APP_NAME`                       | `"Portal Atlas"`                                                                                              | Page titles, emails and branding. The default is "Laravel". Do not use the game's name (see [map-data-strategy.md](map-data-strategy.md))          |
+| `VITE_APP_NAME`                  | `"Portal Atlas"`                                                                                              | Browser tab titles. It is read at **build time**, so set it in the environment before deploying                                                    |
+| `APP_URL`                        | `https://yourdomain.com`                                                                                      | Absolute URLs in the sitemap, emails and password-reset links, and the **passkey relying-party domain**. Update it when you attach a custom domain |
+| `MAIL_MAILER`                    | `resend`, `postmark`, `smtp`, `ses`                                                                           | Password resets, email verification (the admin panel requires a verified email) and account emails. The default `log` mailer sends nothing         |
+| Mail credentials for that mailer | `RESEND_API_KEY=…`, or `POSTMARK_API_KEY=…`, or `MAIL_HOST` / `MAIL_PORT` / `MAIL_USERNAME` / `MAIL_PASSWORD` | Needed to actually deliver mail                                                                                                                    |
+| `MAIL_FROM_ADDRESS`              | `noreply@yourdomain.com`                                                                                      | Must be a sender your mail provider has verified                                                                                                   |
+| `MAIL_FROM_NAME`                 | `"Portal Atlas"`                                                                                              | Sender name                                                                                                                                        |
+
+### Set these if they apply
+
+| Variable                      | Value                                                            | When                                                                                                                      |
+| ----------------------------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| `MEDIA_DISK`                  | the disk name of your Cloud bucket (for example `s3` or `media`) | If admins will upload map images. Without a persistent disk, uploads are lost on the next deploy. The default is `public` |
+| `SESSION_SECURE_COOKIE`       | `true`                                                           | Recommended in production (HTTPS-only session cookie)                                                                     |
+| `LOG_LEVEL`                   | `warning`                                                        | Quieter production logs                                                                                                   |
+| `PASSKEYS_USER_HANDLE_SECRET` | a long random string                                             | Optional. It defaults to `APP_KEY`; set it separately if you might rotate `APP_KEY`                                       |
+
+### Provided by Laravel Cloud
+
+Check that these are present on the environment's Variables page:
+
+- `APP_KEY`, `APP_ENV=production` and `APP_DEBUG=false`.
+- `DB_CONNECTION` and the other `DB_*` connection details, injected when you attach the Postgres database. They must be `pgsql`.
+- The bucket's `AWS_*` / filesystem variables, when a bucket is attached.
+- `CACHE_STORE` and `REDIS_*`, if you attach a key-value store. Otherwise the database cache is used.
+- `LOG_CHANNEL`, which Cloud's log viewer uses.
+
+### Defaults that are fine as they are
+
+- `SESSION_DRIVER=database`, `CACHE_STORE=database` and `QUEUE_CONNECTION=database`. The app queues nothing, so **no queue worker or scheduler is required**.
+
+## 3. First deploy: load the data
+
+After the first successful deploy, open **Commands** in Cloud (or any shell on the server) and run:
 
 ```bash
-composer install --no-dev --optimize-autoloader
-npm ci && npm run build
-php artisan migrate --force
-php artisan db:seed --class=MarkerTaxonomySeeder --force   # first deploy only (idempotent)
-php artisan db:seed --class=GameDataSeeder --force         # first deploy / when dataset files change (idempotent upserts)
-php artisan storage:link
-php artisan optimize
+php artisan db:seed --force
 ```
 
-**Do not run the full `DatabaseSeeder` expecting an admin account in production.** The admin account is only created locally. Create your first admin with:
+This loads the full dataset: marker types, game versions, 13 maps (12 with base images), about 1,600 items, 1,370 loot pools, objectives and about 6,000 markers. It takes about 10 seconds, because the import batches its writes (around 1,000 queries in total). It is **safe to run again**: every record is upserted by a stable key, and unchanged rows are skipped. Run it again whenever `database/data` changes.
 
-```bash
-php artisan tinker --execute="App\Models\User::where('email','you@example.com')->first()->forceFill(['role'=>'admin'])->save();"
-```
+`db:seed` never creates users in production. (The `admin@test.com` test admin is only created when `APP_ENV=local`.)
+
+## 4. Create your admin account
+
+1. Register on the live site at `/register`.
+2. Run:
+    ```bash
+    php artisan app:make-admin you@yourdomain.com
+    ```
+    This makes the account an admin and marks its email as verified. Use `--role=editor` to give someone content access without user management.
+3. Visit `/admin`.
+
+## 5. Custom domain
+
+Attach the domain in Cloud and update `APP_URL`, then redeploy so the build picks it up. **Don't use a domain containing the game's name.**
+
+## What the app already handles for production
+
+- **Trusted proxies** (`bootstrap/app.php`). Cloud's load balancer is trusted, so rate limits and logs see real player IPs, and URLs are generated as https.
+- **Security headers** on every response: `nosniff`, `SAMEORIGIN` framing, a referrer policy, a permissions policy, and HSTS over HTTPS.
+- **Branded error pages** for 403, 404, 429, 500 and 503 in production. The API keeps returning JSON errors, and an expired form (419) returns to the page with a message.
+- **Rate limits:** search 120 per minute, feedback 3 per minute and 30 per day, player writes 60 per minute.
+- **Health check** at `/up`.
+- **`php artisan optimize`** works, including route caching.
 
 ## Production checklist
 
-- [ ] `APP_DEBUG=false`, `APP_ENV=production`, app key set
-- [ ] HTTPS enforced (Laravel Cloud does this by default); `SESSION_SECURE_COOKIE=true`
-- [ ] PostgreSQL provisioned; **automated daily backups** with at least 7 days of retention; restore tested
-- [ ] `php artisan migrate --force` in the deploy script
-- [ ] Seeders run once (taxonomy and game data)
-- [ ] First admin promoted with the tinker command above
-- [ ] Mail configured (verification and password reset)
-- [ ] `storage:link` or cloud disk configured for map images
+- [ ] PostgreSQL attached; `DB_CONNECTION=pgsql`
+- [ ] `APP_NAME`, `VITE_APP_NAME` and `APP_URL` set (the real domain)
+- [ ] Mail configured and a test password-reset email received
+- [ ] `MEDIA_DISK` points at a bucket (only if admins will upload map images)
+- [ ] Deployed; `php artisan migrate --force` succeeded
+- [ ] `php artisan db:seed --force` run once
+- [ ] Registered and ran `php artisan app:make-admin <email>`
 - [ ] Health check pointed at `/up`
-- [ ] Error tracking (Laravel Cloud logs, Nightwatch, Sentry or Flare) and log level `warning`
-- [ ] Queue worker running if `QUEUE_CONNECTION` is not `sync`
-- [ ] `php artisan optimize` after each deploy
-- [ ] Rate limits reviewed (`AppServiceProvider::configureRateLimiting`: search 120/min, reports 3/min and 30/day, player writes 60/min)
-- [ ] Domain has **no** game title in it; footer non-affiliation notice is visible
-- [ ] Legal question about ToS 4.1 "database creation" resolved (see PROJECT_STATUS.md)
-- [ ] `sitemap.xml` submitted to search engines; `robots.txt` allows `/` and disallows `/admin`
+- [ ] Automated database backups enabled, with a restore tested
+- [ ] `sitemap.xml` submitted to search engines
+- [ ] Domain does not contain the game's name
+- [ ] Legal questions reviewed (see [PROJECT_STATUS.md](PROJECT_STATUS.md))
 
 ## Backups and restore
 
@@ -67,4 +114,4 @@ pg_dump --format=custom "$DATABASE_URL" > backup.dump
 pg_restore --clean --no-owner -d "$DATABASE_URL" backup.dump
 ```
 
-Map datasets can also be exported per map as JSON (Admin → Import / export). Commit those files to git for a human-readable second backup.
+Map datasets can also be exported per map as JSON (Admin → Import / export) for a human-readable backup.
