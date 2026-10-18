@@ -2,6 +2,8 @@
 
 Unofficial, community-made interactive map and raid companion for Active Matter.
 
+> **Status:** Inactive — not in active development. Kept for reference and to run locally.
+
 ## Overview
 
 ### What is Portal Atlas?
@@ -10,25 +12,32 @@ Portal Atlas is a web application for exploring Active Matter's maps. Players ca
 
 Portal Atlas is not produced, approved or endorsed by Gaijin Entertainment or Matter Team. See [docs/map-data-strategy.md](docs/map-data-strategy.md) for why the product is not named after the game.
 
+### Key Features
+
+- **Interactive Maps**: Find extraction points, loot and objectives on Active Matter's maps.
+- **Item Lookup**: Look up items and whether they're worth keeping.
+- **Raid Planning**: Plan raid routes.
+- **Sourced Data**: Every data point carries its source, a confidence score and the game version it was verified for, and anyone can report an entry that's wrong.
+
 ## Getting Started
 
 ### Prerequisites
 
-Ensure you have the following prerequisites installed on your system. You can verify each installation by running the provided commands in your terminal.
+Ensure you have the following installed. You can verify each one by running the provided command in your terminal.
 
-1. **PHP** (8.3+) is required for the application. Check if PHP is installed by running:
+1. **PHP** (8.3+) is required for the application. Check it by running:
 
     ```bash
     php --version
     ```
 
-2. **Composer** is necessary for managing PHP dependencies. Verify its installation with:
+2. **Composer** manages PHP dependencies. Check it by running:
 
     ```bash
     composer --version
     ```
 
-3. **Node** and **NPM** are needed for managing frontend dependencies. Check their installations with:
+3. **Node** and **NPM** manage frontend dependencies. Check them by running:
 
     ```bash
     node --version
@@ -109,3 +118,11 @@ composer test
 ## Data Licensing
 
 Item names, categories and rarities partly come from [activematter.wiki.gg](https://activematter.wiki.gg) under **CC BY-SA 4.0**, and each record links to its source page. Most map positions, loot pools and drop chances are imported from [activematterhelp.ru](https://activematterhelp.ru/maps) (© Active Matter Help). No extracted game images are hosted. See [docs/data-import.md](docs/data-import.md) for details.
+
+## Contributing
+
+This project isn't in active development, so I'm not reviewing issues or pull requests. You're welcome to fork it and take it in your own direction under the license below.
+
+## License
+
+The code is released under the [MIT License](LICENSE). The map and item data come from the sources listed under [Data Licensing](#data-licensing) and keep their own licenses.
